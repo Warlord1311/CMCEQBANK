@@ -17006,7 +17006,7 @@ export default function App() {
 
   const handleAdminUnlockSubmit = (e) => {
     e.preventDefault();
-    if (adminPinInput.trim() === DEFAULT_ADMIN_PIN || adminPinInput.trim() === 'dbda2025') {
+    if (adminPinInput.trim() === DEFAULT_ADMIN_PIN || adminPinInput.trim() === 'banglorecdac2026') {
       setIsAdmin(true);
       try {
         sessionStorage.setItem(STORAGE_KEY_ADMIN, 'true');
@@ -19485,7 +19485,7 @@ export default function App() {
                   autoFocus
                   value={adminPinInput}
                   onChange={(e) => setAdminPinInput(e.target.value)}
-                  placeholder="Enter passcode (default: dbda2025)"
+                  placeholder="Enter passcode"
                   className={`w-full px-3.5 py-2 rounded-xl border text-sm outline-none ${
                     darkMode
                       ? 'bg-zinc-900 border-zinc-700 text-zinc-100 focus:border-indigo-500'
