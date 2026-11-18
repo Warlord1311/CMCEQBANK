@@ -393,6 +393,134 @@ const INITIAL_DATA = {
           "title": "General Practice"
         }
       ]
+    },
+    {
+      "id": "mod-1795030693760",
+      "title": "DBMS AND DATA COLLECTION",
+      "shortCode": "DBMS",
+      "icon": "Layers",
+      "topics": [
+        {
+          "id": "top-1795030725765-0-03m",
+          "title": "Section 1: Introduction to DBMS, Storage Structure, OLTP vs OLAP, Data Collection"
+        },
+        {
+          "id": "top-1795030725765-20-pat",
+          "title": "Section 2: SQL Fundamentals, SQL Commands, ACID Properties & Transaction Management"
+        },
+        {
+          "id": "top-1795030725765-50-9pp",
+          "title": "Section 3: GROUP BY, HAVING, ORDER BY, Subqueries, Correlated Queries & Outer Joins"
+        },
+        {
+          "id": "top-1795030725765-70-zrh",
+          "title": "Section 4: CTE, Recursive CTE, Schema, Normalization & ER Diagrams"
+        },
+        {
+          "id": "top-1795030725765-90-s7d",
+          "title": "Section 5: Views, PL/SQL, Triggers, Window Functions, CASE, Indexing & Query Optimization"
+        },
+        {
+          "id": "top-1795030725765-110-j5s",
+          "title": "Section 6: Data Warehousing, ETL Tools, Algorithms & Slowly Changing Dimensions"
+        },
+        {
+          "id": "top-1795030725765-130-ioh",
+          "title": "Section 7: NoSQL Introduction, RDBMS vs NoSQL, Storage Architecture, Column Stores & Document Stores"
+        },
+        {
+          "id": "top-1795030725765-140-ivv",
+          "title": "Section 8: Practical NoSQL Design, Oracle NoSQL & Schema Evolution"
+        },
+        {
+          "id": "top-1795030725765-150-hvp",
+          "title": "Section 9: MongoDB Introduction, CRUD Operations, Language Bindings & SQL vs MongoDB"
+        },
+        {
+          "id": "top-1795030725765-160-a2v",
+          "title": "Section 10: MongoDB Internals, Indexing, Index Types & Performance"
+        },
+        {
+          "id": "top-1795030725765-170-sqx",
+          "title": "Section 11: MongoDB Queries, Logical Operators, Distinct, Group, Upsert & Aggregation"
+        },
+        {
+          "id": "top-1795030725766-180-7op",
+          "title": "Section 12: Data Engineering Introduction, Data Lakes, Architecture & Zones"
+        },
+        {
+          "id": "top-1795030725766-198-qgj",
+          "title": "Section 13: Lakehouse, Open Table Formats, ACID, Lake vs Warehouse vs Lakehouse"
+        },
+        {
+          "id": "top-1795030725767-215-lbd",
+          "title": "Section 14: Snowflake Architecture, Storage, Compute, Cloud Services & Data Sharing"
+        },
+        {
+          "id": "top-1795030725767-224-w0t",
+          "title": "Section 15: Snowflake Loading, Stages, Querying, Warehouse Sizing & Performance"
+        },
+        {
+          "id": "top-1795030725767-233-hjw",
+          "title": "Section 16: Apache Cassandra Introduction & Cassandra vs MongoDB"
+        },
+        {
+          "id": "top-1795030725767-239-21g",
+          "title": "Section 17: Python DB Connectivity, DB-API, PyMongo & Query Execution"
+        },
+        {
+          "id": "top-1795030725767-244-ok5",
+          "title": "Section 18: Data-Driven Decisions, Enterprise Data Management & Data Preparation"
+        },
+        {
+          "id": "top-1795030725767-250-xfk",
+          "title": "Section 7: NoSQL Introduction, RDBMS vs NoSQL, Storage Architecture & Data Models"
+        },
+        {
+          "id": "top-1795030725767-261-qwe",
+          "title": "Section 9: MongoDB Introduction, CRUD Operations, Language Bindings & Query Execution"
+        },
+        {
+          "id": "top-1795030725767-270-c5b",
+          "title": "Section 10: Cassandra Introduction, Data Modeling, Consistency & Storage Architecture"
+        },
+        {
+          "id": "top-1795030725767-280-5qv",
+          "title": "Section 11: Python DB Connectivity, DB-API, PyMongo & Query Execution"
+        },
+        {
+          "id": "top-1795030725767-295-b9v",
+          "title": "Section 15: Snowflake Loading, Querying, Warehouse Sizing & Performance"
+        },
+        {
+          "id": "top-1795030725767-300-fo0",
+          "title": "Section 16: Apache Cassandra Introduction, Architecture & Data Modeling"
+        },
+        {
+          "id": "top-1795030725767-307-li0",
+          "title": "Section 17: Python Database Connectivity, DB-API, PyMongo & Query Execution"
+        },
+        {
+          "id": "top-1795030725768-425-pmm",
+          "title": "Section 6: Data Warehousing, ETL Algorithms & Slowly Changing Dimensions"
+        },
+        {
+          "id": "top-1795030725768-433-q49",
+          "title": "Section 12: Data Lakes, Architecture, Open Table Formats & Lakehouse"
+        },
+        {
+          "id": "top-1795030725768-450-b8p",
+          "title": "Section 9: MongoDB Internals, Query Operators & Performance"
+        },
+        {
+          "id": "top-1795030725768-456-l6t",
+          "title": "Section 17: Python DB Connectivity, DB-API & PyMongo"
+        },
+        {
+          "id": "top-1795030725768-466-zss",
+          "title": "Section 9: MongoDB Introduction, CRUD Operations, Queries & Aggregation"
+        }
+      ]
     }
   ],
   "questions": [
@@ -15770,9 +15898,7509 @@ const INITIAL_DATA = {
       "answerIndex": 1,
       "answerUnverified": false,
       "explanation": "** Globally unique resource namespaces cause stack creation failures if name collisions occur across AWS accounts[cite: 4, 100]."
+    },
+    {
+      "id": "q-imp-1795030697377-0-ba95",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is the primary purpose of a Database Management System (DBMS)?",
+      "options": [
+        "To develop operating systems",
+        "To store, manage, retrieve, and organize data efficiently",
+        "To design computer hardware",
+        "To manage network connections"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A DBMS provides an organized way to store, access, modify, and manage data."
+    },
+    {
+      "id": "q-imp-1795030697377-1-b3e2",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which of the following is an example of a relational database management system?",
+      "options": [
+        "MongoDB",
+        "Apache Cassandra",
+        "MySQL",
+        "Redis"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MySQL stores structured data in related tables using rows and columns."
+    },
+    {
+      "id": "q-imp-1795030697377-2-b25v",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "In a typical DBMS architecture, which component is primarily responsible for managing data retrieval and modification requests?",
+      "options": [
+        "Presentation Layer",
+        "Query Processor",
+        "Network Interface",
+        "Operating System Scheduler"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The query processor parses, validates, optimizes, and executes database queries."
+    },
+    {
+      "id": "q-imp-1795030697377-3-dr1u",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "Which statement correctly describes the difference between a database and a DBMS?",
+      "options": [
+        "A database is software, while a DBMS is hardware.",
+        "A database is an organized collection of data, while a DBMS is software used to manage it.",
+        "A database manages users, while a DBMS stores only files.",
+        "Both terms always refer to the same thing."
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The database contains the data, whereas the DBMS provides tools to manage that data."
+    },
+    {
+      "id": "q-imp-1795030697377-4-ipsn",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "Which storage structure is generally used by a DBMS to organize records into fixed-size units for disk I/O?",
+      "options": [
+        "Variables",
+        "CPU registers",
+        "Pages or blocks",
+        "Network packets"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** DBMSs commonly transfer data between disk and memory in fixed-size pages or blocks."
+    },
+    {
+      "id": "q-imp-1795030697377-5-i191",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "An online shopping application processes thousands of customer orders every minute. Which workload is most suitable for this system?",
+      "options": [
+        "OLAP",
+        "Data Mining",
+        "OLTP",
+        "Batch Analytics"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** OLTP is designed for frequent, short, real-time transactions such as placing orders and updating payments."
+    },
+    {
+      "id": "q-imp-1795030697377-6-r5ha",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "Which characteristic best describes an OLAP system?",
+      "options": [
+        "It primarily handles frequent insertions and updates.",
+        "It is optimized for individual customer transactions.",
+        "It supports complex analytical queries over large volumes of historical data.",
+        "It avoids aggregating data from multiple sources."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** OLAP systems support analytical operations such as aggregation, trend analysis, and multidimensional reporting."
+    },
+    {
+      "id": "q-imp-1795030697377-7-h2o0",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "A company collects customer information from websites, mobile applications, and point-of-sale systems. What is the most important consideration during data collection?",
+      "options": [
+        "Collecting data without checking its source",
+        "Storing all collected data in a single text file",
+        "Ensuring data quality, consistency, and appropriate consent",
+        "Avoiding metadata to reduce storage requirements"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Reliable data collection requires accurate, consistent, traceable data gathered with appropriate permissions."
+    },
+    {
+      "id": "q-imp-1795030697377-8-e0fn",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "[Advanced] A banking application records account transfers using an OLTP database, while its analytics team generates monthly transaction trends using a separate OLAP system. Why is this architecture preferred?",
+      "options": [
+        "OLAP systems cannot process historical data.",
+        "OLTP systems cannot store financial transactions.",
+        "Analytical queries can consume significant resources, so separating workloads helps protect transaction performance.",
+        "OLTP and OLAP databases must always use different database vendors."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Workload separation prevents resource-intensive analytical queries from negatively affecting operational transactions."
+    },
+    {
+      "id": "q-imp-1795030697377-9-odwc",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "[Advanced] A DBMS frequently accesses records stored across multiple disk pages. Which technique can reduce disk I/O for frequently searched columns?",
+      "options": [
+        "Increasing the number of database users",
+        "Disabling the buffer manager",
+        "Creating an appropriate index",
+        "Converting every table into a temporary table"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** An index helps locate matching records without scanning every page of the table."
+    },
+    {
+      "id": "q-imp-1795030697377-10-09p4",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which of the following is considered metadata in a database?",
+      "options": [
+        "Actual customer names stored in a table",
+        "Information describing table columns, data types, and constraints",
+        "Transaction amounts stored in records",
+        "User-generated comments"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Metadata describes the structure, properties, and organization of stored data."
+    },
+    {
+      "id": "q-imp-1795030697377-11-ojap",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which type of data is typically organized into rows and columns with a predefined schema?",
+      "options": [
+        "Unstructured data",
+        "Multimedia data",
+        "Structured data",
+        "Raw log files"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Structured data follows a predefined schema and is commonly stored in relational tables."
+    },
+    {
+      "id": "q-imp-1795030697377-12-9ae7",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "What is the primary responsibility of the buffer manager in a DBMS?",
+      "options": [
+        "Managing database user permissions",
+        "Generating SQL queries",
+        "Managing the movement of database pages between disk storage and main memory",
+        "Creating database schemas"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The buffer manager caches disk pages in memory to reduce expensive disk I/O operations."
+    },
+    {
+      "id": "q-imp-1795030697377-13-1kpq",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "Which storage medium generally provides the fastest access speed in a database system?",
+      "options": [
+        "Magnetic Tape",
+        "Hard Disk Drive",
+        "SSD",
+        "CPU Cache"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** CPU cache is significantly faster than secondary storage devices such as SSDs and HDDs."
+    },
+    {
+      "id": "q-imp-1795030697377-14-aguu",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "A DBMS uses a buffer pool containing 100 pages. A requested page is already present in memory. What happens during this access?",
+      "options": [
+        "The DBMS must read the page from disk again.",
+        "A buffer hit occurs, avoiding disk access for that page.",
+        "The entire buffer pool is cleared.",
+        "The database transaction is automatically rolled back."
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A buffer hit occurs when the requested database page is already available in the buffer pool."
+    },
+    {
+      "id": "q-imp-1795030697377-15-vkjj",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "Which operation is most commonly associated with an OLTP workload?",
+      "options": [
+        "Calculating yearly revenue trends across ten years",
+        "Performing multidimensional business analysis",
+        "Updating a customer's bank account balance after a transfer",
+        "Generating executive dashboards from historical data"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** OLTP handles frequent transactional operations involving inserts, updates, and deletes."
+    },
+    {
+      "id": "q-imp-1795030697377-16-kd1i",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "A retail company wants to analyze five years of sales data by region, product category, and financial quarter. Which system is most appropriate?",
+      "options": [
+        "OLTP",
+        "File System",
+        "OLAP",
+        "Transaction Processing System"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** OLAP supports multidimensional analysis of large historical datasets."
+    },
+    {
+      "id": "q-imp-1795030697377-17-ke9y",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "During data collection, a company receives customer birth dates in multiple formats, such as DD-MM-YYYY and MM/DD/YYYY. What should its data preparation process do?",
+      "options": [
+        "Store every format without modification.",
+        "Delete all records containing dates.",
+        "Standardize dates into a consistent format.",
+        "Convert all dates into random numeric values."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Standardizing formats improves consistency and prevents errors during processing and analysis."
+    },
+    {
+      "id": "q-imp-1795030697377-18-hqkv",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "[Advanced] A database has a buffer pool with limited memory. The DBMS uses an LRU (Least Recently Used) replacement policy. If a new page must be loaded and the buffer pool is full, which page is generally selected for replacement?",
+      "options": [
+        "The page modified most recently",
+        "The page accessed most frequently",
+        "The page that has not been accessed for the longest time",
+        "The page containing the largest number of records"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** LRU replaces the page whose most recent access occurred farthest in the past."
+    },
+    {
+      "id": "q-imp-1795030697377-19-wvag",
+      "topicId": "top-1795030725765-0-03m",
+      "difficulty": "moderate",
+      "question": "[Advanced] An organization collects sensor data continuously from thousands of IoT devices. The data arrives at high speed and must be analyzed for real-time operational decisions. Which approach is most suitable?",
+      "options": [
+        "Manual data entry into relational tables",
+        "Periodic monthly batch processing only",
+        "Stream-based data ingestion and processing",
+        "Storing all data exclusively in spreadsheets"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Stream processing handles continuously arriving events with low latency for real-time analysis."
+    },
+    {
+      "id": "q-imp-1795030697377-20-o05w",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which SQL command is used to retrieve data from a database table?",
+      "options": [
+        "INSERT",
+        "UPDATE",
+        "SELECT",
+        "DELETE"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** SELECT retrieves records from one or more database tables."
+    },
+    {
+      "id": "q-imp-1795030697377-21-jnet",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which SQL command belongs to the DDL category?",
+      "options": [
+        "INSERT",
+        "UPDATE",
+        "CREATE",
+        "SELECT"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** CREATE defines database objects such as tables, views, and schemas."
+    },
+    {
+      "id": "q-imp-1795030697377-22-eiuw",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "Consider the following SQL statement. Which category does it belong to?\n\n```sql\nUPDATE Employees\nSET salary = 50000\nWHERE employee_id = 101;\n```",
+      "options": [
+        "DDL",
+        "DML",
+        "DCL",
+        "TCL"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** UPDATE modifies existing records and is classified as a DML command."
+    },
+    {
+      "id": "q-imp-1795030697377-23-tafn",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "Which SQL command is used to provide SELECT permission on a table to another user?",
+      "options": [
+        "COMMIT",
+        "ROLLBACK",
+        "REVOKE",
+        "GRANT"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** GRANT assigns specific database privileges to users or roles."
+    },
+    {
+      "id": "q-imp-1795030697377-24-wvrb",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "Which ACID property ensures that a transaction is completed entirely or not executed at all?",
+      "options": [
+        "Consistency",
+        "Isolation",
+        "Atomicity",
+        "Durability"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Atomicity ensures that all operations in a transaction succeed or all are rolled back."
+    },
+    {
+      "id": "q-imp-1795030697377-25-eytt",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "What does the Isolation property of ACID guarantee?",
+      "options": [
+        "Transactions are permanently stored after execution.",
+        "Database constraints are automatically removed.",
+        "Concurrent transactions do not interfere in a way that violates the defined isolation level.",
+        "Every transaction executes without accessing disk storage."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Isolation controls the visibility and interaction of concurrent transactions."
+    },
+    {
+      "id": "q-imp-1795030697377-26-thq9",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "Consider the following transaction:\n\n```sql\nUPDATE Accounts SET balance = balance - 1000 WHERE account_id = 1;\nUPDATE Accounts SET balance = balance + 1000 WHERE account_id = 2;\nCOMMIT;\n```\n\nWhat does COMMIT do?",
+      "options": [
+        "Deletes both account records.",
+        "Reverses both UPDATE statements.",
+        "Permanently saves the transaction changes.",
+        "Creates a new database table."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** COMMIT makes all successful changes in the current transaction permanent."
+    },
+    {
+      "id": "q-imp-1795030697377-27-x63e",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "Which SQL command is used to undo uncommitted changes in the current transaction?",
+      "options": [
+        "SAVEPOINT",
+        "GRANT",
+        "ROLLBACK",
+        "CREATE"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ROLLBACK reverses changes made by the current transaction that have not been committed."
+    },
+    {
+      "id": "q-imp-1795030697377-28-ta1v",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider a table named Employees containing the following records:\n\n| employee_id | salary |\n|---|---:|\n| 1 | 50000 |\n| 2 | NULL |\n| 3 | 60000 |\n| 4 | NULL |\n\nWhat is the output of the following SQL query?\n\n```sql\nSELECT COUNT(salary), COUNT(*)\nFROM Employees;\n```",
+      "options": [
+        "4, 4",
+        "2, 4",
+        "2, 2",
+        "4, 2"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** COUNT(column) ignores NULL values, whereas COUNT(*) counts every row."
+    },
+    {
+      "id": "q-imp-1795030697377-29-8gik",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "[Advanced] Two transactions each hold a lock on a resource required by the other transaction. Both transactions are waiting indefinitely. What is this situation called?",
+      "options": [
+        "Dirty Read",
+        "Non-repeatable Read",
+        "Deadlock",
+        "Phantom Read"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A deadlock occurs when transactions wait cyclically for resources locked by one another."
+    },
+    {
+      "id": "q-imp-1795030697377-30-3wjx",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which SQL command is used to modify the structure of an existing database table?",
+      "options": [
+        "UPDATE",
+        "ALTER",
+        "MODIFY DATA",
+        "COMMIT"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** ALTER TABLE changes table definitions, such as adding or modifying columns."
+    },
+    {
+      "id": "q-imp-1795030697377-31-d5y8",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which SQL command removes all records from a table while retaining its table structure?",
+      "options": [
+        "DROP",
+        "DELETE DATABASE",
+        "TRUNCATE",
+        "ALTER"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** TRUNCATE removes all table records while preserving the table definition."
+    },
+    {
+      "id": "q-imp-1795030697377-32-i9cc",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "What is the purpose of a PRIMARY KEY constraint in SQL?",
+      "options": [
+        "To allow duplicate values in a column",
+        "To automatically sort records",
+        "To uniquely identify each row and prevent NULL values",
+        "To establish a mandatory relationship with every table"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A primary key uniquely identifies each record and cannot contain NULL values."
+    },
+    {
+      "id": "q-imp-1795030697377-33-nm1i",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "Which constraint ensures that values in a column are unique but generally allows NULL values?",
+      "options": [
+        "CHECK",
+        "DEFAULT",
+        "UNIQUE",
+        "NOT NULL"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** UNIQUE prevents duplicate non-NULL values, while NULL handling can vary across database systems."
+    },
+    {
+      "id": "q-imp-1795030697377-34-rjn0",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "Consider the following SQL statement:\n\n```sql\nINSERT INTO Students (student_id, name, age)\nVALUES (101, 'Rahul', 22);\n```\n\nWhich SQL command category does this statement belong to?",
+      "options": [
+        "DDL",
+        "DML",
+        "DCL",
+        "TCL"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** INSERT adds new records to an existing database table."
+    },
+    {
+      "id": "q-imp-1795030697377-35-2ihe",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of the SAVEPOINT command in transaction management?",
+      "options": [
+        "To permanently save all transaction changes",
+        "To delete a transaction",
+        "To create a point within a transaction to which a partial rollback can be performed",
+        "To grant database privileges"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** SAVEPOINT allows a transaction to roll back to a specific intermediate point."
+    },
+    {
+      "id": "q-imp-1795030697377-36-ufgv",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "Consider the following SQL query:\n\n```sql\nSELECT *\nFROM Employees\nWHERE salary BETWEEN 30000 AND 50000;\n```\n\nWhich employees will be selected?",
+      "options": [
+        "Employees earning less than 30000",
+        "Employees earning more than 50000",
+        "Employees earning between 30000 and 50000, including both boundaries",
+        "Only employees earning exactly 30000"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** BETWEEN is inclusive of both the lower and upper boundaries."
+    },
+    {
+      "id": "q-imp-1795030697377-37-uaej",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "Which ACID property ensures that a committed transaction remains permanently stored even after a system crash?",
+      "options": [
+        "Atomicity",
+        "Consistency",
+        "Isolation",
+        "Durability"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** Durability ensures that committed transaction changes survive system failures."
+    },
+    {
+      "id": "q-imp-1795030697377-38-e9fu",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following transaction sequence:\n\n```sql\nBEGIN;\n\nUPDATE Accounts\nSET balance = balance - 500\nWHERE account_id = 1;\n\nSAVEPOINT S1;\n\nUPDATE Accounts\nSET balance = balance - 300\nWHERE account_id = 2;\n\nROLLBACK TO S1;\n\nCOMMIT;\n```\n\nWhich changes will remain after the transaction completes?",
+      "options": [
+        "Only the deduction of 500 from account_id 1",
+        "Both deductions will remain",
+        "Neither deduction will remain",
+        "Only the deduction of 300 from account_id 2"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** ROLLBACK TO S1 undoes changes after the savepoint while preserving earlier changes."
+    },
+    {
+      "id": "q-imp-1795030697377-39-wyjn",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "[Advanced] A database transaction reads a record, another transaction updates and commits that record, and the first transaction reads it again and gets a different value. Which concurrency problem has occurred?",
+      "options": [
+        "Dirty Read",
+        "Non-repeatable Read",
+        "Phantom Read",
+        "Lost Update"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A non-repeatable read occurs when the same row returns different committed values during one transaction."
+    },
+    {
+      "id": "q-imp-1795030697377-40-u1go",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which SQL command is used to remove specific rows from a table based on a condition?",
+      "options": [
+        "DROP",
+        "TRUNCATE",
+        "DELETE",
+        "ALTER"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** DELETE removes selected rows using a WHERE condition."
+    },
+    {
+      "id": "q-imp-1795030697377-41-1rji",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which SQL command is used to remove previously granted database permissions from a user?",
+      "options": [
+        "GRANT",
+        "REVOKE",
+        "COMMIT",
+        "ROLLBACK"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** REVOKE removes privileges previously assigned to a database user."
+    },
+    {
+      "id": "q-imp-1795030697377-42-pgaj",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "What will the following SQL query return?\n\n```sql\nSELECT name\nFROM Employees\nWHERE name LIKE 'A%';\n```",
+      "options": [
+        "Names beginning with the letter A",
+        "Names ending with the letter A",
+        "Names containing only the letter A",
+        "Names containing A as the second character"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** The % wildcard matches zero or more characters following A."
+    },
+    {
+      "id": "q-imp-1795030697377-43-cvwt",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of a FOREIGN KEY constraint?",
+      "options": [
+        "To uniquely identify every row in the child table",
+        "To automatically encrypt referenced columns",
+        "To maintain referential integrity between related tables",
+        "To prevent all UPDATE operations"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A foreign key ensures that referenced values correspond to valid records in the parent table."
+    },
+    {
+      "id": "q-imp-1795030697377-44-2icu",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "Consider the following SQL query:\n\n```sql\nSELECT *\nFROM Employees\nWHERE department_id = NULL;\n```\n\nWhy will this query generally not return rows where department_id is NULL?",
+      "options": [
+        "NULL values are automatically converted to zero.",
+        "NULL values are deleted during SELECT execution.",
+        "NULL cannot be compared using the equality operator.",
+        "SQL does not support NULL values."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** NULL must be checked using IS NULL or IS NOT NULL."
+    },
+    {
+      "id": "q-imp-1795030697377-45-2m5b",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "Which transaction isolation level prevents dirty reads but may still allow non-repeatable reads and phantom reads?",
+      "options": [
+        "READ UNCOMMITTED",
+        "READ COMMITTED",
+        "SERIALIZABLE",
+        "AUTOCOMMIT"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** READ COMMITTED prevents reading uncommitted changes but permits certain concurrency anomalies."
+    },
+    {
+      "id": "q-imp-1795030697377-46-beux",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "What is the main purpose of a CHECK constraint in SQL?",
+      "options": [
+        "To automatically create indexes",
+        "To establish relationships between tables",
+        "To enforce a condition on values inserted or updated in a column or row",
+        "To permanently delete invalid records"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** CHECK constraints enforce specified logical conditions on stored data."
+    },
+    {
+      "id": "q-imp-1795030697377-47-doju",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "Two transactions simultaneously read the same account balance of ₹10,000. Both calculate a deduction of ₹1,000 and independently update the balance to ₹9,000. One update overwrites the other. Which problem has occurred?",
+      "options": [
+        "Dirty Read",
+        "Phantom Read",
+        "Lost Update",
+        "Deadlock"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A lost update occurs when one transaction overwrites another transaction's modification."
+    },
+    {
+      "id": "q-imp-1795030697377-48-ves8",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following SQL transaction:\n\n```sql\nBEGIN;\n\nUPDATE Products\nSET price = price + 100\nWHERE product_id = 1;\n\nSAVEPOINT P1;\n\nUPDATE Products\nSET price = price + 200\nWHERE product_id = 2;\n\nROLLBACK TO P1;\n\nUPDATE Products\nSET price = price + 50\nWHERE product_id = 3;\n\nCOMMIT;\n```\n\nWhich products will have their prices increased after the transaction?",
+      "options": [
+        "Only product 2",
+        "Products 1 and 2",
+        "Products 1 and 3",
+        "Products 1, 2, and 3"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The rollback removes the update to product 2, while updates before and after the savepoint are committed."
+    },
+    {
+      "id": "q-imp-1795030697377-49-6xks",
+      "topicId": "top-1795030725765-20-pat",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which isolation level provides the strongest standard SQL transaction isolation by preventing dirty reads, non-repeatable reads, and phantom reads?",
+      "options": [
+        "READ UNCOMMITTED",
+        "READ COMMITTED",
+        "REPEATABLE READ",
+        "SERIALIZABLE"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** SERIALIZABLE provides the strongest standard isolation by ensuring transactions behave as if executed sequentially."
+    },
+    {
+      "id": "q-imp-1795030697377-50-iwxk",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which SQL clause is used to group rows having identical values in one or more columns?",
+      "options": [
+        "ORDER BY",
+        "HAVING",
+        "GROUP BY",
+        "DISTINCT"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** GROUP BY combines rows with matching column values into groups for aggregation."
+    },
+    {
+      "id": "q-imp-1795030697377-51-kt55",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is the default sorting order when ORDER BY is used without specifying ASC or DESC?",
+      "options": [
+        "Random order",
+        "Descending order",
+        "Ascending order",
+        "Insertion order"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** SQL uses ascending order (ASC) by default."
+    },
+    {
+      "id": "q-imp-1795030697377-52-yetj",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "Consider the following Employee table:\n\n| department | salary |\n|---|---:|\n| IT | 40000 |\n| HR | 30000 |\n| IT | 50000 |\n| HR | 35000 |\n\nWhat will the following query return?\n\n```sql\nSELECT department, AVG(salary)\nFROM Employee\nGROUP BY department;\n```",
+      "options": [
+        "IT = 40000, HR = 35000",
+        "IT = 45000, HR = 32500",
+        "IT = 50000, HR = 35000",
+        "IT = 90000, HR = 65000"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** AVG calculates the average salary separately for each department."
+    },
+    {
+      "id": "q-imp-1795030697377-53-g0k3",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "Which SQL clause is used to filter grouped records based on aggregate conditions?",
+      "options": [
+        "WHERE",
+        "ORDER BY",
+        "HAVING",
+        "DISTINCT"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HAVING filters groups after GROUP BY and commonly uses aggregate functions."
+    },
+    {
+      "id": "q-imp-1795030697377-54-0rlt",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "Consider two tables: Customers and Orders. Which JOIN returns all customers, including those who have not placed any orders?",
+      "options": [
+        "INNER JOIN",
+        "RIGHT JOIN",
+        "LEFT JOIN",
+        "CROSS JOIN"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** LEFT JOIN preserves every row from the left table and returns NULL for unmatched right-table columns."
+    },
+    {
+      "id": "q-imp-1795030697377-55-obhb",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "What type of subquery returns a single value that can be used with comparison operators such as =, >, or <?",
+      "options": [
+        "Multi-row subquery",
+        "Correlated subquery",
+        "Scalar subquery",
+        "Recursive subquery"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A scalar subquery returns exactly one column value from at most one row."
+    },
+    {
+      "id": "q-imp-1795030697377-56-xusv",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "Consider the following SQL query:\n\n```sql\nSELECT employee_name\nFROM Employees\nWHERE salary > (\n    SELECT AVG(salary)\n    FROM Employees\n);\n```\n\nWhat does this query retrieve?",
+      "options": [
+        "Employees earning the minimum salary",
+        "Employees earning exactly the average salary",
+        "Employees earning more than the overall average salary",
+        "Employees earning less than the overall average salary"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The subquery calculates the average salary, and the outer query selects employees earning more than it."
+    },
+    {
+      "id": "q-imp-1795030697377-57-25bk",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "What distinguishes a correlated subquery from a non-correlated subquery?",
+      "options": [
+        "A correlated subquery always returns multiple rows.",
+        "A correlated subquery cannot contain aggregate functions.",
+        "A correlated subquery references columns from the outer query.",
+        "A correlated subquery executes only once independently of the outer query."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A correlated subquery depends on values from the outer query and is logically evaluated for its rows."
+    },
+    {
+      "id": "q-imp-1795030697377-58-91jf",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following tables:\n\n**Departments**\n\n| dept_id | dept_name |\n|---|---|\n| 1 | IT |\n| 2 | HR |\n| 3 | Sales |\n\n**Employees**\n\n| emp_id | name | dept_id |\n|---|---|---|\n| 101 | Amit | 1 |\n| 102 | Neha | 1 |\n| 103 | Ravi | 2 |\n\nWhat will the following query return?\n\n```sql\nSELECT D.dept_name, COUNT(E.emp_id)\nFROM Departments D\nLEFT JOIN Employees E\nON D.dept_id = E.dept_id\nGROUP BY D.dept_name\nORDER BY D.dept_name;\n```",
+      "options": [
+        "HR = 1, IT = 2",
+        "IT = 2, HR = 1, Sales is excluded",
+        "HR = 1, IT = 2, Sales = 0",
+        "HR = 0, IT = 2, Sales = 1"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** LEFT JOIN preserves all departments, and COUNT(emp_id) ignores NULL values for unmatched departments."
+    },
+    {
+      "id": "q-imp-1795030697377-59-becd",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following query:\n\n```sql\nSELECT e1.employee_name, e1.salary\nFROM Employees e1\nWHERE e1.salary > (\n    SELECT AVG(e2.salary)\n    FROM Employees e2\n    WHERE e2.department_id = e1.department_id\n);\n```\n\nWhat is the primary purpose of this correlated subquery?",
+      "options": [
+        "To find employees earning more than the company's maximum salary",
+        "To find employees earning exactly the company-wide average salary",
+        "To find employees earning more than their own department's average salary",
+        "To find the employee with the lowest salary in each department"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The inner query calculates the average salary for the department of each outer-query employee."
+    },
+    {
+      "id": "q-imp-1795030697377-60-obmf",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which SQL keyword removes duplicate rows from a query result?",
+      "options": [
+        "UNIQUE",
+        "DISTINCT",
+        "DIFFERENT",
+        "GROUP"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** DISTINCT eliminates duplicate rows from the SELECT result."
+    },
+    {
+      "id": "q-imp-1795030697377-61-622u",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which clause is evaluated to filter individual rows before grouping and aggregation?",
+      "options": [
+        "WHERE",
+        "HAVING",
+        "ORDER BY",
+        "GROUP BY"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** WHERE filters individual rows before GROUP BY performs aggregation."
+    },
+    {
+      "id": "q-imp-1795030697377-62-mdyv",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "Consider the following Employee table:\n\n| department | salary |\n|---|---:|\n| IT | 40000 |\n| IT | 60000 |\n| HR | 30000 |\n| HR | 50000 |\n| Sales | 25000 |\n\nWhat will the following query return?\n\n```sql\nSELECT department, MAX(salary)\nFROM Employee\nWHERE salary >= 30000\nGROUP BY department\nHAVING COUNT(*) >= 2;\n```",
+      "options": [
+        "IT = 60000, HR = 50000",
+        "IT = 60000, HR = 50000, Sales = 25000",
+        "IT = 40000, HR = 30000",
+        "Only IT = 60000"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** WHERE removes Sales, and HAVING retains only departments containing at least two qualifying employees."
+    },
+    {
+      "id": "q-imp-1795030697377-63-xxd7",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "Consider the following SQL query:\n\n```sql\nSELECT employee_name, salary\nFROM Employees\nORDER BY department_id ASC, salary DESC;\n```\n\nHow will the records be sorted?",
+      "options": [
+        "Salary ascending, then department descending",
+        "Department ascending, then salary descending within each department",
+        "Department descending, then salary ascending",
+        "Only salary descending"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** ORDER BY applies sorting sequentially using the specified column order and direction."
+    },
+    {
+      "id": "q-imp-1795030697377-64-a7re",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "Consider a table named Orders containing 100 rows, out of which 15 rows have NULL values in the amount column. What will this query return?\n\n```sql\nSELECT COUNT(*), COUNT(amount)\nFROM Orders;\n```",
+      "options": [
+        "85, 100",
+        "100, 85",
+        "100, 100",
+        "85, 85"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** COUNT(*) counts all rows, whereas COUNT(amount) ignores NULL values."
+    },
+    {
+      "id": "q-imp-1795030697377-65-yrlp",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "Which operator is commonly used with a subquery that returns multiple values?",
+      "options": [
+        "=",
+        ">",
+        "IN",
+        "IS NULL"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** IN checks whether a value matches any value returned by a multi-row subquery."
+    },
+    {
+      "id": "q-imp-1795030697377-66-1ua7",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of the EXISTS operator in SQL?",
+      "options": [
+        "To calculate the average of returned values",
+        "To sort the result of a subquery",
+        "To check whether a subquery returns at least one row",
+        "To eliminate NULL values automatically"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** EXISTS evaluates to TRUE when its subquery returns one or more rows."
+    },
+    {
+      "id": "q-imp-1795030697377-67-fu99",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "Consider the following tables:\n\n**Customers**\n\n| customer_id | name |\n|---|---|\n| 1 | Amit |\n| 2 | Neha |\n| 3 | Ravi |\n\n**Orders**\n\n| order_id | customer_id |\n|---|---|\n| 101 | 1 |\n| 102 | 3 |\n\nWhat will this query return?\n\n```sql\nSELECT C.name, O.order_id\nFROM Customers C\nLEFT JOIN Orders O\nON C.customer_id = O.customer_id;\n```",
+      "options": [
+        "Amit, 101",
+        "Amit, 101 and Ravi, 102",
+        "Amit, 101; Neha, NULL; Ravi, 102",
+        "Only Neha, NULL"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** LEFT JOIN returns every customer and NULL for customers without matching orders."
+    },
+    {
+      "id": "q-imp-1795030697377-68-pn7f",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following SQL query:\n\n```sql\nSELECT employee_name\nFROM Employees E\nWHERE EXISTS (\n    SELECT 1\n    FROM Projects P\n    WHERE P.employee_id = E.employee_id\n);\n```\n\nWhat does this query retrieve?",
+      "options": [
+        "Employees who are not assigned to any project",
+        "Employees assigned to at least one project",
+        "All employees and all project records",
+        "Employees assigned to exactly one project"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The correlated EXISTS subquery checks whether each employee has at least one matching project."
+    },
+    {
+      "id": "q-imp-1795030697377-69-umws",
+      "topicId": "top-1795030725765-50-9pp",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following tables:\n\n**Table A**\n\n| id |\n|---|\n| 1 |\n| 2 |\n| 3 |\n\n**Table B**\n\n| id |\n|---|\n| 2 |\n| 3 |\n| 4 |\n\nWhat will the following query return?\n\n```sql\nSELECT A.id AS A_id, B.id AS B_id\nFROM A\nFULL OUTER JOIN B\nON A.id = B.id\nORDER BY COALESCE(A.id, B.id);\n```",
+      "options": [
+        "Only matching IDs: (2,2), (3,3)",
+        "Only unmatched IDs: (1,NULL), (NULL,4)",
+        "(1,NULL), (2,2), (3,3), (NULL,4)",
+        "(1,1), (2,2), (3,3), (4,4)"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** FULL OUTER JOIN returns all matching and unmatched rows from both tables."
+    },
+    {
+      "id": "q-imp-1795030697377-70-o34f",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "[Beginner] What does CTE stand for in SQL?",
+      "options": [
+        "Common Table Expression",
+        "Central Table Execution",
+        "Common Table Expression",
+        "Conditional Table Environment"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A CTE is a temporary named result set defined using the WITH clause."
+    },
+    {
+      "id": "q-imp-1795030697377-71-i34c",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which SQL keyword is used to define a Common Table Expression?",
+      "options": [
+        "CREATE",
+        "TEMP",
+        "WITH",
+        "DEFINE"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The WITH clause defines a CTE that can be referenced by the following SQL statement."
+    },
+    {
+      "id": "q-imp-1795030697377-72-kav9",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "Consider the following SQL query:\n\n```sql\nWITH HighSalary AS (\n    SELECT employee_id, salary\n    FROM Employees\n    WHERE salary > 50000\n)\nSELECT COUNT(*)\nFROM HighSalary;\n```\n\nWhat does the HighSalary CTE represent?",
+      "options": [
+        "A permanent database table",
+        "A database index",
+        "A temporary named result containing employees earning more than 50000",
+        "A stored procedure"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A CTE provides a named result set available within the scope of its containing statement."
+    },
+    {
+      "id": "q-imp-1795030697377-73-016y",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of a recursive CTE?",
+      "options": [
+        "To create database indexes automatically",
+        "To perform database backups",
+        "To process hierarchical or repeatedly related data using recursion",
+        "To permanently modify table structures"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Recursive CTEs are useful for traversing hierarchies such as employee-manager relationships."
+    },
+    {
+      "id": "q-imp-1795030697377-74-3b3k",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "Which two logical components are commonly present in a recursive CTE?",
+      "options": [
+        "SELECT and UPDATE",
+        "CREATE and DROP",
+        "Anchor member and recursive member",
+        "JOIN and DELETE"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The anchor member establishes the initial result, and the recursive member generates subsequent rows."
+    },
+    {
+      "id": "q-imp-1795030697377-75-x2cf",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "Which normal form requires that every non-key attribute be fully functionally dependent on the entire candidate key, eliminating partial dependencies?",
+      "options": [
+        "1NF",
+        "2NF",
+        "3NF",
+        "BCNF"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Second Normal Form eliminates partial dependencies on a proper subset of a candidate key."
+    },
+    {
+      "id": "q-imp-1795030697377-76-6k5p",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "A table stores multiple phone numbers in a single column for each customer. Which normal form is violated?",
+      "options": [
+        "2NF",
+        "3NF",
+        "1NF",
+        "BCNF"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** First Normal Form requires each attribute to contain atomic values rather than repeating groups or multivalued fields."
+    },
+    {
+      "id": "q-imp-1795030697377-77-c31v",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "In an Entity-Relationship (ER) diagram, what does a diamond traditionally represent?",
+      "options": [
+        "Entity",
+        "Relationship",
+        "Attribute",
+        "Primary Key"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** In traditional Chen ER notation, a diamond represents a relationship between entities."
+    },
+    {
+      "id": "q-imp-1795030697377-78-lc0x",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following recursive CTE:\n\n```sql\nWITH RECURSIVE Numbers(n) AS (\n    SELECT 1\n    UNION ALL\n    SELECT n + 1\n    FROM Numbers\n    WHERE n < 5\n)\nSELECT n\nFROM Numbers;\n```\n\nWhat values will the query return?",
+      "options": [
+        "1, 2, 3, 4",
+        "0, 1, 2, 3, 4, 5",
+        "1, 2, 3, 4, 5",
+        "1, 2, 3, 4, 5, 6"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Recursion begins at 1 and continues until 5, after which the recursive condition becomes false."
+    },
+    {
+      "id": "q-imp-1795030697377-79-xp9v",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider a table with the following functional dependencies:\n\n```text\nStudentID → StudentName\nCourseID → CourseName\n(StudentID, CourseID) → Grade\n```\n\nWhat is the most appropriate normalization approach to eliminate partial dependencies?",
+      "options": [
+        "Convert the table directly into 1NF only.",
+        "Remove the primary key.",
+        "Decompose the table into Students, Courses, and StudentCourses tables.",
+        "Store all attributes in a single column."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Decomposition separates attributes dependent on only part of the composite key, achieving 2NF."
+    },
+    {
+      "id": "q-imp-1795030697377-80-ac4m",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "[Beginner] What does a database schema primarily define?",
+      "options": [
+        "The actual records stored in database tables",
+        "The logical structure and organization of database objects",
+        "The physical location of every user",
+        "The transaction history of the database"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A schema defines database objects such as tables, columns, relationships, constraints, and views."
+    },
+    {
+      "id": "q-imp-1795030697377-81-18h8",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "[Beginner] In an ER diagram, which symbol traditionally represents an attribute?",
+      "options": [
+        "Rectangle",
+        "Diamond",
+        "Oval (Ellipse)",
+        "Triangle"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** In traditional Chen notation, attributes are represented using oval shapes."
+    },
+    {
+      "id": "q-imp-1795030697377-82-xsd5",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "Which normal form eliminates transitive dependencies of non-key attributes on candidate keys?",
+      "options": [
+        "1NF",
+        "2NF",
+        "3NF",
+        "4NF"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Third Normal Form eliminates transitive dependencies of non-key attributes on candidate keys."
+    },
+    {
+      "id": "q-imp-1795030697377-83-7bo3",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "Consider the following functional dependencies:\n\n```text\nEmployeeID → DepartmentID\nDepartmentID → DepartmentName\n```\n\nWhich type of dependency exists between EmployeeID and DepartmentName?",
+      "options": [
+        "Partial dependency",
+        "Multivalued dependency",
+        "Transitive dependency",
+        "Trivial dependency"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** EmployeeID determines DepartmentName indirectly through DepartmentID."
+    },
+    {
+      "id": "q-imp-1795030697377-84-x9oy",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "In an ER diagram, how is a weak entity traditionally represented?",
+      "options": [
+        "Single diamond",
+        "Single oval",
+        "Double rectangle",
+        "Dashed rectangle"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A weak entity is represented by a double rectangle in Chen ER notation."
+    },
+    {
+      "id": "q-imp-1795030697377-85-kbgm",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "What is a candidate key in relational database design?",
+      "options": [
+        "A column that allows duplicate values",
+        "A key that can contain NULL values",
+        "A minimal set of attributes that uniquely identifies each row",
+        "A foreign key referencing another table"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A candidate key uniquely identifies records and contains no unnecessary attributes."
+    },
+    {
+      "id": "q-imp-1795030697377-86-eihr",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "A company stores employee details in a table containing EmployeeID, EmployeeName, DepartmentID, and DepartmentName. Since DepartmentName depends on DepartmentID, which design improvement is most appropriate?",
+      "options": [
+        "Store DepartmentName repeatedly for every employee.",
+        "Remove EmployeeID from the table.",
+        "Create a separate Departments table and reference it using DepartmentID.",
+        "Convert DepartmentID into a NULL column."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Separating departments eliminates redundant department information and helps achieve 3NF."
+    },
+    {
+      "id": "q-imp-1795030697377-87-58hv",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "What does a one-to-many (1:N) relationship represent in an ER model?",
+      "options": [
+        "One record in each entity must match exactly one record in the other.",
+        "One record in the first entity can be associated with multiple records in the second entity.",
+        "Multiple records in both entities must always match.",
+        "No relationship exists between the entities."
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A 1:N relationship allows one parent entity instance to relate to multiple child instances."
+    },
+    {
+      "id": "q-imp-1795030697377-88-3bby",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following employee hierarchy:\n\n| employee_id | employee_name | manager_id |\n|---|---|---|\n| 1 | Amit | NULL |\n| 2 | Neha | 1 |\n| 3 | Ravi | 1 |\n| 4 | Kiran | 2 |\n\nWhat will the following recursive CTE return when executed with the given data?\n\n```sql\nWITH RECURSIVE EmployeeHierarchy AS (\n    SELECT employee_id, employee_name, manager_id, 1 AS level\n    FROM Employees\n    WHERE manager_id IS NULL\n\n    UNION ALL\n\n    SELECT e.employee_id, e.employee_name, e.manager_id, h.level + 1\n    FROM Employees e\n    JOIN EmployeeHierarchy h\n      ON e.manager_id = h.employee_id\n)\nSELECT employee_name, level\nFROM EmployeeHierarchy\nORDER BY level, employee_id;\n```",
+      "options": [
+        "Amit (1), Neha (1), Ravi (1), Kiran (1)",
+        "Amit (1), Neha (2), Ravi (2), Kiran (3)",
+        "Amit (1), Neha (2), Ravi (3), Kiran (4)",
+        "Neha (1), Ravi (1), Kiran (2)"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The anchor selects Amit, and recursive joins discover Neha and Ravi at level 2 and Kiran at level 3."
+    },
+    {
+      "id": "q-imp-1795030697377-89-u4xn",
+      "topicId": "top-1795030725765-70-zrh",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which statement correctly describes Boyce-Codd Normal Form (BCNF)?",
+      "options": [
+        "Every table must contain exactly one candidate key.",
+        "Every non-key attribute must contain only numeric values.",
+        "For every non-trivial functional dependency X → Y, X must be a superkey.",
+        "Every table must contain at least one foreign key."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** BCNF requires every determinant of a non-trivial functional dependency to be a superkey."
+    },
+    {
+      "id": "q-imp-1795030697377-90-qsuq",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is a VIEW in SQL?",
+      "options": [
+        "A physical copy of an entire database",
+        "A virtual table based on the result of a SQL query",
+        "A database transaction",
+        "A stored index"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A view presents query results as a virtual table without necessarily storing the underlying data."
+    },
+    {
+      "id": "q-imp-1795030697377-91-6l26",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is the primary purpose of an INDEX in a database?",
+      "options": [
+        "To duplicate all database records",
+        "To enforce transaction isolation",
+        "To improve data retrieval performance",
+        "To automatically remove duplicate records"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** An index helps the database locate rows faster without scanning the entire table."
+    },
+    {
+      "id": "q-imp-1795030697377-92-64ry",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of a database trigger?",
+      "options": [
+        "To execute SQL queries manually",
+        "To permanently store query results",
+        "To automatically execute specified logic when a database event occurs",
+        "To replace primary key constraints"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Triggers execute automatically in response to events such as INSERT, UPDATE, or DELETE."
+    },
+    {
+      "id": "q-imp-1795030697377-93-hvvu",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "Which section of a PL/SQL block is mandatory?",
+      "options": [
+        "DECLARE",
+        "BEGIN and END",
+        "EXCEPTION",
+        "CURSOR"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Every PL/SQL block requires an executable section beginning with BEGIN and ending with END."
+    },
+    {
+      "id": "q-imp-1795030697377-94-7zgs",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "What will the following SQL query return?\n\n```sql\nSELECT employee_name, salary,\n       CASE\n           WHEN salary >= 80000 THEN 'High'\n           WHEN salary >= 40000 THEN 'Medium'\n           ELSE 'Low'\n       END AS salary_category\nFROM Employees;\n```",
+      "options": [
+        "Every employee will receive the category High.",
+        "Employees earning below 40000 will receive Medium.",
+        "Employees will be categorized as High, Medium, or Low based on salary.",
+        "The query will update employee salaries."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** CASE evaluates conditions sequentially and returns the result of the first matching condition."
+    },
+    {
+      "id": "q-imp-1795030697377-95-1ji5",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "Consider the following SQL query:\n\n```sql\nSELECT employee_name, department_id, salary,\n       ROW_NUMBER() OVER (\n           PARTITION BY department_id\n           ORDER BY salary DESC\n       ) AS rn\nFROM Employees;\n```\n\nWhat does this query do?",
+      "options": [
+        "Assigns one global row number to all employees based on salary",
+        "Assigns row numbers separately within each department, starting with the highest salary",
+        "Calculates the average salary of each department",
+        "Deletes duplicate employees"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** ROW_NUMBER assigns sequential numbers within each department partition according to salary order."
+    },
+    {
+      "id": "q-imp-1795030697377-96-ylen",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "What is the difference between RANK() and DENSE_RANK() window functions?",
+      "options": [
+        "RANK() ignores NULL values, while DENSE_RANK() includes them.",
+        "RANK() always produces unique ranks, while DENSE_RANK() produces duplicate ranks.",
+        "RANK() leaves gaps after tied ranks, while DENSE_RANK() does not.",
+        "Both functions always produce identical rankings."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** RANK() skips subsequent rank numbers after ties, whereas DENSE_RANK() assigns consecutive ranks."
+    },
+    {
+      "id": "q-imp-1795030697377-97-wykm",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "Which statement about database indexes is correct?",
+      "options": [
+        "Indexes always improve INSERT and UPDATE performance.",
+        "Indexes eliminate the need for primary keys.",
+        "Indexes can speed up SELECT queries but introduce storage and maintenance overhead.",
+        "Every column must have an index."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Indexes improve suitable read operations but require additional storage and maintenance during data modifications."
+    },
+    {
+      "id": "q-imp-1795030697377-98-noov",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following table containing employee records:\n\n| employee_id | department_id | salary |\n|---|---|---:|\n| 1 | 10 | 50000 |\n| 2 | 10 | 70000 |\n| 3 | 20 | 60000 |\n| 4 | 20 | 80000 |\n\nWhat will the following query return?\n\n```sql\nSELECT employee_id, department_id, salary,\n       DENSE_RANK() OVER (\n           PARTITION BY department_id\n           ORDER BY salary DESC\n       ) AS salary_rank\nFROM Employees;\n```",
+      "options": [
+        "Employee 1 = 1, Employee 2 = 2, Employee 3 = 1, Employee 4 = 2",
+        "Employee 1 = 2, Employee 2 = 1, Employee 3 = 2, Employee 4 = 1",
+        "Employee 1 = 4, Employee 2 = 1, Employee 3 = 3, Employee 4 = 2",
+        "All employees receive rank 1."
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** DENSE_RANK ranks salaries in descending order independently within each department."
+    },
+    {
+      "id": "q-imp-1795030697377-99-ln9q",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "[Advanced] A database table contains 10 million employee records. A frequently executed query filters records using `WHERE department_id = 20`. The department_id column is not indexed. Which approach is most likely to improve this query's retrieval performance?",
+      "options": [
+        "Create an index on every column in the table.",
+        "Replace the WHERE clause with ORDER BY.",
+        "Create an appropriate index on the department_id column and evaluate the execution plan.",
+        "Increase the number of columns returned by SELECT."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** An appropriate index can reduce full-table scanning, while an execution plan helps verify whether the optimizer uses it effectively."
+    },
+    {
+      "id": "q-imp-1795030697377-100-r3bo",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which SQL statement is used to create a view in a relational database?",
+      "options": [
+        "CREATE TABLE",
+        "CREATE VIEW",
+        "CREATE INDEX",
+        "CREATE PROCEDURE"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** CREATE VIEW defines a virtual table based on the result of a SELECT query."
+    },
+    {
+      "id": "q-imp-1795030697377-101-m7tn",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which PL/SQL section is used to handle runtime exceptions?",
+      "options": [
+        "DECLARE",
+        "BEGIN",
+        "EXCEPTION",
+        "END"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The EXCEPTION section handles runtime errors raised during PL/SQL block execution."
+    },
+    {
+      "id": "q-imp-1795030697377-102-ya4a",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "Consider the following SQL statement:\n\n```sql\nCREATE VIEW IT_Employees AS\nSELECT employee_id, employee_name, salary\nFROM Employees\nWHERE department_id = 10;\n```\n\nWhat happens when a user executes `SELECT * FROM IT_Employees`?",
+      "options": [
+        "All employee records are returned.",
+        "Only employees belonging to department 10 are returned.",
+        "A new physical table is created automatically.",
+        "All employees outside department 10 are deleted."
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The view exposes only records satisfying its defining WHERE condition."
+    },
+    {
+      "id": "q-imp-1795030697377-103-vhq0",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "In an Oracle PL/SQL row-level trigger, what does `:NEW.salary` represent during an UPDATE operation?",
+      "options": [
+        "The salary before the update",
+        "The salary value after the update",
+        "The average salary of all employees",
+        "The salary of the previous transaction"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** In an UPDATE trigger, :NEW refers to the new column value, while :OLD refers to the previous value."
+    },
+    {
+      "id": "q-imp-1795030697377-104-3oik",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "Which type of database trigger executes once for every affected row rather than once for the entire SQL statement?",
+      "options": [
+        "Statement-level trigger",
+        "Row-level trigger",
+        "Database startup trigger",
+        "Schema-level trigger"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A row-level trigger executes separately for each row affected by the triggering statement."
+    },
+    {
+      "id": "q-imp-1795030697377-105-56ju",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "What is the purpose of the LEAD() window function in SQL?",
+      "options": [
+        "To calculate the maximum value of a column",
+        "To assign a unique identifier to every row",
+        "To access a value from a subsequent row within an ordered result set",
+        "To remove duplicate rows"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** LEAD() retrieves a value from a specified subsequent row without requiring a self-join."
+    },
+    {
+      "id": "q-imp-1795030697377-106-zmik",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "Consider the following SQL query:\n\n```sql\nSELECT employee_id, salary,\n       SUM(salary) OVER (\n           ORDER BY employee_id\n       ) AS running_total\nFROM Employees;\n```\n\nWhat does the running_total column generally represent?",
+      "options": [
+        "The total salary of all employees repeated in every row",
+        "The average salary of employees",
+        "The cumulative salary calculated in employee_id order",
+        "The highest salary encountered in each row"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The windowed SUM calculates a running total across the ordered rows."
+    },
+    {
+      "id": "q-imp-1795030697377-107-zio6",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "Which index structure is commonly used by relational databases to support efficient equality and range searches?",
+      "options": [
+        "Stack",
+        "Queue",
+        "B-Tree",
+        "Linked List"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** B-Tree indexes maintain ordered keys and support efficient searching, insertion, and range retrieval."
+    },
+    {
+      "id": "q-imp-1795030697377-108-adp3",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following composite index:\n\n```sql\nCREATE INDEX idx_emp_dept_salary\nON Employees(department_id, salary);\n```\n\nWhich query can generally benefit from the leftmost-prefix property of this index?",
+      "options": [
+        "`SELECT * FROM Employees WHERE salary = 50000;`",
+        "`SELECT * FROM Employees WHERE department_id = 10;`",
+        "`SELECT * FROM Employees WHERE employee_name = 'Amit';`",
+        "`SELECT * FROM Employees WHERE employee_id = 101;`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A composite B-Tree index can generally support searches using its leading column, department_id."
+    },
+    {
+      "id": "q-imp-1795030697377-109-6zts",
+      "topicId": "top-1795030725765-90-s7d",
+      "difficulty": "moderate",
+      "question": "[Advanced] A database query is taking several minutes to execute. An execution plan indicates that the database performs a full table scan on a very large table even though the query filters using a frequently searched column. What is the most appropriate optimization approach?",
+      "options": [
+        "Add indexes to every column without analyzing the workload.",
+        "Remove the WHERE condition to reduce processing.",
+        "Evaluate selectivity, consider an appropriate index, and inspect the execution plan after optimization.",
+        "Convert the table into a view without changing the query."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Index selection based on selectivity and execution-plan analysis helps determine whether an index can reduce query cost."
+    },
+    {
+      "id": "q-imp-1795030697377-110-j223",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is the primary purpose of a Data Warehouse?",
+      "options": [
+        "To process real-time payment transactions",
+        "To store integrated historical data for reporting and analytical decision-making",
+        "To replace operating systems",
+        "To manage network communication"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A Data Warehouse consolidates historical data from multiple sources for analytical processing."
+    },
+    {
+      "id": "q-imp-1795030697377-111-r2mk",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "[Beginner] What does ETL stand for in data engineering?",
+      "options": [
+        "Extract, Transfer, Load",
+        "Execute, Transform, Link",
+        "Extract, Transform, Load",
+        "Evaluate, Test, Load"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ETL extracts data from sources, transforms it, and loads it into a target system."
+    },
+    {
+      "id": "q-imp-1795030697377-112-eu88",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "Which schema is commonly used in Data Warehouse design, where a central fact table connects directly to multiple dimension tables?",
+      "options": [
+        "Network Schema",
+        "Hierarchical Schema",
+        "Star Schema",
+        "Object-Oriented Schema"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A Star Schema organizes data around a central fact table connected to denormalized dimension tables."
+    },
+    {
+      "id": "q-imp-1795030697377-113-8jyz",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "In a Data Warehouse, which of the following is an example of a fact table measure?",
+      "options": [
+        "Customer Name",
+        "Product Category",
+        "Total Sales Amount",
+        "Store Location"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Fact tables contain measurable business metrics such as sales amount, quantity, and profit."
+    },
+    {
+      "id": "q-imp-1795030697377-114-28u3",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "What is the correct sequence of operations in a traditional ETL process?",
+      "options": [
+        "Load → Extract → Transform",
+        "Transform → Load → Extract",
+        "Extract → Transform → Load",
+        "Transform → Extract → Load"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ETL first extracts source data, transforms it into the required format, and loads it into the target."
+    },
+    {
+      "id": "q-imp-1795030697377-115-nsoo",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "A customer changes their residential address. The Data Warehouse simply overwrites the existing address without maintaining historical information. Which Slowly Changing Dimension technique is being used?",
+      "options": [
+        "SCD Type 1",
+        "SCD Type 2",
+        "SCD Type 3",
+        "SCD Type 4"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** SCD Type 1 overwrites existing dimension values without preserving historical changes."
+    },
+    {
+      "id": "q-imp-1795030697377-116-6e04",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "Which Slowly Changing Dimension technique preserves complete historical changes by inserting a new record whenever an attribute changes?",
+      "options": [
+        "SCD Type 0",
+        "SCD Type 2",
+        "SCD Type 1",
+        "SCD Type 3"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** SCD Type 2 maintains historical records using new rows, often with effective dates and current-record flags."
+    },
+    {
+      "id": "q-imp-1795030697377-117-5ru8",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "In an ETL pipeline, what is the primary purpose of a Lookup transformation?",
+      "options": [
+        "To delete duplicate database tables",
+        "To encrypt the entire Data Warehouse",
+        "To retrieve reference data and use it for matching or enriching records",
+        "To schedule operating system processes"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Lookup transformations retrieve related reference values for data validation, enrichment, and key mapping."
+    },
+    {
+      "id": "q-imp-1795030697378-118-znc0",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Data Warehouse receives millions of customer records daily. The ETL process needs to identify changed records efficiently by comparing tracked attribute values instead of comparing every individual column repeatedly. Which technique is commonly used?",
+      "options": [
+        "Random sampling",
+        "Full table truncation",
+        "Hash-based change detection",
+        "Manual record comparison"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Hashing tracked attributes produces comparison values that help identify changed records efficiently."
+    },
+    {
+      "id": "q-imp-1795030697378-119-n16o",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "[Advanced] A customer dimension contains the following record:\n\n| CustomerID | Address | StartDate | EndDate | IsCurrent |\n|---|---|---|---|---|\n| 101 | Mumbai | 2024-01-01 | NULL | 1 |\n\nThe customer moves to Pune on 2025-01-01. The Data Warehouse must preserve the previous address and maintain the new address as the current record. What should the ETL process do?",
+      "options": [
+        "Update Mumbai to Pune in the existing row.",
+        "Delete the existing row and insert the Pune record.",
+        "Set the old record's EndDate to 2024-12-31 and IsCurrent to 0, then insert a new Pune record with IsCurrent = 1.",
+        "Insert a new Pune record without modifying the previous record."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** SCD Type 2 expires the previous record and inserts a new current record to preserve complete history."
+    },
+    {
+      "id": "q-imp-1795030697378-120-ggym",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is the primary purpose of a staging area in an ETL pipeline?",
+      "options": [
+        "To permanently replace the source database",
+        "To temporarily store extracted data before transformation and loading",
+        "To generate database user permissions",
+        "To execute analytical reports directly"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A staging area temporarily holds source data for cleaning, validation, and transformation."
+    },
+    {
+      "id": "q-imp-1795030697378-121-vc3v",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which of the following is an ETL tool commonly used for data integration and workflow automation?",
+      "options": [
+        "Git",
+        "Docker",
+        "Apache NiFi",
+        "Visual Studio Code"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Apache NiFi supports automated data ingestion, routing, transformation, and processing workflows."
+    },
+    {
+      "id": "q-imp-1795030697378-122-f98j",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "What is the primary advantage of incremental loading compared with full loading in a Data Warehouse?",
+      "options": [
+        "It reloads every historical record during each execution.",
+        "It eliminates the need for data validation.",
+        "It processes only new or changed records, reducing processing time and resource consumption.",
+        "It prevents updates to dimension tables."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Incremental loading reduces processing overhead by loading only newly inserted or modified data."
+    },
+    {
+      "id": "q-imp-1795030697378-123-zsrc",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "What does Change Data Capture (CDC) primarily do in a data integration pipeline?",
+      "options": [
+        "Deletes all historical records after every load.",
+        "Converts relational databases into document databases.",
+        "Identifies and captures INSERT, UPDATE, and DELETE changes occurring in source systems.",
+        "Automatically generates analytical dashboards."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** CDC captures source database changes so downstream systems can be updated efficiently."
+    },
+    {
+      "id": "q-imp-1795030697378-124-nrfw",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "A business wants to preserve the current customer address and one previous address in the same dimension record. Which Slowly Changing Dimension technique is most appropriate?",
+      "options": [
+        "SCD Type 0",
+        "SCD Type 1",
+        "SCD Type 3",
+        "SCD Type 2"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** SCD Type 3 maintains limited historical information using additional columns for previous attribute values."
+    },
+    {
+      "id": "q-imp-1795030697378-125-mqn5",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "In a Data Warehouse, which dimension typically contains descriptive information about products, such as product name, brand, and category?",
+      "options": [
+        "Fact Dimension",
+        "Product Dimension",
+        "Transaction Dimension",
+        "Measure Dimension"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A product dimension stores descriptive attributes used to analyze business facts by product."
+    },
+    {
+      "id": "q-imp-1795030697378-126-yeos",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "Why are surrogate keys commonly used in Data Warehouse dimension tables?",
+      "options": [
+        "To replace all measures in fact tables",
+        "To eliminate the requirement for dimension attributes",
+        "To provide internally generated unique identifiers independent of source-system keys",
+        "To prevent historical data from being stored"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Surrogate keys provide stable warehouse identifiers and support historical tracking across source-system changes."
+    },
+    {
+      "id": "q-imp-1795030697378-127-vki0",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "An ETL pipeline receives customer records containing duplicate email addresses. Which data preparation operation should be performed to identify and remove duplicate records?",
+      "options": [
+        "Data encryption",
+        "Data partitioning",
+        "Deduplication",
+        "Data serialization"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Deduplication identifies repeated records using matching attributes or defined business keys."
+    },
+    {
+      "id": "q-imp-1795030697378-128-qerd",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Data Warehouse contains a fact table with several billion sales records. Most analytical queries filter data using the transaction date. Which optimization technique can significantly reduce the amount of data scanned?",
+      "options": [
+        "Adding more descriptive columns to the fact table",
+        "Converting all numeric measures into strings",
+        "Partitioning the fact table by transaction date",
+        "Removing all indexes and constraints"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Date-based partitioning allows partition pruning so queries can scan only relevant partitions."
+    },
+    {
+      "id": "q-imp-1795030697378-129-a42c",
+      "topicId": "top-1795030725765-110-j5s",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Data Warehouse ETL process must join two very large datasets that are not sorted on the join key. Both datasets exceed available memory. Which join algorithm is generally suitable for this situation?",
+      "options": [
+        "Nested Loop Join",
+        "Linear Search Join",
+        "Grace Hash Join",
+        "Binary Search Join"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Grace Hash Join partitions datasets into smaller batches and performs hash-based matching when the datasets do not fit in memory."
+    },
+    {
+      "id": "q-imp-1795030697378-130-1kk3",
+      "topicId": "top-1795030725765-130-ioh",
+      "difficulty": "moderate",
+      "question": "[Beginner] What does the term NoSQL commonly represent?",
+      "options": [
+        "No Structured Query Language",
+        "No Storage Query Language",
+        "Not Only SQL",
+        "New Object SQL"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** NoSQL refers to database systems that support data models beyond traditional relational tables."
+    },
+    {
+      "id": "q-imp-1795030697378-131-8op1",
+      "topicId": "top-1795030725765-130-ioh",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which of the following is an example of a document-oriented NoSQL database?",
+      "options": [
+        "MySQL",
+        "Oracle Database",
+        "MongoDB",
+        "PostgreSQL"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MongoDB stores data as flexible BSON documents organized into collections."
+    },
+    {
+      "id": "q-imp-1795030697378-132-8wr4",
+      "topicId": "top-1795030725765-130-ioh",
+      "difficulty": "moderate",
+      "question": "What is a major difference between traditional relational databases and many NoSQL databases?",
+      "options": [
+        "Relational databases cannot store text data.",
+        "NoSQL databases cannot support indexing.",
+        "Relational databases commonly use predefined table schemas, while many NoSQL databases support flexible data models.",
+        "Relational databases do not support transactions."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Many NoSQL systems allow records with different structures, whereas relational systems typically enforce defined table schemas."
+    },
+    {
+      "id": "q-imp-1795030697378-133-o3u5",
+      "topicId": "top-1795030725765-130-ioh",
+      "difficulty": "moderate",
+      "question": "Which NoSQL database model stores data as key-value pairs?",
+      "options": [
+        "Graph Database",
+        "Document Database",
+        "Key-Value Store",
+        "Relational Database"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Key-value databases associate unique keys with corresponding values for efficient retrieval."
+    },
+    {
+      "id": "q-imp-1795030697378-134-e04f",
+      "topicId": "top-1795030725765-130-ioh",
+      "difficulty": "moderate",
+      "question": "Which statement best describes a document-oriented database?",
+      "options": [
+        "It stores data exclusively in fixed-size relational rows.",
+        "It stores records as documents containing fields and nested structures.",
+        "It stores information only as graph edges.",
+        "It requires every document to contain exactly the same fields."
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Document databases store self-contained records that can contain nested objects and arrays."
+    },
+    {
+      "id": "q-imp-1795030697378-135-ds7a",
+      "topicId": "top-1795030725765-130-ioh",
+      "difficulty": "moderate",
+      "question": "What is the primary characteristic of a wide-column NoSQL database?",
+      "options": [
+        "It stores all records as XML documents.",
+        "It organizes data exclusively into relational tables with fixed columns.",
+        "It organizes data using rows and flexible columns grouped into column families or similar structures.",
+        "It stores data only as key-value pairs without additional organization."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Wide-column databases organize distributed data into rows with potentially varying columns and column families."
+    },
+    {
+      "id": "q-imp-1795030697378-136-ltf5",
+      "topicId": "top-1795030725765-130-ioh",
+      "difficulty": "moderate",
+      "question": "What is sharding in a distributed NoSQL database?",
+      "options": [
+        "Creating duplicate indexes on the same machine",
+        "Compressing all database records into one file",
+        "Horizontally partitioning data across multiple servers",
+        "Converting document data into relational tables"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Sharding distributes different subsets of data across multiple machines to improve scalability."
+    },
+    {
+      "id": "q-imp-1795030697378-137-obwo",
+      "topicId": "top-1795030725765-130-ioh",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of replication in a distributed NoSQL database?",
+      "options": [
+        "To eliminate the need for primary keys",
+        "To reduce the number of database records",
+        "To maintain copies of data across multiple nodes for availability and fault tolerance",
+        "To convert all writes into read operations"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Replication maintains multiple data copies to improve availability and support recovery from node failures."
+    },
+    {
+      "id": "q-imp-1795030697378-138-lb2i",
+      "topicId": "top-1795030725765-130-ioh",
+      "difficulty": "moderate",
+      "question": "[Advanced] An e-commerce application stores millions of product records containing different attributes. Electronics have warranty and technical specifications, while clothing products have size and fabric information. Which database design is most suitable?",
+      "options": [
+        "A relational database requiring every product to have all possible columns filled",
+        "A key-value database storing only product IDs",
+        "A document database with flexible product-specific fields and nested attributes",
+        "A graph database storing every attribute as an independent node"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Document databases support flexible structures, making them suitable for products with varying attributes."
+    },
+    {
+      "id": "q-imp-1795030697378-139-lura",
+      "topicId": "top-1795030725765-130-ioh",
+      "difficulty": "moderate",
+      "question": "[Advanced] An organization uses Oracle NoSQL Database and needs to retrieve customer records using unique customer identifiers. Which approach best represents the key-value access model?",
+      "options": [
+        "Scan every record to find a matching customer name.",
+        "Store every customer in a separate database.",
+        "Use the customer identifier as a key to retrieve its associated value.",
+        "Sort all customer records alphabetically before every lookup."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The key-value access model retrieves a stored value using its associated unique key."
+    },
+    {
+      "id": "q-imp-1795030697378-140-orhj",
+      "topicId": "top-1795030725765-140-ivv",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is the primary consideration when designing a NoSQL database schema?",
+      "options": [
+        "Always normalize data into multiple tables.",
+        "Design the data model according to application access patterns.",
+        "Avoid using indexes.",
+        "Store every record in a separate database."
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** NoSQL schemas are commonly designed around how applications read and write data."
+    },
+    {
+      "id": "q-imp-1795030697378-141-y6um",
+      "topicId": "top-1795030725765-140-ivv",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which NoSQL data modeling technique stores related information directly inside a document?",
+      "options": [
+        "Normalization",
+        "Sharding",
+        "Embedding",
+        "Replication"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Embedding stores related data as nested objects or arrays within the parent document."
+    },
+    {
+      "id": "q-imp-1795030697378-142-2wt6",
+      "topicId": "top-1795030725765-140-ivv",
+      "difficulty": "moderate",
+      "question": "In document database design, when is referencing generally preferred over embedding?",
+      "options": [
+        "When related data is small and always accessed together",
+        "When related data is large, shared, or frequently updated independently",
+        "When the application never performs queries",
+        "When documents must contain identical fields"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Referencing reduces duplication when related entities are large or independently managed."
+    },
+    {
+      "id": "q-imp-1795030697378-143-itrf",
+      "topicId": "top-1795030725765-140-ivv",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of a shard key in a distributed NoSQL database?",
+      "options": [
+        "To encrypt database records",
+        "To uniquely identify every field in a document",
+        "To determine how data is distributed across shards",
+        "To remove duplicate documents automatically"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A shard key determines data placement and helps distribute workload across database partitions."
+    },
+    {
+      "id": "q-imp-1795030697378-144-ys0r",
+      "topicId": "top-1795030725765-140-ivv",
+      "difficulty": "moderate",
+      "question": "An application frequently retrieves customer details along with their recent orders. The orders are relatively small and are almost always accessed with the customer. Which document modeling approach is most appropriate?",
+      "options": [
+        "Store customer and orders in completely unrelated databases.",
+        "Create a separate document for every order without any relationship.",
+        "Embed the recent orders inside the customer document.",
+        "Store only the customer ID and discard order information."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Embedding efficiently retrieves closely related data together in a single document read."
+    },
+    {
+      "id": "q-imp-1795030697378-145-hfr2",
+      "topicId": "top-1795030725765-140-ivv",
+      "difficulty": "moderate",
+      "question": "What is Oracle NoSQL Database primarily designed to support?",
+      "options": [
+        "Only traditional desktop applications",
+        "Only relational joins across normalized tables",
+        "Distributed applications requiring scalable, low-latency data access",
+        "Only static document storage without querying"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Oracle NoSQL supports distributed data storage and scalable access for modern applications."
+    },
+    {
+      "id": "q-imp-1795030697378-146-p52q",
+      "topicId": "top-1795030725765-140-ivv",
+      "difficulty": "moderate",
+      "question": "An application evolves and introduces a new optional field called `membership_level` in customer documents. Existing documents do not contain this field. What is generally the safest schema evolution approach?",
+      "options": [
+        "Delete all existing documents.",
+        "Reject every document that does not contain the new field.",
+        "Allow the field to be optional and handle its absence in application logic.",
+        "Rename every existing field."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Optional fields support backward compatibility when existing records do not contain newly introduced attributes."
+    },
+    {
+      "id": "q-imp-1795030697378-147-yyox",
+      "topicId": "top-1795030725765-140-ivv",
+      "difficulty": "moderate",
+      "question": "What is schema evolution in a NoSQL database?",
+      "options": [
+        "Permanently disabling database queries",
+        "Converting all documents into relational tables",
+        "Changing the data structure over time while maintaining compatibility with existing data and applications",
+        "Removing all fields from existing documents"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Schema evolution allows applications and stored data structures to change without unnecessarily breaking existing functionality."
+    },
+    {
+      "id": "q-imp-1795030697378-148-o9d1",
+      "topicId": "top-1795030725765-140-ivv",
+      "difficulty": "moderate",
+      "question": "[Advanced] An application stores user profiles in a document database. A new application version introduces a field named `date_of_birth`, but older application versions do not recognize it. Which approach best supports backward and forward compatibility?",
+      "options": [
+        "Immediately delete all documents created by older application versions.",
+        "Force every application instance to upgrade simultaneously.",
+        "Introduce the field as optional, preserve existing fields, and make application code tolerate unknown or missing fields.",
+        "Change the data type of every existing field."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Compatible schema changes allow old and new application versions to coexist during gradual deployments."
+    },
+    {
+      "id": "q-imp-1795030697378-149-mtuj",
+      "topicId": "top-1795030725765-140-ivv",
+      "difficulty": "moderate",
+      "question": "[Advanced] An Oracle NoSQL application performs frequent queries using `customer_id`, but its records are distributed using a shard key that does not include this attribute. Queries often require accessing multiple shards. What is the most appropriate design improvement?",
+      "options": [
+        "Remove customer_id from all records.",
+        "Disable distribution across shards.",
+        "Evaluate customer_id as a shard key based on query patterns, data distribution, and workload requirements.",
+        "Store all customer records on a single node."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Choosing a shard key aligned with common access patterns can reduce scatter-gather queries while maintaining balanced distribution."
+    },
+    {
+      "id": "q-imp-1795030697378-150-hk7l",
+      "topicId": "top-1795030725765-150-hvp",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is MongoDB?",
+      "options": [
+        "A relational database management system",
+        "A document-oriented NoSQL database",
+        "A graph database management system",
+        "A spreadsheet application"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** MongoDB stores data as flexible BSON documents rather than traditional relational rows."
+    },
+    {
+      "id": "q-imp-1795030697378-151-72xd",
+      "topicId": "top-1795030725765-150-hvp",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is the default document format used internally by MongoDB?",
+      "options": [
+        "XML",
+        "CSV",
+        "BSON",
+        "YAML"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** BSON is a binary-encoded serialization format that extends JSON with additional data types."
+    },
+    {
+      "id": "q-imp-1795030697378-152-j0cz",
+      "topicId": "top-1795030725765-150-hvp",
+      "difficulty": "moderate",
+      "question": "In MongoDB, what is the equivalent of a database table?",
+      "options": [
+        "Document",
+        "Collection",
+        "Field",
+        "Index"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A MongoDB collection stores multiple documents and serves a role similar to a relational table."
+    },
+    {
+      "id": "q-imp-1795030697378-153-cte8",
+      "topicId": "top-1795030725765-150-hvp",
+      "difficulty": "moderate",
+      "question": "Which MongoDB command inserts a single document into a collection?",
+      "options": [
+        "db.students.add()",
+        "db.students.insertOne()",
+        "db.students.create()",
+        "db.students.saveAll()"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** insertOne() inserts one document into the specified collection."
+    },
+    {
+      "id": "q-imp-1795030697378-154-yuaz",
+      "topicId": "top-1795030725765-150-hvp",
+      "difficulty": "moderate",
+      "question": "What will the following MongoDB query return?\n\n```javascript\ndb.students.find({ age: { $gt: 20 } })\n```",
+      "options": [
+        "Students whose age is less than 20",
+        "Students whose age is exactly 20",
+        "Students whose age is greater than 20",
+        "All students regardless of age"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The `$gt` comparison operator matches documents where age is greater than 20."
+    },
+    {
+      "id": "q-imp-1795030697378-155-r8j7",
+      "topicId": "top-1795030725765-150-hvp",
+      "difficulty": "moderate",
+      "question": "Consider the following MongoDB command:\n\n```javascript\ndb.employees.updateOne(\n    { employee_id: 101 },\n    { $set: { salary: 60000 } }\n)\n```\n\nWhat does this command do?",
+      "options": [
+        "Deletes employee 101.",
+        "Inserts a new employee with salary 60000.",
+        "Updates the salary of the first matching employee to 60000.",
+        "Updates the salaries of all employees."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** updateOne() modifies one matching document, and `$set` assigns the specified field value."
+    },
+    {
+      "id": "q-imp-1795030697378-156-jgc1",
+      "topicId": "top-1795030725765-150-hvp",
+      "difficulty": "moderate",
+      "question": "Which MongoDB command removes a single matching document from a collection?",
+      "options": [
+        "db.users.removeAll()",
+        "db.users.drop()",
+        "db.users.deleteOne()",
+        "db.users.deleteCollection()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** deleteOne() removes the first document matching the supplied filter."
+    },
+    {
+      "id": "q-imp-1795030697378-157-jsnf",
+      "topicId": "top-1795030725765-150-hvp",
+      "difficulty": "moderate",
+      "question": "Which MongoDB operation is most similar to the SQL query below?\n\n```sql\nSELECT * FROM Employees\nWHERE department = 'IT';\n```",
+      "options": [
+        "`db.Employees.deleteMany({department: \"IT\"})`",
+        "`db.Employees.updateMany({department: \"IT\"})`",
+        "`db.Employees.find({department: \"IT\"})`",
+        "`db.Employees.drop()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MongoDB find() retrieves documents matching the specified filter, similar to SQL SELECT with WHERE."
+    },
+    {
+      "id": "q-imp-1795030697378-158-5e0i",
+      "topicId": "top-1795030725765-150-hvp",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following MongoDB query:\n\n```javascript\ndb.employees.find(\n    { department: \"IT\" },\n    { name: 1, salary: 1, _id: 0 }\n)\n```\n\nWhat will be returned?",
+      "options": [
+        "All fields of every employee",
+        "Only the `_id` field of IT employees",
+        "Only the name and salary fields of IT employees",
+        "Only employees whose salary is zero"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The second argument specifies inclusion projection for name and salary while excluding `_id`."
+    },
+    {
+      "id": "q-imp-1795030697378-159-pzfg",
+      "topicId": "top-1795030725765-150-hvp",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following Python code using the PyMongo driver:\n\n```python\nfrom pymongo import MongoClient\n\nclient = MongoClient(\"mongodb://localhost:27017/\")\ndb = client[\"company\"]\ncollection = db[\"employees\"]\n\ncollection.insert_one({\n    \"name\": \"Amit\",\n    \"department\": \"IT\",\n    \"salary\": 50000\n})\n\nresult = collection.find_one({\"name\": \"Amit\"})\nprint(result[\"department\"])\n```\n\nWhat will be printed if the insertion succeeds and the document is retrieved successfully?",
+      "options": [
+        "Amit",
+        "50000",
+        "IT",
+        "company"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** find_one() retrieves the matching document, and accessing its department field returns `IT`."
+    },
+    {
+      "id": "q-imp-1795030697378-160-q6i5",
+      "topicId": "top-1795030725765-160-a2v",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which storage engine is commonly used by MongoDB by default?",
+      "options": [
+        "InnoDB",
+        "MyISAM",
+        "WiredTiger",
+        "RocksDB"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** WiredTiger is MongoDB's standard storage engine, providing document-level concurrency control and compression."
+    },
+    {
+      "id": "q-imp-1795030697378-161-voq1",
+      "topicId": "top-1795030725765-160-a2v",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which automatically created index uniquely identifies documents in a MongoDB collection?",
+      "options": [
+        "Index on `name`",
+        "Compound index",
+        "Index on `_id`",
+        "Text index"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MongoDB automatically creates a unique `_id` index for every collection."
+    },
+    {
+      "id": "q-imp-1795030697378-162-k3y0",
+      "topicId": "top-1795030725765-160-a2v",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of an index in MongoDB?",
+      "options": [
+        "To increase document size",
+        "To eliminate the need for collections",
+        "To reduce the number of documents examined during query execution",
+        "To automatically encrypt documents"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Indexes allow MongoDB to locate matching documents without performing a full collection scan."
+    },
+    {
+      "id": "q-imp-1795030697378-163-90sq",
+      "topicId": "top-1795030725765-160-a2v",
+      "difficulty": "moderate",
+      "question": "Consider the following MongoDB command:\n\n```javascript\ndb.employees.createIndex({ department: 1, salary: -1 })\n```\n\nWhat does this command create?",
+      "options": [
+        "A unique index on department",
+        "A text index on salary",
+        "A compound index with department ascending and salary descending",
+        "Two independent indexes on department and salary"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The command creates one compound index containing two fields with their specified sorting directions."
+    },
+    {
+      "id": "q-imp-1795030697378-164-u6p6",
+      "topicId": "top-1795030725765-160-a2v",
+      "difficulty": "moderate",
+      "question": "Which MongoDB index type is automatically maintained to support queries on array elements?",
+      "options": [
+        "Hashed Index",
+        "Text Index",
+        "Multikey Index",
+        "TTL Index"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MongoDB automatically creates multikey indexes when indexing fields containing array values."
+    },
+    {
+      "id": "q-imp-1795030697378-165-fce9",
+      "topicId": "top-1795030725765-160-a2v",
+      "difficulty": "moderate",
+      "question": "What is the purpose of a TTL (Time-To-Live) index in MongoDB?",
+      "options": [
+        "To improve text search performance",
+        "To partition collections across multiple servers",
+        "To automatically remove documents after a specified expiration period",
+        "To prevent documents from being updated"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** TTL indexes automatically expire and remove documents after their configured time limit."
+    },
+    {
+      "id": "q-imp-1795030697378-166-f02a",
+      "topicId": "top-1795030725765-160-a2v",
+      "difficulty": "moderate",
+      "question": "Which MongoDB index type is specifically designed to support text search operations on string fields?",
+      "options": [
+        "Hashed Index",
+        "TTL Index",
+        "Text Index",
+        "Unique Index"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Text indexes support text-search queries on string content within indexed fields."
+    },
+    {
+      "id": "q-imp-1795030697378-167-o2ei",
+      "topicId": "top-1795030725765-160-a2v",
+      "difficulty": "moderate",
+      "question": "Consider the following MongoDB query:\n\n```javascript\ndb.products.find({\n    category: \"Electronics\",\n    price: { $gt: 1000 }\n}).explain(\"executionStats\");\n```\n\nWhat is the primary purpose of `explain(\"executionStats\")`?",
+      "options": [
+        "To modify the matching documents",
+        "To create indexes automatically",
+        "To provide execution details, including examined documents and execution statistics",
+        "To delete unused indexes"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** executionStats provides information about the actual execution plan and resource usage of the query."
+    },
+    {
+      "id": "q-imp-1795030697378-168-dbvr",
+      "topicId": "top-1795030725765-160-a2v",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following compound index:\n\n```javascript\ndb.orders.createIndex({\n    customer_id: 1,\n    order_date: -1,\n    status: 1\n});\n```\n\nWhich query can directly benefit from the leftmost-prefix property of this index?",
+      "options": [
+        "`db.orders.find({ status: \"Delivered\" })`",
+        "`db.orders.find({ order_date: \"2026-01-01\" })`",
+        "`db.orders.find({ customer_id: 101 })`",
+        "`db.orders.find({ status: \"Delivered\", order_date: \"2026-01-01\" })`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Compound indexes generally support queries using the leading field or a prefix of their indexed fields."
+    },
+    {
+      "id": "q-imp-1795030697378-169-mgr5",
+      "topicId": "top-1795030725765-160-a2v",
+      "difficulty": "moderate",
+      "question": "[Advanced] A MongoDB collection contains 10 million documents. A frequently executed query retrieves only `customer_id` and `order_date`, filtering by `customer_id`. Which indexing strategy can potentially allow MongoDB to answer the query directly from the index without fetching complete documents?",
+      "options": [
+        "Create a TTL index on customer_id.",
+        "Create a text index on order_date.",
+        "Create a suitable compound index on `{ customer_id: 1, order_date: 1 }`.",
+        "Create an index on an unrelated field."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A suitable compound index containing all filtered and projected fields can enable a covered query."
+    },
+    {
+      "id": "q-imp-1795030697378-170-evnk",
+      "topicId": "top-1795030725765-170-sqx",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which MongoDB operator is used to perform a logical AND operation between multiple conditions?",
+      "options": [
+        "`$or`",
+        "`$not`",
+        "`$and`",
+        "`$nor`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `$and` returns documents satisfying all specified conditions."
+    },
+    {
+      "id": "q-imp-1795030697378-171-etxp",
+      "topicId": "top-1795030725765-170-sqx",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which MongoDB method returns the distinct values of a specified field in a collection?",
+      "options": [
+        "find()",
+        "aggregate()",
+        "distinct()",
+        "groupBy()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** distinct() retrieves unique values for the specified field."
+    },
+    {
+      "id": "q-imp-1795030697378-172-1o0j",
+      "topicId": "top-1795030725765-170-sqx",
+      "difficulty": "moderate",
+      "question": "Consider the following MongoDB query:\n\n```javascript\ndb.students.find({\n    $or: [\n        { age: { $lt: 18 } },\n        { marks: { $gt: 90 } }\n    ]\n});\n```\n\nWhich documents will be returned?",
+      "options": [
+        "Students whose age is below 18 AND marks are above 90",
+        "Students whose age is below 18 OR marks are above 90",
+        "Only students whose age is exactly 18",
+        "All student documents"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `$or` matches documents satisfying at least one of the specified conditions."
+    },
+    {
+      "id": "q-imp-1795030697378-173-40rd",
+      "topicId": "top-1795030725765-170-sqx",
+      "difficulty": "moderate",
+      "question": "What does the `$ne` operator represent in MongoDB?",
+      "options": [
+        "Greater than",
+        "Less than",
+        "Not equal",
+        "Equal"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `$ne` matches documents where the field value is not equal to the specified value, including documents where the field is missing."
+    },
+    {
+      "id": "q-imp-1795030697378-174-gbmx",
+      "topicId": "top-1795030725765-170-sqx",
+      "difficulty": "moderate",
+      "question": "Consider the following MongoDB command:\n\n```javascript\ndb.products.updateOne(\n    { product_id: 101 },\n    { $set: { price: 1500 } },\n    { upsert: true }\n);\n```\n\nWhat happens if no document matches `product_id: 101`?",
+      "options": [
+        "The operation fails automatically.",
+        "No operation is performed.",
+        "A new document is inserted using the filter and update information.",
+        "All existing products are deleted."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `upsert: true` inserts a document when no matching document exists."
+    },
+    {
+      "id": "q-imp-1795030697378-175-ogqg",
+      "topicId": "top-1795030725765-170-sqx",
+      "difficulty": "moderate",
+      "question": "Which MongoDB aggregation stage is used to filter documents based on specified conditions?",
+      "options": [
+        "`$project`",
+        "`$sort`",
+        "`$match`",
+        "`$group`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `$match` filters documents in an aggregation pipeline, similar to SQL WHERE."
+    },
+    {
+      "id": "q-imp-1795030697378-176-xtkm",
+      "topicId": "top-1795030725765-170-sqx",
+      "difficulty": "moderate",
+      "question": "Consider the following aggregation query:\n\n```javascript\ndb.sales.aggregate([\n    {\n        $group: {\n            _id: \"$department\",\n            totalSales: { $sum: \"$amount\" }\n        }\n    }\n]);\n```\n\nWhat does this query calculate?",
+      "options": [
+        "Average sales across all departments",
+        "Maximum sales for every employee",
+        "Total sales for each department",
+        "Number of distinct employees"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `$group` groups documents by department and `$sum` calculates the total amount within each group."
+    },
+    {
+      "id": "q-imp-1795030697378-177-vc98",
+      "topicId": "top-1795030725765-170-sqx",
+      "difficulty": "moderate",
+      "question": "Which MongoDB aggregation stage is used to include, exclude, or reshape fields in the output documents?",
+      "options": [
+        "`$match`",
+        "`$group`",
+        "`$project`",
+        "`$limit`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `$project` controls the fields included in the aggregation output and can create computed fields."
+    },
+    {
+      "id": "q-imp-1795030697378-178-n4tn",
+      "topicId": "top-1795030725765-170-sqx",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following MongoDB aggregation pipeline:\n\n```javascript\ndb.orders.aggregate([\n    { $match: { status: \"Completed\" } },\n    {\n        $group: {\n            _id: \"$customer_id\",\n            totalAmount: { $sum: \"$amount\" }\n        }\n    },\n    { $sort: { totalAmount: -1 } },\n    { $limit: 3 }\n]);\n```\n\nWhat will this pipeline return?",
+      "options": [
+        "Three oldest orders regardless of status",
+        "All customers sorted alphabetically",
+        "The top three customers ranked by total completed order amount",
+        "The three customers with the fewest completed orders"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The pipeline filters completed orders, groups by customer, calculates totals, sorts descending, and returns the top three."
+    },
+    {
+      "id": "q-imp-1795030697378-179-rh1v",
+      "topicId": "top-1795030725765-170-sqx",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following MongoDB query:\n\n```javascript\ndb.employees.find({\n    $and: [\n        { department: \"IT\" },\n        {\n            $or: [\n                { salary: { $gt: 80000 } },\n                { experience: { $gt: 5 } }\n            ]\n        }\n    ]\n});\n```\n\nWhich employees will be returned?",
+      "options": [
+        "All employees earning more than 80000",
+        "All IT employees regardless of salary or experience",
+        "IT employees earning more than 80000 OR having more than 5 years of experience",
+        "Employees working outside IT with more than 5 years of experience"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `$and` requires the IT condition, while nested `$or` requires either the salary or experience condition."
+    },
+    {
+      "id": "q-imp-1795030697378-180-3r5a",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is the primary responsibility of a Data Engineer?",
+      "options": [
+        "Designing website user interfaces",
+        "Building and maintaining systems for collecting, processing, transforming, and storing data",
+        "Managing only database user permissions",
+        "Developing computer hardware"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Data Engineers build reliable data pipelines and infrastructure for analytics and data-driven applications."
+    },
+    {
+      "id": "q-imp-1795030697378-181-9alw",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is a Data Lake?",
+      "options": [
+        "A database that stores only relational tables",
+        "A centralized repository that stores large volumes of raw and processed data in various formats",
+        "A system used exclusively for transaction processing",
+        "A database that supports only numerical values"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A Data Lake stores structured, semi-structured, and unstructured data at scale."
+    },
+    {
+      "id": "q-imp-1795030697378-182-t0ea",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "Which of the following is a common characteristic of a Data Lake?",
+      "options": [
+        "It requires every incoming record to follow a fixed relational schema.",
+        "It stores only aggregated business reports.",
+        "It can store raw data in its original format before transformation.",
+        "It does not support unstructured data."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data Lakes can retain raw data and apply transformations when required for consumption."
+    },
+    {
+      "id": "q-imp-1795030697378-183-0mr5",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "In a typical Data Lake architecture, which zone stores incoming data in its original form without significant transformation?",
+      "options": [
+        "Curated Zone",
+        "Presentation Zone",
+        "Raw Zone",
+        "Reporting Zone"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The Raw Zone preserves source data in its original or minimally modified form."
+    },
+    {
+      "id": "q-imp-1795030697378-184-zfho",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of the Curated Zone in a Data Lake?",
+      "options": [
+        "To store data without any validation",
+        "To store only temporary application logs",
+        "To store cleaned, validated, and transformed data ready for consumption",
+        "To store database backup files exclusively"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The Curated Zone contains processed and quality-checked data suitable for analytics and reporting."
+    },
+    {
+      "id": "q-imp-1795030697378-185-bda5",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "What does the term schema-on-read mean in Data Lake architecture?",
+      "options": [
+        "A schema must be permanently defined before data ingestion.",
+        "The structure of data is interpreted when it is accessed or queried.",
+        "Every incoming record must be converted into a relational table.",
+        "Data cannot be queried until it is deleted and reloaded."
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Schema-on-read applies the required data structure during consumption rather than enforcing it during ingestion."
+    },
+    {
+      "id": "q-imp-1795030697378-186-lxsu",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "Which sequence best represents a typical Data Lake data processing architecture?",
+      "options": [
+        "Reporting → Ingestion → Storage → Processing",
+        "Processing → Reporting → Ingestion → Storage",
+        "Ingestion → Storage → Processing → Consumption",
+        "Storage → Consumption → Ingestion → Processing"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data is ingested, stored, processed, and then consumed by applications or analytical systems."
+    },
+    {
+      "id": "q-imp-1795030697378-187-ual3",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "[Advanced] A company receives customer transaction data from multiple sources. It wants to preserve original source files, clean invalid records, and provide trusted datasets to business analysts. Which architecture is most appropriate?",
+      "options": [
+        "Store all records directly in the reporting layer.",
+        "Delete source files immediately after ingestion.",
+        "Implement separate Raw, Cleansed, and Curated zones with controlled data movement.",
+        "Store all records in a single unstructured text file."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A multi-zone architecture preserves source data while progressively improving data quality and usability."
+    },
+    {
+      "id": "q-imp-1795030697378-188-t4zb",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "Why is partitioning commonly used when storing large datasets in a Data Lake?",
+      "options": [
+        "To eliminate the requirement for metadata",
+        "To convert unstructured data into relational data automatically",
+        "To organize data into smaller logical segments and reduce unnecessary scanning",
+        "To prevent users from accessing historical records"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Partitioning allows query engines to skip irrelevant data and improve query performance."
+    },
+    {
+      "id": "q-imp-1795030697378-189-g3ha",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Data Lake contains millions of very small Parquet files generated by frequent ingestion jobs. Analytical queries are becoming slower because of excessive file listing and metadata operations. What is the most appropriate solution?",
+      "options": [
+        "Convert all Parquet files into CSV files.",
+        "Create a separate database for every file.",
+        "Perform file compaction to combine small files into larger optimized files.",
+        "Disable metadata management."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Compaction reduces small-file overhead and improves metadata handling and analytical query performance."
+    },
+    {
+      "id": "q-imp-1795030697378-190-65t6",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which of the following data types can typically be stored in a Data Lake?",
+      "options": [
+        "Only structured numerical data",
+        "Only relational database tables",
+        "Structured, semi-structured, and unstructured data",
+        "Only plain text documents"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data Lakes support diverse formats such as CSV, JSON, Parquet, images, videos, and logs."
+    },
+    {
+      "id": "q-imp-1795030697378-191-fkwl",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "What is the purpose of a metadata catalog in a Data Lake?",
+      "options": [
+        "To permanently delete raw records",
+        "To execute operating system commands",
+        "To maintain information about datasets, schemas, locations, and other data assets",
+        "To replace the physical storage system"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A metadata catalog helps users and processing engines discover, understand, and access datasets."
+    },
+    {
+      "id": "q-imp-1795030697378-192-sjw6",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "Which practice is most important for maintaining data quality in a Data Lake?",
+      "options": [
+        "Accepting every incoming record without validation",
+        "Removing all metadata during ingestion",
+        "Applying validation, deduplication, and consistency checks",
+        "Storing every dataset without tracking its source"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data quality checks identify invalid, duplicate, inconsistent, and incomplete records."
+    },
+    {
+      "id": "q-imp-1795030697378-193-1njs",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "A financial company receives daily transaction files and also needs to process live payment events continuously. Which data ingestion strategy is most suitable?",
+      "options": [
+        "Use only manual data entry.",
+        "Use only monthly batch processing.",
+        "Combine batch ingestion for daily files with stream ingestion for live events.",
+        "Disable real-time processing."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Hybrid ingestion supports both scheduled bulk processing and continuous event processing."
+    },
+    {
+      "id": "q-imp-1795030697378-194-fgcr",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "[Advanced] An organization adopts a Medallion Architecture for its Data Lake. Which sequence correctly represents the progression of data through its layers?",
+      "options": [
+        "Silver → Bronze → Gold",
+        "Gold → Silver → Bronze",
+        "Bronze → Silver → Gold",
+        "Bronze → Gold → Silver"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Bronze stores raw data, Silver contains cleaned and refined data, and Gold contains business-ready datasets."
+    },
+    {
+      "id": "q-imp-1795030697378-195-ol0t",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "What is data lineage in Data Engineering?",
+      "options": [
+        "The physical size of a database table",
+        "The number of users accessing a data warehouse",
+        "The ability to track the origin, movement, and transformations of data",
+        "The process of deleting outdated records"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data lineage provides traceability of data from its source through transformations to its final destination."
+    },
+    {
+      "id": "q-imp-1795030697378-196-rp9k",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which storage system is commonly used as the underlying storage layer for modern cloud-based Data Lakes?",
+      "options": [
+        "CPU Cache",
+        "Local RAM",
+        "Cloud Object Storage",
+        "Printer Memory"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cloud object storage provides scalable and durable storage for large Data Lake datasets."
+    },
+    {
+      "id": "q-imp-1795030697378-197-ia6z",
+      "topicId": "top-1795030725766-180-7op",
+      "difficulty": "moderate",
+      "question": "A company wants to transfer only newly inserted and modified records from an operational database into its Data Lake. Which technique is most suitable?",
+      "options": [
+        "Full database replacement",
+        "Manual data extraction",
+        "Change Data Capture (CDC)",
+        "Random sampling"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** CDC identifies and captures database changes for efficient incremental data ingestion."
+    },
+    {
+      "id": "q-imp-1795030697378-198-ni02",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is a Data Lakehouse?",
+      "options": [
+        "A traditional database used exclusively for OLTP",
+        "An architecture combining Data Lake flexibility with Data Warehouse management and analytical capabilities",
+        "A storage system that supports only unstructured files",
+        "A replacement for all database management systems"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A Lakehouse combines flexible low-cost lake storage with features such as transactions, metadata management, and analytics."
+    },
+    {
+      "id": "q-imp-1795030697378-199-3ksg",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which of the following is an example of an open table format used in Lakehouse architectures?",
+      "options": [
+        "CSV",
+        "XML",
+        "Apache Iceberg",
+        "Plain Text"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Apache Iceberg is an open table format that provides metadata management and transactional table capabilities over data files."
+    },
+    {
+      "id": "q-imp-1795030697378-200-uy09",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "What is a major difference between a traditional Data Warehouse and a Data Lake?",
+      "options": [
+        "A Data Lake cannot store historical data.",
+        "A Data Warehouse cannot support analytical queries.",
+        "A Data Warehouse typically stores structured and curated data, while a Data Lake can store raw data in multiple formats.",
+        "A Data Lake always requires more expensive storage than a Data Warehouse."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data Warehouses emphasize structured analytical data, whereas Data Lakes support diverse raw and processed datasets."
+    },
+    {
+      "id": "q-imp-1795030697378-201-ib9b",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "What is the purpose of the transaction log in Delta Lake?",
+      "options": [
+        "To store application passwords",
+        "To replace all underlying Parquet data files",
+        "To record changes and maintain consistent versions of table data",
+        "To execute Python scripts automatically"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Delta Lake uses a transaction log to track table changes and support reliable transactional operations."
+    },
+    {
+      "id": "q-imp-1795030697378-202-vjyj",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "Which feature of Apache Iceberg enables users to access a consistent historical version of a table?",
+      "options": [
+        "Data Encryption",
+        "File Compression",
+        "Snapshot-based metadata management",
+        "Manual File Renaming"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Iceberg maintains table snapshots that allow queries against specific historical table states."
+    },
+    {
+      "id": "q-imp-1795030697378-203-t31z",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "Which open table format is particularly designed to support efficient record-level inserts, updates, and deletes using mechanisms such as Merge-on-Read and Copy-on-Write?",
+      "options": [
+        "CSV",
+        "XML",
+        "Apache Hudi",
+        "Plain Text"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Apache Hudi supports record-level data management through its Copy-on-Write and Merge-on-Read table types."
+    },
+    {
+      "id": "q-imp-1795030697378-204-qdwq",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "[Advanced] Two users simultaneously update the same Lakehouse table. The first transaction commits successfully, while the second attempts to commit using an outdated snapshot. What should a properly implemented optimistic concurrency control mechanism do?",
+      "options": [
+        "Allow both transactions to overwrite the table without validation.",
+        "Automatically delete the entire table.",
+        "Detect the conflicting changes and reject or retry the second transaction as appropriate.",
+        "Permanently disable all future writes."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Optimistic concurrency control validates transaction changes at commit time and handles conflicting updates to maintain consistency."
+    },
+    {
+      "id": "q-imp-1795030697378-205-x53a",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "What is schema evolution in a Lakehouse table?",
+      "options": [
+        "Deleting all previous versions of a table",
+        "Converting every column into a string",
+        "Changing the table schema over time, such as adding or renaming columns, while maintaining data compatibility",
+        "Removing the table metadata after each query"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Schema evolution allows table structures to change without requiring complete data replacement."
+    },
+    {
+      "id": "q-imp-1795030697378-206-9zim",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "What is Time Travel in Lakehouse table formats?",
+      "options": [
+        "Automatically moving data between cloud regions",
+        "Scheduling queries for future execution",
+        "Querying previous versions of a table using retained historical snapshots",
+        "Deleting outdated table partitions"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Time Travel allows users to query historical table states using version or timestamp information."
+    },
+    {
+      "id": "q-imp-1795030697378-207-g0yx",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "[Beginner] What does ACID stand for in database transaction management?",
+      "options": [
+        "Accuracy, Consistency, Integrity, Distribution",
+        "Atomicity, Consistency, Isolation, Durability",
+        "Availability, Control, Integration, Durability",
+        "Atomicity, Connectivity, Indexing, Distribution"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** ACID represents the four fundamental properties that ensure reliable transaction processing."
+    },
+    {
+      "id": "q-imp-1795030697378-208-k19r",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "Which ACID property ensures that a transaction either completes entirely or has no effect on the database?",
+      "options": [
+        "Consistency",
+        "Isolation",
+        "Durability",
+        "Atomicity"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** Atomicity ensures that all transaction operations succeed together or are rolled back."
+    },
+    {
+      "id": "q-imp-1795030697378-209-gfxg",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "What is a major advantage of using an open table format in a Lakehouse architecture?",
+      "options": [
+        "It restricts all queries to one programming language.",
+        "It requires all data to be stored in proprietary binary formats.",
+        "It enables interoperable access to table data and metadata across compatible processing engines.",
+        "It eliminates the requirement for data governance."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Open table formats allow compatible engines to work with shared datasets using standardized table metadata."
+    },
+    {
+      "id": "q-imp-1795030697378-210-jtmi",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "A Lakehouse stores data files in cloud object storage and uses an open table format to manage metadata and transactions. What is the primary benefit of separating storage from compute?",
+      "options": [
+        "Storage and compute must always scale together.",
+        "Database queries no longer require processing resources.",
+        "Storage capacity and processing resources can be scaled independently.",
+        "Data files must be copied to every compute node permanently."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Storage-compute separation allows independent scaling and more flexible resource utilization."
+    },
+    {
+      "id": "q-imp-1795030697378-211-1ozb",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "Which operation is commonly used in Lakehouse systems to update existing records and insert new records in a single operation?",
+      "options": [
+        "DROP",
+        "TRUNCATE",
+        "MERGE",
+        "DESCRIBE"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MERGE supports conditional inserts, updates, and sometimes deletes within a single operation."
+    },
+    {
+      "id": "q-imp-1795030697378-212-bz8c",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Data Lakehouse originally partitions a large sales table by year and month. Later, the organization wants to change the partitioning strategy to improve query performance without rewriting every historical data file immediately. Which modern table-format capability is most useful?",
+      "options": [
+        "Mandatory full-table truncation",
+        "Permanent schema locking",
+        "Partition evolution",
+        "Disabling metadata management"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Partition evolution allows table partition specifications to change over time while maintaining access to existing data."
+    },
+    {
+      "id": "q-imp-1795030697378-213-bn1l",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "[Advanced] A data processing job writes several new Parquet files to object storage but fails before completing its table transaction. How does an ACID-capable Lakehouse table format help prevent users from seeing an incomplete update?",
+      "options": [
+        "By automatically converting every file into a relational table",
+        "By exposing all partially written files immediately",
+        "By using transaction metadata or commit protocols to publish only successfully committed table changes",
+        "By deleting all previously committed table versions"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Transactional commit mechanisms prevent incomplete writes from becoming part of the visible table snapshot."
+    },
+    {
+      "id": "q-imp-1795030697378-214-21xm",
+      "topicId": "top-1795030725766-198-qgj",
+      "difficulty": "moderate",
+      "question": "[Advanced] A company needs a platform that supports raw IoT data storage, reliable concurrent updates, historical version tracking, and SQL-based analytics using multiple compatible processing engines. Which architecture is most suitable?",
+      "options": [
+        "Traditional OLTP database only",
+        "Flat-file storage without metadata",
+        "Traditional Data Warehouse without lake storage",
+        "Lakehouse architecture using an open table format such as Apache Iceberg or Delta Lake"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** A Lakehouse combines flexible data storage, transactional table management, historical tracking, and analytical processing."
+    },
+    {
+      "id": "q-imp-1795030697378-215-i2oy",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is Snowflake primarily designed for?",
+      "options": [
+        "Operating system management",
+        "Developing mobile applications",
+        "Cloud-based data warehousing and analytical data processing",
+        "Managing network hardware"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Snowflake is a cloud-based data platform designed for data warehousing, analytics, and data processing."
+    },
+    {
+      "id": "q-imp-1795030697378-216-a8ig",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which architectural feature allows Snowflake to separate storage and compute resources?",
+      "options": [
+        "Shared-Disk Architecture",
+        "Single-Server Architecture",
+        "Multi-cluster Shared Data Architecture",
+        "Peer-to-Peer Architecture"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Snowflake separates centralized storage from independently scalable compute warehouses."
+    },
+    {
+      "id": "q-imp-1795030697378-217-43o7",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "What is a Virtual Warehouse in Snowflake?",
+      "options": [
+        "A physical data storage device",
+        "A database schema",
+        "A cluster of compute resources used to execute queries and data operations",
+        "A backup of the entire database"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Virtual warehouses provide independent compute resources for executing Snowflake workloads."
+    },
+    {
+      "id": "q-imp-1795030697378-218-m023",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "How does Snowflake primarily organize table data internally?",
+      "options": [
+        "As XML documents",
+        "As fixed-size relational files",
+        "Into automatically managed micro-partitions using a columnar storage format",
+        "As manually managed B-Tree pages"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Snowflake automatically organizes table data into compressed, columnar micro-partitions."
+    },
+    {
+      "id": "q-imp-1795030697378-219-nt99",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Which Snowflake architectural layer is responsible for authentication, access control, metadata management, and query optimization?",
+      "options": [
+        "Storage Layer",
+        "Compute Layer",
+        "Cloud Services Layer",
+        "Presentation Layer"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The Cloud Services Layer manages security, metadata, query coordination, and optimization services."
+    },
+    {
+      "id": "q-imp-1795030697378-220-oroo",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "What happens when a Snowflake Virtual Warehouse is suspended?",
+      "options": [
+        "All database tables are deleted.",
+        "All stored data becomes inaccessible.",
+        "Compute resources are stopped, while stored database data remains available in storage.",
+        "All user accounts are disabled."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Suspending a warehouse stops its compute consumption without deleting persistent data."
+    },
+    {
+      "id": "q-imp-1795030697378-221-tz9x",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Which Snowflake feature allows users to create a copy of a database or table without immediately duplicating the underlying data?",
+      "options": [
+        "Data Replication",
+        "Full Backup",
+        "Zero-Copy Cloning",
+        "Data Compression"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Zero-Copy Cloning initially shares existing micro-partitions and creates additional storage only for subsequent changes."
+    },
+    {
+      "id": "q-imp-1795030697378-222-mskl",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of Snowflake Secure Data Sharing?",
+      "options": [
+        "To transfer database backups through email",
+        "To create duplicate databases for every consumer",
+        "To share live, governed data with other Snowflake accounts without copying the underlying data",
+        "To allow consumers to modify provider-owned tables directly"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Secure Data Sharing provides controlled access to provider data without physically copying it to consumer accounts."
+    },
+    {
+      "id": "q-imp-1795030697378-223-gd67",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Advanced] A company has separate development, testing, and production workloads in Snowflake. Heavy analytical queries in the development environment are affecting production query performance. Which architectural approach is most appropriate?",
+      "options": [
+        "Execute all queries using one shared Virtual Warehouse.",
+        "Store development and production data in the same temporary table.",
+        "Use separate Virtual Warehouses for different workloads.",
+        "Disable query optimization in development."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Independent Virtual Warehouses isolate compute resources and reduce workload interference."
+    },
+    {
+      "id": "q-imp-1795030697378-224-c14d",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is a Stage in Snowflake?",
+      "options": [
+        "A database user account",
+        "A location used to store or reference files before loading or unloading data",
+        "A query optimization algorithm",
+        "A type of relational constraint"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Stages provide locations for data files that Snowflake loads or unloads."
+    },
+    {
+      "id": "q-imp-1795030697378-225-omcs",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which SQL command is commonly used to load staged files into a Snowflake table?",
+      "options": [
+        "INSERT FILES",
+        "LOAD DATA",
+        "COPY INTO",
+        "IMPORT TABLE"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** COPY INTO loads data files from a stage into a Snowflake table."
+    },
+    {
+      "id": "q-imp-1795030697378-226-4wj3",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "Which type of Snowflake stage is automatically available for each user?",
+      "options": [
+        "External Stage",
+        "Table Stage",
+        "User Stage",
+        "Named Database Stage"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Every Snowflake user has an automatically available personal stage referenced using `@~`."
+    },
+    {
+      "id": "q-imp-1795030697378-227-s72y",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "What is the purpose of Snowpipe?",
+      "options": [
+        "To create database indexes automatically",
+        "To manage user permissions",
+        "To continuously ingest data from files using automated loading mechanisms",
+        "To execute stored procedures manually"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Snowpipe automates continuous file ingestion into Snowflake tables."
+    },
+    {
+      "id": "q-imp-1795030697378-228-r0d8",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "Consider the following Snowflake SQL command:\n\n```sql\nCOPY INTO employees\nFROM @my_stage/employees/\nFILE_FORMAT = (TYPE = CSV SKIP_HEADER = 1);\n```\n\nWhat does this command do?",
+      "options": [
+        "Exports employees data into CSV files.",
+        "Deletes all records from employees.",
+        "Loads CSV files from the specified stage into the employees table, skipping header rows.",
+        "Creates a new stage named employees."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** COPY INTO loads staged CSV data and skips the first row of each file."
+    },
+    {
+      "id": "q-imp-1795030697378-229-sg1h",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "A Snowflake Virtual Warehouse automatically stops consuming active compute resources after a period of inactivity. Which feature controls this behavior?",
+      "options": [
+        "AUTO COMMIT",
+        "AUTO INDEX",
+        "AUTO SUSPEND",
+        "AUTO BACKUP"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** AUTO SUSPEND automatically suspends an idle Virtual Warehouse after the configured duration."
+    },
+    {
+      "id": "q-imp-1795030697378-230-bgt5",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "Which Snowflake feature helps improve query performance by reusing previously calculated query results when applicable?",
+      "options": [
+        "Data Sharing",
+        "Zero-Copy Cloning",
+        "Result Cache",
+        "Time Travel"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Result caching can return previously computed results when the query and underlying data satisfy cache reuse requirements."
+    },
+    {
+      "id": "q-imp-1795030697378-231-ihvc",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "A Snowflake warehouse frequently experiences query queuing because many queries execute simultaneously. Which approach can help increase concurrent query processing capacity?",
+      "options": [
+        "Disable all indexes.",
+        "Reduce the number of database tables.",
+        "Use a multi-cluster Virtual Warehouse.",
+        "Convert every table into a temporary table."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Multi-cluster warehouses can add compute clusters to handle increased concurrency."
+    },
+    {
+      "id": "q-imp-1795030697378-232-ohfg",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Snowflake table contains several billion rows. A query filters records using a date column, but it scans a large number of micro-partitions. Which technique can help reduce unnecessary scanning?",
+      "options": [
+        "Disable automatic micro-partitioning.",
+        "Convert the date column into an unstructured document.",
+        "Improve data organization and evaluate clustering on the frequently filtered date column.",
+        "Increase the number of columns returned by SELECT."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Effective clustering can improve micro-partition pruning for frequently filtered columns."
+    },
+    {
+      "id": "q-imp-1795030697378-233-9pnk",
+      "topicId": "top-1795030725767-233-hjw",
+      "difficulty": "moderate",
+      "question": "[Beginner] What type of NoSQL database is Apache Cassandra?",
+      "options": [
+        "Relational Database",
+        "Document Database",
+        "Wide-Column Database",
+        "Graph Database"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cassandra is a distributed wide-column NoSQL database designed for high availability and scalability."
+    },
+    {
+      "id": "q-imp-1795030697378-234-fhz7",
+      "topicId": "top-1795030725767-233-hjw",
+      "difficulty": "moderate",
+      "question": "Which component plays a critical role in determining data distribution across Cassandra nodes?",
+      "options": [
+        "Foreign Key",
+        "SQL View",
+        "Partition Key",
+        "Database Trigger"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cassandra uses the partition key to determine the token and placement of data across the cluster."
+    },
+    {
+      "id": "q-imp-1795030697378-235-57sn",
+      "topicId": "top-1795030725767-233-hjw",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of a Clustering Column in Cassandra?",
+      "options": [
+        "To encrypt stored records",
+        "To identify the database administrator",
+        "To determine the ordering of rows within a partition and help organize data",
+        "To distribute data across unrelated databases"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Clustering columns control the ordering of rows within a Cassandra partition."
+    },
+    {
+      "id": "q-imp-1795030697378-236-18el",
+      "topicId": "top-1795030725767-233-hjw",
+      "difficulty": "moderate",
+      "question": "Which query language is used to interact with Apache Cassandra?",
+      "options": [
+        "PL/SQL",
+        "MongoQL",
+        "CQL",
+        "HQL"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cassandra Query Language (CQL) provides an SQL-like interface for Cassandra operations."
+    },
+    {
+      "id": "q-imp-1795030697378-237-192v",
+      "topicId": "top-1795030725767-233-hjw",
+      "difficulty": "moderate",
+      "question": "Which statement correctly compares Cassandra and MongoDB?",
+      "options": [
+        "Both are relational databases.",
+        "Cassandra is document-oriented, while MongoDB is graph-oriented.",
+        "Cassandra is a wide-column database, while MongoDB is a document-oriented database.",
+        "MongoDB does not support indexing, while Cassandra does."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cassandra organizes data around partitions and clustering columns, whereas MongoDB stores BSON documents."
+    },
+    {
+      "id": "q-imp-1795030697378-238-n0xv",
+      "topicId": "top-1795030725767-233-hjw",
+      "difficulty": "moderate",
+      "question": "[Advanced] A global application must remain available even when multiple database nodes fail. It requires distributed writes and tunable consistency levels. Which Cassandra feature combination is most appropriate?",
+      "options": [
+        "Single-node storage with mandatory synchronous replication to one server",
+        "Relational joins with foreign keys",
+        "Peer-to-peer architecture, replication, and configurable consistency levels",
+        "Centralized primary-server architecture without replication"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cassandra's peer-to-peer architecture, replication, and tunable consistency support high availability and distributed operations."
+    },
+    {
+      "id": "q-imp-1795030697378-239-egt8",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Beginner] What does DB-API refer to in Python database programming?",
+      "options": [
+        "A Python web development framework",
+        "A NoSQL query language",
+        "A standard interface specification for accessing relational databases from Python",
+        "A database backup utility"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Python DB-API defines a common interface for connecting to and interacting with databases."
+    },
+    {
+      "id": "q-imp-1795030697378-240-t4l1",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "Which Python DB-API method is generally used to execute an SQL statement through a cursor?",
+      "options": [
+        "connect()",
+        "execute()",
+        "fetchall()",
+        "close()"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The cursor's execute() method executes an SQL statement against the connected database."
+    },
+    {
+      "id": "q-imp-1795030697378-241-92lc",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "Consider the following Python code:\n\n```python\nconnection = get_connection()\ncursor = connection.cursor()\n\ncursor.execute(\n    \"SELECT * FROM employees WHERE department = ?\",\n    (\"IT\",)\n)\n\nrows = cursor.fetchall()\n```\n\nWhat does `fetchall()` return?",
+      "options": [
+        "Only the first matching row",
+        "The database connection object",
+        "All remaining rows returned by the executed query",
+        "The SQL statement as a string"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** fetchall() retrieves all remaining result rows from the cursor."
+    },
+    {
+      "id": "q-imp-1795030697378-242-wf6o",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "Which DB-API method makes the current transaction's changes permanent?",
+      "options": [
+        "execute()",
+        "fetchone()",
+        "commit()",
+        "rollback()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** commit() permanently saves the current transaction's successful changes."
+    },
+    {
+      "id": "q-imp-1795030697378-243-02v1",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following PyMongo code:\n\n```python\nfrom pymongo import MongoClient\n\nclient = MongoClient(\"mongodb://localhost:27017/\")\ndb = client[\"company\"]\nemployees = db[\"employees\"]\n\nresult = employees.update_one(\n    {\"employee_id\": 101},\n    {\"$set\": {\"salary\": 75000}}\n)\n\nprint(result.modified_count)\n```\n\nWhat does `modified_count` represent?",
+      "options": [
+        "Total documents in the employees collection",
+        "Number of documents matched regardless of modification",
+        "Number of documents actually modified by the update operation",
+        "Number of database connections created"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** modified_count reports how many matched documents were actually changed."
+    },
+    {
+      "id": "q-imp-1795030697378-244-oz1s",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is a data-driven decision?",
+      "options": [
+        "A decision based entirely on personal opinions",
+        "A decision made without examining information",
+        "A decision based on data analysis, evidence, and measurable insights",
+        "A decision based only on assumptions"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data-driven decisions use analyzed information and measurable evidence to guide actions."
+    },
+    {
+      "id": "q-imp-1795030697378-245-lakc",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "What is Enterprise Data Management (EDM)?",
+      "options": [
+        "A technique used exclusively for database compression",
+        "A method of creating computer hardware",
+        "A set of practices and processes for managing enterprise data throughout its lifecycle",
+        "A programming language for analytical queries"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** EDM governs how organizational data is collected, stored, integrated, secured, and maintained."
+    },
+    {
+      "id": "q-imp-1795030697378-246-py35",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "Which concept ensures that critical business information, such as customer and product details, remains consistent across enterprise systems?",
+      "options": [
+        "Data Encryption",
+        "Data Partitioning",
+        "Master Data Management (MDM)",
+        "Data Compression"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MDM establishes consistent and trusted master records across different enterprise applications."
+    },
+    {
+      "id": "q-imp-1795030697378-247-1149",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "A dataset used for customer analysis contains missing values in the age column. Which data preparation technique can be used to fill missing numerical values?",
+      "options": [
+        "Data replication",
+        "Data partitioning",
+        "Imputation using the mean or median",
+        "Database indexing"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Mean or median imputation replaces missing numerical values with representative statistical values."
+    },
+    {
+      "id": "q-imp-1795030697378-248-bnnf",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Advanced] An organization combines customer records from five different systems. The same customer appears with different names, email formats, and identifiers. Which data management process is most appropriate before generating enterprise-wide reports?",
+      "options": [
+        "Randomly delete duplicate-looking records.",
+        "Ignore inconsistencies and aggregate all records directly.",
+        "Perform entity resolution, standardization, deduplication, and master data integration.",
+        "Convert all customer attributes into binary values."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Entity resolution and standardization help identify matching customers and establish consistent enterprise records."
+    },
+    {
+      "id": "q-imp-1795030697378-249-rpi5",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Advanced] A retail company wants to predict future sales using historical transaction data. During data preparation, analysts discover that some records contain incorrect dates, duplicate transactions, and extreme sales values. What should be done before model training?",
+      "options": [
+        "Train the model immediately and ignore the data issues.",
+        "Delete every record containing a high sales value.",
+        "Replace all missing and extreme values with zero.",
+        "Validate dates, remove genuine duplicates, investigate outliers, and apply suitable cleaning techniques."
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** Proper data validation and cleaning improve data reliability and reduce misleading patterns in predictive models."
+    },
+    {
+      "id": "q-imp-1795030697378-250-qxqm",
+      "topicId": "top-1795030725767-250-xfk",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is denormalization in NoSQL database design?",
+      "options": [
+        "Splitting every document into multiple relational tables",
+        "Combining related data into a single structure to reduce the need for multiple queries",
+        "Deleting duplicate database records",
+        "Creating indexes on every document field"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Denormalization stores related data together to improve read performance and reduce joins or additional lookups."
+    },
+    {
+      "id": "q-imp-1795030697378-251-9eek",
+      "topicId": "top-1795030725767-250-xfk",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which API model is supported by Oracle NoSQL Database?",
+      "options": [
+        "Only SQL relational tables",
+        "Only graph traversal",
+        "Key-value, table, and document-oriented data access capabilities",
+        "Only XML file processing"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Oracle NoSQL supports multiple data access models, including key-value and table APIs."
+    },
+    {
+      "id": "q-imp-1795030697378-252-36op",
+      "topicId": "top-1795030725767-250-xfk",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of a secondary index in Oracle NoSQL Database?",
+      "options": [
+        "To distribute database files across operating systems",
+        "To replace the primary key",
+        "To support queries using fields other than the primary key",
+        "To automatically delete duplicate records"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Secondary indexes enable efficient lookups using non-primary-key fields."
+    },
+    {
+      "id": "q-imp-1795030697378-253-y1jp",
+      "topicId": "top-1795030725767-250-xfk",
+      "difficulty": "moderate",
+      "question": "A social media application stores users and their posts. Users can have thousands of posts, and posts are frequently accessed independently. Which data modeling approach is generally more suitable?",
+      "options": [
+        "Embed every post inside one user document without considering document growth.",
+        "Store posts separately and reference the corresponding user.",
+        "Store all users and posts inside one large document.",
+        "Store only post titles and discard user identifiers."
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Referencing supports independent access and avoids excessively large parent documents."
+    },
+    {
+      "id": "q-imp-1795030697378-254-i3gb",
+      "topicId": "top-1795030725767-250-xfk",
+      "difficulty": "moderate",
+      "question": "An application introduces a new field called `subscription_type` in customer documents. Older documents do not contain this field. What should the application generally do?",
+      "options": [
+        "Reject every older document.",
+        "Delete all existing customer records.",
+        "Provide a default or fallback value when the field is missing.",
+        "Rename all existing fields."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Default-value handling allows older documents to remain compatible with newer application versions."
+    },
+    {
+      "id": "q-imp-1795030697378-255-14b8",
+      "topicId": "top-1795030725767-250-xfk",
+      "difficulty": "moderate",
+      "question": "In a distributed NoSQL database, what is the primary purpose of a partition key?",
+      "options": [
+        "To encrypt documents before storage",
+        "To determine the primary key of every relational table",
+        "To determine how records are distributed among storage partitions",
+        "To automatically remove expired documents"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A partition key determines data placement and helps distribute workload across nodes."
+    },
+    {
+      "id": "q-imp-1795030697378-256-wg3j",
+      "topicId": "top-1795030725767-250-xfk",
+      "difficulty": "moderate",
+      "question": "According to the CAP theorem, what happens when a network partition occurs in a distributed database?",
+      "options": [
+        "The system can always guarantee both perfect consistency and availability without trade-offs.",
+        "Network partitions automatically disappear.",
+        "The system must make a trade-off between consistency and availability during the partition.",
+        "The database must permanently stop accepting all requests."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** During a network partition, a distributed system must prioritize consistency or availability for affected operations."
+    },
+    {
+      "id": "q-imp-1795030697378-257-vrxb",
+      "topicId": "top-1795030725767-250-xfk",
+      "difficulty": "moderate",
+      "question": "[Advanced] A distributed NoSQL database uses an incrementing transaction ID as its partition key. Most new records are directed to the same partition, creating a performance bottleneck. What is the most appropriate solution?",
+      "options": [
+        "Increase the length of every transaction ID.",
+        "Disable partitioning completely.",
+        "Redesign the partition key to distribute writes more evenly while preserving query requirements.",
+        "Store all records in a single partition permanently."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A well-distributed partition key prevents hotspots and improves horizontal scalability."
+    },
+    {
+      "id": "q-imp-1795030697378-258-qns1",
+      "topicId": "top-1795030725767-250-xfk",
+      "difficulty": "moderate",
+      "question": "[Advanced] A company deploys a new application version that adds fields and changes some document structures. Old and new application versions must operate simultaneously during deployment. Which strategy is most appropriate?",
+      "options": [
+        "Immediately delete all documents created by the old version.",
+        "Force all application instances to stop permanently.",
+        "Use backward-compatible schema changes, version-aware handling, and gradual migration where required.",
+        "Remove schema validation from every application component."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Backward-compatible schema evolution allows multiple application versions to operate during gradual migrations."
+    },
+    {
+      "id": "q-imp-1795030697378-259-wznl",
+      "topicId": "top-1795030725767-250-xfk",
+      "difficulty": "moderate",
+      "question": "Which storage architecture is commonly associated with log-structured merge trees (LSM Trees)?",
+      "options": [
+        "Traditional B-Tree-only relational storage",
+        "In-memory spreadsheet storage",
+        "Write-optimized NoSQL storage architectures",
+        "Optical disk storage systems"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** LSM Trees optimize write-heavy workloads by buffering writes and periodically merging sorted storage files."
+    },
+    {
+      "id": "q-imp-1795030697378-260-brjl",
+      "topicId": "top-1795030725765-140-ivv",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which MongoDB command displays the databases available on the current MongoDB server?",
+      "options": [
+        "`show collections`",
+        "`show dbs`",
+        "`list databases`",
+        "`db.show()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `show dbs` lists the databases available to the connected MongoDB instance."
+    },
+    {
+      "id": "q-imp-1795030697378-261-0fok",
+      "topicId": "top-1795030725767-261-qwe",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which MongoDB update operator increases the value of a numeric field by a specified amount?",
+      "options": [
+        "`$set`",
+        "`$unset`",
+        "`$inc`",
+        "`$rename`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `$inc` increments or decrements a numeric field by the specified value."
+    },
+    {
+      "id": "q-imp-1795030697378-262-qr1n",
+      "topicId": "top-1795030725767-261-qwe",
+      "difficulty": "moderate",
+      "question": "Consider the following MongoDB command:\n\n```javascript\ndb.employees.deleteMany({\n    department: \"HR\"\n});\n```\n\nWhat will this command do?",
+      "options": [
+        "Delete only the first HR employee.",
+        "Delete the entire employees collection.",
+        "Delete all employee documents belonging to the HR department.",
+        "Delete all employees except HR employees."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** deleteMany() removes every document matching the specified filter."
+    },
+    {
+      "id": "q-imp-1795030697378-263-xp7h",
+      "topicId": "top-1795030725767-261-qwe",
+      "difficulty": "moderate",
+      "question": "Consider the following MongoDB query:\n\n```javascript\ndb.products.find({\n    category: \"Electronics\"\n}).sort({\n    price: -1\n}).limit(3);\n```\n\nWhat will this query return?",
+      "options": [
+        "Three cheapest electronic products",
+        "All electronic products sorted alphabetically",
+        "Three most expensive electronic products",
+        "Three randomly selected products"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** sort({price: -1}) sorts prices in descending order, and limit(3) returns the first three documents."
+    },
+    {
+      "id": "q-imp-1795030697378-264-3ibc",
+      "topicId": "top-1795030725767-261-qwe",
+      "difficulty": "moderate",
+      "question": "Consider the following MongoDB query:\n\n```javascript\ndb.employees.find({\n    salary: {\n        $in: [30000, 40000, 50000]\n    },\n    experience: {\n        $exists: true\n    }\n});\n```\n\nWhich documents will be returned?",
+      "options": [
+        "Employees with any salary and missing experience",
+        "Employees earning more than 50000",
+        "Employees having one of the specified salaries and an existing experience field",
+        "Employees whose salary is NULL only"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `$in` matches any listed salary, while `$exists: true` requires the experience field to be present."
+    },
+    {
+      "id": "q-imp-1795030697378-265-6c04",
+      "topicId": "top-1795030725767-261-qwe",
+      "difficulty": "moderate",
+      "question": "What is the purpose of the `$unwind` stage in a MongoDB aggregation pipeline?",
+      "options": [
+        "To encrypt array elements",
+        "To remove the complete document",
+        "To deconstruct an array field and create a separate pipeline document for each array element",
+        "To sort array values alphabetically"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `$unwind` creates individual pipeline documents from array elements while retaining other document fields."
+    },
+    {
+      "id": "q-imp-1795030697378-266-tx00",
+      "topicId": "top-1795030725767-261-qwe",
+      "difficulty": "moderate",
+      "question": "In MongoDB explain output, what does the stage `COLLSCAN` indicate?",
+      "options": [
+        "The query uses a compound index.",
+        "The query uses a text index.",
+        "MongoDB scans documents in the collection to find matching records.",
+        "MongoDB automatically creates a new collection."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** COLLSCAN indicates a collection scan rather than an index-based lookup."
+    },
+    {
+      "id": "q-imp-1795030697378-267-7v8n",
+      "topicId": "top-1795030725767-261-qwe",
+      "difficulty": "moderate",
+      "question": "What happens when a unique index is created on a MongoDB field that already contains duplicate values?",
+      "options": [
+        "MongoDB automatically removes all duplicate documents.",
+        "The index is always created successfully.",
+        "Index creation fails because existing duplicate values violate the uniqueness constraint.",
+        "MongoDB converts the field into an array."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A unique index cannot be built when existing indexed values violate its uniqueness requirement."
+    },
+    {
+      "id": "q-imp-1795030697378-268-qfes",
+      "topicId": "top-1795030725767-261-qwe",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following MongoDB compound index:\n\n```javascript\ndb.orders.createIndex({\n    customer_id: 1,\n    order_date: -1,\n    status: 1\n});\n```\n\nWhich query can use the index's leading prefix while also providing the required ordering without an additional in-memory sort?",
+      "options": [
+        "`db.orders.find({status: \"Delivered\"})`",
+        "`db.orders.find({order_date: ISODate(\"2026-01-01\")})`",
+        "`db.orders.find({customer_id: 101}).sort({order_date: -1})`",
+        "`db.orders.find({status: \"Delivered\"}).sort({order_date: -1})`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The equality condition on the leading field and descending order on the second field align with the compound index."
+    },
+    {
+      "id": "q-imp-1795030697378-269-iix9",
+      "topicId": "top-1795030725767-261-qwe",
+      "difficulty": "moderate",
+      "question": "[Advanced] A MongoDB application must transfer money between two different documents while ensuring that both updates succeed or neither update is committed. Which feature should be used?",
+      "options": [
+        "Single-document atomic update only",
+        "TTL indexing",
+        "Multi-document ACID transactions",
+        "Text search indexing"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Multi-document transactions provide atomic commit or rollback across multiple documents when supported by the deployment."
+    },
+    {
+      "id": "q-imp-1795030697378-270-sqil",
+      "topicId": "top-1795030725767-270-c5b",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which CQL command is used to create a keyspace in Apache Cassandra?",
+      "options": [
+        "CREATE DATABASE TABLE",
+        "CREATE KEYSPACE",
+        "NEW KEYSPACE",
+        "ALTER DATABASE"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** CREATE KEYSPACE creates a Cassandra namespace containing tables and related database objects."
+    },
+    {
+      "id": "q-imp-1795030697378-271-qnys",
+      "topicId": "top-1795030725767-270-c5b",
+      "difficulty": "moderate",
+      "question": "What does the replication factor represent in Apache Cassandra?",
+      "options": [
+        "Number of columns in a table",
+        "Number of queries executed per second",
+        "Number of copies of each partition maintained across the cluster",
+        "Number of databases present in a keyspace"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Replication factor specifies how many replicas of each partition Cassandra maintains."
+    },
+    {
+      "id": "q-imp-1795030697378-272-qq4d",
+      "topicId": "top-1795030725767-270-c5b",
+      "difficulty": "moderate",
+      "question": "A Cassandra application uses a replication factor of 3. What does a consistency level of QUORUM generally require for a read or write?",
+      "options": [
+        "Exactly one replica must respond.",
+        "All three replicas must respond.",
+        "At least two replicas must respond successfully.",
+        "No replicas are required to respond."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** For replication factor 3, QUORUM requires a majority of replicas, calculated as floor(3/2) + 1 = 2."
+    },
+    {
+      "id": "q-imp-1795030697378-273-y9i6",
+      "topicId": "top-1795030725767-270-c5b",
+      "difficulty": "moderate",
+      "question": "Which sequence best represents the typical Cassandra write path?",
+      "options": [
+        "SSTable → Memtable → Commit Log",
+        "Memtable → SSTable → Commit Log",
+        "Commit Log → Memtable → SSTable during later flushing",
+        "Cache → Index → Network Buffer"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cassandra records writes in the commit log and memtable before flushing memtable contents into SSTables."
+    },
+    {
+      "id": "q-imp-1795030697378-274-nmzr",
+      "topicId": "top-1795030725767-270-c5b",
+      "difficulty": "moderate",
+      "question": "What is a tombstone in Apache Cassandra?",
+      "options": [
+        "A physical backup of an SSTable",
+        "A type of partition key",
+        "A marker indicating that data has been deleted",
+        "A special type of secondary index"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Tombstones mark deleted data and allow deletion information to propagate across replicas."
+    },
+    {
+      "id": "q-imp-1795030697378-275-1rr1",
+      "topicId": "top-1795030725767-270-c5b",
+      "difficulty": "moderate",
+      "question": "Which Cassandra mechanism is used to support lightweight transactions such as conditional updates using `IF NOT EXISTS`?",
+      "options": [
+        "Two-Phase Locking",
+        "B-Tree Traversal",
+        "Paxos",
+        "MapReduce"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cassandra uses Paxos-based lightweight transactions to provide linearizable conditional operations."
+    },
+    {
+      "id": "q-imp-1795030697378-276-xs4e",
+      "topicId": "top-1795030725767-270-c5b",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Cassandra cluster has a replication factor of 3. A write is sent with consistency level QUORUM, but only one replica acknowledges it before the timeout. What happens?",
+      "options": [
+        "The write is guaranteed to be acknowledged successfully.",
+        "Cassandra automatically changes the consistency level to ONE.",
+        "The write operation returns a timeout or unavailable-related failure instead of a successful QUORUM acknowledgment.",
+        "The data is permanently deleted from every replica."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** QUORUM requires two successful replica acknowledgments when the replication factor is 3."
+    },
+    {
+      "id": "q-imp-1795030697378-277-59o7",
+      "topicId": "top-1795030725767-270-c5b",
+      "difficulty": "moderate",
+      "question": "Why is query-driven data modeling recommended in Cassandra?",
+      "options": [
+        "Cassandra supports arbitrary relational joins efficiently.",
+        "Every Cassandra table must have identical columns.",
+        "Tables are designed around expected application queries because efficient joins and ad hoc queries are limited.",
+        "Cassandra automatically normalizes every table."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cassandra schemas are optimized for known access patterns and predictable partition-key queries."
+    },
+    {
+      "id": "q-imp-1795030697378-278-nv3z",
+      "topicId": "top-1795030725767-270-c5b",
+      "difficulty": "moderate",
+      "question": "Why is denormalization commonly used in Cassandra data models?",
+      "options": [
+        "To eliminate all primary keys",
+        "To prevent replication",
+        "To store query-ready data and avoid expensive joins",
+        "To force every query to scan the complete cluster"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cassandra often duplicates data across query-specific tables to provide efficient reads."
+    },
+    {
+      "id": "q-imp-1795030697378-279-e8br",
+      "topicId": "top-1795030725767-270-c5b",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Cassandra application stores time-series events and frequently queries recent data. It wants to remove old data efficiently using time-based storage organization. Which compaction strategy is particularly suitable?",
+      "options": [
+        "Leveled Compaction Strategy for every workload",
+        "Random Compaction Strategy",
+        "Time-Window Compaction Strategy (TWCS)",
+        "Manual Sorting Compaction Strategy"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** TWCS groups time-series data into time windows and is designed for workloads with time-based expiration."
+    },
+    {
+      "id": "q-imp-1795030697378-280-b9bq",
+      "topicId": "top-1795030725767-280-5qv",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Python DB-API cursor method retrieves the next single row from a query result?",
+      "options": [
+        "fetchall()",
+        "fetchone()",
+        "commit()",
+        "executeall()"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** fetchone() retrieves the next available row from the cursor result."
+    },
+    {
+      "id": "q-imp-1795030697378-281-kyzy",
+      "topicId": "top-1795030725767-280-5qv",
+      "difficulty": "moderate",
+      "question": "Why should parameterized SQL queries be preferred over building SQL statements through string concatenation?",
+      "options": [
+        "They automatically create database backups.",
+        "They eliminate the requirement for database connections.",
+        "They help prevent SQL injection and correctly handle parameter values.",
+        "They automatically increase the database storage capacity."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Parameterized queries separate SQL instructions from user-supplied values, reducing SQL injection risks."
+    },
+    {
+      "id": "q-imp-1795030697378-282-u0r3",
+      "topicId": "top-1795030725767-280-5qv",
+      "difficulty": "moderate",
+      "question": "Consider the following Python DB-API code:\n\n```python\nconnection = get_connection()\ncursor = connection.cursor()\n\ntry:\n    cursor.execute(\n        \"UPDATE Accounts SET balance = balance - 500 WHERE id = 1\"\n    )\n    connection.commit()\n\nexcept Exception:\n    connection.rollback()\n\nfinally:\n    cursor.close()\n    connection.close()\n```\n\nWhat is the purpose of the rollback() operation?",
+      "options": [
+        "To permanently save changes",
+        "To close the database server",
+        "To undo uncommitted transaction changes after an error",
+        "To retrieve all database records"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** rollback() reverses uncommitted changes when transaction execution fails."
+    },
+    {
+      "id": "q-imp-1795030697378-283-6p7z",
+      "topicId": "top-1795030725767-280-5qv",
+      "difficulty": "moderate",
+      "question": "What does the following PyMongo operation return?\n\n```python\ncursor = db.employees.find({\n    \"department\": \"IT\"\n})\n```",
+      "options": [
+        "A single dictionary containing the first matching document",
+        "A list containing every document immediately",
+        "A cursor that can be iterated to retrieve matching documents",
+        "A database connection object"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** find() returns a cursor that provides matching documents through iteration."
+    },
+    {
+      "id": "q-imp-1795030697378-284-ma55",
+      "topicId": "top-1795030725767-280-5qv",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following Python code:\n\n```python\nuser_input = \"' OR '1'='1\"\n\nquery = (\n    \"SELECT * FROM users WHERE username = '\"\n    + user_input\n    + \"'\"\n)\n\ncursor.execute(query)\n```\n\nWhat is the primary security issue with this implementation?",
+      "options": [
+        "It creates a database index automatically.",
+        "It prevents all SELECT operations.",
+        "It guarantees transaction atomicity.",
+        "It allows SQL injection because untrusted input is concatenated directly into the SQL statement."
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** User input must be passed through parameterized query placeholders rather than concatenated into SQL."
+    },
+    {
+      "id": "q-imp-1795030697378-285-oiqj",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which three major layers form the Snowflake architecture?",
+      "options": [
+        "Application, Network, and Security",
+        "Database, Tables, and Indexes",
+        "Database Storage, Query Processing, and Cloud Services",
+        "Client, Server, and Operating System"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Snowflake architecture consists of centralized storage, compute resources, and cloud services."
+    },
+    {
+      "id": "q-imp-1795030697378-286-x6sq",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is a micro-partition in Snowflake?",
+      "options": [
+        "A database user account",
+        "A virtual warehouse",
+        "A small, automatically managed storage unit containing a subset of table data",
+        "A SQL execution plan"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Snowflake automatically organizes table data into compressed micro-partitions containing columnar data."
+    },
+    {
+      "id": "q-imp-1795030697378-287-uq7j",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Which Snowflake feature provides information about the minimum and maximum values stored in micro-partitions?",
+      "options": [
+        "Foreign Key Constraints",
+        "Database Triggers",
+        "Micro-partition Metadata",
+        "Stored Procedures"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Micro-partition metadata supports partition pruning by helping Snowflake eliminate irrelevant partitions."
+    },
+    {
+      "id": "q-imp-1795030697378-288-p1qg",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "A Snowflake query requires more processing power because it performs complex aggregations over a large dataset. Which action can directly increase the compute capacity available to the query?",
+      "options": [
+        "Increase the table's row count.",
+        "Create additional database schemas.",
+        "Resize the Virtual Warehouse to a larger size.",
+        "Increase the number of columns in the table."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Increasing warehouse size provides more compute resources for processing queries."
+    },
+    {
+      "id": "q-imp-1795030697378-289-0rjn",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "What is the primary difference between scaling up and scaling out in Snowflake?",
+      "options": [
+        "Scaling up increases storage, while scaling out deletes storage.",
+        "Scaling up increases the compute size of a warehouse, while scaling out adds clusters.",
+        "Scaling up creates databases, while scaling out creates schemas.",
+        "Both operations only increase table size."
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Scaling up provides more compute resources per cluster, while scaling out adds clusters to handle concurrency."
+    },
+    {
+      "id": "q-imp-1795030697378-290-u5f0",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Consider the following Snowflake command:\n\n```sql\nCOPY INTO employees\nFROM @employee_stage\nFILE_FORMAT = (TYPE = CSV)\nON_ERROR = 'CONTINUE';\n```\n\nWhat does `ON_ERROR = 'CONTINUE'` instruct Snowflake to do?",
+      "options": [
+        "Stop loading whenever any error occurs.",
+        "Delete the target table before loading.",
+        "Continue processing after encountering loading errors, subject to the configured error-handling behavior.",
+        "Ignore all files without examining them."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** CONTINUE allows loading to proceed despite encountered errors while applying Snowflake's row-level error-handling rules."
+    },
+    {
+      "id": "q-imp-1795030697378-291-1e2t",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "What is the purpose of a named file format object in Snowflake?",
+      "options": [
+        "To store database credentials",
+        "To create virtual warehouses",
+        "To define reusable file-format settings such as CSV delimiters, compression, and header handling",
+        "To manage user roles automatically"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Named file formats centralize reusable specifications for reading and writing external files."
+    },
+    {
+      "id": "q-imp-1795030697378-292-oxbo",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Which Snowflake option can be used to validate staged files and return loading errors without actually loading the data?",
+      "options": [
+        "AUTO_RESUME",
+        "FORCE",
+        "VALIDATION_MODE",
+        "AUTO_SUSPEND"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** VALIDATION_MODE checks staged files and reports errors without performing the actual data load."
+    },
+    {
+      "id": "q-imp-1795030697378-293-sps1",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Advanced] A company continuously receives files in cloud object storage and wants them automatically ingested into Snowflake without repeatedly executing manual COPY INTO commands. Which feature is most appropriate?",
+      "options": [
+        "Zero-Copy Cloning",
+        "Time Travel",
+        "Snowpipe",
+        "Query Result Cache"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Snowpipe automates continuous file ingestion using event notifications or other supported ingestion mechanisms."
+    },
+    {
+      "id": "q-imp-1795030697378-294-ppf5",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Snowflake query repeatedly scans a large table despite filtering on a commonly used date column. The table has poor micro-partition clustering. Which optimization approach is most appropriate?",
+      "options": [
+        "Increase the number of database users.",
+        "Disable micro-partition metadata.",
+        "Evaluate clustering on the date column and monitor partition pruning improvements.",
+        "Convert the date column into an XML document."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Effective clustering improves data locality and can reduce the number of micro-partitions scanned."
+    },
+    {
+      "id": "q-imp-1795030697378-295-xtup",
+      "topicId": "top-1795030725767-295-b9v",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which command is commonly used to list files available in a Snowflake stage?",
+      "options": [
+        "SHOW DATABASES",
+        "DESCRIBE TABLE",
+        "LIST",
+        "DELETE STAGE"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** LIST displays the files present in a specified internal or external stage."
+    },
+    {
+      "id": "q-imp-1795030697378-296-gx76",
+      "topicId": "top-1795030725767-295-b9v",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of an external stage in Snowflake?",
+      "options": [
+        "To store data exclusively in the user's local computer memory",
+        "To create a permanent copy of every database",
+        "To reference files stored in external cloud storage locations",
+        "To execute SQL queries without a warehouse"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** External stages provide access to files stored in supported cloud storage services."
+    },
+    {
+      "id": "q-imp-1795030697378-297-bzr5",
+      "topicId": "top-1795030725767-295-b9v",
+      "difficulty": "moderate",
+      "question": "Which Snowflake parameter automatically starts a suspended Virtual Warehouse when a query requires it?",
+      "options": [
+        "AUTO_SUSPEND",
+        "AUTO_RESUME",
+        "MAX_CLUSTER_COUNT",
+        "QUERY_TIMEOUT"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** AUTO_RESUME starts a suspended warehouse automatically when new work arrives."
+    },
+    {
+      "id": "q-imp-1795030697378-298-sw70",
+      "topicId": "top-1795030725767-295-b9v",
+      "difficulty": "moderate",
+      "question": "[Advanced] A company has two workloads: one executes extremely complex queries that require more processing power, while another handles thousands of simultaneous small queries. Which configuration is most appropriate?",
+      "options": [
+        "Use one permanently oversized warehouse for every workload.",
+        "Disable automatic warehouse suspension.",
+        "Use appropriately sized separate warehouses and configure multi-cluster scaling for the concurrency-heavy workload.",
+        "Store both workloads in temporary tables."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Separate warehouse sizing and multi-cluster scaling help optimize query performance and concurrent workload processing."
+    },
+    {
+      "id": "q-imp-1795030697378-299-gejm",
+      "topicId": "top-1795030725767-295-b9v",
+      "difficulty": "moderate",
+      "question": "Which Snowflake component manages authentication, access control, metadata, and coordination of query execution?",
+      "options": [
+        "Virtual Warehouse",
+        "Micro-partition Storage",
+        "Cloud Services Layer",
+        "External Stage"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cloud Services coordinates security, metadata, query optimization, and other platform-level functions."
+    },
+    {
+      "id": "q-imp-1795030697378-300-zyvi",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which command is used to define a table in Apache Cassandra?",
+      "options": [
+        "CREATE RELATION",
+        "CREATE TABLE",
+        "NEW COLLECTION",
+        "DEFINE DOCUMENT"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** CQL uses CREATE TABLE to define tables within a Cassandra keyspace."
+    },
+    {
+      "id": "q-imp-1795030697378-301-8td9",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "Consider the following Cassandra table definition:\n\n```sql\nCREATE TABLE employees (\n    department_id INT,\n    employee_id INT,\n    employee_name TEXT,\n    PRIMARY KEY (department_id, employee_id)\n);\n```\n\nWhat is the partition key?",
+      "options": [
+        "employee_id",
+        "employee_name",
+        "department_id",
+        "department_id and employee_name"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** In Cassandra, the first component of the composite primary key is the partition key."
+    },
+    {
+      "id": "q-imp-1795030697378-302-2rpq",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "In Cassandra, what is the primary purpose of a clustering column?",
+      "options": [
+        "To determine database user permissions",
+        "To encrypt partition data",
+        "To control the ordering of rows within a partition",
+        "To determine the replication factor"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Clustering columns determine how rows are organized and sorted within a partition."
+    },
+    {
+      "id": "q-imp-1795030697378-303-7omx",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "A Cassandra table has a replication factor of 5. What is the minimum number of replica acknowledgments required for a QUORUM write?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** QUORUM requires floor(RF/2) + 1 acknowledgments, which is 3 for a replication factor of 5."
+    },
+    {
+      "id": "q-imp-1795030697378-304-wenu",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Cassandra application performs queries using a non-partition-key column and repeatedly receives an error because the query would require scanning many partitions. Which approach is generally recommended?",
+      "options": [
+        "Add ALLOW FILTERING to every query without evaluating its impact.",
+        "Remove the table's primary key.",
+        "Design a query-specific table with an appropriate partition key and clustering columns.",
+        "Convert the Cassandra table into a relational view."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cassandra data modeling should align primary-key design with query access patterns to avoid expensive partition scans."
+    },
+    {
+      "id": "q-imp-1795030697378-305-vu0e",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "What is the purpose of compaction in Cassandra?",
+      "options": [
+        "To create additional database users",
+        "To convert CQL into SQL",
+        "To merge SSTables and manage storage organization, including obsolete data",
+        "To increase the replication factor automatically"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Compaction merges SSTables, improves storage organization, and helps remove obsolete data."
+    },
+    {
+      "id": "q-imp-1795030697378-306-1lyz",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Cassandra cluster experiences inconsistent replica data after a temporary network failure. Which operation helps reconcile replica differences by comparing stored data?",
+      "options": [
+        "CREATE INDEX",
+        "DROP KEYSPACE",
+        "Anti-entropy repair",
+        "TRUNCATE TABLE"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Anti-entropy repair compares replica data and synchronizes differences using mechanisms such as Merkle trees."
+    },
+    {
+      "id": "q-imp-1795030697378-307-3f2d",
+      "topicId": "top-1795030725767-307-li0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Python DB-API method establishes a connection to a database?",
+      "options": [
+        "fetchall()",
+        "execute()",
+        "connect()",
+        "commit()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The connect() method establishes a database connection using the appropriate database driver."
+    },
+    {
+      "id": "q-imp-1795030697378-308-bewv",
+      "topicId": "top-1795030725767-307-li0",
+      "difficulty": "moderate",
+      "question": "What is the main purpose of the `executemany()` method in Python DB-API?",
+      "options": [
+        "To execute a query against multiple databases simultaneously",
+        "To retrieve only one row",
+        "To execute the same SQL operation repeatedly using multiple parameter sets",
+        "To close multiple database connections"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** executemany() executes a parameterized SQL statement against multiple sets of parameters."
+    },
+    {
+      "id": "q-imp-1795030697378-309-ivq7",
+      "topicId": "top-1795030725767-307-li0",
+      "difficulty": "moderate",
+      "question": "Why is a database cursor used in Python DB-API?",
+      "options": [
+        "To create database backups",
+        "To manage operating system processes",
+        "To execute SQL statements and navigate through query results",
+        "To automatically encrypt database files"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A cursor provides an interface for executing statements and retrieving result rows."
+    },
+    {
+      "id": "q-imp-1795030697378-310-zmws",
+      "topicId": "top-1795030725767-307-li0",
+      "difficulty": "moderate",
+      "question": "Which method is generally used to retrieve a specified number of rows from a Python DB-API cursor?",
+      "options": [
+        "fetchall()",
+        "fetchmany()",
+        "executemany()",
+        "commit()"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** fetchmany(size) retrieves up to the requested number of rows from the cursor."
+    },
+    {
+      "id": "q-imp-1795030697378-311-er6n",
+      "topicId": "top-1795030725767-307-li0",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Python application creates a new MongoDB client connection for every database operation. Under heavy traffic, connection overhead increases significantly. Which improvement is most appropriate?",
+      "options": [
+        "Create a new MongoDB server for every request.",
+        "Disable all database connection settings.",
+        "Reuse a MongoClient instance and its built-in connection pool.",
+        "Open and close a separate connection for every document field."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Reusing MongoClient allows efficient connection pooling and reduces repeated connection establishment overhead."
+    },
+    {
+      "id": "q-imp-1795030697378-312-6l5g",
+      "topicId": "top-1795030725767-307-li0",
+      "difficulty": "moderate",
+      "question": "Which DB-API parameter style uses named placeholders such as `%(name)s`?",
+      "options": [
+        "qmark",
+        "numeric",
+        "named",
+        "pyformat"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** The pyformat parameter style uses Python dictionary-style named placeholders with format specifiers."
+    },
+    {
+      "id": "q-imp-1795030697378-313-natp",
+      "topicId": "top-1795030725767-307-li0",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following PyMongo code:\n\n```python\nfrom pymongo import UpdateOne\n\noperations = [\n    UpdateOne(\n        {\"employee_id\": 101},\n        {\"$set\": {\"salary\": 60000}}\n    ),\n    UpdateOne(\n        {\"employee_id\": 102},\n        {\"$set\": {\"salary\": 70000}}\n    )\n]\n\nresult = db.employees.bulk_write(\n    operations,\n    ordered=False\n)\n```\n\nWhat does `ordered=False` mean?",
+      "options": [
+        "All operations must execute sequentially.",
+        "Only the first operation will execute.",
+        "MongoDB can execute operations in an optimized order and continue processing other operations when an individual operation fails.",
+        "All documents are deleted before updates."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Unordered bulk writes allow independent operations to continue even when some operations fail."
+    },
+    {
+      "id": "q-imp-1795030697378-314-ah71",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is the primary purpose of a Data Catalog in an enterprise?",
+      "options": [
+        "To execute database transactions",
+        "To replace the organization's storage infrastructure",
+        "To help users discover, understand, and locate available data assets",
+        "To automatically delete duplicate records"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A Data Catalog organizes metadata and helps users discover and understand enterprise datasets."
+    },
+    {
+      "id": "q-imp-1795030697378-315-jfqg",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "Which activity is part of data profiling?",
+      "options": [
+        "Creating application user interfaces",
+        "Encrypting every database column",
+        "Analyzing data distributions, missing values, duplicates, and consistency",
+        "Scheduling operating system updates"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data profiling examines dataset characteristics to identify quality issues and structural patterns."
+    },
+    {
+      "id": "q-imp-1795030697378-316-hzc7",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "What is the responsibility of a Data Steward in Enterprise Data Management?",
+      "options": [
+        "Developing all application interfaces",
+        "Managing only physical storage devices",
+        "Ensuring data definitions, quality standards, and governance practices are followed",
+        "Replacing database administrators"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data Stewards support data quality, consistency, documentation, and governance across the organization."
+    },
+    {
+      "id": "q-imp-1795030697379-317-tz6p",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "A retail company measures monthly revenue, customer retention, and average order value to monitor business performance. These measurements are examples of:",
+      "options": [
+        "Database Constraints",
+        "Storage Partitions",
+        "Key Performance Indicators (KPIs)",
+        "Data Encryption Keys"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** KPIs are measurable indicators used to evaluate progress toward business objectives."
+    },
+    {
+      "id": "q-imp-1795030697379-318-2oqf",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Advanced] An organization develops a sales dashboard by combining records from multiple systems. The dashboard displays revenue that differs from the finance department's official figures. Which Enterprise Data Management practice is most important for resolving this issue?",
+      "options": [
+        "Increasing the number of dashboard charts",
+        "Removing historical sales data",
+        "Establishing standardized business definitions, trusted source systems, and data reconciliation rules",
+        "Increasing the dashboard refresh frequency without investigating the discrepancy"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Consistent business definitions and governed data reconciliation ensure trusted enterprise-wide reporting."
+    },
+    {
+      "id": "q-imp-1795030697379-319-0t8j",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Advanced] A company discovers that a data preparation pipeline incorrectly converted customer transaction timestamps from different time zones into local time without retaining the original timezone information. Which corrective approach is most appropriate?",
+      "options": [
+        "Delete all transaction timestamps.",
+        "Replace timestamps with sequential integers.",
+        "Ignore timezone differences during reporting.",
+        "Preserve source timezone information, standardize timestamps using an agreed time standard such as UTC, and validate conversions."
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** Preserving timezone context and standardizing timestamps prevents inaccurate event ordering and time-based analytics."
+    },
+    {
+      "id": "q-imp-1795030697379-320-ojtt",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Snowflake notation is used to reference a table stage?",
+      "options": [
+        "`@~`",
+        "`@%employees`",
+        "`@employees.database`",
+        "`#employees`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The `@%table_name` notation references the internal stage automatically associated with a table."
+    },
+    {
+      "id": "q-imp-1795030697379-321-ltob",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "Which Snowflake command is used to upload a local file into an internal stage?",
+      "options": [
+        "COPY",
+        "GET",
+        "PUT",
+        "LIST"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** PUT uploads files from a local environment to an internal Snowflake stage through supported clients such as SnowSQL."
+    },
+    {
+      "id": "q-imp-1795030697379-322-w4of",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "Which Snowflake command downloads files from an internal stage to a local directory?",
+      "options": [
+        "COPY",
+        "INSERT",
+        "PUT",
+        "GET"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** GET transfers staged files from an internal stage to a local destination using supported clients."
+    },
+    {
+      "id": "q-imp-1795030697379-323-3dkp",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "Consider the following Snowflake command:\n\n```sql\nCOPY INTO employees\nFROM @employee_stage\nFILE_FORMAT = (TYPE = CSV)\nVALIDATION_MODE = 'RETURN_ERRORS';\n```\n\nWhat is the purpose of this command?",
+      "options": [
+        "Load all files and delete the original staged files.",
+        "Reload previously loaded files.",
+        "Validate staged files and return loading errors without loading the data.",
+        "Create a new employees table."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** RETURN_ERRORS validates staged data and reports encountered errors without performing the actual load."
+    },
+    {
+      "id": "q-imp-1795030697379-324-r9sg",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "What does the `FORCE = TRUE` option do in a Snowflake COPY INTO command?",
+      "options": [
+        "Forces the warehouse to increase its size.",
+        "Forces all files to be converted into JSON.",
+        "Allows files to be loaded again even if Snowflake's load metadata indicates they were previously loaded.",
+        "Automatically deletes previously loaded records."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** FORCE = TRUE overrides normal file load-history checks and can cause duplicate data if previously loaded records are not handled."
+    },
+    {
+      "id": "q-imp-1795030697379-325-cldk",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "Which Snowflake COPY INTO option helps match incoming file columns with target table columns using column names rather than relying only on positional order?",
+      "options": [
+        "AUTO_SUSPEND",
+        "VALIDATION_MODE",
+        "MATCH_BY_COLUMN_NAME",
+        "QUERY_TAG"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MATCH_BY_COLUMN_NAME maps incoming fields to target columns using their names."
+    },
+    {
+      "id": "q-imp-1795030697379-326-k6b2",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "A company loads daily JSON files into Snowflake. Different files occasionally contain additional fields. Which approach can help manage this situation?",
+      "options": [
+        "Reject every file containing an additional field.",
+        "Convert every JSON file into a single text string.",
+        "Use suitable semi-structured data loading and schema evolution techniques.",
+        "Disable all data validation."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Semi-structured loading and schema evolution help accommodate changing JSON structures."
+    },
+    {
+      "id": "q-imp-1795030697379-327-wtlj",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "Which Snowflake feature helps execute analytical queries when the workload requires more concurrent compute clusters?",
+      "options": [
+        "Zero-Copy Cloning",
+        "Time Travel",
+        "Multi-cluster Virtual Warehouse",
+        "External Stage"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Multi-cluster warehouses add compute clusters to handle concurrent workloads."
+    },
+    {
+      "id": "q-imp-1795030697379-328-zs5o",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Snowflake Query Profile shows that a query scans 95% of a table's micro-partitions even though its WHERE condition selects only a small percentage of records. What should the database engineer investigate first?",
+      "options": [
+        "Whether the table has too many columns.",
+        "Whether the database contains too many users.",
+        "Micro-partition pruning effectiveness and the clustering of filtered columns.",
+        "Whether the result cache is permanently disabled."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Poor pruning can cause unnecessary micro-partition scans, and clustering improvements may reduce scanning."
+    },
+    {
+      "id": "q-imp-1795030697379-329-qv2s",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which statement correctly distinguishes Snowflake's persisted query result cache from a Virtual Warehouse's local data cache?",
+      "options": [
+        "Both caches are permanently deleted whenever a database is suspended.",
+        "Both caches store only SQL syntax.",
+        "The result cache stores reusable query results, while the warehouse data cache stores previously accessed data for compute operations.",
+        "The result cache stores database users, while the warehouse cache stores permissions."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Result caching reuses eligible query outputs, whereas warehouse caching can improve performance by reusing previously accessed data."
+    },
+    {
+      "id": "q-imp-1795030697379-330-78zr",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "What is the purpose of Snowflake's `QUERY_HISTORY` information?",
+      "options": [
+        "To store files uploaded to external stages",
+        "To create database schemas automatically",
+        "To analyze previously executed queries, including their execution details and performance",
+        "To manage table primary keys"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** QUERY_HISTORY provides query execution information useful for monitoring and performance troubleshooting."
+    },
+    {
+      "id": "q-imp-1795030697379-331-xd10",
+      "topicId": "top-1795030725767-224-w0t",
+      "difficulty": "moderate",
+      "question": "Which Snowflake SQL clause is specifically designed to filter results after window functions have been calculated?",
+      "options": [
+        "WHERE",
+        "GROUP BY",
+        "QUALIFY",
+        "DISTINCT"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** QUALIFY filters rows based on the results of window functions without requiring an additional subquery."
+    },
+    {
+      "id": "q-imp-1795030697379-332-k807",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which command is used to display the keyspaces available in an Apache Cassandra cluster using CQLSH?",
+      "options": [
+        "SHOW DATABASES",
+        "DESCRIBE KEYSPACES",
+        "LIST DATABASES",
+        "GET KEYSPACES"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** DESCRIBE KEYSPACES displays the available keyspaces in the connected Cassandra cluster."
+    },
+    {
+      "id": "q-imp-1795030697379-333-ramq",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "In Cassandra, what does the consistency level ONE require for a successful write operation?",
+      "options": [
+        "All replicas must acknowledge the write.",
+        "A majority of replicas must acknowledge the write.",
+        "At least one replica must acknowledge the write.",
+        "No replica acknowledgment is required."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Consistency level ONE requires acknowledgment from at least one replica."
+    },
+    {
+      "id": "q-imp-1795030697379-334-q4bm",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "What is the purpose of the Gossip Protocol in Apache Cassandra?",
+      "options": [
+        "To encrypt table contents",
+        "To execute SQL joins",
+        "To exchange information about node membership and cluster state",
+        "To permanently delete unavailable nodes"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Gossip enables Cassandra nodes to exchange cluster membership and health information."
+    },
+    {
+      "id": "q-imp-1795030697379-335-t9dv",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "What are Virtual Nodes (vnodes) in Cassandra?",
+      "options": [
+        "Virtual machines used to execute Python scripts",
+        "Temporary database tables",
+        "Multiple token ranges assigned to each physical node",
+        "Copies of database indexes stored in memory"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Vnodes divide the token space into smaller ranges distributed across cluster nodes."
+    },
+    {
+      "id": "q-imp-1795030697379-336-dxg9",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "What is hinted handoff in Cassandra?",
+      "options": [
+        "A technique for encrypting network communication",
+        "A method for permanently removing unavailable replicas",
+        "A mechanism where a coordinator stores hints for an unavailable replica and attempts delivery later",
+        "A method of converting SSTables into relational tables"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Hinted handoff temporarily records missed writes and forwards them when the unavailable replica becomes reachable."
+    },
+    {
+      "id": "q-imp-1795030697379-337-gw4u",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Cassandra application uses consistency level QUORUM for both reads and writes. The replication factor is 3. What is the important consistency property of this configuration under suitable availability and non-concurrent-write assumptions?",
+      "options": [
+        "Only one replica stores the latest value.",
+        "Reads never contact replicas.",
+        "Read and write quorums intersect, helping ensure that a read encounters a replica that acknowledged the latest successful quorum write.",
+        "All replica updates are permanently disabled."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** When read and write quorums intersect, a successful quorum read can observe the latest acknowledged write under the stated assumptions."
+    },
+    {
+      "id": "q-imp-1795030697379-338-4bjj",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why are Cassandra Lightweight Transactions (LWT) generally slower than ordinary writes?",
+      "options": [
+        "They always require full table scans.",
+        "They disable replication.",
+        "They use the Paxos protocol to coordinate conditional operations and provide stronger consistency guarantees.",
+        "They convert every write into a batch export."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** LWT uses multiple coordination phases through Paxos, increasing latency compared with ordinary writes."
+    },
+    {
+      "id": "q-imp-1795030697379-339-yjuf",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "What is the purpose of `gc_grace_seconds` in Cassandra?",
+      "options": [
+        "To determine the database connection timeout",
+        "To specify the number of replicas",
+        "To define how long tombstones are retained before they become eligible for removal during compaction",
+        "To configure the maximum number of columns"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Tombstone retention helps prevent deleted data from reappearing when replicas have missed deletions."
+    },
+    {
+      "id": "q-imp-1795030697379-340-rays",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Cassandra feature automatically removes data after a specified expiration period?",
+      "options": [
+        "Secondary Index",
+        "Compaction",
+        "Time To Live (TTL)",
+        "Gossip Protocol"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** TTL assigns an expiration duration to data, after which Cassandra marks it as expired."
+    },
+    {
+      "id": "q-imp-1795030697379-341-en4c",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Cassandra cluster experiences heavy write traffic because millions of records use the same partition key. What is this performance problem called?",
+      "options": [
+        "Dirty Read",
+        "Phantom Read",
+        "Hot Partition",
+        "Lost Update"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A hot partition occurs when uneven key distribution concentrates excessive workload on a limited set of partitions or nodes."
+    },
+    {
+      "id": "q-imp-1795030697379-342-dyq7",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which DB-API cursor attribute provides metadata about the columns returned by a SELECT query?",
+      "options": [
+        "cursor.rowcount",
+        "cursor.lastrowid",
+        "cursor.description",
+        "cursor.connection"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** cursor.description contains metadata such as column names and type information for query results."
+    },
+    {
+      "id": "q-imp-1795030697379-343-j7yq",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "Consider the following Python DB-API code:\n\n```python\ncursor.execute(\n    \"SELECT employee_id FROM Employees WHERE salary > 100000\"\n)\n\nrow = cursor.fetchone()\n\nprint(row)\n```\n\nIf no records satisfy the condition, what does fetchone() generally return?",
+      "options": [
+        "An empty list",
+        "Zero",
+        "None",
+        "An exception in every DB-API implementation"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** fetchone() returns None when no more result rows are available."
+    },
+    {
+      "id": "q-imp-1795030697379-344-x347",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "Consider the following PyMongo code:\n\n```python\nresult = db.students.insert_many([\n    {\"name\": \"Amit\", \"age\": 22},\n    {\"name\": \"Neha\", \"age\": 23},\n    {\"name\": \"Ravi\", \"age\": 21}\n])\n\nprint(len(result.inserted_ids))\n```\n\nWhat will be printed if all insertions succeed?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** inserted_ids contains the identifiers of all successfully inserted documents."
+    },
+    {
+      "id": "q-imp-1795030697379-345-0c2h",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "What is the default behavior of `find_one_and_update()` in PyMongo regarding the returned document?",
+      "options": [
+        "It always returns the updated document.",
+        "It always returns None.",
+        "It returns the document as it existed before the update unless configured otherwise.",
+        "It returns the complete collection."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** By default, find_one_and_update() returns the pre-update document; ReturnDocument.AFTER requests the updated version."
+    },
+    {
+      "id": "q-imp-1795030697379-346-0izp",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "Which PyMongo feature allows a developer to process MongoDB query results incrementally rather than immediately loading all matching documents into a Python list?",
+      "options": [
+        "insert_many()",
+        "delete_many()",
+        "Cursor iteration",
+        "drop_collection()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A MongoDB cursor retrieves matching documents in batches during iteration."
+    },
+    {
+      "id": "q-imp-1795030697379-347-jtkv",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Python application attempts to execute a multi-document MongoDB transaction using a standalone MongoDB server. The transaction fails. What is the most likely reason?",
+      "options": [
+        "MongoDB does not support document updates.",
+        "Transactions require every document to have identical fields.",
+        "Multi-document transactions require a replica set or a supported sharded cluster deployment.",
+        "Python cannot connect to MongoDB servers running on localhost."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MongoDB multi-document transactions are supported on replica sets and sharded clusters, not standalone deployments."
+    },
+    {
+      "id": "q-imp-1795030697379-348-zn52",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Python application executes a MongoDB query returning several million documents and converts the cursor directly into a list. What is the major risk?",
+      "options": [
+        "MongoDB will automatically delete the collection.",
+        "The database will disable indexing.",
+        "Excessive memory consumption because the entire result set is materialized in application memory.",
+        "The query will automatically become an UPDATE operation."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Materializing millions of documents can exhaust application memory, whereas cursor iteration supports incremental processing."
+    },
+    {
+      "id": "q-imp-1795030697379-349-h7h1",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "Which practice is recommended when managing database connections and cursors in Python applications?",
+      "options": [
+        "Keep every cursor open permanently.",
+        "Create unlimited connections for every query.",
+        "Close cursors and connections appropriately, using context managers where supported.",
+        "Disable exception handling."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Proper resource management releases database connections and cursors and prevents resource leaks."
+    },
+    {
+      "id": "q-imp-1795030697379-350-13q0",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is Data Governance?",
+      "options": [
+        "A method of increasing processor speed",
+        "A technique for creating database indexes",
+        "A framework of policies, processes, roles, and standards for managing data assets",
+        "A method of compressing database files"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data Governance establishes accountability, security, quality, and appropriate usage of organizational data."
+    },
+    {
+      "id": "q-imp-1795030697379-351-3km6",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "Which data quality dimension measures whether all required values are present in a dataset?",
+      "options": [
+        "Accuracy",
+        "Consistency",
+        "Completeness",
+        "Uniqueness"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Completeness measures whether required data fields and records contain the expected information."
+    },
+    {
+      "id": "q-imp-1795030697379-352-k87x",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of data anonymization?",
+      "options": [
+        "To increase the number of records in a dataset",
+        "To eliminate all numerical attributes",
+        "To reduce or eliminate the ability to identify individuals from the data",
+        "To convert structured data into audio files"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Anonymization removes or transforms identifying information to protect individual privacy."
+    },
+    {
+      "id": "q-imp-1795030697379-353-n2gi",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Advanced] A machine learning team prepares a dataset containing historical customer information and a target variable representing customer churn. The team calculates normalization parameters using the entire dataset before splitting it into training and testing datasets. What is the primary problem?",
+      "options": [
+        "Database deadlock",
+        "Referential integrity violation",
+        "Data leakage because information from the test dataset influences preprocessing.",
+        "Incorrect database indexing"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Preprocessing parameters should be learned from training data only and then applied to validation and test data."
+    },
+    {
+      "id": "q-imp-1795030697379-354-lyys",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Advanced] A financial institution needs to share analytical customer data with an external research organization while reducing privacy risks. Which data management approach is most appropriate?",
+      "options": [
+        "Share raw customer identifiers and account numbers.",
+        "Disable all access controls for researchers.",
+        "Remove transaction timestamps and keep all personal identifiers.",
+        "Apply data minimization, suitable anonymization or pseudonymization, access controls, and governance policies before sharing."
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** Privacy-aware data preparation and controlled access reduce exposure of sensitive information while supporting legitimate analytical use."
+    },
+    {
+      "id": "q-imp-1795030697379-355-bf7v",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Snowflake feature allows users to query historical versions of a table within its configured retention period?",
+      "options": [
+        "Zero-Copy Cloning",
+        "Time Travel",
+        "Snowpipe",
+        "Data Sharing"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Time Travel provides access to historical data using a previous timestamp, offset, or statement identifier."
+    },
+    {
+      "id": "q-imp-1795030697379-356-memm",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of Fail-safe in Snowflake?",
+      "options": [
+        "To improve query execution speed",
+        "To automatically resize Virtual Warehouses",
+        "To provide an additional recovery mechanism for historical data after the Time Travel retention period",
+        "To create indexes on database tables"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Fail-safe provides a limited additional recovery period through Snowflake-managed intervention after Time Travel expires."
+    },
+    {
+      "id": "q-imp-1795030697379-357-jqs0",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Which Snowflake feature enables automatic detection of changes in a source table for downstream data processing?",
+      "options": [
+        "Virtual Warehouse",
+        "External Stage",
+        "Stream",
+        "Zero-Copy Clone"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A Snowflake Stream records change information for table data, enabling incremental processing."
+    },
+    {
+      "id": "q-imp-1795030697379-358-z66z",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of a Snowflake Task?",
+      "options": [
+        "To create physical database servers",
+        "To schedule and automate SQL statements or procedural workflows",
+        "To permanently delete table metadata",
+        "To create cloud storage buckets"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Tasks automate SQL execution based on schedules or dependencies."
+    },
+    {
+      "id": "q-imp-1795030697379-359-ros2",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following Snowflake SQL statements:\n\n```sql\nCREATE STREAM emp_stream ON TABLE employees;\n\nINSERT INTO employees\nVALUES (101, 'Amit', 50000);\n\nSELECT *\nFROM emp_stream;\n```\n\nWhat will the Stream primarily expose?",
+      "options": [
+        "All historical records from employees",
+        "Only records that existed before stream creation",
+        "Change information associated with the newly inserted employee record",
+        "The complete physical storage representation of employees"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The Stream exposes change records occurring after its creation, subject to stream offset and transactional consumption behavior."
+    },
+    {
+      "id": "q-imp-1795030697379-360-wdc7",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Which Snowflake feature allows a consumer account to access shared data without creating a physical copy of the provider's underlying data?",
+      "options": [
+        "COPY INTO",
+        "Snowpipe",
+        "Secure Data Sharing",
+        "AUTO SUSPEND"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Secure Data Sharing provides governed access to provider data without physically copying it to the consumer account."
+    },
+    {
+      "id": "q-imp-1795030697379-361-xqwt",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Snowflake query processes a large dataset but consumes significant temporary storage because intermediate operations exceed available memory. Which performance issue is most likely occurring?",
+      "options": [
+        "Data masking",
+        "Micro-partition creation",
+        "Disk spilling",
+        "Zero-Copy Cloning"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Disk spilling occurs when intermediate query data cannot fit in memory and must be processed using local or remote storage."
+    },
+    {
+      "id": "q-imp-1795030697379-362-v65p",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Which Snowflake object is commonly used to store credentials and configuration information required to access external cloud storage?",
+      "options": [
+        "Virtual Warehouse",
+        "Database Role",
+        "Storage Integration",
+        "Materialized View"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Storage integrations provide secure connectivity between Snowflake and supported external cloud storage services."
+    },
+    {
+      "id": "q-imp-1795030697379-363-ufgc",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "What is the purpose of a Snowflake Materialized View?",
+      "options": [
+        "To store database credentials",
+        "To automatically create new warehouses",
+        "To maintain precomputed query results for frequently accessed data patterns",
+        "To replace all base tables permanently"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Materialized Views store maintained query results to improve performance for eligible queries."
+    },
+    {
+      "id": "q-imp-1795030697379-364-we9l",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Snowflake dashboard repeatedly executes aggregation queries against a very large fact table. The queries have different filters but share expensive common computations. Which approach may improve performance?",
+      "options": [
+        "Disable all warehouse caching.",
+        "Execute every query using a separate database.",
+        "Evaluate materialized views, clustering, and query-profile information to optimize repeated analytical workloads.",
+        "Replace all aggregation functions with string operations."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Materialized views and effective data organization can reduce repeated computation and unnecessary scanning."
+    },
+    {
+      "id": "q-imp-1795030697379-365-nl33",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which file format is used by Cassandra to store immutable sorted data on disk?",
+      "options": [
+        "CSV",
+        "JSON",
+        "SSTable",
+        "XML"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** SSTables are immutable sorted storage files containing Cassandra table data."
+    },
+    {
+      "id": "q-imp-1795030697379-366-f7rb",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of a Bloom Filter in Cassandra?",
+      "options": [
+        "To store complete database records in memory",
+        "To encrypt data before writing SSTables",
+        "To quickly determine whether an SSTable may contain a particular partition key",
+        "To calculate the replication factor"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Bloom Filters help avoid unnecessary SSTable disk lookups by identifying keys that are definitely absent."
+    },
+    {
+      "id": "q-imp-1795030697379-367-yqm6",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "Which Cassandra component stores recent write data in memory before it is flushed into SSTables?",
+      "options": [
+        "Commit Log",
+        "Memtable",
+        "Bloom Filter",
+        "Partition Index"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Memtables accumulate recent writes in memory before being flushed to disk as SSTables."
+    },
+    {
+      "id": "q-imp-1795030697379-368-owll",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "What happens when a Cassandra Memtable becomes full or reaches its configured flush threshold?",
+      "options": [
+        "The entire cluster shuts down.",
+        "All SSTables are deleted.",
+        "The Memtable is flushed to disk as an SSTable.",
+        "The partition key is automatically modified."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cassandra flushes Memtable contents into immutable SSTables when configured thresholds are reached."
+    },
+    {
+      "id": "q-imp-1795030697379-369-at28",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Cassandra application frequently reads records using a partition key. The partition contains many clustering rows, and queries retrieve only a specific clustering-key range. Which design feature makes this operation efficient?",
+      "options": [
+        "Random row ordering",
+        "Full cluster scanning",
+        "Clustering columns that organize rows within the partition",
+        "Removing the primary key"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Clustering columns provide ordered organization within partitions, supporting efficient range retrieval."
+    },
+    {
+      "id": "q-imp-1795030697379-370-fr7a",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "Which statement about Cassandra's peer-to-peer architecture is correct?",
+      "options": [
+        "Every write must pass through one permanent master node.",
+        "Only one node can store database records.",
+        "Nodes can coordinate requests without relying on a single central master.",
+        "All nodes must execute queries sequentially."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cassandra uses a decentralized peer-to-peer architecture without a single permanent master node."
+    },
+    {
+      "id": "q-imp-1795030697379-371-vubr",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Cassandra cluster has a replication factor of 3 and uses consistency level ONE for writes. A write is acknowledged by one replica while the other two replicas are temporarily unavailable. What is generally true?",
+      "options": [
+        "The write must fail because all replicas are required.",
+        "The write is automatically rolled back.",
+        "The write can succeed after one acknowledgment, while remaining replicas may receive updates later through replication mechanisms.",
+        "The data is permanently stored on only one replica."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Consistency level ONE requires one acknowledgment, while hints, repair, and replication mechanisms help synchronize replicas."
+    },
+    {
+      "id": "q-imp-1795030697379-372-v5wo",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "Which Cassandra command is used to remove all rows from a table while retaining its structure?",
+      "options": [
+        "DROP TABLE",
+        "DELETE KEYSPACE",
+        "TRUNCATE",
+        "ALTER TABLE"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** TRUNCATE removes all table records without deleting the table definition."
+    },
+    {
+      "id": "q-imp-1795030697379-373-mosu",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "Which statement correctly describes a Cassandra logged batch?",
+      "options": [
+        "It guarantees that every query executes in parallel.",
+        "It is primarily intended for combining unrelated writes across the entire cluster.",
+        "It provides atomicity for a group of mutations, using a batch log for recovery.",
+        "It automatically converts all writes into SELECT statements."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Logged batches ensure grouped mutations are applied eventually and can be recovered after failures."
+    },
+    {
+      "id": "q-imp-1795030697379-374-1ko2",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Advanced] An application frequently updates many unrelated Cassandra partitions using logged batches, causing performance degradation. What is the recommended optimization?",
+      "options": [
+        "Increase batch size indefinitely.",
+        "Use logged batches for every independent write.",
+        "Use individual asynchronous writes or appropriately scoped batches instead of combining unrelated mutations.",
+        "Disable the Cassandra commit log."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Logged batches are best suited for atomic groups of related mutations rather than bulk operations across unrelated partitions."
+    },
+    {
+      "id": "q-imp-1795030697379-375-u052",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Python library is commonly used to connect Python applications to MongoDB?",
+      "options": [
+        "pandas",
+        "NumPy",
+        "PyMongo",
+        "Matplotlib"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** PyMongo is the official Python driver commonly used to interact with MongoDB."
+    },
+    {
+      "id": "q-imp-1795030697379-376-gixe",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "Consider the following Python code:\n\n```python\nfrom pymongo import MongoClient\n\nclient = MongoClient(\"mongodb://localhost:27017/\")\ndb = client[\"company\"]\n\nprint(db.name)\n```\n\nWhat will be printed?",
+      "options": [
+        "localhost",
+        "employees",
+        "company",
+        "mongodb"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The name attribute returns the name of the selected MongoDB database."
+    },
+    {
+      "id": "q-imp-1795030697379-377-59xd",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "Which DB-API exception is commonly raised when a database connection cannot be established?",
+      "options": [
+        "Warning",
+        "DataError",
+        "OperationalError",
+        "ProgrammingError"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** OperationalError commonly represents operational problems such as connection failures or unavailable database services."
+    },
+    {
+      "id": "q-imp-1795030697379-378-xvpd",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "Consider the following PyMongo code:\n\n```python\nresult = db.employees.update_many(\n    {\"department\": \"IT\"},\n    {\"$inc\": {\"salary\": 5000}}\n)\n\nprint(result.matched_count)\n```\n\nWhat does `matched_count` represent?",
+      "options": [
+        "Number of databases connected",
+        "Number of fields updated",
+        "Number of documents matching the filter",
+        "Number of collections created"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** matched_count reports how many documents matched the update filter, regardless of whether their values changed."
+    },
+    {
+      "id": "q-imp-1795030697379-379-h5nq",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "What is the main advantage of using a connection pool in Python database applications?",
+      "options": [
+        "It eliminates the need for SQL queries.",
+        "It automatically removes duplicate records.",
+        "It reuses existing connections and reduces the overhead of repeatedly establishing new connections.",
+        "It stores every query result permanently."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Connection pooling improves resource utilization and reduces repeated connection establishment costs."
+    },
+    {
+      "id": "q-imp-1795030697379-380-mnfi",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following Python code:\n\n```python\ncursor.execute(\n    \"SELECT department, AVG(salary) \"\n    \"FROM Employees \"\n    \"GROUP BY department\"\n)\n\nresults = cursor.fetchmany(5)\n```\n\nWhat does `fetchmany(5)` do?",
+      "options": [
+        "Fetches exactly five databases.",
+        "Executes the SQL query five times.",
+        "Retrieves up to five rows from the cursor's remaining result set.",
+        "Returns five columns from every matching row."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** fetchmany(5) retrieves up to five available result rows from the cursor."
+    },
+    {
+      "id": "q-imp-1795030697379-381-4zsr",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "Which Python DB-API method is commonly used to determine the number of rows affected by an INSERT, UPDATE, or DELETE operation?",
+      "options": [
+        "fetchone()",
+        "description()",
+        "rowcount",
+        "connection()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The cursor's rowcount attribute reports the number of affected rows when supported by the driver."
+    },
+    {
+      "id": "q-imp-1795030697379-382-6jg8",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Python application processes a large MongoDB collection and needs to avoid loading all matching documents into memory. Which approach is most appropriate?",
+      "options": [
+        "Convert the entire collection into a Python dictionary.",
+        "Execute find() and immediately wrap it in list().",
+        "Iterate through the cursor and process documents in manageable batches.",
+        "Increase the number of fields returned by every query."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cursor iteration retrieves documents incrementally and helps control application memory consumption."
+    },
+    {
+      "id": "q-imp-1795030697379-383-j059",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "What is the purpose of `pymongo.errors.DuplicateKeyError`?",
+      "options": [
+        "It indicates that MongoDB is running out of memory.",
+        "It indicates that a query returned no documents.",
+        "It indicates that an operation violated a unique index constraint.",
+        "It indicates that the Python cursor has been closed."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** DuplicateKeyError occurs when an insert or update attempts to create a duplicate value violating a unique index."
+    },
+    {
+      "id": "q-imp-1795030697379-384-yfzi",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Python application executes a financial transaction using a DB-API connection with autocommit disabled. The application executes several UPDATE statements but encounters an exception before calling commit(). Which action best ensures that partial changes are not retained?",
+      "options": [
+        "Call fetchall().",
+        "Close only the cursor.",
+        "Execute connection.rollback() and then release the database resources.",
+        "Execute another UPDATE statement without checking the transaction."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** rollback() reverses uncommitted changes and helps preserve transaction atomicity."
+    },
+    {
+      "id": "q-imp-1795030697379-385-lrvw",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which activity is an example of data cleaning?",
+      "options": [
+        "Increasing database server memory",
+        "Creating additional operating system users",
+        "Removing duplicate records and correcting inconsistent values",
+        "Increasing the number of database tables"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data cleaning identifies and corrects missing, duplicate, inaccurate, and inconsistent information."
+    },
+    {
+      "id": "q-imp-1795030697379-386-5mwr",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of data transformation in a data preparation pipeline?",
+      "options": [
+        "To permanently delete source systems",
+        "To disable database constraints",
+        "To convert data into formats and structures suitable for analysis and downstream processing",
+        "To increase the number of duplicate records"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data transformation standardizes, restructures, and enriches data for analytical use."
+    },
+    {
+      "id": "q-imp-1795030697379-387-b0ra",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "Which data quality dimension measures whether information accurately represents the real-world entity or event?",
+      "options": [
+        "Completeness",
+        "Timeliness",
+        "Accuracy",
+        "Uniqueness"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Accuracy measures whether recorded values correctly represent actual business information."
+    },
+    {
+      "id": "q-imp-1795030697379-388-5m3x",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Advanced] A company combines customer datasets from multiple countries. The same customer appears with different phone number formats, date formats, and address conventions. Which data preparation approach is most appropriate?",
+      "options": [
+        "Delete every customer with an international phone number.",
+        "Store every format without documenting its meaning.",
+        "Convert all values into random standardized strings.",
+        "Apply locale-aware standardization, data validation, format normalization, and entity resolution."
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** Locale-aware standardization and entity resolution improve consistency while preserving the correct meaning of international customer data."
+    },
+    {
+      "id": "q-imp-1795030697379-389-kdsi",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Advanced] A company builds an executive dashboard to evaluate whether a marketing campaign increased sales. Which analytical approach provides the strongest evidence of campaign effectiveness?",
+      "options": [
+        "Compare total revenue without considering the campaign period.",
+        "Use only the opinions of marketing employees.",
+        "Compare two unrelated customer datasets.",
+        "Compare outcomes against a suitable baseline or control group while accounting for seasonality and other influencing factors."
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** Controlled comparisons and adjustment for confounding factors provide more reliable evidence of campaign impact."
+    },
+    {
+      "id": "q-imp-1795030697379-390-d7mw",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is the primary purpose of a Virtual Warehouse in Snowflake?",
+      "options": [
+        "To permanently store database tables",
+        "To provide compute resources for executing queries and data operations",
+        "To manage user passwords",
+        "To store external cloud files"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Virtual Warehouses provide independent compute resources for query execution and data processing."
+    },
+    {
+      "id": "q-imp-1795030697379-391-3hn5",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Which Snowflake feature allows administrators to control which columns a user can access through a table?",
+      "options": [
+        "AUTO_SUSPEND",
+        "Time Travel",
+        "Column-level security using policies and privileges",
+        "Zero-Copy Cloning"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Column-level security restricts access to sensitive columns using appropriate security policies and permissions."
+    },
+    {
+      "id": "q-imp-1795030697379-392-cwqm",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Consider the following Snowflake SQL statement:\n\n```sql\nSELECT CURRENT_WAREHOUSE(),\n       CURRENT_DATABASE(),\n       CURRENT_SCHEMA();\n```\n\nWhat does this query return?",
+      "options": [
+        "The total number of warehouses in Snowflake",
+        "All databases and schemas available to the current user",
+        "The names of the currently active warehouse, database, and schema",
+        "The warehouse storage utilization"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** These context functions return the current session's active warehouse, database, and schema."
+    },
+    {
+      "id": "q-imp-1795030697379-393-w7gw",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "What happens when a Snowflake Stream becomes stale?",
+      "options": [
+        "The underlying table is automatically deleted.",
+        "The warehouse is permanently suspended.",
+        "The Stream can no longer provide complete change information from its required historical position.",
+        "All database users lose access."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A stale Stream has fallen outside the available change-tracking retention period and may require recreation or other recovery measures."
+    },
+    {
+      "id": "q-imp-1795030697379-394-grku",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "What is the primary advantage of using a Snowflake Task Graph?",
+      "options": [
+        "It automatically creates database indexes.",
+        "It converts relational tables into JSON files.",
+        "It allows multiple dependent tasks to execute as an orchestrated workflow.",
+        "It eliminates the requirement for Virtual Warehouses."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Task Graphs coordinate dependent tasks and support automated multi-step data pipelines."
+    },
+    {
+      "id": "q-imp-1795030697379-395-bzee",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Which Snowflake security model is primarily used to manage access through privileges assigned to roles?",
+      "options": [
+        "Attribute-Based Encryption",
+        "File-Based Access Control",
+        "Role-Based Access Control (RBAC)",
+        "Random Access Control"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** RBAC assigns privileges to roles that can be granted to users and other roles."
+    },
+    {
+      "id": "q-imp-1795030697379-396-61a9",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "A company wants finance users to see complete customer information while support employees should see masked versions of sensitive fields. Which Snowflake feature is most appropriate?",
+      "options": [
+        "AUTO_RESUME",
+        "Time Travel",
+        "Dynamic Data Masking",
+        "Zero-Copy Cloning"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Dynamic Data Masking applies different representations of sensitive data according to access policies."
+    },
+    {
+      "id": "q-imp-1795030697379-397-wkmf",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of the `PURGE = TRUE` option in a Snowflake COPY INTO command?",
+      "options": [
+        "To remove duplicate records from the target table",
+        "To remove successfully loaded files from an internal stage",
+        "To delete the target database",
+        "To suspend the Virtual Warehouse"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** PURGE removes successfully loaded files from the stage after loading."
+    },
+    {
+      "id": "q-imp-1795030697379-398-vide",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Snowflake feature allows users to create an independent copy of a table or database without immediately duplicating all underlying storage?",
+      "options": [
+        "Snowpipe",
+        "External Stage",
+        "Zero-Copy Cloning",
+        "Materialized View"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Zero-Copy Cloning initially shares existing micro-partitions and stores additional data only when changes occur."
+    },
+    {
+      "id": "q-imp-1795030697379-399-pq0s",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Why are Secure Views preferred over regular views when sharing sensitive business data with external consumers?",
+      "options": [
+        "They automatically increase warehouse size.",
+        "They eliminate all database permissions.",
+        "They help protect underlying view definitions and sensitive information from unauthorized exposure.",
+        "They permanently duplicate the underlying tables."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Secure Views provide additional protection for view definitions and prevent certain information leaks during data sharing."
+    },
+    {
+      "id": "q-imp-1795030697379-400-nv2k",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which query language is used to retrieve records from a Cassandra table?",
+      "options": [
+        "MongoQL",
+        "PL/SQL",
+        "CQL",
+        "HQL"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cassandra Query Language (CQL) is used to interact with Cassandra tables and data."
+    },
+    {
+      "id": "q-imp-1795030697379-401-8ogm",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Cassandra replication strategy is generally recommended for production deployments across multiple data centers?",
+      "options": [
+        "SimpleStrategy",
+        "NetworkTopologyStrategy",
+        "RandomReplicationStrategy",
+        "LocalStorageStrategy"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** NetworkTopologyStrategy allows replication factors to be configured independently for different data centers."
+    },
+    {
+      "id": "q-imp-1795030697379-402-h074",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "Consider the following Cassandra table definition:\n\n```sql\nCREATE TABLE users (\n    country TEXT,\n    city TEXT,\n    user_id INT,\n    username TEXT,\n    PRIMARY KEY ((country, city), user_id)\n);\n```\n\nWhich statement correctly identifies the key components?",
+      "options": [
+        "country is the partition key and city is the clustering column.",
+        "user_id is the partition key and username is the clustering column.",
+        "country and city together form the partition key, while user_id is the clustering column.",
+        "All four columns form the partition key."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Columns inside the nested parentheses form the composite partition key, while user_id is the clustering column."
+    },
+    {
+      "id": "q-imp-1795030697379-403-bw1j",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "A Cassandra cluster contains multiple data centers. What does the LOCAL_QUORUM consistency level require?",
+      "options": [
+        "Acknowledgment from every replica in every data center",
+        "Acknowledgment from exactly one replica globally",
+        "A quorum of replicas in the coordinator's local data center",
+        "A quorum of replicas from every data center"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** LOCAL_QUORUM requires a majority of replicas in the local data center to acknowledge the operation."
+    },
+    {
+      "id": "q-imp-1795030697379-404-xkjd",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "A Cassandra table has a replication factor of 3. Which consistency level requires acknowledgments from all three replicas for a successful write?",
+      "options": [
+        "ONE",
+        "TWO",
+        "QUORUM",
+        "ALL"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** ALL requires every replica responsible for the partition to acknowledge the write."
+    },
+    {
+      "id": "q-imp-1795030697379-405-gton",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "Why can secondary indexes be problematic in Cassandra for certain large-scale queries?",
+      "options": [
+        "They permanently disable replication.",
+        "They prevent all INSERT operations.",
+        "They can require expensive distributed lookups when indexed values have unsuitable distribution or selectivity.",
+        "They automatically convert tables into relational schemas."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Poorly chosen secondary indexes can cause inefficient distributed queries across many nodes."
+    },
+    {
+      "id": "q-imp-1795030697379-406-3eud",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Cassandra cluster has missed several delete operations because one replica was unavailable. Tombstones are removed before that replica synchronizes its data. What is the potential consequence?",
+      "options": [
+        "All SSTables are automatically compressed.",
+        "The partition key changes automatically.",
+        "Deleted data may reappear during later replica synchronization.",
+        "Every database transaction becomes serializable."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Removing tombstones before replicas receive deletions can allow previously deleted data to reappear."
+    },
+    {
+      "id": "q-imp-1795030697379-407-01s2",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "Consider the following Cassandra query:\n\n```sql\nINSERT INTO employees (\n    employee_id,\n    employee_name\n)\nVALUES (101, 'Amit')\nIF NOT EXISTS;\n```\n\nWhat does `IF NOT EXISTS` do?",
+      "options": [
+        "Always overwrites an existing employee.",
+        "Deletes an existing employee.",
+        "Inserts the record only if the specified primary key does not already exist.",
+        "Creates a new keyspace."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** IF NOT EXISTS performs a conditional insert using a lightweight transaction."
+    },
+    {
+      "id": "q-imp-1795030697379-408-8ost",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary purpose of running `nodetool repair` in Cassandra?",
+      "options": [
+        "To increase the number of columns in a table",
+        "To delete every tombstone immediately",
+        "To synchronize inconsistent replica data for the relevant token ranges",
+        "To permanently disable compaction"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Repair compares replica data and synchronizes inconsistencies to maintain replica consistency."
+    },
+    {
+      "id": "q-imp-1795030697379-409-jlmk",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Python module provides built-in support for connecting to SQLite databases?",
+      "options": [
+        "pymongo",
+        "psycopg2",
+        "sqlite3",
+        "pandas"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The sqlite3 module provides DB-API-compatible access to SQLite databases."
+    },
+    {
+      "id": "q-imp-1795030697379-410-9oo6",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Beginner] Consider the following Python code:\n\n```python\nimport sqlite3\n\nconnection = sqlite3.connect(\"company.db\")\ncursor = connection.cursor()\n\ncursor.execute(\n    \"SELECT * FROM employees WHERE department = ?\",\n    (\"IT\",)\n)\n```\n\nWhat does the `?` represent?",
+      "options": [
+        "A SQL wildcard",
+        "A table name",
+        "A parameter placeholder",
+        "A database constraint"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The question mark is a parameter placeholder used by SQLite's DB-API interface."
+    },
+    {
+      "id": "q-imp-1795030697379-411-4izw",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "Which DB-API method is used to execute multiple parameterized SQL operations using a collection of parameter sets?",
+      "options": [
+        "fetchone()",
+        "fetchall()",
+        "executemany()",
+        "rollback()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** executemany() applies the same SQL statement to multiple sets of parameters."
+    },
+    {
+      "id": "q-imp-1795030697379-412-66x2",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "What is the main purpose of the `lastrowid` attribute in Python DB-API?",
+      "options": [
+        "To retrieve all database records",
+        "To count the number of database connections",
+        "To retrieve the identifier of the last inserted row when supported by the database driver",
+        "To determine the database server version"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** lastrowid provides the last automatically generated row identifier where the driver supports it."
+    },
+    {
+      "id": "q-imp-1795030697379-413-by23",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following PyMongo query:\n\n```python\ndocuments = db.employees.find(\n    {\"department\": \"IT\"},\n    {\"name\": 1, \"salary\": 1, \"_id\": 0}\n)\n\nfor document in documents:\n    print(document)\n```\n\nWhich fields will be returned?",
+      "options": [
+        "All fields including `_id`",
+        "Only the department field",
+        "Only name and salary for matching documents",
+        "Only the salary field"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The projection includes name and salary while explicitly excluding the default `_id` field."
+    },
+    {
+      "id": "q-imp-1795030697379-414-u3p4",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "What does the following PyMongo code return?\n\n```python\ncursor = db.sales.aggregate([\n    {\n        \"$group\": {\n            \"_id\": \"$department\",\n            \"total\": {\"$sum\": \"$amount\"}\n        }\n    }\n])\n```",
+      "options": [
+        "A single integer representing total documents",
+        "A database connection object",
+        "A cursor containing aggregated results grouped by department",
+        "A list of deleted documents"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** aggregate() returns a cursor that can be iterated to retrieve aggregation pipeline results."
+    },
+    {
+      "id": "q-imp-1795030697379-415-1nfj",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following PyMongo code:\n\n```python\nfrom pymongo import InsertOne\n\noperations = [\n    InsertOne({\"_id\": 1, \"name\": \"Amit\"}),\n    InsertOne({\"_id\": 1, \"name\": \"Neha\"}),\n    InsertOne({\"_id\": 2, \"name\": \"Ravi\"})\n]\n\ndb.students.bulk_write(\n    operations,\n    ordered=False\n)\n```\n\nWhat is the expected behavior when the second operation violates the unique `_id` constraint?",
+      "options": [
+        "All three operations must always be rolled back.",
+        "Only the second operation is executed.",
+        "The duplicate-key operation fails, but MongoDB can continue processing other independent operations.",
+        "The existing document with `_id: 1` is automatically overwritten."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Unordered bulk writes continue processing independent operations despite individual write errors, although the operation reports failures."
+    },
+    {
+      "id": "q-imp-1795030697379-416-cao0",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "In PyMongo, what is the purpose of a client session?",
+      "options": [
+        "To create a separate database server for every query",
+        "To permanently store Python application variables",
+        "To support session-scoped operations such as causal consistency and transactions",
+        "To automatically remove expired collections"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Sessions provide context for operations requiring transactional or causal consistency behavior."
+    },
+    {
+      "id": "q-imp-1795030697379-417-a6ml",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Python application processes payment events and may retry a MongoDB update after a network timeout. The update uses `$inc` to increase an account balance. Why is this approach potentially dangerous without additional safeguards?",
+      "options": [
+        "`$inc` automatically deletes the account.",
+        "MongoDB does not support numeric updates.",
+        "Retrying the same update may increment the balance twice.",
+        "MongoDB automatically converts `$inc` into `$set`."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Non-idempotent operations such as `$inc` can produce duplicate effects when retried without deduplication or transaction safeguards."
+    },
+    {
+      "id": "q-imp-1795030697379-418-n4f6",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is data lineage?",
+      "options": [
+        "The physical size of a database",
+        "The number of records stored in a table",
+        "The history of data origins, movement, and transformations",
+        "The process of deleting duplicate files"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data lineage tracks where data originates and how it changes across systems and pipelines."
+    },
+    {
+      "id": "q-imp-1795030697379-419-fxby",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "What is the primary difference between a Data Dictionary and a Data Catalog?",
+      "options": [
+        "A Data Dictionary stores only backups, while a Data Catalog stores only passwords.",
+        "Both are identical database storage engines.",
+        "A Data Dictionary describes data elements and their definitions, while a Data Catalog helps discover and understand broader data assets.",
+        "A Data Catalog is used exclusively for transaction processing."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A Data Dictionary documents field-level definitions, while a Data Catalog provides broader dataset discovery and metadata management."
+    },
+    {
+      "id": "q-imp-1795030697379-420-1059",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "Which technique replaces sensitive information with non-sensitive substitute values while maintaining a controlled mapping to the original values?",
+      "options": [
+        "Data Compression",
+        "Data Partitioning",
+        "Data Tokenization",
+        "Data Aggregation"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Tokenization substitutes sensitive values with tokens that can be mapped back through a protected system."
+    },
+    {
+      "id": "q-imp-1795030697379-421-ygso",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Advanced] A company observes that customers who receive promotional emails spend more money than customers who do not receive them. Management concludes that promotional emails directly cause higher spending. What is the major analytical risk?",
+      "options": [
+        "Data compression",
+        "Referential integrity",
+        "Confusing correlation with causation",
+        "Database normalization"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The observed relationship may be influenced by selection bias or confounding variables rather than a causal effect."
+    },
+    {
+      "id": "q-imp-1795030697379-422-j76b",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "A dataset contains missing values in a categorical column named `payment_method`. Which imputation technique is generally suitable?",
+      "options": [
+        "Calculate the numerical average of payment_method.",
+        "Replace all values with random integers.",
+        "Replace missing values with the mode or an appropriate explicit category.",
+        "Remove the entire dataset."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Mode or an explicit missing category can be used to handle missing categorical values."
+    },
+    {
+      "id": "q-imp-1795030697379-423-7368",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Advanced] A fraud detection model is trained on a dataset where only 1% of transactions are fraudulent. The model predicts every transaction as legitimate and achieves 99% accuracy. Why is accuracy misleading in this situation?",
+      "options": [
+        "Accuracy cannot be calculated for numerical data.",
+        "Fraud detection requires only regression.",
+        "The dataset is highly imbalanced, so accuracy hides the model's inability to identify fraudulent transactions.",
+        "The model has necessarily overfitted the training data."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Precision, recall, F1-score, and Precision-Recall AUC provide more meaningful evaluation for highly imbalanced classification problems."
+    },
+    {
+      "id": "q-imp-1795030697379-424-fzn5",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "A company wants to predict next month's sales using several years of historical monthly sales data. Which dataset splitting strategy is most appropriate?",
+      "options": [
+        "Randomly shuffle all rows before splitting.",
+        "Train using future records and test using older records.",
+        "Use chronological splitting, training on earlier periods and testing on later periods.",
+        "Use the same records for both training and testing."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Chronological splitting prevents future information from leaking into historical model training."
+    },
+    {
+      "id": "q-imp-1795030697379-425-xce5",
+      "topicId": "top-1795030725768-425-pmm",
+      "difficulty": "moderate",
+      "question": "[Beginner] What does the grain of a fact table represent?",
+      "options": [
+        "The total number of dimensions in a warehouse",
+        "The level of detail represented by each individual fact table row",
+        "The physical storage size of the fact table",
+        "The number of indexes created on the fact table"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Grain defines exactly what a single row in a fact table represents."
+    },
+    {
+      "id": "q-imp-1795030697379-426-zaw7",
+      "topicId": "top-1795030725768-425-pmm",
+      "difficulty": "moderate",
+      "question": "What is a factless fact table in Data Warehousing?",
+      "options": [
+        "A fact table containing only numerical measures",
+        "A fact table without foreign keys",
+        "A fact table that records events or relationships without storing numerical measures",
+        "A dimension table containing no attributes"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Factless fact tables capture business events or coverage information using foreign keys and sometimes dates."
+    },
+    {
+      "id": "q-imp-1795030697379-427-n8ci",
+      "topicId": "top-1795030725768-425-pmm",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of a Junk Dimension in a Data Warehouse?",
+      "options": [
+        "To store deleted customer records",
+        "To store large numerical business measures",
+        "To combine miscellaneous low-cardinality flags and indicators into a single dimension",
+        "To maintain complete transaction history"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Junk Dimensions consolidate unrelated indicators such as payment flags and order statuses into one dimension."
+    },
+    {
+      "id": "q-imp-1795030697379-428-ydp3",
+      "topicId": "top-1795030725768-425-pmm",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which type of dimension stores a business identifier such as an invoice number directly in the fact table rather than creating a separate dimension table?",
+      "options": [
+        "Slowly Changing Dimension",
+        "Role-Playing Dimension",
+        "Degenerate Dimension",
+        "Conformed Dimension"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A degenerate dimension stores transaction identifiers directly in the fact table without a separate dimension table."
+    },
+    {
+      "id": "q-imp-1795030697379-429-v3jo",
+      "topicId": "top-1795030725768-425-pmm",
+      "difficulty": "moderate",
+      "question": "What is a Late Arriving Dimension in Data Warehousing?",
+      "options": [
+        "A dimension that contains outdated indexes",
+        "A dimension loaded before the fact table",
+        "A dimension record that arrives after its associated fact record has already been received",
+        "A dimension that contains no surrogate key"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Late arriving dimensions require ETL handling when fact records arrive before their corresponding dimension records."
+    },
+    {
+      "id": "q-imp-1795030697379-430-7zif",
+      "topicId": "top-1795030725768-425-pmm",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Data Warehouse uses SCD Type 2. A customer changes their city from Delhi to Mumbai. The dimension table uses surrogate keys. What should happen when the new customer record is loaded?",
+      "options": [
+        "Update the existing record without changing its surrogate key.",
+        "Delete the existing customer record.",
+        "Expire the old record and insert a new record with a new surrogate key.",
+        "Replace the customer natural key with NULL."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** SCD Type 2 creates a new surrogate-keyed version while preserving the previous historical record."
+    },
+    {
+      "id": "q-imp-1795030697379-431-v174",
+      "topicId": "top-1795030725768-425-pmm",
+      "difficulty": "moderate",
+      "question": "[Advanced] An ETL pipeline processes daily sales files. Due to a failure, the same input file is processed twice. Which design principle prevents duplicate records from being inserted?",
+      "options": [
+        "Denormalization",
+        "Data Encryption",
+        "Idempotency",
+        "Random Sampling"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** An idempotent pipeline produces the same final result when the same input is processed repeatedly."
+    },
+    {
+      "id": "q-imp-1795030697379-432-mgwv",
+      "topicId": "top-1795030725768-425-pmm",
+      "difficulty": "moderate",
+      "question": "Which join algorithm is generally efficient when both input datasets are already sorted on their join keys?",
+      "options": [
+        "Nested Loop Join",
+        "Random Join",
+        "Sort-Merge Join",
+        "Cartesian Join"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Sort-Merge Join efficiently compares matching keys by sequentially scanning sorted datasets."
+    },
+    {
+      "id": "q-imp-1795030697379-433-dyv2",
+      "topicId": "top-1795030725768-433-q49",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which file format is commonly used for efficient columnar storage in Data Lakes?",
+      "options": [
+        "CSV",
+        "XML",
+        "Apache Parquet",
+        "Plain Text"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Parquet stores data in a columnar format that supports efficient analytical queries and compression."
+    },
+    {
+      "id": "q-imp-1795030697379-434-mjn4",
+      "topicId": "top-1795030725768-433-q49",
+      "difficulty": "moderate",
+      "question": "What is partition pruning in a Data Lake?",
+      "options": [
+        "Deleting unused partitions permanently",
+        "Creating duplicate copies of every partition",
+        "Skipping irrelevant partitions during query execution based on filter conditions",
+        "Converting partitions into relational tables"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Partition pruning reduces data scanning by eliminating partitions that cannot satisfy query filters."
+    },
+    {
+      "id": "q-imp-1795030697379-435-bt9q",
+      "topicId": "top-1795030725768-433-q49",
+      "difficulty": "moderate",
+      "question": "What does schema-on-write mean?",
+      "options": [
+        "Data structure is interpreted only when queried.",
+        "Data is stored without any structure.",
+        "Data is validated and structured according to a defined schema before or during writing.",
+        "Schema is automatically removed after ingestion."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Schema-on-write enforces data structure during ingestion before the data is stored."
+    },
+    {
+      "id": "q-imp-1795030697379-436-xfp6",
+      "topicId": "top-1795030725768-433-q49",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Medallion Architecture layer generally contains cleaned and standardized data?",
+      "options": [
+        "Bronze",
+        "Silver",
+        "Gold",
+        "Raw Archive"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The Silver layer contains cleaned, validated, and standardized datasets."
+    },
+    {
+      "id": "q-imp-1795030697379-437-6fpm",
+      "topicId": "top-1795030725768-433-q49",
+      "difficulty": "moderate",
+      "question": "[Advanced] In Apache Iceberg, what is the primary responsibility of a manifest file?",
+      "options": [
+        "To store database user credentials",
+        "To execute SQL queries directly",
+        "To track data files and their metadata, including statistics and partition information",
+        "To automatically delete all historical snapshots"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Manifest files describe data files and associated metadata used by Iceberg's table planning process."
+    },
+    {
+      "id": "q-imp-1795030697379-438-bmhl",
+      "topicId": "top-1795030725768-433-q49",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of Z-Ordering in Delta Lake?",
+      "options": [
+        "To encrypt data files",
+        "To generate unique primary keys",
+        "To colocate related data values to improve data skipping for selective queries",
+        "To convert all Parquet files into JSON"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Z-Ordering improves data locality so queries can skip more irrelevant data files."
+    },
+    {
+      "id": "q-imp-1795030697379-439-1cjt",
+      "topicId": "top-1795030725768-433-q49",
+      "difficulty": "moderate",
+      "question": "Which Apache Hudi table type uses Merge-on-Read to combine base files and incremental log files during certain reads?",
+      "options": [
+        "Copy-on-Write",
+        "Merge-on-Read",
+        "Read-Only",
+        "Archive-Only"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Merge-on-Read stores updates in log files and merges them with base files during applicable reads."
+    },
+    {
+      "id": "q-imp-1795030697379-440-pwy2",
+      "topicId": "top-1795030725768-433-q49",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of a data catalog in a Lakehouse architecture?",
+      "options": [
+        "To replace the underlying object storage",
+        "To execute every analytical query directly",
+        "To maintain metadata and enable discovery and management of tables and datasets",
+        "To permanently remove historical table versions"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A data catalog maintains table metadata and helps processing engines discover and access datasets."
+    },
+    {
+      "id": "q-imp-1795030697379-441-w1bg",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Snowflake function returns the currently active database for a session?",
+      "options": [
+        "CURRENT_USER()",
+        "CURRENT_DATABASE()",
+        "CURRENT_ROLE()",
+        "CURRENT_DATE()"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** CURRENT_DATABASE() returns the name of the database currently active in the session."
+    },
+    {
+      "id": "q-imp-1795030697379-442-3yon",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Which Snowflake command unloads table data into files stored in a stage?",
+      "options": [
+        "GET",
+        "PUT",
+        "COPY INTO @stage",
+        "CREATE STAGE"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** COPY INTO with a stage destination exports table data into files."
+    },
+    {
+      "id": "q-imp-1795030697379-443-wilx",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Which type of Snowflake stage is automatically associated with a particular table?",
+      "options": [
+        "User Stage",
+        "External Stage",
+        "Table Stage",
+        "Cloud Services Stage"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Each table can have an associated internal stage referenced using `@%table_name`."
+    },
+    {
+      "id": "q-imp-1795030697379-444-ahq8",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Under which condition can Snowflake reuse a persisted query result from its Result Cache?",
+      "options": [
+        "Whenever two queries contain the same number of columns",
+        "Whenever any user executes a query against the same database",
+        "When an eligible query matches a previously executed query and the required cache-validity conditions are satisfied",
+        "Only when the warehouse is permanently suspended"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Result Cache reuse depends on query eligibility, underlying data validity, and applicable access conditions."
+    },
+    {
+      "id": "q-imp-1795030697379-445-g6at",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "What is the primary difference between Search Optimization Service and traditional clustering in Snowflake?",
+      "options": [
+        "Both features create manually maintained B-Tree indexes.",
+        "Search Optimization is used only for data loading.",
+        "Search Optimization improves selective lookups, while clustering improves data organization and micro-partition pruning.",
+        "Clustering is used exclusively for user authentication."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Search Optimization targets selective access patterns, whereas clustering improves data locality for pruning."
+    },
+    {
+      "id": "q-imp-1795030697379-446-99vp",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Snowflake multi-cluster warehouse uses a maximum cluster count of 5. Due to increased concurrency, the warehouse needs additional compute clusters. What is the maximum number of clusters it can start?",
+      "options": [
+        "1",
+        "3",
+        "5",
+        "Unlimited"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The maximum cluster count limits the total number of compute clusters available to the multi-cluster warehouse."
+    },
+    {
+      "id": "q-imp-1795030697379-447-xug2",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "What happens to Time Travel availability when a Snowflake table's configured retention period expires?",
+      "options": [
+        "All table data is immediately deleted.",
+        "The table becomes permanently read-only.",
+        "Historical data outside the retention period is no longer accessible through Time Travel.",
+        "The warehouse is automatically resized."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Time Travel access is limited by the configured data retention period."
+    },
+    {
+      "id": "q-imp-1795030697379-448-1fc7",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Snowflake Stream tracks changes in a source table. A transaction reads the Stream and inserts its results into a target table. When is the Stream offset advanced?",
+      "options": [
+        "Immediately when the Stream is queried, regardless of transaction outcome",
+        "When the Virtual Warehouse is suspended",
+        "When a transaction performing a DML operation that consumes the Stream successfully commits",
+        "When the source table is dropped"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Stream consumption is transactionally tracked, and the offset advances when the consuming transaction commits."
+    },
+    {
+      "id": "q-imp-1795030697379-449-kefv",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Which Snowflake command is used to create a named internal stage?",
+      "options": [
+        "CREATE WAREHOUSE",
+        "CREATE STREAM",
+        "CREATE STAGE",
+        "CREATE TASK"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** CREATE STAGE defines a reusable stage object for storing or referencing data files."
+    },
+    {
+      "id": "q-imp-1795030697379-450-spbt",
+      "topicId": "top-1795030725768-450-b8p",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is the primary purpose of MongoDB's ObjectId?",
+      "options": [
+        "To encrypt documents",
+        "To identify database users",
+        "To provide a unique identifier commonly used for document `_id` values",
+        "To store collection indexes"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ObjectId is a BSON type commonly used as a unique document identifier."
+    },
+    {
+      "id": "q-imp-1795030697379-451-rtnq",
+      "topicId": "top-1795030725768-450-b8p",
+      "difficulty": "moderate",
+      "question": "Which MongoDB aggregation stage is used to perform a left outer join with another collection?",
+      "options": [
+        "`$unwind`",
+        "`$project`",
+        "`$lookup`",
+        "`$limit`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `$lookup` performs a left outer join and adds matching documents from another collection as an array."
+    },
+    {
+      "id": "q-imp-1795030697379-452-iwqk",
+      "topicId": "top-1795030725768-450-b8p",
+      "difficulty": "moderate",
+      "question": "What is the difference between MongoDB's `$push` and `$addToSet` update operators?",
+      "options": [
+        "Both operators always remove duplicate values.",
+        "`$push` replaces the entire document.",
+        "`$push` appends values even if duplicated, while `$addToSet` avoids adding duplicate array elements.",
+        "`$addToSet` deletes the existing array."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `$addToSet` maintains uniqueness for newly added array elements, whereas `$push` allows duplicates."
+    },
+    {
+      "id": "q-imp-1795030697379-453-4c4m",
+      "topicId": "top-1795030725768-450-b8p",
+      "difficulty": "moderate",
+      "question": "What are MongoDB Change Streams used for?",
+      "options": [
+        "Creating indexes automatically",
+        "Compressing collection documents",
+        "Monitoring real-time changes such as inserts, updates, and deletes in collections",
+        "Converting BSON into relational tables"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Change Streams allow applications to subscribe to database changes without continuously polling collections."
+    },
+    {
+      "id": "q-imp-1795030697379-454-cy7o",
+      "topicId": "top-1795030725768-450-b8p",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following MongoDB index:\n\n```javascript\ndb.products.createIndex({\n    tags: 1,\n    categories: 1\n});\n```\n\nAssume both `tags` and `categories` are array fields. What is the likely result of attempting to create this compound index?",
+      "options": [
+        "MongoDB creates two independent indexes automatically.",
+        "MongoDB creates a unique index without restrictions.",
+        "MongoDB rejects the index because a compound multikey index cannot index two independent array fields in the same document.",
+        "MongoDB converts both arrays into strings."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A compound multikey index cannot index multiple array-valued fields in the same document."
+    },
+    {
+      "id": "q-imp-1795030697379-455-eoyl",
+      "topicId": "top-1795030725768-450-b8p",
+      "difficulty": "moderate",
+      "question": "Consider the following MongoDB query:\n\n```javascript\ndb.students.find({\n    results: {\n        $elemMatch: {\n            subject: \"Math\",\n            marks: { $gt: 80 }\n        }\n    }\n});\n```\n\nWhat does `$elemMatch` ensure?",
+      "options": [
+        "Different array elements must satisfy each condition.",
+        "All array elements must have marks above 80.",
+        "A single array element must satisfy both the subject and marks conditions.",
+        "The results array is deleted after matching."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `$elemMatch` requires at least one array element to satisfy all specified conditions."
+    },
+    {
+      "id": "q-imp-1795030697379-456-nbsx",
+      "topicId": "top-1795030725768-456-l6t",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which PyMongo method is used to close a MongoDB client and release its associated connections?",
+      "options": [
+        "disconnect_database()",
+        "remove_client()",
+        "close()",
+        "terminate_server()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MongoClient.close() closes the client and releases its associated resources."
+    },
+    {
+      "id": "q-imp-1795030697379-457-j4nv",
+      "topicId": "top-1795030725768-456-l6t",
+      "difficulty": "moderate",
+      "question": "A Python application must process MongoDB documents in groups of 500 to control memory usage. Which cursor method helps configure the number of documents retrieved per batch?",
+      "options": [
+        "limit()",
+        "sort()",
+        "batch_size()",
+        "distinct()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** batch_size() controls the requested cursor batch size, subject to server and protocol limits."
+    },
+    {
+      "id": "q-imp-1795030697379-458-jy3z",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "What is the purpose of creating a Golden Record in Master Data Management?",
+      "options": [
+        "To store only historical transaction logs",
+        "To create duplicate versions of customer records",
+        "To establish a trusted consolidated representation of an entity from multiple source records",
+        "To store unprocessed files in a Data Lake"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A Golden Record represents the most reliable consolidated version of an entity across enterprise systems."
+    },
+    {
+      "id": "q-imp-1795030697379-459-1hiq",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Advanced] An enterprise data pipeline receives customer records from multiple source systems. The sources frequently change field definitions, data types, and delivery schedules without notifying downstream teams. Which approach best reduces the risk of pipeline failures?",
+      "options": [
+        "Allow every source system to change schemas without notification.",
+        "Disable data validation and error handling.",
+        "Store every incoming record as an unstructured binary file.",
+        "Establish data contracts defining schemas, compatibility rules, ownership, quality expectations, and delivery requirements."
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** Data contracts establish clear agreements between producers and consumers, reducing unexpected schema and pipeline failures."
+    },
+    {
+      "id": "q-imp-1795030697379-460-378o",
+      "topicId": "top-1795030725768-425-pmm",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which component of a Data Warehouse stores measurable business events such as sales quantity, revenue, and profit?",
+      "options": [
+        "Dimension Table",
+        "Fact Table",
+        "Metadata Table",
+        "Staging Table"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Fact tables store measurable business events along with foreign keys referencing dimension tables."
+    },
+    {
+      "id": "q-imp-1795030697379-461-o42g",
+      "topicId": "top-1795030725768-425-pmm",
+      "difficulty": "moderate",
+      "question": "A retail company wants to analyze sales by product, customer, location, and time. Which Data Warehouse schema is most appropriate?",
+      "options": [
+        "Network Schema",
+        "Hierarchical Schema",
+        "Star Schema",
+        "Flat File Schema"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Star Schema organizes measures in a central fact table connected to descriptive dimension tables."
+    },
+    {
+      "id": "q-imp-1795030697379-462-ei8t",
+      "topicId": "top-1795030725768-425-pmm",
+      "difficulty": "moderate",
+      "question": "A company wants to maintain historical customer information in a separate history table while keeping only the current customer record in the main dimension table. Which SCD technique is most appropriate?",
+      "options": [
+        "SCD Type 0",
+        "SCD Type 1",
+        "SCD Type 2",
+        "SCD Type 4"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** SCD Type 4 maintains current information separately from historical records stored in a history table."
+    },
+    {
+      "id": "q-imp-1795030697379-463-iiob",
+      "topicId": "top-1795030725768-425-pmm",
+      "difficulty": "moderate",
+      "question": "[Advanced] A sales fact record arrives before its corresponding customer dimension record. The Data Warehouse must load the fact immediately without violating referential integrity. What is the most appropriate approach?",
+      "options": [
+        "Reject the fact record permanently.",
+        "Insert the fact with a NULL foreign key regardless of constraints.",
+        "Create an inferred dimension member using the available business key and update it when complete customer information arrives.",
+        "Delete the customer dimension table and recreate it."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** An inferred member allows early fact loading while preserving referential integrity until complete dimension data arrives."
+    },
+    {
+      "id": "q-imp-1795030697379-464-2e3a",
+      "topicId": "top-1795030725768-425-pmm",
+      "difficulty": "moderate",
+      "question": "An ETL pipeline processes daily records using a timestamp column. It stores the latest successfully processed timestamp and uses it during the next execution. What is this technique called?",
+      "options": [
+        "Full Loading",
+        "Random Sampling",
+        "Watermark-Based Incremental Loading",
+        "Data Replication"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A watermark tracks processing progress and helps identify new or modified records during subsequent ETL runs."
+    },
+    {
+      "id": "q-imp-1795030697379-465-x1ap",
+      "topicId": "top-1795030725768-425-pmm",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Change Data Capture (CDC) pipeline receives INSERT, UPDATE, and DELETE events from an operational database. The target Data Warehouse must correctly reflect source deletions. Which approach is most appropriate?",
+      "options": [
+        "Ignore all DELETE events.",
+        "Convert every DELETE event into an INSERT.",
+        "Process deletion events explicitly using delete operations or appropriate deletion markers in the target.",
+        "Reload only the most recently inserted record."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Correct CDC processing must propagate source deletions to prevent stale records in downstream systems."
+    },
+    {
+      "id": "q-imp-1795030697379-466-o5wq",
+      "topicId": "top-1795030725768-466-zss",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which BSON data type is commonly used by MongoDB to store dates and timestamps?",
+      "options": [
+        "String",
+        "Boolean",
+        "Date",
+        "ObjectId"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** BSON Date stores date and time values as milliseconds since the Unix epoch."
+    },
+    {
+      "id": "q-imp-1795030697379-467-v5h1",
+      "topicId": "top-1795030725768-466-zss",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which MongoDB update operator is used to remove a specific field from a document?",
+      "options": [
+        "`$set`",
+        "`$inc`",
+        "`$unset`",
+        "`$push`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `$unset` removes the specified field from matching documents."
+    },
+    {
+      "id": "q-imp-1795030697379-468-livu",
+      "topicId": "top-1795030725768-466-zss",
+      "difficulty": "moderate",
+      "question": "Consider the following MongoDB command:\n\n```javascript\ndb.employees.updateMany(\n    { department: \"IT\" },\n    { $inc: { salary: 5000 } }\n);\n```\n\nWhat will happen?",
+      "options": [
+        "The first IT employee will be deleted.",
+        "All employees will receive a salary of 5000.",
+        "Every IT employee's existing salary will increase by 5000.",
+        "A new IT department will be created."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** updateMany() modifies every matching document, while `$inc` increases the specified numeric field."
+    },
+    {
+      "id": "q-imp-1795030697379-469-gfp5",
+      "topicId": "top-1795030725768-466-zss",
+      "difficulty": "moderate",
+      "question": "Consider the following MongoDB aggregation pipeline:\n\n```javascript\ndb.orders.aggregate([\n    { $unwind: \"$items\" },\n    {\n        $group: {\n            _id: \"$items.product\",\n            totalQuantity: {\n                $sum: \"$items.quantity\"\n            }\n        }\n    }\n]);\n```\n\nWhat does this pipeline calculate?",
+      "options": [
+        "Total order count for each customer",
+        "Average price of all orders",
+        "Total quantity sold for each product",
+        "Number of unique customers"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `$unwind` separates array elements into individual pipeline documents, and `$group` calculates product-wise quantities."
+    },
+    {
+      "id": "q-imp-1795030697379-470-nldy",
+      "topicId": "top-1795030725768-466-zss",
+      "difficulty": "moderate",
+      "question": "[Advanced] A MongoDB query frequently filters records using `customer_id`. The execution plan shows `COLLSCAN` and examines 2 million documents to return 20 records. Which optimization is most appropriate?",
+      "options": [
+        "Remove the filter condition.",
+        "Create a text index on every field.",
+        "Create a suitable index on `customer_id` and verify whether the execution plan uses an efficient `IXSCAN`.",
+        "Increase the number of documents in the collection."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** An appropriate index can replace an expensive collection scan with an index-based lookup."
+    },
+    {
+      "id": "q-imp-1795030697379-471-ly9j",
+      "topicId": "top-1795030725768-466-zss",
+      "difficulty": "moderate",
+      "question": "Consider the following MongoDB index:\n\n```javascript\ndb.employees.createIndex(\n    { salary: 1 },\n    { unique: true }\n);\n```\n\nWhat restriction does this index enforce?",
+      "options": [
+        "Salary must always be greater than zero.",
+        "Salary must contain only integers.",
+        "Duplicate indexed salary values are not allowed.",
+        "Every employee must belong to a different department."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A unique index prevents duplicate indexed values, subject to MongoDB's handling of missing and NULL values."
+    },
+    {
+      "id": "q-imp-1795030697379-472-itb7",
+      "topicId": "top-1795030725768-466-zss",
+      "difficulty": "moderate",
+      "question": "[Advanced] A MongoDB application transfers money between two account documents. The application successfully debits one account but fails before crediting the other. Which approach ensures that both operations succeed or neither is committed?",
+      "options": [
+        "Execute two independent updateOne() operations without transaction handling.",
+        "Use a TTL index on both accounts.",
+        "Execute both updates inside a multi-document transaction.",
+        "Convert both account documents into strings."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Multi-document transactions provide atomic commit or rollback across multiple document updates."
+    },
+    {
+      "id": "q-imp-1795030697379-473-0js3",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Snowflake component is responsible for executing SQL queries?",
+      "options": [
+        "Cloud Storage",
+        "Cloud Services",
+        "Virtual Warehouse",
+        "External Stage"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Virtual Warehouses provide the compute resources required to execute SQL queries."
+    },
+    {
+      "id": "q-imp-1795030697379-474-vwki",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Snowflake command is used to temporarily stop compute resources associated with a Virtual Warehouse?",
+      "options": [
+        "DROP DATABASE",
+        "DELETE WAREHOUSE",
+        "ALTER WAREHOUSE ... SUSPEND",
+        "TRUNCATE WAREHOUSE"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ALTER WAREHOUSE with SUSPEND stops warehouse compute resources without deleting the warehouse."
+    },
+    {
+      "id": "q-imp-1795030697379-475-qc8d",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Consider the following Snowflake SQL statement:\n\n```sql\nCREATE WAREHOUSE reporting_wh\nWITH\n    WAREHOUSE_SIZE = 'MEDIUM'\n    AUTO_SUSPEND = 60\n    AUTO_RESUME = TRUE;\n```\n\nWhat does `AUTO_SUSPEND = 60` specify?",
+      "options": [
+        "The warehouse will run for exactly 60 hours.",
+        "The warehouse can process only 60 queries.",
+        "The warehouse automatically suspends after 60 seconds of inactivity.",
+        "The warehouse automatically resumes after 60 minutes."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** AUTO_SUSPEND specifies the number of idle seconds after which the warehouse is suspended."
+    },
+    {
+      "id": "q-imp-1795030697379-476-c6qe",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Snowflake query filters records using a frequently accessed date column. However, the filter applies a function to the column, preventing effective micro-partition pruning in the observed execution plan. What is the best optimization?",
+      "options": [
+        "Remove all date conditions.",
+        "Convert the date column into a VARIANT column.",
+        "Rewrite the predicate as a direct, pruning-friendly range condition on the stored date column.",
+        "Increase the number of selected columns."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Direct range predicates can improve micro-partition pruning by allowing Snowflake to use partition metadata more effectively."
+    },
+    {
+      "id": "q-imp-1795030697379-477-bp7a",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "What is the main purpose of combining Snowflake Streams and Tasks?",
+      "options": [
+        "To create permanent database backups.",
+        "To automatically resize every warehouse.",
+        "To build automated incremental data-processing pipelines.",
+        "To replace all external storage systems."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Streams capture table changes, while Tasks schedule processing of those changes."
+    },
+    {
+      "id": "q-imp-1795030697379-478-pp92",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "A Snowflake table has a Time Travel retention period of 7 days. A user wants to query the table as it existed 3 days ago. Which feature should be used?",
+      "options": [
+        "Snowpipe",
+        "Secure Data Sharing",
+        "Time Travel using AT or BEFORE",
+        "Warehouse Auto Suspend"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Time Travel supports querying historical table versions within the configured retention period."
+    },
+    {
+      "id": "q-imp-1795030697379-479-7qki",
+      "topicId": "top-1795030725767-215-lbd",
+      "difficulty": "moderate",
+      "question": "Which Snowflake feature allows multiple users to access shared data while the provider retains control over the underlying datasets?",
+      "options": [
+        "COPY INTO",
+        "AUTO_RESUME",
+        "Materialized View",
+        "Secure Data Sharing"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** Secure Data Sharing provides controlled access to provider-managed data without requiring physical duplication."
+    },
+    {
+      "id": "q-imp-1795030697379-480-dtdl",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which type of database architecture does Apache Cassandra use?",
+      "options": [
+        "Centralized Master-Slave Architecture",
+        "Single-Server Architecture",
+        "Peer-to-Peer Distributed Architecture",
+        "File-Based Architecture"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cassandra uses a decentralized peer-to-peer architecture in which nodes have equal roles."
+    },
+    {
+      "id": "q-imp-1795030697379-481-vorv",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "A Cassandra table has a replication factor of 3. What is the minimum number of replica acknowledgments required for a QUORUM read?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** QUORUM requires a majority of replicas, calculated as floor(RF/2) + 1."
+    },
+    {
+      "id": "q-imp-1795030697379-482-ndji",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "Which Cassandra compaction strategy is generally suitable for workloads containing frequent updates and deletes with a focus on read performance?",
+      "options": [
+        "Time-Window Compaction Strategy exclusively",
+        "Leveled Compaction Strategy",
+        "Random Compaction Strategy",
+        "No Compaction Strategy"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Leveled Compaction Strategy organizes SSTables into levels and generally provides predictable read performance."
+    },
+    {
+      "id": "q-imp-1795030697379-483-2180",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "Consider the following Cassandra CQL statement:\n\n```sql\nINSERT INTO sessions (\n    session_id,\n    user_id\n)\nVALUES (\n    'S101',\n    500\n)\nUSING TTL 3600;\n```\n\nWhat does `TTL 3600` mean?",
+      "options": [
+        "The record is retained for 3600 days.",
+        "The record is locked for 3600 seconds.",
+        "The inserted data expires after 3600 seconds.",
+        "The query executes 3600 times."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** TTL specifies the number of seconds before inserted data expires."
+    },
+    {
+      "id": "q-imp-1795030697379-484-4tgp",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Cassandra cluster experiences uneven workload distribution because most requests use a small number of partition keys. Which redesign is most appropriate?",
+      "options": [
+        "Increase the number of columns in each table.",
+        "Remove all partition keys.",
+        "Introduce a more evenly distributed partition-key design, potentially using bucketing where query requirements permit.",
+        "Store all records in a single partition."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A well-distributed partition key reduces hotspots and improves workload balancing across nodes."
+    },
+    {
+      "id": "q-imp-1795030697380-485-20an",
+      "topicId": "top-1795030725767-300-fo0",
+      "difficulty": "moderate",
+      "question": "Which Cassandra mechanism is used to identify and synchronize inconsistent data between replicas?",
+      "options": [
+        "Query Cache",
+        "Foreign Key Validation",
+        "Anti-Entropy Repair",
+        "SQL Transaction Log"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Anti-entropy repair compares replica data and synchronizes differences across relevant token ranges."
+    },
+    {
+      "id": "q-imp-1795030697380-486-94ty",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Python package is commonly used to connect to PostgreSQL databases?",
+      "options": [
+        "sqlite3",
+        "pymongo",
+        "psycopg",
+        "matplotlib"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Psycopg is a PostgreSQL adapter for Python that supports database connectivity and query execution."
+    },
+    {
+      "id": "q-imp-1795030697380-487-ybps",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "Consider the following Python code:\n\n```python\ncursor.executemany(\n    \"INSERT INTO employees(name, salary) VALUES (?, ?)\",\n    [\n        (\"Amit\", 50000),\n        (\"Neha\", 60000),\n        (\"Ravi\", 55000)\n    ]\n)\n```\n\nWhat does executemany() perform?",
+      "options": [
+        "Executes only the first INSERT statement.",
+        "Creates three database connections.",
+        "Executes the parameterized INSERT operation for each supplied parameter set.",
+        "Deletes all existing employee records."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** executemany() applies the same SQL operation to multiple parameter sets."
+    },
+    {
+      "id": "q-imp-1795030697380-488-oftk",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "What is the difference between `commit()` and `rollback()` in Python DB-API?",
+      "options": [
+        "Both methods permanently save changes.",
+        "Both methods close the database connection.",
+        "commit() saves transaction changes, while rollback() reverses uncommitted changes.",
+        "commit() retrieves records, while rollback() deletes tables."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** These methods control whether transaction changes are permanently saved or undone."
+    },
+    {
+      "id": "q-imp-1795030697380-489-kyvz",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "Consider the following PyMongo code:\n\n```python\ncursor = db.employees.find(\n    {\"department\": \"Sales\"}\n).sort(\"salary\", -1)\n\nfor employee in cursor:\n    print(employee[\"salary\"])\n```\n\nHow are the employee salaries retrieved?",
+      "options": [
+        "In ascending order",
+        "In random order",
+        "In descending order",
+        "In insertion order"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The sort direction `-1` specifies descending order by salary."
+    },
+    {
+      "id": "q-imp-1795030697380-490-jws7",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Python service handles thousands of concurrent database requests. Creating a new connection for every request causes high latency and resource consumption. Which architecture is most suitable?",
+      "options": [
+        "Use a separate database server for every request.",
+        "Disable connection management.",
+        "Use a bounded connection pool with appropriate acquisition timeouts and resource cleanup.",
+        "Keep all connections permanently open without limits."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Connection pooling reduces connection setup overhead while controlling resource consumption under concurrency."
+    },
+    {
+      "id": "q-imp-1795030697380-491-qxvq",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "[Advanced] Consider the following Python code:\n\n```python\nuser_input = \"IT' OR '1'='1\"\n\ncursor.execute(\n    \"SELECT * FROM Employees WHERE department = ?\",\n    (user_input,)\n)\n```\n\nWhy is this approach safer than directly concatenating `user_input` into the SQL query?",
+      "options": [
+        "It automatically encrypts the database.",
+        "It prevents all database errors.",
+        "It treats user input as a parameter value rather than executable SQL syntax.",
+        "It automatically creates an index on department."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Parameterized queries separate user-supplied values from SQL instructions and help prevent SQL injection."
+    },
+    {
+      "id": "q-imp-1795030697380-492-6bfc",
+      "topicId": "top-1795030725767-239-21g",
+      "difficulty": "moderate",
+      "question": "Which Python DB-API exception class is commonly associated with SQL syntax errors or invalid SQL statements?",
+      "options": [
+        "Warning",
+        "OperationalError",
+        "ProgrammingError",
+        "InterfaceError"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ProgrammingError commonly represents invalid SQL statements or programming-related database errors."
+    },
+    {
+      "id": "q-imp-1795030697380-493-5olm",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which data quality dimension ensures that the same entity is represented consistently across different enterprise systems?",
+      "options": [
+        "Timeliness",
+        "Completeness",
+        "Consistency",
+        "Availability"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Consistency ensures that information does not conflict across systems and datasets."
+    },
+    {
+      "id": "q-imp-1795030697380-494-rwo9",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "Which Enterprise Data Management practice assigns responsibility for defining, maintaining, and monitoring the quality of business data?",
+      "options": [
+        "Data Compression",
+        "Data Partitioning",
+        "Data Stewardship",
+        "Data Replication"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data Stewardship assigns accountability for data definitions, quality, and governance practices."
+    },
+    {
+      "id": "q-imp-1795030697380-495-dkqi",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "A dataset contains missing values in a numerical column representing employee salaries. Which approach is generally suitable when the distribution contains extreme outliers?",
+      "options": [
+        "Replace all missing values with zero.",
+        "Delete the entire dataset.",
+        "Consider median imputation after evaluating the distribution and missing-data mechanism.",
+        "Convert every salary value into a string."
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Median imputation is less sensitive to extreme values than mean imputation."
+    },
+    {
+      "id": "q-imp-1795030697380-496-ucfu",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Advanced] A machine learning model predicts whether customers will cancel subscriptions. During feature engineering, the team accidentally includes a column containing the actual cancellation date, which becomes available only after cancellation. What problem does this create?",
+      "options": [
+        "Database deadlock",
+        "Data normalization",
+        "Target leakage",
+        "Referential integrity"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Target leakage occurs when information unavailable at prediction time is included as a model feature."
+    },
+    {
+      "id": "q-imp-1795030697380-497-fwox",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of Master Data Management (MDM)?",
+      "options": [
+        "To increase the number of database transactions",
+        "To replace every enterprise application",
+        "To establish consistent and trusted master records across different enterprise systems",
+        "To store only unstructured data"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MDM creates consistent, authoritative representations of important business entities such as customers and products."
+    },
+    {
+      "id": "q-imp-1795030697380-498-22ay",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Advanced] An enterprise changes a transformation rule in its sales data pipeline. Management wants to identify which dashboards, reports, and downstream datasets might be affected. Which capability is most useful?",
+      "options": [
+        "Data Compression",
+        "Database Partitioning",
+        "Data Lineage and Impact Analysis",
+        "Random Sampling"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Lineage and impact analysis trace dependencies between source data, transformations, and downstream consumers."
+    },
+    {
+      "id": "q-imp-1795030697380-499-kf9o",
+      "topicId": "top-1795030725767-244-ok5",
+      "difficulty": "moderate",
+      "question": "[Advanced] A company wants to determine whether a new marketing campaign actually increases customer purchases. Which experimental approach provides the strongest evidence of causal impact?",
+      "options": [
+        "Compare total sales from unrelated years without controlling for other factors.",
+        "Survey only customers who purchased products.",
+        "Compare campaign recipients with customers who independently chose not to receive promotions.",
+        "Randomly assign eligible customers to treatment and control groups and compare their outcomes."
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** Randomized controlled experiments reduce selection bias and provide stronger evidence of causal effects."
     }
   ]
-};
+};;
 
 const SAMPLE_MARKDOWN_TEMPLATE = `## Linux Commands & File Permissions
 
