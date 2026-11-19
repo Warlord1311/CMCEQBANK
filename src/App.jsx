@@ -521,6 +521,18 @@ const INITIAL_DATA = {
           "title": "Section 9: MongoDB Introduction, CRUD Operations, Queries & Aggregation"
         }
       ]
+    },
+    {
+      "id": "mod-1795052664582",
+      "title": "R PROGRAMING",
+      "shortCode": "R",
+      "icon": "Layers",
+      "topics": [
+        {
+          "id": "top-1795052708631-0-3w7",
+          "title": "R Programming – MCQ Bank (Grouped by Topic)"
+        }
+      ]
     }
   ],
   "questions": [
@@ -23398,9 +23410,3624 @@ const INITIAL_DATA = {
       "answerIndex": 3,
       "answerUnverified": false,
       "explanation": "** Randomized controlled experiments reduce selection bias and provide stronger evidence of causal effects."
+    },
+    {
+      "id": "q-imp-1795052683953-0-ezsb",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Duplicates merged. Questions numbered continuously per topic order.\n\n## 1. R Basics & Operators\n\n### Q1. [Easy] Who created the R language?",
+      "options": [
+        "Guido van Rossum",
+        "Ross Ihaka and Robert Gentleman",
+        "James Gosling",
+        "Hadley Wickham"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** R created at University of Auckland by Ihaka and Gentleman. Wickham made tidyverse."
+    },
+    {
+      "id": "q-imp-1795052683953-1-jm7t",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the full form of CRAN?",
+      "options": [
+        "Central R Application Network",
+        "Comprehensive R Archive Network",
+        "Common R Analysis Node",
+        "Computed R Array Number"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** CRAN = repository holding R and ~20,000 packages."
+    },
+    {
+      "id": "q-imp-1795052683953-2-izt1",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which is the preferred assignment operator in R?",
+      "options": [
+        "`:=`",
+        "`->>` only",
+        "`<-`",
+        "`==`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `<-` is standard R assignment. `==` compares."
+    },
+    {
+      "id": "q-imp-1795052683953-3-53kp",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which symbol starts a comment in R?",
+      "options": [
+        "`//`",
+        "`#`",
+        "`--`",
+        "`/*`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Everything after `#` on a line is ignored by R. R has no block comment."
+    },
+    {
+      "id": "q-imp-1795052683953-4-wqh0",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which is an INVALID variable name in R?",
+      "options": [
+        "`my_var`",
+        "`.temp`",
+        "`2var`",
+        "`var2`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Names cannot start with a digit. Letters, digits, `.` and `_` allowed after start."
+    },
+    {
+      "id": "q-imp-1795052683953-5-9qtz",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of `7 %% 3`?",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "2.33"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** `%%` = modulus (remainder). 7 = 2×3 + 1."
+    },
+    {
+      "id": "q-imp-1795052683953-6-92wb",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of `7 %/% 2`?",
+      "options": [
+        "3.5",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `%/%` = integer division, drops decimal part."
+    },
+    {
+      "id": "q-imp-1795052683953-7-swqf",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\n5 %/% 2 + 5 %% 2\n```",
+      "options": [
+        "2",
+        "3",
+        "3.5",
+        "4"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `5 %/% 2` = 2, `5 %% 2` = 1. Sum = 3."
+    },
+    {
+      "id": "q-imp-1795052683953-8-fbt8",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nx <- 5\ny <- 2\nprint(x %% y + x ^ y)\n```",
+      "options": [
+        "7",
+        "12",
+        "26",
+        "11"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `^` first: 25. `%%` before `+`: 5 %% 2 = 1. Sum = 26."
+    },
+    {
+      "id": "q-imp-1795052683953-9-jroq",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of `-7 %% 3`?",
+      "options": [
+        "-1",
+        "1",
+        "2",
+        "-2"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** R modulus takes sign of divisor. -7 = (-3)×3 + 2, so remainder 2."
+    },
+    {
+      "id": "q-imp-1795052683953-10-6ik0",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of `-7 %/% 2`?",
+      "options": [
+        "-3",
+        "-4",
+        "3",
+        "-3.5"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `%/%` is floor division: floor(-3.5) = -4."
+    },
+    {
+      "id": "q-imp-1795052683953-11-zl8k",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of `10 / 0` in R?",
+      "options": [
+        "Error",
+        "NaN",
+        "NA",
+        "Inf"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** Division by zero gives `Inf`. `0/0` gives `NaN`."
+    },
+    {
+      "id": "q-imp-1795052683953-12-t6r7",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `sqrt(-1)`?",
+      "options": [
+        "-1",
+        "Inf",
+        "NaN with warning",
+        "1i"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Real square root of negative = `NaN`, with warning \"NaNs produced\". Complex: `sqrt(as.complex(-1))`."
+    },
+    {
+      "id": "q-imp-1795052683953-13-oltv",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `floor(-2.5)`?",
+      "options": [
+        "-2",
+        "-3",
+        "2",
+        "-2.5"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `floor` rounds toward negative infinity. `ceiling(-2.5)` = -2."
+    },
+    {
+      "id": "q-imp-1795052683953-14-1tj3",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of `round(2.567, 1)`?",
+      "options": [
+        "2.5",
+        "2.6",
+        "2.57",
+        "3"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Rounds to 1 decimal place."
+    },
+    {
+      "id": "q-imp-1795052683953-15-7nvr",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `exp(0) + log10(1000)`?",
+      "options": [
+        "3",
+        "4",
+        "1001",
+        "2"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `exp(0)` = 1, `log10(1000)` = 3. Sum = 4."
+    },
+    {
+      "id": "q-imp-1795052683953-16-6xkd",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nTRUE + TRUE + FALSE\n```",
+      "options": [
+        "TRUE",
+        "3",
+        "2",
+        "0"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** TRUE = 1, FALSE = 0 in arithmetic. 1 + 1 + 0 = 2."
+    },
+    {
+      "id": "q-imp-1795052683953-17-rmbd",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\n!(5 > 3) | (2 > 1)\n```",
+      "options": [
+        "FALSE",
+        "TRUE",
+        "NA",
+        "Error"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `!(TRUE)` = FALSE. `FALSE | TRUE` = TRUE."
+    },
+    {
+      "id": "q-imp-1795052683953-18-k11s",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `xor(TRUE, TRUE)`?",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NA",
+        "2"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `xor` = exclusive OR, TRUE only when exactly one input is TRUE."
+    },
+    {
+      "id": "q-imp-1795052683953-19-era0",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\n0.1 + 0.2 == 0.3\n```",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NA",
+        "Error"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Floating-point storage gives a tiny error. Use `isTRUE(all.equal(0.1 + 0.2, 0.3))` to compare decimals."
+    },
+    {
+      "id": "q-imp-1795052683953-20-kxh5",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Help, Workspace & Environment\n\n### Q21. [Easy] Which command shows help page of function `mean`?",
+      "options": [
+        "`help.mean()`",
+        "`?mean`",
+        "`find(mean)`",
+        "`info(mean)`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `?mean` or `help(mean)` opens help. `??word` searches all help."
+    },
+    {
+      "id": "q-imp-1795052683953-21-qzdy",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which command runs the examples from the help page of `mean`?",
+      "options": [
+        "`demo(mean)`",
+        "`args(mean)`",
+        "`example(mean)`",
+        "`??mean`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `example(fun)` runs help-page examples. `args()` shows arguments."
+    },
+    {
+      "id": "q-imp-1795052683953-22-ctu2",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What does `R.version.string` return?",
+      "options": [
+        "Current date",
+        "Text describing the installed R version",
+        "List of installed packages",
+        "Working directory"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Prints version string like \"R version 4.x.x\". Quick check R installed correctly."
+    },
+    {
+      "id": "q-imp-1795052683953-23-4fzd",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which function returns the current working directory?",
+      "options": [
+        "`setwd()`",
+        "`dir()`",
+        "`getwd()`",
+        "`pwd()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `getwd()` gets, `setwd()` sets working directory."
+    },
+    {
+      "id": "q-imp-1795052683953-24-61a7",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What does `save.image(\"work.RData\")` do?",
+      "options": [
+        "Saves last plot as image",
+        "Saves only script",
+        "Saves entire workspace to file",
+        "Saves one variable"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Saves all workspace objects. Reload with `load(\"work.RData\")`."
+    },
+    {
+      "id": "q-imp-1795052683953-25-0dsd",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What does `load(\"df.RData\")` do?",
+      "options": [
+        "Reads a CSV file",
+        "Restores objects saved earlier with `save()`",
+        "Installs a package",
+        "Opens a script"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `load` brings saved objects back into workspace with same names."
+    },
+    {
+      "id": "q-imp-1795052683953-26-kgzs",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which command clears all objects from workspace?",
+      "options": [
+        "`clear()`",
+        "`rm(ls)`",
+        "`rm(list = ls())`",
+        "`delete(all)`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `ls()` lists object names, `rm(list = ...)` removes them."
+    },
+    {
+      "id": "q-imp-1795052683953-27-59cv",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\nx <- 5\nrm(x)\nexists(\"x\")\n```",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "5",
+        "Error"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `rm(x)` deletes the object, so `exists(\"x\")` is FALSE (unless R has another `x` in loaded packages)."
+    },
+    {
+      "id": "q-imp-1795052683953-28-dry5",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "R GUI, RStudio & Code Editors\n\n### Q29. [Easy] Which is an IDE (Integrated Development Environment) made for R?",
+      "options": [
+        "MS Paint",
+        "Photoshop",
+        "RStudio",
+        "Wireshark"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Others for R: VS Code with R extension, Jupyter (R kernel), Posit Cloud (online)."
+    },
+    {
+      "id": "q-imp-1795052683953-29-4bl0",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which installation order is correct?",
+      "options": [
+        "RStudio first, then R",
+        "R first, then RStudio",
+        "Only RStudio is needed",
+        "Only R is needed, RStudio is mandatory later"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** RStudio is only an interface; it needs R already installed."
+    },
+    {
+      "id": "q-imp-1795052683953-30-6gl0",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "In R GUI, which menu is used to install and load packages by clicking?",
+      "options": [
+        "File",
+        "Misc",
+        "Packages",
+        "Windows"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** R GUI menus: File, Edit, View, Misc, Packages, Windows, Help."
+    },
+    {
+      "id": "q-imp-1795052683953-31-21xs",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which RStudio pane lists variables and data frames you created?",
+      "options": [
+        "Console",
+        "Environment",
+        "Plots",
+        "Files"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Environment pane shows workspace objects (same as `ls()`). Console runs commands."
+    },
+    {
+      "id": "q-imp-1795052683953-32-s1pk",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which RStudio pane is used to write and save multi-line scripts?",
+      "options": [
+        "Source",
+        "Console",
+        "Environment",
+        "Viewer"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** Source pane holds `.R` and `.Rmd` files. Console runs one command at a time."
+    },
+    {
+      "id": "q-imp-1795052683953-33-y6jp",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which RStudio shortcut runs the current line of script?",
+      "options": [
+        "`Ctrl + L`",
+        "`Ctrl + S`",
+        "`Ctrl + Enter`",
+        "`Alt + -`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `Ctrl+Enter` runs line. `Ctrl+L` clears console. `Alt+-` types `<-`."
+    },
+    {
+      "id": "q-imp-1795052683953-34-tnde",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which shortcut inserts the pipe operator `%>%` in RStudio?",
+      "options": [
+        "`Ctrl + Enter`",
+        "`Alt + -`",
+        "`Ctrl + Shift + M`",
+        "`Ctrl + L`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `Alt + -` types `<-`. `Ctrl + L` clears console."
+    },
+    {
+      "id": "q-imp-1795052683953-35-3eo2",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the benefit of creating an RStudio Project (`.Rproj`)?",
+      "options": [
+        "Makes code run faster",
+        "Gives each project its own working directory so file paths do not break",
+        "Installs all packages automatically",
+        "Converts R code to Python"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Opening the project sets working directory to its folder."
+    },
+    {
+      "id": "q-imp-1795052683953-36-cy4y",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Packages in R\n\n### Q37. [Easy] Which function loads an already installed package into current session?",
+      "options": [
+        "`install.packages()`",
+        "`library()`",
+        "`update.packages()`",
+        "`setup()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Install once per computer, `library()` every new session. Like installing and opening an app."
+    },
+    {
+      "id": "q-imp-1795052683953-37-sdxn",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "How often must `install.packages(\"dplyr\")` be run?",
+      "options": [
+        "Every session",
+        "Every script",
+        "Once per computer",
+        "Every time R starts"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Download once. Load with `library()` each session."
+    },
+    {
+      "id": "q-imp-1795052683953-38-b2vh",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which function uninstalls a package?",
+      "options": [
+        "`delete.packages()`",
+        "`unload.packages()`",
+        "`remove.packages()`",
+        "`rm.packages()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `remove.packages(\"dplyr\")` uninstalls. `rm()` only removes workspace objects."
+    },
+    {
+      "id": "q-imp-1795052683953-39-ze8q",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which function lists packages currently attached in the session?",
+      "options": [
+        "`installed.packages()`",
+        "`search()`",
+        "`ls()`",
+        "`library(list)`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `search()` shows attached packages and environments. `ls()` lists workspace objects."
+    },
+    {
+      "id": "q-imp-1795052683953-40-u1wy",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which function returns the list of installed packages?",
+      "options": [
+        "`installed.packages()`",
+        "`search()`",
+        "`ls()`",
+        "`packages()`"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** `search()` shows currently attached ones only; `ls()` shows workspace objects."
+    },
+    {
+      "id": "q-imp-1795052683953-41-jw4x",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which function upgrades installed packages to latest versions?",
+      "options": [
+        "`upgrade.R()`",
+        "`install.update()`",
+        "`update.packages()`",
+        "`refresh.packages()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Prompts for packages with newer versions on CRAN."
+    },
+    {
+      "id": "q-imp-1795052683953-42-p2sr",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which function shows the installed version of a package?",
+      "options": [
+        "`version(\"dplyr\")`",
+        "`help(\"dplyr\")`",
+        "`packageVersion(\"dplyr\")`",
+        "`library(version)`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `R.version.string` shows R's own version."
+    },
+    {
+      "id": "q-imp-1795052683953-43-exfl",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What does `dplyr::filter(df, x > 1)` allow you to do?",
+      "options": [
+        "Install dplyr",
+        "Call `filter` from dplyr without loading it, avoiding name clashes",
+        "Update dplyr",
+        "Delete `filter`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `package::function()` works without `library()`. Stats package also has `filter()`."
+    },
+    {
+      "id": "q-imp-1795052683953-44-vpmy",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "`library(tidyverse)` gives: \"there is no package called 'tidyverse'\". What is the fix?",
+      "options": [
+        "Restart computer",
+        "Run `install.packages(\"tidyverse\")` first",
+        "Use `setwd()`",
+        "Use `rm(list = ls())`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Package is not installed on this computer yet."
+    },
+    {
+      "id": "q-imp-1795052683953-45-a5fm",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "`select(df, a)` gives \"could not find function\". Most likely reason?",
+      "options": [
+        "Data frame has no column a",
+        "dplyr was installed but `library(dplyr)` was not run",
+        "R is outdated",
+        "Working directory wrong"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Function lives in a package that is not attached."
+    },
+    {
+      "id": "q-imp-1795052683953-46-f2tc",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Data Types & Coercion\n\n### Q47. [Easy] What is the output of `class(5L)`?",
+      "options": [
+        "\"numeric\"",
+        "\"integer\"",
+        "\"double\"",
+        "\"character\""
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Suffix `L` makes integer type."
+    },
+    {
+      "id": "q-imp-1795052683953-47-zf13",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `typeof(5)`?",
+      "options": [
+        "\"integer\"",
+        "\"numeric\"",
+        "\"double\"",
+        "\"float\""
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Plain number stored as double. `class(5)` gives \"numeric\", `typeof(5)` gives \"double\"."
+    },
+    {
+      "id": "q-imp-1795052683953-48-4hr8",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `is.numeric(5L)`?",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NA",
+        "\"integer\""
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** Integers count as numeric. `is.integer(5)` would be FALSE."
+    },
+    {
+      "id": "q-imp-1795052683953-49-jh9t",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nx <- c(1, \"a\", TRUE)\nclass(x)\n```",
+      "options": [
+        "\"numeric\"",
+        "\"logical\"",
+        "\"list\"",
+        "\"character\""
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** Vector holds one type. Coercion order logical < integer < numeric < character."
+    },
+    {
+      "id": "q-imp-1795052683953-50-2u1o",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the result of `as.numeric(\"abc\")`?",
+      "options": [
+        "0",
+        "Error, stops program",
+        "NA with warning",
+        "\"abc\""
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Failed conversion gives `NA` and warning \"NAs introduced by coercion\"."
+    },
+    {
+      "id": "q-imp-1795052683953-51-z3v8",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `as.integer(3.9)`?",
+      "options": [
+        "4",
+        "3",
+        "3.9",
+        "NA"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Conversion truncates decimals, no rounding."
+    },
+    {
+      "id": "q-imp-1795052683953-52-ljwn",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of `is.na(c(1, NA, 3))`?",
+      "options": [
+        "1 NA 3",
+        "TRUE TRUE TRUE",
+        "FALSE TRUE FALSE",
+        "2"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `is.na` returns logical vector marking missing values."
+    },
+    {
+      "id": "q-imp-1795052683953-53-p6co",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `length(NULL)`?",
+      "options": [
+        "NA",
+        "1",
+        "0",
+        "Error"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `NULL` = empty object, length 0. Different from `NA` (missing value, length 1)."
+    },
+    {
+      "id": "q-imp-1795052683953-54-v0kq",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Vectors & Sequences\n\n### Q55. [Easy] What is the output of the following code?\n```r\nv <- c(10, 20, 30, 40)\nv[-1]\n```",
+      "options": [
+        "10",
+        "20 30 40",
+        "10 20 30",
+        "40"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Negative index drops that element. R indexing starts at 1."
+    },
+    {
+      "id": "q-imp-1795052683953-55-0zwa",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nv <- 1:10\nv[v %% 2 == 0][2]\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `v[v %% 2 == 0]` = 2 4 6 8 10. Second element = 4."
+    },
+    {
+      "id": "q-imp-1795052683953-56-4u9f",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nx <- c(1, 2, 3)\nx * 2 + 1\n```",
+      "options": [
+        "2 4 6",
+        "7",
+        "3 5 7",
+        "3 6 9"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Vectorization: multiply each by 2, then add 1 to each."
+    },
+    {
+      "id": "q-imp-1795052683953-57-c6p9",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\nc(1, 2, 3)[c(TRUE, FALSE, TRUE)]\n```",
+      "options": [
+        "2",
+        "1 2",
+        "1 3",
+        "1 2 3"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Logical index keeps positions where TRUE: 1st and 3rd."
+    },
+    {
+      "id": "q-imp-1795052683953-58-aoc2",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nx <- 1:5\nx[x > 2 & x < 5]\n```",
+      "options": [
+        "2 3 4",
+        "3 4 5",
+        "3 4",
+        "5"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Both conditions must hold: only 3 and 4."
+    },
+    {
+      "id": "q-imp-1795052683953-59-u7uq",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of `10:7`?",
+      "options": [
+        "Error",
+        "7 8 9 10",
+        "10 9 8 7",
+        "10 7"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Colon operator counts downward if start is larger."
+    },
+    {
+      "id": "q-imp-1795052683953-60-7og2",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nrev(seq(2, 10, by = 4))\n```",
+      "options": [
+        "2 6 10",
+        "10 6 2",
+        "10 8 6 4 2",
+        "6 2"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `seq` gives 2 6 10. `rev` reverses."
+    },
+    {
+      "id": "q-imp-1795052683953-61-ss0y",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nseq(1, 10, length.out = 4)\n```",
+      "options": [
+        "1 2 3 4",
+        "1 5 10 15",
+        "1 4 7 10",
+        "1 3 5 7"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** 4 equally spaced values from 1 to 10, step 3."
+    },
+    {
+      "id": "q-imp-1795052683953-62-2j7w",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `rep(c(\"a\", \"b\"), times = 2)`?",
+      "options": [
+        "\"a\" \"a\" \"b\" \"b\"",
+        "\"a\" \"b\" \"a\" \"b\"",
+        "\"ab\" \"ab\"",
+        "\"a\" \"b\""
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `times` repeats whole vector. `each = 2` would give a a b b."
+    },
+    {
+      "id": "q-imp-1795052683953-63-tged",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of the following code?\n```r\nv <- c(a = 1, b = 2)\nnames(v)\n```",
+      "options": [
+        "1 2",
+        "\"a\" \"b\"",
+        "\"v\"",
+        "NULL"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `names()` returns element names of the vector."
+    },
+    {
+      "id": "q-imp-1795052683953-64-fkjc",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nappend(1:3, 99, after = 1)\n```",
+      "options": [
+        "99 1 2 3",
+        "1 2 3 99",
+        "1 99 2 3",
+        "1 2 99 3"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `after = 1` inserts new value after position 1."
+    },
+    {
+      "id": "q-imp-1795052683953-65-j8ju",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nwhich(c(5, 0, 8, 0) > 0)\n```",
+      "options": [
+        "TRUE FALSE TRUE FALSE",
+        "5 8",
+        "1 3",
+        "2 4"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `which` returns positions where condition is TRUE."
+    },
+    {
+      "id": "q-imp-1795052683953-66-tr50",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of `which.max(c(3, 9, 2))`?",
+      "options": [
+        "9",
+        "2",
+        "3",
+        "1"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Returns index of maximum, not the value. `max()` gives 9."
+    },
+    {
+      "id": "q-imp-1795052683953-67-t1nq",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nall(c(2, 4, 6) %% 2 == 0)\n```",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "3",
+        "NA"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** Every element is even, so `all()` gives TRUE. `any()` needs just one TRUE."
+    },
+    {
+      "id": "q-imp-1795052683953-68-nr8u",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of `LETTERS[3:5]`?",
+      "options": [
+        "\"a\" \"b\" \"c\"",
+        "\"C\" \"D\" \"E\"",
+        "\"c\" \"d\" \"e\"",
+        "\"A\" \"B\" \"C\""
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `LETTERS` = built-in uppercase A–Z. `letters` = lowercase."
+    },
+    {
+      "id": "q-imp-1795052683953-69-aq0m",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `unique(c(3, 1, 3, 2, 1))`?",
+      "options": [
+        "1 2 3",
+        "3 1 2",
+        "3 3 1 1 2",
+        "3 1 3 2"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `unique` keeps first appearance order; it does not sort."
+    },
+    {
+      "id": "q-imp-1795052683953-70-nxzu",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `duplicated(c(\"a\", \"b\", \"a\"))`?",
+      "options": [
+        "TRUE FALSE TRUE",
+        "FALSE FALSE TRUE",
+        "FALSE FALSE FALSE",
+        "\"a\""
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Only second occurrence of \"a\" is marked duplicate."
+    },
+    {
+      "id": "q-imp-1795052683953-71-pr0q",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of `order(c(30, 10, 20))`?",
+      "options": [
+        "10 20 30",
+        "1 2 3",
+        "2 3 1",
+        "3 1 2"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `order` returns positions that sort the data: 10 (pos 2), 20 (pos 3), 30 (pos 1). `sort()` returns values."
+    },
+    {
+      "id": "q-imp-1795052683953-72-wuqt",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of `tail(1:10, 2)`?",
+      "options": [
+        "1 2",
+        "10",
+        "9 10",
+        "8 9 10"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `tail(x, n)` returns last n elements."
+    },
+    {
+      "id": "q-imp-1795052683953-73-gc7j",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Matrices & Arrays\n\n### Q74. [Moderate] What is the output of the following code?\n```r\nm <- matrix(1:6, nrow = 2)\nm[1, 2]\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Matrix fills by column: col1 = 1,2; col2 = 3,4; col3 = 5,6. Row 1, col 2 = 3."
+    },
+    {
+      "id": "q-imp-1795052683953-74-s0qa",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nm <- matrix(1:6, nrow = 2, byrow = TRUE)\nm[2, 1]\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** byrow gives rows (1 2 3) and (4 5 6). Row 2, col 1 = 4."
+    },
+    {
+      "id": "q-imp-1795052683953-75-8tew",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of `nrow(matrix(0, 3, 4))`?",
+      "options": [
+        "3",
+        "4",
+        "12",
+        "0"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** `matrix(data, nrow, ncol)`: 3 rows, 4 columns."
+    },
+    {
+      "id": "q-imp-1795052683953-76-u7o2",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\ndim(t(matrix(1:6, nrow = 2)))\n```",
+      "options": [
+        "2 3",
+        "3 2",
+        "6",
+        "1 6"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Original is 2×3. Transpose `t()` swaps to 3×2."
+    },
+    {
+      "id": "q-imp-1795052683953-77-2yw7",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `dim(rbind(1:3, 4:6))`?",
+      "options": [
+        "3 2",
+        "2 3",
+        "6",
+        "1 6"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `rbind` stacks vectors as rows: 2 rows, 3 columns."
+    },
+    {
+      "id": "q-imp-1795052683953-78-175t",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `sum(diag(3))`?",
+      "options": [
+        "9",
+        "1",
+        "3",
+        "6"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `diag(3)` makes 3×3 identity matrix. Diagonal ones add to 3."
+    },
+    {
+      "id": "q-imp-1795052683953-79-47tc",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which operator performs matrix multiplication in R?",
+      "options": [
+        "`*`",
+        "`%%`",
+        "`%*%`",
+        "`%/%`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `*` multiplies element by element. `%*%` is true matrix product."
+    },
+    {
+      "id": "q-imp-1795052683953-80-6gvo",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nm <- matrix(1:4, nrow = 2)\n(m * m)[2, 2]\n```",
+      "options": [
+        "8",
+        "16",
+        "22",
+        "4"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `*` is element-wise. Element [2,2] = 4 × 4 = 16."
+    },
+    {
+      "id": "q-imp-1795052683953-81-rw5w",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\nm <- matrix(1:4, nrow = 2)\n(m %*% m)[1, 1]\n```",
+      "options": [
+        "1",
+        "5",
+        "7",
+        "15"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** m = [1 3; 2 4]. Row1·Col1 = 1×1 + 3×2 = 7."
+    },
+    {
+      "id": "q-imp-1795052683953-82-o05v",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What does `dim(array(1:24, dim = c(3, 4, 2)))` return?",
+      "options": [
+        "24",
+        "3 4",
+        "3 4 2",
+        "2 3 4"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Array has 3 rows, 4 columns, 2 layers. 3×4×2 = 24 elements."
+    },
+    {
+      "id": "q-imp-1795052683953-83-5qm5",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\na <- array(1:24, dim = c(3, 4, 2))\na[1, 1, 2]\n```",
+      "options": [
+        "1",
+        "2",
+        "13",
+        "24"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Each layer holds 12 values. Layer 2 starts at 13."
+    },
+    {
+      "id": "q-imp-1795052683953-84-ajnw",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Lists\n\n### Q85. [Easy] What is the output of the following code?\n```r\nlength(list(1, \"a\", c(1, 2, 3)))\n```",
+      "options": [
+        "5",
+        "2",
+        "3",
+        "1"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** List has 3 elements; third element is a vector but counts as one."
+    },
+    {
+      "id": "q-imp-1795052683953-85-n75k",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nl <- list(a = 1, b = \"x\")\nl$c <- TRUE\nlength(l)\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "Error"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `$<-` adds new named element. List now has a, b, c."
+    },
+    {
+      "id": "q-imp-1795052683953-86-fk1z",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\np <- list(name = \"Ravi\", age = 25)\nclass(p[\"name\"])\n```",
+      "options": [
+        "\"character\"",
+        "\"list\"",
+        "\"data.frame\"",
+        "\"NULL\""
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Single bracket `[ ]` returns sub-list. `p[[\"name\"]]` or `p$name` returns \"Ravi\" (character)."
+    },
+    {
+      "id": "q-imp-1795052683953-87-1hd4",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nl <- list(a = 1, b = \"x\")\nclass(l[[2]])\n```",
+      "options": [
+        "\"list\"",
+        "\"character\"",
+        "\"numeric\"",
+        "\"NULL\""
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `[[ ]]` extracts the item itself (\"x\"), a character."
+    },
+    {
+      "id": "q-imp-1795052683953-88-72m9",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nsum(unlist(list(1, 2, 3)))\n```",
+      "options": [
+        "Error",
+        "3",
+        "6",
+        "list(6)"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `unlist` flattens list into vector 1 2 3. Sum = 6."
+    },
+    {
+      "id": "q-imp-1795052683953-89-9d4h",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of the following code?\n```r\nmy_list <- list(df1 = data.frame(a = 1:2), df2 = data.frame(b = 3:5), df3 = data.frame(c = 6))\nlength(my_list)\n```",
+      "options": [
+        "6",
+        "2",
+        "3",
+        "8"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** List holds three data frames, so length is 3."
+    },
+    {
+      "id": "q-imp-1795052683953-90-fzqj",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which code accesses the second data frame of `my_list` (named `df2`)?",
+      "options": [
+        "`my_list(2)`",
+        "`my_list[2, ]`",
+        "`my_list[[2]]` or `my_list$df2`",
+        "`my_list.df2`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `[[ ]]` and `$` return the data frame itself; `[2]` returns a sub-list."
+    },
+    {
+      "id": "q-imp-1795052683953-91-foir",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Data Frames, Factors & Tables\n\n### Q92. [Easy] Which function displays the structure (types and sample values) of an object?",
+      "options": [
+        "`summary()`",
+        "`class()`",
+        "`str()`",
+        "`dim()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `str(df)` shows rows, columns, each column type. `summary()` gives statistics (min, quartiles, mean, max)."
+    },
+    {
+      "id": "q-imp-1795052683953-92-15dh",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of the following code?\n```r\nncol(data.frame(a = 1:2, b = 3:4, c = 5:6))\n```",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "1"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Three columns a, b, c."
+    },
+    {
+      "id": "q-imp-1795052683953-93-785k",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What does the following code return?\n```r\ndf <- data.frame(x = 1:3, y = c(\"a\", \"b\", \"c\"))\nsapply(df, class)\n```",
+      "options": [
+        "\"data.frame\" \"data.frame\"",
+        "x = \"integer\", y = \"character\"",
+        "\"numeric\" only",
+        "x = \"factor\", y = \"factor\""
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `sapply` applies `class` to each column. Since R 4.0 strings stay character."
+    },
+    {
+      "id": "q-imp-1795052683953-94-1xt6",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\ndf <- data.frame(a = 1:5)\nnrow(df[df$a > 2, , drop = FALSE])\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Rows with a = 3, 4, 5 kept. `drop = FALSE` keeps data frame form."
+    },
+    {
+      "id": "q-imp-1795052683954-95-u71k",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\ndf <- data.frame(x = 1:3)\nclass(df[\"x\"])\n```",
+      "options": [
+        "\"integer\"",
+        "\"numeric\"",
+        "\"data.frame\"",
+        "\"list\""
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Single bracket keeps data frame. `df$x` or `df[[\"x\"]]` gives integer vector."
+    },
+    {
+      "id": "q-imp-1795052683954-96-ayvq",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which line adds a column `bonus` equal to 10% of salary?",
+      "options": [
+        "`emp$bonus == emp$sal * 0.1`",
+        "`emp$bonus <- emp$sal * 0.1`",
+        "`add(emp, bonus)`",
+        "`emp[\"bonus\"] <- sal`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Assigning to a new name with `$` creates the column."
+    },
+    {
+      "id": "q-imp-1795052683954-97-1nnx",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which base R code sorts `df` by `dept` ascending then `sal` descending?",
+      "options": [
+        "`df[sort(df$dept, df$sal), ]`",
+        "`df[order(df$dept, -df$sal), ]`",
+        "`df[order(-df$dept, df$sal), ]`",
+        "`sort(df, dept, sal)`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `order()` returns row positions; minus sign reverses numeric column. dplyr: `arrange(df, dept, desc(sal))`."
+    },
+    {
+      "id": "q-imp-1795052683954-98-oc6v",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `levels(factor(c(\"b\", \"a\", \"c\", \"a\")))`?",
+      "options": [
+        "\"b\" \"a\" \"c\"",
+        "\"b\" \"a\" \"c\" \"a\"",
+        "\"a\" \"b\" \"c\"",
+        "1 2 3"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Levels = unique values sorted alphabetically by default."
+    },
+    {
+      "id": "q-imp-1795052683954-99-jgfa",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\nas.integer(factor(c(\"b\", \"a\", \"b\")))\n```",
+      "options": [
+        "1 2 1",
+        "2 1 2",
+        "2 1 1",
+        "\"b\" \"a\" \"b\""
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Levels sorted: a = 1, b = 2. Codes: b=2, a=1, b=2."
+    },
+    {
+      "id": "q-imp-1795052683954-100-rc3n",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\ntable(c(\"a\", \"b\", \"a\"))[[\"a\"]]\n```",
+      "options": [
+        "\"a\"",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `table` counts frequencies; \"a\" appears twice."
+    },
+    {
+      "id": "q-imp-1795052683954-101-m4an",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Built-in Datasets\n\n### Q102. [Easy] What does calling `data()` with no arguments do?",
+      "options": [
+        "Deletes all datasets",
+        "Lists available built-in datasets",
+        "Loads airquality",
+        "Creates empty data frame"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `data()` opens list of datasets in loaded packages. `data(airquality)` loads one."
+    },
+    {
+      "id": "q-imp-1795052683954-102-i1m5",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of `dim(iris)`?",
+      "options": [
+        "5 150",
+        "150 5",
+        "150 4",
+        "50 5"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** iris has 150 rows and 5 columns (4 measurements + Species)."
+    },
+    {
+      "id": "q-imp-1795052683954-103-e16r",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `nlevels(iris$Species)`?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "150"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Species factor has setosa, versicolor, virginica."
+    },
+    {
+      "id": "q-imp-1795052683954-104-wj51",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of `nrow(mtcars)`?",
+      "options": [
+        "11",
+        "16",
+        "32",
+        "50"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** mtcars has 32 car models and 11 variables."
+    },
+    {
+      "id": "q-imp-1795052683954-105-165p",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What does `dim(airquality)` return?",
+      "options": [
+        "6 153",
+        "153 6",
+        "111 6",
+        "153 5"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** airquality has 153 rows (daily readings) and 6 columns (Ozone, Solar.R, Wind, Temp, Month, Day)."
+    },
+    {
+      "id": "q-imp-1795052683954-106-25zb",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of `sum(is.na(airquality$Ozone))`?",
+      "options": [
+        "0",
+        "7",
+        "37",
+        "153"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Ozone has 37 missing values. Solar.R has 7."
+    },
+    {
+      "id": "q-imp-1795052683954-107-oalf",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of `nrow(na.omit(airquality))`?",
+      "options": [
+        "153",
+        "116",
+        "111",
+        "37"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** 153 rows minus rows with any NA leaves 111 complete cases."
+    },
+    {
+      "id": "q-imp-1795052683954-108-b8u1",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Import & Export (Files, Excel, JSON, XML)\n\n### Q109. [Easy] Default separator of `read.delim()`?",
+      "options": [
+        "Comma",
+        "Tab",
+        "Semicolon",
+        "Space"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `read.csv` = comma, `read.delim` = tab, `read.table` = whitespace."
+    },
+    {
+      "id": "q-imp-1795052683954-109-nvdy",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Default value of `header` in `read.table()`?",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NA",
+        "\"auto\""
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `read.table` default header = FALSE. `read.csv` default header = TRUE."
+    },
+    {
+      "id": "q-imp-1795052683954-110-0b9a",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which `read.csv()` argument ignores first 2 lines of a file?",
+      "options": [
+        "`header = 2`",
+        "`nrows = 2`",
+        "`skip = 2`",
+        "`drop = 2`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `skip` = number of lines to skip before reading. `nrows` limits rows read."
+    },
+    {
+      "id": "q-imp-1795052683954-111-kwy6",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What does `read.csv(file.choose())` do?",
+      "options": [
+        "Creates a new CSV",
+        "Opens dialog to pick a file, then reads it",
+        "Reads the last used file",
+        "Downloads a CSV"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `file.choose()` returns path selected interactively."
+    },
+    {
+      "id": "q-imp-1795052683954-112-9s85",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which function reads a text file line by line into a character vector?",
+      "options": [
+        "`read.table()`",
+        "`readLines()`",
+        "`scan_csv()`",
+        "`readRDS()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `readLines(\"notes.txt\")` returns one string per line."
+    },
+    {
+      "id": "q-imp-1795052683954-113-58o4",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What type of object does `readr::read_csv()` return?",
+      "options": [
+        "matrix",
+        "list only",
+        "tibble",
+        "vector"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `read_csv` returns a tibble; base `read.csv` returns data.frame."
+    },
+    {
+      "id": "q-imp-1795052683954-114-2ezp",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which is a valid Windows path string in R?",
+      "options": [
+        "`\"C:\\Users\\me\\data\"`",
+        "`\"C:/Users/me/data\"`",
+        "`'C:\\Users\\me'`",
+        "`C:/Users/me`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Single backslash is escape character in R strings. Use `/` or `\\\\`. Path must be quoted."
+    },
+    {
+      "id": "q-imp-1795052683954-115-7knl",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which argument stops `write.csv()` adding extra row-number column?",
+      "options": [
+        "`header = FALSE`",
+        "`row.names = FALSE`",
+        "`quote = FALSE`",
+        "`col.names = FALSE`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `write.csv(df, \"f.csv\", row.names = FALSE)`."
+    },
+    {
+      "id": "q-imp-1795052683954-116-9gew",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which code writes a tab-separated text file without row numbers?",
+      "options": [
+        "`write.csv(df, \"o.txt\", sep = \"\\t\")`",
+        "`write.table(df, \"o.txt\", sep = \"\\t\", row.names = FALSE)`",
+        "`save(df, \"o.txt\")`",
+        "`writeLines(df, \"o.txt\")`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `write.table` accepts `sep`. `write.csv` fixes separator as comma."
+    },
+    {
+      "id": "q-imp-1795052683954-117-e8bw",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which pair saves and reloads a single R object in compact binary form?",
+      "options": [
+        "`write.csv` / `read.csv`",
+        "`saveRDS` / `readRDS`",
+        "`dput` / `dget`",
+        "`sink` / `source`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `saveRDS(obj, \"f.rds\")` then `obj <- readRDS(\"f.rds\")` keeps types intact."
+    },
+    {
+      "id": "q-imp-1795052683954-118-xomg",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which package reads Excel files into R?",
+      "options": [
+        "writexl",
+        "readxl",
+        "rvest",
+        "jsonlite"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `readxl::read_excel()` reads. `writexl::write_xlsx()` writes."
+    },
+    {
+      "id": "q-imp-1795052683954-119-bc2y",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which `readxl` function lists sheet names of an Excel file?",
+      "options": [
+        "`read_sheets()`",
+        "`sheet_list()`",
+        "`excel_sheets()`",
+        "`names_xlsx()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `excel_sheets(\"book.xlsx\")`, then `read_excel(path, sheet = ...)`."
+    },
+    {
+      "id": "q-imp-1795052683954-120-cm5n",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which function from `writexl` exports a data frame to Excel?",
+      "options": [
+        "`write.csv()`",
+        "`save_xlsx()`",
+        "`write_xlsx()`",
+        "`export_excel()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `write_xlsx(df, \"out.xlsx\")`. Needs `library(writexl)`. File saves in working directory (`getwd()`). Pass named list for multiple sheets."
+    },
+    {
+      "id": "q-imp-1795052683954-121-8fya",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What does this code create?\n```r\nwrite_xlsx(list(A = df1, B = df2), \"multi.xlsx\")\n```",
+      "options": [
+        "Two separate Excel files",
+        "One Excel file with two sheets named A and B",
+        "One sheet with both data frames merged",
+        "An error, list not allowed"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Named list of data frames becomes sheets; names become sheet names."
+    },
+    {
+      "id": "q-imp-1795052683954-122-qqah",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which function reads a JSON file in R (jsonlite)?",
+      "options": [
+        "`read_json_file()`",
+        "`xmlParse()`",
+        "`fromJSON()`",
+        "`read.json()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `jsonlite::fromJSON(\"file.json\")`. `xmlParse()` is for XML."
+    },
+    {
+      "id": "q-imp-1795052683954-123-ydp2",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which function converts a flat XML document to a data frame (XML package)?",
+      "options": [
+        "`fromJSON()`",
+        "`html_table()`",
+        "`xmlToDataFrame()`",
+        "`read_xlsx()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `xmlToDataFrame(\"data.xml\")`. Columns often come as text; convert with `as.numeric()`."
+    },
+    {
+      "id": "q-imp-1795052683954-124-9j63",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Databases in R (DBI, SQLite, MongoDB)\n\n### Q125. [Easy] Which package gives R a common interface to connect with different databases?",
+      "options": [
+        "rvest",
+        "DBI",
+        "readxl",
+        "jsonlite"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** DBI = standard interface (`dbConnect`, `dbGetQuery`, ...). Each database also needs a driver package like RSQLite or RMySQL."
+    },
+    {
+      "id": "q-imp-1795052683954-125-1s9v",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which code connects to a file-based SQLite database `mydb.sqlite`?",
+      "options": [
+        "`dbConnect(RMySQL::MySQL(), \"mydb.sqlite\")`",
+        "`dbConnect(RSQLite::SQLite(), \"mydb.sqlite\")`",
+        "`dbOpen(\"mydb.sqlite\")`",
+        "`read.sqlite(\"mydb.sqlite\")`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Driver object goes first (`RSQLite::SQLite()`), then database file path."
+    },
+    {
+      "id": "q-imp-1795052683954-126-arfo",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What does `dbListTables(con)` return?",
+      "options": [
+        "All rows of the first table",
+        "Names of all tables in the database",
+        "Column names of one table",
+        "Number of connections"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Returns character vector of table names. `dbListFields(con, \"emp\")` gives column names."
+    },
+    {
+      "id": "q-imp-1795052683954-127-0bsv",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which DBI function runs a SQL SELECT and returns result as data frame?",
+      "options": [
+        "`dbConnect()`",
+        "`dbGetQuery()`",
+        "`dbListTables()`",
+        "`dbDisconnect()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `dbGetQuery(con, \"SELECT ...\")`. `dbConnect` opens connection."
+    },
+    {
+      "id": "q-imp-1795052683954-128-vf6m",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the class of the result returned by `dbGetQuery(con, \"SELECT * FROM emp\")`?",
+      "options": [
+        "\"matrix\"",
+        "\"list\" only",
+        "\"data.frame\"",
+        "\"character\""
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Query result comes back as a data frame, ready for `head()`, `summary()` etc."
+    },
+    {
+      "id": "q-imp-1795052683954-129-w8s0",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "Which code reads rows with salary above 2000 directly from the database?",
+      "options": [
+        "`dbReadTable(con, \"emp\", sal > 2000)`",
+        "`dbSelect(con, emp$sal > 2000)`",
+        "`dbGetQuery(con, \"SELECT * FROM emp WHERE sal > 2000\")`",
+        "`read.csv(con, \"emp\", sal > 2000)`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Filtering in SQL is efficient: only matching rows reach R memory."
+    },
+    {
+      "id": "q-imp-1795052683954-130-q7h2",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which DBI function runs a statement like INSERT/UPDATE/DELETE and returns the number of rows affected?",
+      "options": [
+        "`dbGetQuery()`",
+        "`dbExecute()`",
+        "`dbListTables()`",
+        "`dbReadTable()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `dbExecute` is for non-SELECT statements. `dbGetQuery` is for SELECT."
+    },
+    {
+      "id": "q-imp-1795052683954-131-0nfh",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which DBI function writes a data frame into a database table?",
+      "options": [
+        "`dbGetQuery()`",
+        "`dbListTables()`",
+        "`dbWriteTable()`",
+        "`dbSendData()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `dbWriteTable(con, \"tbl\", df)`. Always `dbDisconnect(con)` after."
+    },
+    {
+      "id": "q-imp-1795052683954-132-auca",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Why call `dbDisconnect(con)` at the end?",
+      "options": [
+        "To delete the database",
+        "To close the connection and free resources",
+        "To save the query result",
+        "To commit table creation to disk file"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Open connections hold resources. Always disconnect when finished."
+    },
+    {
+      "id": "q-imp-1795052683954-133-g671",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which package is used to connect R to MongoDB?",
+      "options": [
+        "RMySQL",
+        "RSQLite",
+        "mongolite",
+        "writexl"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MongoDB is NoSQL, so `mongolite` is used. RMySQL is for MySQL (e.g. Sakila)."
+    },
+    {
+      "id": "q-imp-1795052683954-134-dy4o",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Web Scraping with rvest\n\n### Q135. [Easy] Which package is used for web scraping in R?",
+      "options": [
+        "readxl",
+        "DBI",
+        "ggplot2",
+        "rvest"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** `read_html()`, `html_elements()`, `html_text()`, `html_table()` from rvest."
+    },
+    {
+      "id": "q-imp-1795052683954-135-rt7k",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which rvest function downloads and parses a web page?",
+      "options": [
+        "`get_page()`",
+        "`read_html()`",
+        "`html_read()`",
+        "`scrape()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `page <- read_html(\"https://example.com\")`."
+    },
+    {
+      "id": "q-imp-1795052683954-136-dryn",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What does `page %>% html_elements(\"h2\")` do?",
+      "options": [
+        "Reads all text of page",
+        "Selects all `<h2>` heading nodes",
+        "Deletes h2 tags",
+        "Downloads images"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** CSS selector picks nodes. Add `html_text()` to get the text inside."
+    },
+    {
+      "id": "q-imp-1795052683954-137-ffb8",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which function extracts visible text from selected HTML nodes?",
+      "options": [
+        "`html_table()`",
+        "`html_attr()`",
+        "`html_text()`",
+        "`html_name()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Typical chain: `read_html() %>% html_elements() %>% html_text()`."
+    },
+    {
+      "id": "q-imp-1795052683954-138-3462",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which code extracts link URLs from all `<a>` tags?",
+      "options": [
+        "`page %>% html_elements(\"a\") %>% html_text(\"url\")`",
+        "`page %>% html_elements(\"a\") %>% html_attr(\"href\")`",
+        "`page %>% html_links()`",
+        "`page %>% html_table(\"a\")`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** URL is stored in the `href` attribute, read with `html_attr`."
+    },
+    {
+      "id": "q-imp-1795052683954-139-vh23",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which rvest function extracts HTML tables from a page?",
+      "options": [
+        "`html_text()`",
+        "`html_elements()`",
+        "`html_table()`",
+        "`read_table_html()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `page %>% html_table()` returns list of data frames, one per table."
+    },
+    {
+      "id": "q-imp-1795052683954-140-as1y",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What does `page %>% html_table()` return when page has 3 tables?",
+      "options": [
+        "One merged data frame",
+        "A matrix",
+        "A list of 3 data frames/tibbles",
+        "Error"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Result is a list; access one with `tbls[[1]]`."
+    },
+    {
+      "id": "q-imp-1795052683954-141-07o7",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which CSS selector picks elements with class `price`?",
+      "options": [
+        "`#price`",
+        "`.price`",
+        "`price`",
+        "`<price>`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `.` = class, `#` = id, plain word = tag name."
+    },
+    {
+      "id": "q-imp-1795052683954-142-2a8d",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What should you check before scraping a website?",
+      "options": [
+        "Nothing, all sites allow it",
+        "Its terms of service and `robots.txt`",
+        "Only the page colour",
+        "Whether it uses JavaScript fonts"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Scraping must respect site rules and law. Prefer official APIs when available."
+    },
+    {
+      "id": "q-imp-1795052683954-143-t1s2",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Tidyverse: Tidy Data, Pipe & Tibbles\n\n### Q144. [Easy] Which is NOT a rule of tidy data?",
+      "options": [
+        "Each variable is a column",
+        "Each observation is a row",
+        "Each value is one cell",
+        "Each table must have exactly one numeric column"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** Tidy = variable per column, observation per row, value per cell. No numeric-column rule."
+    },
+    {
+      "id": "q-imp-1795052683954-144-xg76",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What does pipe `%>%` do?",
+      "options": [
+        "Compares two values",
+        "Passes left result as first argument to right function",
+        "Merges two data frames",
+        "Creates a loop"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `x %>% f()` equals `f(x)`. Read as \"then\"."
+    },
+    {
+      "id": "q-imp-1795052683954-145-8954",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nlibrary(magrittr)\nc(4, 9, 16) %>% sqrt() %>% sum()\n```",
+      "options": [
+        "29",
+        "3",
+        "9",
+        "16"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** sqrt gives 2 3 4. Sum = 9."
+    },
+    {
+      "id": "q-imp-1795052683954-146-3qoz",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "From which R version is the native pipe `|>` available?",
+      "options": [
+        "3.5",
+        "3.6",
+        "4.1",
+        "2.15"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `|>` added in R 4.1.0. `%>%` comes from magrittr/tidyverse."
+    },
+    {
+      "id": "q-imp-1795052683954-147-6e67",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which is a feature of a tibble compared to a base data frame?",
+      "options": [
+        "Cannot hold character columns",
+        "Prints only first 10 rows and shows column types",
+        "Always sorts rows",
+        "Requires numeric columns only"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Tibbles print compactly, never change column names/types silently."
+    },
+    {
+      "id": "q-imp-1795052683954-148-c09c",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "dplyr Verbs\n\n### Q149. [Easy] Which dplyr verb picks rows by condition?",
+      "options": [
+        "`select()`",
+        "`filter()`",
+        "`mutate()`",
+        "`arrange()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `filter` = rows, `select` = columns, `mutate` = new columns, `arrange` = sort."
+    },
+    {
+      "id": "q-imp-1795052683954-149-4m63",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nlibrary(dplyr)\ndf <- data.frame(d = c(\"IT\", \"HR\", \"FIN\", \"IT\"))\nnrow(filter(df, d %in% c(\"IT\", \"FIN\")))\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Matches: IT, FIN, IT = 3 rows."
+    },
+    {
+      "id": "q-imp-1795052683954-150-fwjh",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "How do you drop column `dept` using dplyr?",
+      "options": [
+        "`filter(df, -dept)`",
+        "`select(df, -dept)`",
+        "`drop(df, dept)`",
+        "`mutate(df, dept = NULL)`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Minus sign in `select` removes column."
+    },
+    {
+      "id": "q-imp-1795052683954-151-0ep5",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nlibrary(dplyr)\nnames(select(data.frame(sal = 1, sex = 2, age = 3), starts_with(\"s\")))\n```",
+      "options": [
+        "\"age\"",
+        "\"sal\" \"sex\" \"age\"",
+        "\"sal\" \"sex\"",
+        "\"s\""
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `starts_with(\"s\")` matches column names beginning with s."
+    },
+    {
+      "id": "q-imp-1795052683954-152-golg",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which code renames column `sal` to `salary` in dplyr?",
+      "options": [
+        "`rename(df, sal = salary)`",
+        "`rename(df, salary = sal)`",
+        "`mutate(df, sal -> salary)`",
+        "`select(df, rename(sal))`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Syntax is `rename(data, new_name = old_name)`."
+    },
+    {
+      "id": "q-imp-1795052683954-153-637j",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which dplyr verb adds a new column?",
+      "options": [
+        "`summarise()`",
+        "`group_by()`",
+        "`mutate()`",
+        "`slice()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `mutate(df, bonus = sal * 0.1)`."
+    },
+    {
+      "id": "q-imp-1795052683954-154-rpsl",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nlibrary(dplyr)\ndf <- data.frame(sal = c(10, 20, 30))\ndf %>% mutate(b = sal * 2) %>% filter(b > 30) %>% nrow()\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** b = 20, 40, 60. Only 40 and 60 exceed 30. Row count = 2."
+    },
+    {
+      "id": "q-imp-1795052683954-155-dr68",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\nlibrary(dplyr)\nncol(transmute(data.frame(a = 1:2, b = 3:4), c = a + b))\n```",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `transmute` keeps only newly created columns. `mutate` would keep all (3)."
+    },
+    {
+      "id": "q-imp-1795052683954-156-s6zu",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nx <- 60\ndplyr::case_when(x > 75 ~ \"A\", x > 50 ~ \"B\", TRUE ~ \"C\")\n```",
+      "options": [
+        "\"A\"",
+        "\"B\"",
+        "\"C\"",
+        "NA"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Conditions checked in order; first TRUE wins. 60 > 75 false, 60 > 50 true."
+    },
+    {
+      "id": "q-imp-1795052683954-157-223u",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\ndplyr::if_else(c(1, 5) > 3, \"H\", \"L\")\n```",
+      "options": [
+        "\"H\" \"L\"",
+        "\"L\" \"H\"",
+        "\"H\" \"H\"",
+        "TRUE FALSE"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** 1 > 3 is FALSE → \"L\". 5 > 3 is TRUE → \"H\"."
+    },
+    {
+      "id": "q-imp-1795052683954-158-vpgx",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which code sorts `df` by `sal` from highest to lowest in dplyr?",
+      "options": [
+        "`arrange(df, -sort(sal))`",
+        "`sort(df, sal)`",
+        "`arrange(df, desc(sal))`",
+        "`order(df, sal)`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `arrange` sorts rows. `desc()` reverses order."
+    },
+    {
+      "id": "q-imp-1795052683954-159-9md1",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which dplyr function counts rows per category, e.g. per `dept`?",
+      "options": [
+        "`tally_all()`",
+        "`count(df, dept)`",
+        "`sum(df$dept)`",
+        "`group(df, dept)`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `count(df, dept)` gives each dept and number of rows `n`."
+    },
+    {
+      "id": "q-imp-1795052683954-160-qsdg",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nlibrary(dplyr)\ndf <- data.frame(dept = c(\"IT\", \"HR\", \"IT\"))\ndf %>% group_by(dept) %>% summarise(n = n()) %>% nrow()\n```",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Two groups (HR, IT); summarise gives one row per group."
+    },
+    {
+      "id": "q-imp-1795052683954-161-v4vn",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\nlibrary(dplyr)\ndf <- data.frame(g = c(\"a\", \"a\", \"b\"), v = c(1, 3, 5))\ndf %>% group_by(g) %>% mutate(m = mean(v)) %>% pull(m)\n```",
+      "options": [
+        "3 3 3",
+        "2 5",
+        "2 2 5",
+        "1 3 5"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `mutate` on grouped data keeps all rows; each row gets its group mean (a = 2, b = 5)."
+    },
+    {
+      "id": "q-imp-1795052683954-162-vbwa",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Purpose of `ungroup()` in dplyr?",
+      "options": [
+        "Deletes grouped rows",
+        "Removes grouping so later steps work on whole data",
+        "Splits data into lists",
+        "Sorts groups"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Grouping persists after `mutate`/`summarise`; `ungroup()` clears it."
+    },
+    {
+      "id": "q-imp-1795052683954-163-1242",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nlibrary(dplyr)\nnrow(distinct(data.frame(d = c(\"IT\", \"HR\", \"IT\"))))\n```",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `distinct` removes duplicate rows, leaving IT and HR."
+    },
+    {
+      "id": "q-imp-1795052683954-164-htkz",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of `dplyr::n_distinct(c(\"a\", \"b\", \"a\"))`?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Counts unique values: \"a\" and \"b\"."
+    },
+    {
+      "id": "q-imp-1795052683954-165-ohs7",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which dplyr function returns the row with the highest value of a column?",
+      "options": [
+        "`slice_min()`",
+        "`slice_max()`",
+        "`top_row()`",
+        "`pull()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `slice_max(df, sal, n = 1)`. `slice_min` gives lowest."
+    },
+    {
+      "id": "q-imp-1795052683954-166-mbfg",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nlibrary(dplyr)\ndf <- data.frame(a = 1:3)\nclass(pull(df, a))\n```",
+      "options": [
+        "\"data.frame\"",
+        "\"integer\"",
+        "\"list\"",
+        "\"character\""
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `pull` extracts a column as a plain vector."
+    },
+    {
+      "id": "q-imp-1795052683954-167-j4ao",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `dplyr::lead(1:3)`?",
+      "options": [
+        "NA 1 2",
+        "2 3 NA",
+        "3 2 1",
+        "1 2 3"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `lead` shifts values forward (next value). `lag` gives previous: NA 1 2."
+    },
+    {
+      "id": "q-imp-1795052683955-168-w5k1",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Joins & Binding\n\n### Q169. [Moderate] What does `left_join(a, b, by = \"id\")` keep?",
+      "options": [
+        "Only matching rows",
+        "All rows of `a` plus matching data from `b`",
+        "All rows of `b` only",
+        "Rows of `a` with no match in `b`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Left join keeps every row of left table; unmatched get NA. Base: `merge(a, b, by=\"id\", all.x=TRUE)`."
+    },
+    {
+      "id": "q-imp-1795052683955-169-sora",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "Which join returns rows of `a` that have NO match in `b`?",
+      "options": [
+        "`inner_join()`",
+        "`semi_join()`",
+        "`full_join()`",
+        "`anti_join()`"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** `anti_join` filters out matches. `semi_join` keeps rows that do match.\n\n*Join practice: a has id 1,2,3; b has id 2,3,4.*"
+    },
+    {
+      "id": "q-imp-1795052683955-170-2sol",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "`nrow(inner_join(a, b, by = \"id\"))` = ?\n```r\nlibrary(dplyr)\na <- data.frame(id = c(1, 2, 3))\nb <- data.frame(id = c(2, 3, 4))\nnrow(inner_join(a, b, by = \"id\"))\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Only ids 2 and 3 exist in both tables."
+    },
+    {
+      "id": "q-imp-1795052683955-171-kzpe",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "`nrow(full_join(a, b, by = \"id\"))` = ?\n```r\nlibrary(dplyr)\na <- data.frame(id = c(1, 2, 3))\nb <- data.frame(id = c(2, 3, 4))\nnrow(full_join(a, b, by = \"id\"))\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Full join keeps all ids: 1, 2, 3, 4."
+    },
+    {
+      "id": "q-imp-1795052683955-172-y7ny",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "`nrow(left_join(a, b, by = \"id\"))` = ?\n```r\nlibrary(dplyr)\na <- data.frame(id = c(1, 2, 3))\nb <- data.frame(id = c(2, 3, 4))\nnrow(left_join(a, b, by = \"id\"))\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** All 3 rows of `a` are kept."
+    },
+    {
+      "id": "q-imp-1795052683955-173-v3zp",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "`nrow(anti_join(a, b, by = \"id\"))` = ?\n```r\nlibrary(dplyr)\na <- data.frame(id = c(1, 2, 3))\nb <- data.frame(id = c(2, 3, 4))\nnrow(anti_join(a, b, by = \"id\"))\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** Only id 1 in `a` has no match in `b`."
+    },
+    {
+      "id": "q-imp-1795052683955-174-4ikt",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "`nrow(semi_join(a, b, by = \"id\"))` = ?\n```r\nlibrary(dplyr)\na <- data.frame(id = c(1, 2, 3))\nb <- data.frame(id = c(2, 3, 4))\nnrow(semi_join(a, b, by = \"id\"))\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Keeps rows of `a` that have a match: ids 2 and 3. No columns from `b` added."
+    },
+    {
+      "id": "q-imp-1795052683955-175-c05z",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Difference between `bind_rows()` and `bind_cols()`?",
+      "options": [
+        "No difference",
+        "`bind_rows` stacks data frames vertically, `bind_cols` places them side by side",
+        "`bind_rows` joins by key, `bind_cols` sorts",
+        "`bind_rows` removes NA, `bind_cols` adds NA"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Rows = base `rbind`, cols = base `cbind`. Neither uses keys."
+    },
+    {
+      "id": "q-imp-1795052683955-176-gzk6",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "How many rows result from this code?\n```r\na <- data.frame(x = 1:2)\nb <- data.frame(x = 3:5)\nnrow(dplyr::bind_rows(a, b))\n```",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Rows are stacked: 2 + 3 = 5."
+    },
+    {
+      "id": "q-imp-1795052683955-177-oa2o",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "tidyr, stringr & purrr\n\n### Q178. [Moderate] Purpose of `pivot_longer()`?",
+      "options": [
+        "Join two tables",
+        "Convert wide data to long (tidy) format",
+        "Sort rows",
+        "Remove NA"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Gathers many columns into name/value pair columns. `pivot_wider()` does reverse."
+    },
+    {
+      "id": "q-imp-1795052683955-178-19lo",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which tidyr function converts long data to wide?",
+      "options": [
+        "`pivot_longer()`",
+        "`pivot_wider()`",
+        "`separate()`",
+        "`unite()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `pivot_wider(names_from = year, values_from = value)`. Old name: `spread()`."
+    },
+    {
+      "id": "q-imp-1795052683955-179-u9at",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "How many rows does the result have?\n```r\nlibrary(tidyr)\nwide <- data.frame(name = c(\"A\", \"B\"), y1 = c(1, 2), y2 = c(3, 4), y3 = c(5, 6))\nnrow(pivot_longer(wide, cols = -name, names_to = \"year\", values_to = \"value\"))\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** 2 names × 3 value columns = 6 rows."
+    },
+    {
+      "id": "q-imp-1795052683955-180-etaf",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which tidyr function splits one column into several columns?",
+      "options": [
+        "`unite()`",
+        "`separate()`",
+        "`fill()`",
+        "`complete()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `separate(df, name, into = c(\"first\", \"last\"), sep = \" \")`."
+    },
+    {
+      "id": "q-imp-1795052683955-181-aag2",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which tidyr function combines several columns into one?",
+      "options": [
+        "`unite()`",
+        "`separate()`",
+        "`pivot_wider()`",
+        "`drop_na()`"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** `unite(df, \"full\", first, last, sep = \" \")`. Opposite of `separate`."
+    },
+    {
+      "id": "q-imp-1795052683955-182-9af0",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nlibrary(tidyr)\nnrow(drop_na(data.frame(x = c(1, NA, 3))))\n```",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Row with NA is removed."
+    },
+    {
+      "id": "q-imp-1795052683955-183-7i6e",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nlibrary(stringr)\nstr_detect(c(\"apple\", \"banana\"), \"an\")\n```",
+      "options": [
+        "TRUE TRUE",
+        "TRUE FALSE",
+        "FALSE TRUE",
+        "FALSE FALSE"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** \"banana\" contains \"an\"; \"apple\" does not."
+    },
+    {
+      "id": "q-imp-1795052683955-184-dkuy",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nstringr::str_replace_all(\"a-b-c\", \"-\", \"\")\n```",
+      "options": [
+        "\"a-b-c\"",
+        "\"a b c\"",
+        "\"abc\"",
+        "\"-\""
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Replaces every \"-\" with empty string."
+    },
+    {
+      "id": "q-imp-1795052683955-185-dgqh",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nclass(purrr::map(1:3, ~ .x * 2))\n```",
+      "options": [
+        "\"numeric\"",
+        "\"vector\"",
+        "\"list\"",
+        "\"data.frame\""
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `map()` always returns a list. `map_dbl()` returns numeric vector."
+    },
+    {
+      "id": "q-imp-1795052683955-186-f9qm",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Functions, Loops & Apply Family\n\n### Q187. [Moderate] What is the output of the following code?\n```r\nf <- function(x, y = 2) x * y\nf(3)\n```",
+      "options": [
+        "Error",
+        "3",
+        "6",
+        "5"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `y` defaults to 2. 3 × 2 = 6. Last expression is returned."
+    },
+    {
+      "id": "q-imp-1795052683955-187-x8hp",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\nx <- 10\nf <- function() { x <- 5; x }\nf() + x\n```",
+      "options": [
+        "10",
+        "20",
+        "15",
+        "5"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Local `x` = 5 inside function. Global `x` stays 10. 5 + 10 = 15."
+    },
+    {
+      "id": "q-imp-1795052683955-188-jd87",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\nf <- function(...) length(list(...))\nf(1, 2, 3)\n```",
+      "options": [
+        "1",
+        "0",
+        "3",
+        "Error"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `...` collects all extra arguments. List of 3 items has length 3."
+    },
+    {
+      "id": "q-imp-1795052683955-189-tyug",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\n(\\(x) x + 1)(2)\n```",
+      "options": [
+        "2",
+        "3",
+        "Error",
+        "function"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `\\(x)` is shorthand for `function(x)` (R ≥ 4.1). Called immediately with 2."
+    },
+    {
+      "id": "q-imp-1795052683955-190-u43t",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\ns <- 0\nfor (i in 1:4) s <- s + i\ns\n```",
+      "options": [
+        "4",
+        "6",
+        "10",
+        "24"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** 1 + 2 + 3 + 4 = 10."
+    },
+    {
+      "id": "q-imp-1795052683955-191-yjer",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nx <- 1\nwhile (x < 5) x <- x * 2\nx\n```",
+      "options": [
+        "4",
+        "5",
+        "8",
+        "16"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** x goes 1 → 2 → 4 → 8. Stops once x ≥ 5."
+    },
+    {
+      "id": "q-imp-1795052683955-192-cq9z",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is printed by the following code?\n```r\nfor (i in 1:5) {\n  if (i == 3) next\n  cat(i, \" \")\n}\n```",
+      "options": [
+        "1 2",
+        "1 2 3 4 5",
+        "1 2 4 5",
+        "3"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `next` skips rest of current iteration (i = 3). `break` would stop the loop."
+    },
+    {
+      "id": "q-imp-1795052683955-193-76qi",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nswitch(\"b\", a = 1, b = 2, c = 3)\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "\"b\""
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `switch` returns value matching the name \"b\"."
+    },
+    {
+      "id": "q-imp-1795052683955-194-1nlx",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nsapply(1:4, function(i) i^2)\n```",
+      "options": [
+        "2 4 6 8",
+        "1 4 9 16",
+        "1 2 3 4",
+        "1 8 27 64"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `sapply` applies function to each element, returns vector of squares."
+    },
+    {
+      "id": "q-imp-1795052683955-195-ah9n",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `class(lapply(1:3, sqrt))`?",
+      "options": [
+        "\"numeric\"",
+        "\"list\"",
+        "\"matrix\"",
+        "\"vector\""
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `lapply` always returns list. `sapply` simplifies to vector when possible."
+    },
+    {
+      "id": "q-imp-1795052683955-196-5ix8",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\napply(matrix(1:6, nrow = 2), 1, sum)\n```",
+      "options": [
+        "3 7 11",
+        "21",
+        "9 12",
+        "6 15"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Matrix rows: (1,3,5) and (2,4,6). MARGIN = 1 sums each row: 9 and 12. MARGIN = 2 would give columns."
+    },
+    {
+      "id": "q-imp-1795052683955-197-cq8n",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\ntapply(c(10, 20, 30, 40), c(\"a\", \"b\", \"a\", \"b\"), mean)\n```",
+      "options": [
+        "a = 25, b = 25",
+        "a = 20, b = 30",
+        "a = 40, b = 60",
+        "25"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Group a: (10+30)/2 = 20. Group b: (20+40)/2 = 30."
+    },
+    {
+      "id": "q-imp-1795052683955-198-3j0o",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of `Reduce(\"*\", 1:4)`?",
+      "options": [
+        "10",
+        "4",
+        "24",
+        "1"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `Reduce` applies function cumulatively: 1×2×3×4 = 24."
+    },
+    {
+      "id": "q-imp-1795052683955-199-fbfx",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Strings & Dates\n\n### Q200. [Easy] What is the output of `nchar(\"Data Science\")`?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "2"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Counts characters including space: 4 + 1 + 7 = 12."
+    },
+    {
+      "id": "q-imp-1795052683955-200-z1pf",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `paste0(\"id\", 1:3)`?",
+      "options": [
+        "\"id 1\" \"id 2\" \"id 3\"",
+        "\"id123\"",
+        "\"id1\" \"id2\" \"id3\"",
+        "\"id-1\" \"id-2\" \"id-3\""
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `paste0` joins with no separator, vectorised over 1:3."
+    },
+    {
+      "id": "q-imp-1795052683955-201-4jbk",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\ntoupper(substr(\"data\", 1, 2))\n```",
+      "options": [
+        "\"data\"",
+        "\"d\"",
+        "\"DA\"",
+        "\"dA\""
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `substr` takes characters 1 to 2 = \"da\". `toupper` makes \"DA\"."
+    },
+    {
+      "id": "q-imp-1795052683955-202-vpbn",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `gsub(\"a\", \"o\", \"banana\")`?",
+      "options": [
+        "\"bonana\"",
+        "\"bonono\"",
+        "\"banana\"",
+        "\"bononA\""
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `gsub` replaces all matches; `sub` replaces only the first."
+    },
+    {
+      "id": "q-imp-1795052683955-203-b0gv",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "What is the output of the following code?\n```r\nstrsplit(\"a-b-c\", \"-\")[[1]][2]\n```",
+      "options": [
+        "\"a\"",
+        "\"b\"",
+        "\"c\"",
+        "\"a-b\""
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `strsplit` returns list; `[[1]]` gets vector \"a\" \"b\" \"c\"; `[2]` is \"b\"."
+    },
+    {
+      "id": "q-imp-1795052683955-204-0vkd",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `sprintf(\"%.2f\", 3.14159)`?",
+      "options": [
+        "3.14159",
+        "\"3.1\"",
+        "\"3.14\"",
+        "3.14"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Returns formatted character string with 2 decimals."
+    },
+    {
+      "id": "q-imp-1795052683955-205-6c1z",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nformat(as.Date(\"2026-11-19\"), \"%d/%m/%Y\")\n```",
+      "options": [
+        "\"2026/11/19\"",
+        "\"11/19/2026\"",
+        "\"19/11/2026\"",
+        "\"19-11-2026\""
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `%d` day, `%m` month, `%Y` four-digit year, joined with `/`."
+    },
+    {
+      "id": "q-imp-1795052683955-206-rcly",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Statistics & Summary Functions\n\n### Q207. [Moderate] What is the output of `mean(c(2, 4, NA), na.rm = TRUE)`?",
+      "options": [
+        "NA",
+        "2",
+        "3",
+        "6"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `na.rm = TRUE` removes NA first. Mean of 2 and 4 = 3. Without it result is NA."
+    },
+    {
+      "id": "q-imp-1795052683955-207-mq0r",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the output of `cumsum(1:4)`?",
+      "options": [
+        "10",
+        "1 2 3 4",
+        "1 3 6 10",
+        "1 2 6 24"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Running total. `cumprod` would give 1 2 6 24."
+    },
+    {
+      "id": "q-imp-1795052683955-208-rw7h",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of the following code?\n```r\nv <- c(5, 10, 15, 20)\nc(sum(v), mean(v), prod(v))\n```",
+      "options": [
+        "50 15 1500",
+        "50 12.5 1500",
+        "50 12.5 15000",
+        "14 12.5 15000"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Sum 50, mean 12.5, product 5×10×15×20 = 15000."
+    },
+    {
+      "id": "q-imp-1795052683955-209-uk2q",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `median(c(7, 1, 5, 3))`?",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "4.5"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Sorted: 1 3 5 7. Even count so average middle two: (3+5)/2 = 4."
+    },
+    {
+      "id": "q-imp-1795052683955-210-2ady",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `sd(c(2, 4, 6))`?",
+      "options": [
+        "4",
+        "2",
+        "1.63",
+        "8"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Mean 4, squared deviations 4+0+4 = 8, divide by n-1 = 2 gives variance 4, sd = 2."
+    },
+    {
+      "id": "q-imp-1795052683955-211-nnyh",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `var(c(1, 2, 3))`?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "0.67"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Mean 2, squared deviations 1+0+1 = 2, divide by n-1 = 2 gives 1."
+    },
+    {
+      "id": "q-imp-1795052683955-212-n389",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the value returned by `quantile(1:5, 0.5)`?",
+      "options": [
+        "2",
+        "3",
+        "2.5",
+        "5"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** 50th percentile = median = 3 (printed with name \"50%\")."
+    },
+    {
+      "id": "q-imp-1795052683955-213-mbtw",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Visualization (Base R & ggplot2)\n\n### Q214. [Moderate] What does `plot(x, y, type = \"l\")` draw?",
+      "options": [
+        "Points only",
+        "A line connecting the points",
+        "Both points and lines",
+        "A histogram"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `\"p\"` points, `\"l\"` lines, `\"b\"` both points and lines."
+    },
+    {
+      "id": "q-imp-1795052683955-214-wiuk",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What does `par(mfrow = c(1, 2))` do?",
+      "options": [
+        "Sets 1 colour and 2 line types",
+        "Places two plots side by side in one window (1 row, 2 columns)",
+        "Creates a 1×2 matrix",
+        "Closes two plots"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `par(mfrow = c(rows, cols))` sets multi-plot layout for base graphics."
+    },
+    {
+      "id": "q-imp-1795052683955-215-ozwl",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Why is `dev.off()` called after `png(\"p.png\"); plot(1:10)`?",
+      "options": [
+        "To clear the console",
+        "To close the graphics device so the file is written",
+        "To delete the plot",
+        "To reset working directory"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `png()` opens a file device. `dev.off()` closes and finishes the image file."
+    },
+    {
+      "id": "q-imp-1795052683955-216-3oo7",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which function saves the most recent ggplot2 chart to a file?",
+      "options": [
+        "`png()` only",
+        "`save.plot()`",
+        "`ggsave()`",
+        "`write_plot()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `ggsave(\"plot.png\")` saves last plot. Base R plots use `png()` ... `dev.off()`."
+    },
+    {
+      "id": "q-imp-1795052683955-217-3xgj",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "How do you copy a graph from RStudio into Word?",
+      "options": [
+        "Plots pane → Export → Copy to Clipboard, then paste in Word",
+        "Console → `word(plot)`",
+        "Environment → Save as docx",
+        "Files → Delete plot"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** Alternatives: save as PNG and insert, or knit R Markdown to `word_document`."
+    },
+    {
+      "id": "q-imp-1795052683955-218-5gjo",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What does the y-axis show in this chart?\n```r\nggplot(diamonds, aes(x = cut, fill = cut)) + geom_bar()\n```",
+      "options": [
+        "Mean price",
+        "Count of diamonds per cut",
+        "Carat sum",
+        "Percent of total"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `geom_bar()` counts rows per x category by default. Use `geom_col()` for given values."
+    },
+    {
+      "id": "q-imp-1795052683955-219-6uud",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "How many bars does this chart show?\n```r\nggplot(diamonds, aes(x = cut)) + geom_bar()\n```",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "7"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `cut` has 5 levels: Fair, Good, Very Good, Premium, Ideal. Each gets one bar showing count."
+    },
+    {
+      "id": "q-imp-1795052683955-220-nuya",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "Which ggplot2 combination draws a pie chart?",
+      "options": [
+        "`geom_point()` + `coord_flip()`",
+        "`geom_line()` + `facet_wrap()`",
+        "`geom_col(width = 1)` + `coord_polar(theta = \"y\")`",
+        "`geom_histogram()` + `theme_void()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Pie = stacked bar bent into circle via polar coordinates. Base R alternative: `pie(table(diamonds$cut))`."
+    },
+    {
+      "id": "q-imp-1795052683955-221-97i0",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What does `facet_wrap(~ cut)` do in ggplot2?",
+      "options": [
+        "Flips the axes",
+        "Adds a legend",
+        "Splits chart into separate panels, one per `cut` value",
+        "Removes the `cut` column"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Faceting gives small multiples. `coord_flip()` swaps axes; `labs()` sets titles."
+    },
+    {
+      "id": "q-imp-1795052683955-222-lup9",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "ChickWeight Case Study\n\n### Q223. [Easy] In ChickWeight, which column holds the diet group?",
+      "options": [
+        "Chick",
+        "weight",
+        "Time",
+        "Diet"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** Columns: weight (grams), Time (days), Chick (ID), Diet (1–4)."
+    },
+    {
+      "id": "q-imp-1795052683955-223-3g1m",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which ChickWeight column identifies each individual chick?",
+      "options": [
+        "weight",
+        "Time",
+        "Diet",
+        "Chick"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** Chick = ID of each individual chick."
+    },
+    {
+      "id": "q-imp-1795052683955-224-lj9o",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "How many diet groups does ChickWeight have?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "12"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `Diet` is a factor with levels 1 to 4."
+    },
+    {
+      "id": "q-imp-1795052683955-225-xeag",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What is the output of `length(unique(ChickWeight$Time))`?",
+      "options": [
+        "4",
+        "21",
+        "12",
+        "50"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Time values: 0, 2, 4, ..., 20, 21 = 12 time points."
+    },
+    {
+      "id": "q-imp-1795052683955-226-xoca",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "In ChickWeight lab, what is `split()` used for?",
+      "options": [
+        "Merge two data frames",
+        "Divide data into groups (list of pieces) by a factor",
+        "Split a plot into panels",
+        "Remove duplicate rows"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `split(df$weight, df$Diet)` gives list per diet. Combine with `tapply`/`sapply` for group means."
+    },
+    {
+      "id": "q-imp-1795052683955-227-1rlw",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What does `length(split(cw$weight, cw$Diet))` return?",
+      "options": [
+        "578",
+        "12",
+        "4",
+        "1"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `split` gives a list with one element per diet group, 4 elements."
+    },
+    {
+      "id": "q-imp-1795052683955-228-f8rl",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "hard",
+      "question": "Which argument in the first `plot()` keeps both mean curves visible?",
+      "options": [
+        "`type = \"n\"`",
+        "`ylim = range(m4, m2)`",
+        "`xlab = \"Time\"`",
+        "`col = \"red\"`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** y-axis range is fixed by first plot; use range covering both group means."
+    },
+    {
+      "id": "q-imp-1795052683955-229-zd3m",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which function adds group 2's mean curve to an existing plot (of group 4)?",
+      "options": [
+        "`plot()` again",
+        "`par(new = FALSE)`",
+        "`lines()`",
+        "`hist()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `lines()` draws on current plot. A second `plot()` would replace it. Then add `legend()` and `title()`."
+    },
+    {
+      "id": "q-imp-1795052683955-230-ajon",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which call draws a box plot of `weight` for each `Time` value?",
+      "options": [
+        "`boxplot(Time, weight)`",
+        "`boxplot(weight ~ Time, data = d4)`",
+        "`hist(weight ~ Time)`",
+        "`plot(boxplot(d4))`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Formula `y ~ group` makes one box per group level."
+    },
+    {
+      "id": "q-imp-1795052683955-231-718a",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "R Markdown & Reporting\n\n### Q232. [Easy] Where are `title`, `author` and `output` (e.g. `output: html_document`) written in an `.Rmd` file?",
+      "options": [
+        "Inside a code chunk",
+        "In the YAML header between `---` lines",
+        "In `.Rprofile`",
+        "In the footer"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** YAML header holds title, author, date, output format. Press Knit to render."
+    },
+    {
+      "id": "q-imp-1795052683955-232-r7o9",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "What is the file extension of an R Markdown document?",
+      "options": [
+        "`.md`",
+        "`.R`",
+        "`.Rmd`",
+        "`.Rproj`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `.R` = script, `.Rmd` = R Markdown, `.Rproj` = RStudio project."
+    },
+    {
+      "id": "q-imp-1795052683955-233-zrfq",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which R Markdown chunk option hides the code but shows its output?",
+      "options": [
+        "`eval = FALSE`",
+        "`echo = FALSE`",
+        "`include = FALSE`",
+        "`message = FALSE`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `echo=FALSE` hides code. `eval=FALSE` shows code but does not run. `include=FALSE` hides both."
+    },
+    {
+      "id": "q-imp-1795052683955-234-m1t5",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "What does `include = FALSE` do to a chunk?",
+      "options": [
+        "Hides output but shows code",
+        "Runs the code but shows neither code nor output",
+        "Skips running the code",
+        "Shows code twice"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Useful for setup chunks like `library()` calls."
+    },
+    {
+      "id": "q-imp-1795052683955-235-4l21",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which R Markdown chunk option sets figure width?",
+      "options": [
+        "`width = 6`",
+        "`plot.size = 6`",
+        "`fig.width = 6`",
+        "`img.w = 6`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `{r, fig.width=6, fig.height=4}` controls plot size in inches."
+    },
+    {
+      "id": "q-imp-1795052683955-236-brzx",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which YAML setting produces a Word report on knitting?",
+      "options": [
+        "`output: html_document`",
+        "`output: pdf_document`",
+        "`output: word_document`",
+        "`output: docx_file`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Other outputs: `html_document`, `pdf_document` (needs LaTeX/tinytex), slides."
+    },
+    {
+      "id": "q-imp-1795052683955-237-9t8c",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "In an R Markdown paragraph, what does the inline code `` `r 2 + 3` `` display after knitting?",
+      "options": [
+        "r 2 + 3",
+        "2 + 3",
+        "5",
+        "Error"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Inline syntax `` `r expression` `` is evaluated and its result inserted into text. E.g. `` `r nrow(mtcars)` `` shows 32."
+    },
+    {
+      "id": "q-imp-1795052683955-238-8xug",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "easy",
+      "question": "Which function from `knitr` renders a data frame as a formatted table in R Markdown?",
+      "options": [
+        "`print_table()`",
+        "`render()`",
+        "`kable()`",
+        "`knit_df()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `knitr::kable(df)`. `DT::datatable(df)` gives interactive table."
+    },
+    {
+      "id": "q-imp-1795052683955-239-309u",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which package gives interactive searchable tables in HTML R Markdown reports?",
+      "options": [
+        "knitr only",
+        "stringr",
+        "DT (`datatable()`)",
+        "writexl"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `DT::datatable(df)`. `knitr::kable(df)` gives static table."
+    },
+    {
+      "id": "q-imp-1795052683955-240-h35y",
+      "topicId": "top-1795052708631-0-3w7",
+      "difficulty": "moderate",
+      "question": "Which language/framework adds sliders and input boxes to make reports interactive?",
+      "options": [
+        "LaTeX",
+        "Shiny",
+        "tidyr",
+        "RSQLite"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Use `runtime: shiny` or Shiny apps/flexdashboard for interactivity. Plotly gives hover charts."
     }
   ]
-};;
+};
 
 const SAMPLE_MARKDOWN_TEMPLATE = `## Linux Commands & File Permissions
 
