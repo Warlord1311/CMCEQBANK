@@ -605,6 +605,54 @@ const INITIAL_DATA = {
           "title": "Section 16: Java Database Connectivity (JDBC)"
         }
       ]
+    },
+    {
+      "id": "mod-1795118828546",
+      "title": "BIG DATA TECHNOLOGIES",
+      "shortCode": "BDT",
+      "icon": "Layers",
+      "topics": [
+        {
+          "id": "top-1795118849110-0-yck",
+          "title": "Section 1: Big Data Fundamentals, Data Curation & Ecosystem Overview"
+        },
+        {
+          "id": "top-1795118849110-29-hn0",
+          "title": "Section 2: Hadoop, HDFS, YARN & Ecosystem Administration"
+        },
+        {
+          "id": "top-1795118849110-135-v6m",
+          "title": "Section 3: MapReduce & HBase"
+        },
+        {
+          "id": "top-1795118849110-190-yef",
+          "title": "Section 4: Apache Hive & HiveQL"
+        },
+        {
+          "id": "top-1795118849110-278-lii",
+          "title": "Section 5: Data Warehousing, Data Lakes & ETL/ELT"
+        },
+        {
+          "id": "top-1795118849110-292-svk",
+          "title": "Section 6: Workflow Orchestration: Apache Airflow & Informatica"
+        },
+        {
+          "id": "top-1795118849111-328-38j",
+          "title": "Section 7: Apache Spark Core, Spark SQL & Performance Optimization"
+        },
+        {
+          "id": "top-1795118849111-403-rdh",
+          "title": "Section 8: PySpark, Spark MLlib & Cloud Processing"
+        },
+        {
+          "id": "top-1795118849111-429-84k",
+          "title": "Section 9: Kafka & Stream Processing"
+        },
+        {
+          "id": "top-1795118849111-478-bix",
+          "title": "Section 10: Capstone: End-to-End Data Pipelines"
+        }
+      ]
     }
   ],
   "questions": [
@@ -35347,6 +35395,7506 @@ const INITIAL_DATA = {
       "answerIndex": 2,
       "answerUnverified": false,
       "explanation": "** Connection.prepareCall() creates a CallableStatement for executing stored procedures."
+    },
+    {
+      "id": "q-imp-1795118839795-2-2hcc",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "**Question IDs:** Q1–10, Q15–18, Q101–105, Q201–210\n\n### Q1. [Beginner] Which characteristic of Big Data refers to the enormous amount of data generated from multiple sources?",
+      "options": [
+        "Velocity",
+        "Volume",
+        "Variety",
+        "Veracity"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Volume represents the quantity of data generated and stored."
+    },
+    {
+      "id": "q-imp-1795118839795-3-u7d8",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which of the following best describes the Velocity characteristic of Big Data?",
+      "options": [
+        "Diversity of data formats",
+        "Accuracy and reliability of data",
+        "Speed at which data is generated and processed",
+        "Total amount of stored data"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Velocity refers to the speed of data generation, transmission, and processing."
+    },
+    {
+      "id": "q-imp-1795118839795-4-ygqj",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "Which of the following is an example of unstructured data?",
+      "options": [
+        "Relational database tables",
+        "CSV files with fixed columns",
+        "Images, videos, and social media posts",
+        "Records in a normalized database"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Unstructured data does not follow a predefined tabular schema."
+    },
+    {
+      "id": "q-imp-1795118839795-5-1lxm",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "Which technology is primarily designed to store and process massive datasets across clusters of commodity computers?",
+      "options": [
+        "Microsoft Excel",
+        "SQLite",
+        "Apache Hadoop",
+        "HTML"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Hadoop provides distributed storage and parallel processing across clusters."
+    },
+    {
+      "id": "q-imp-1795118839795-6-xgja",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which of the following is a common source of Big Data?",
+      "options": [
+        "Only manually entered spreadsheets",
+        "IoT sensors, social media, transaction systems, and log files",
+        "Only printed documents",
+        "Only desktop applications"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Big Data originates from diverse digital systems, devices, and human activities."
+    },
+    {
+      "id": "q-imp-1795118839795-7-hakk",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "What is the primary objective of data curation?",
+      "options": [
+        "Increasing the physical size of datasets",
+        "Deleting all historical records",
+        "Managing, preserving, organizing, and maintaining data for long-term usability",
+        "Converting every dataset into a relational database"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data curation preserves data quality, context, accessibility, and reuse potential."
+    },
+    {
+      "id": "q-imp-1795118839795-8-9see",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "Why is metadata important in a data repository?",
+      "options": [
+        "It replaces the original dataset",
+        "It describes the dataset's structure, origin, context, and usage",
+        "It automatically encrypts all stored data",
+        "It guarantees unlimited storage capacity"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Metadata helps users discover, understand, manage, and reuse datasets."
+    },
+    {
+      "id": "q-imp-1795118839795-9-il6a",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "[Advanced] A researcher wants to reuse a dataset collected by another organization. Which practice is most important before reuse?",
+      "options": [
+        "Changing the dataset's filename",
+        "Copying the dataset without checking its source",
+        "Checking its provenance, licensing, metadata, quality, and usage restrictions",
+        "Converting it immediately into JSON"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Responsible reuse requires understanding data origin, quality, rights, and limitations."
+    },
+    {
+      "id": "q-imp-1795118839795-10-hpsr",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "What does a data repository primarily provide?",
+      "options": [
+        "A programming language for data analysis",
+        "A managed environment for storing, organizing, preserving, and sharing data",
+        "A replacement for all operating systems",
+        "A tool exclusively for developing websites"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Repositories provide structured facilities for data storage, discovery, access, and preservation."
+    },
+    {
+      "id": "q-imp-1795118839795-11-velu",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary purpose of data rescue in data management?",
+      "options": [
+        "Generating synthetic data for machine learning",
+        "Removing duplicate records from active databases",
+        "Recovering and preserving valuable data that is at risk of loss or becoming inaccessible",
+        "Increasing the number of database transactions"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Data rescue aims to recover vulnerable datasets and make them usable and accessible."
+    },
+    {
+      "id": "q-imp-1795118839795-12-onl4",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "Which statement best describes Apache Spark in the Hadoop ecosystem?",
+      "options": [
+        "It is the default Hadoop filesystem",
+        "It is a distributed processing engine that can run independently or integrate with Hadoop storage and resource managers",
+        "It is a replacement for the Java Virtual Machine",
+        "It is a relational database management system"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Spark is a processing engine that supports multiple deployment and storage integrations."
+    },
+    {
+      "id": "q-imp-1795118839795-13-vsvt",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "Which Hadoop ecosystem component provides a distributed column-oriented NoSQL database?",
+      "options": [
+        "Hive",
+        "YARN",
+        "HBase",
+        "Oozie"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HBase is a distributed, column-family-oriented NoSQL database built on HDFS."
+    },
+    {
+      "id": "q-imp-1795118839795-14-fvy4",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "Which component is primarily used for SQL-like querying of data stored in Hadoop-compatible storage?",
+      "options": [
+        "ZooKeeper",
+        "Flume",
+        "Apache Hive",
+        "HDFS NameNode"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Hive provides HiveQL, a SQL-like language for querying distributed datasets."
+    },
+    {
+      "id": "q-imp-1795118839795-15-vzi4",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of Apache Kafka in a Big Data architecture?",
+      "options": [
+        "Managing HDFS block replication",
+        "Providing relational database normalization",
+        "Handling distributed event streaming and message transport",
+        "Scheduling Hadoop resource containers"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Kafka is a distributed event streaming platform used for high-throughput data pipelines."
+    },
+    {
+      "id": "q-imp-1795118839795-16-zz46",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "What does the term Data Lifecycle refer to in Big Data management?",
+      "options": [
+        "The process of increasing data storage capacity",
+        "The stages through which data passes from creation to archival or deletion",
+        "The process of converting data into machine code",
+        "The procedure for installing Hadoop"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The data lifecycle covers creation, collection, processing, storage, sharing, preservation, and disposal."
+    },
+    {
+      "id": "q-imp-1795118839795-17-oree",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "What is the significance of the Open Data Lifecycle approach?",
+      "options": [
+        "It restricts data access to the original creator",
+        "It encourages data accessibility, reuse, sharing, and long-term preservation",
+        "It prevents metadata creation",
+        "It automatically deletes outdated datasets"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Open data lifecycle practices promote transparency, accessibility, interoperability, and reuse."
+    },
+    {
+      "id": "q-imp-1795118839795-18-3b71",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is a meta-repository in the context of research data management?",
+      "options": [
+        "A database containing only encrypted passwords",
+        "A storage device used exclusively for backups",
+        "A centralized discovery layer or system that provides metadata and access information about datasets distributed across multiple repositories",
+        "A repository that stores only application source code"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Meta-repositories facilitate discovery and access to data distributed across different repositories."
+    },
+    {
+      "id": "q-imp-1795118839795-19-3om1",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "Which practice improves the reproducibility of scientific research using shared datasets?",
+      "options": [
+        "Removing the dataset's original metadata",
+        "Keeping analysis procedures undocumented",
+        "Sharing datasets, metadata, code, and methodological documentation",
+        "Restricting all access to the researcher"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Reproducibility depends on access to data, methods, metadata, and computational procedures."
+    },
+    {
+      "id": "q-imp-1795118839795-20-2x2v",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why is data provenance important when multiple datasets are combined for analysis?",
+      "options": [
+        "It automatically increases the dataset's size",
+        "It records the origin, transformations, and processing history of data",
+        "It eliminates the need for data validation",
+        "It guarantees that all datasets are free of errors"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Provenance helps establish data trustworthiness and trace how results were produced."
+    },
+    {
+      "id": "q-imp-1795118839795-21-bcls",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which of the following best describes Big Data?",
+      "options": [
+        "Data that can only be stored in relational databases",
+        "Extremely large and complex datasets that require specialized technologies for storage and processing",
+        "Data that is generated only by scientific laboratories",
+        "Data that contains only numerical values"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Big Data involves datasets whose scale, complexity, or speed exceeds traditional processing capabilities."
+    },
+    {
+      "id": "q-imp-1795118839795-22-0hpv",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "Which of the following represents the Veracity characteristic of Big Data?",
+      "options": [
+        "Speed of data generation",
+        "Amount of data generated",
+        "Reliability, accuracy, and trustworthiness of data",
+        "Variety of data formats"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Veracity concerns the quality, accuracy, and reliability of collected data."
+    },
+    {
+      "id": "q-imp-1795118839795-23-rpkr",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "What does the Value characteristic of Big Data represent?",
+      "options": [
+        "The monetary cost of purchasing storage devices",
+        "The useful insights and benefits that can be extracted from data",
+        "The number of servers in a Hadoop cluster",
+        "The physical size of a dataset"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Value represents the meaningful business or research benefits obtained through data analysis."
+    },
+    {
+      "id": "q-imp-1795118839795-24-mgq4",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "[Advanced] A company collects customer reviews, sensor readings, transaction records, and video files. Which Big Data challenge is most directly associated with handling these different formats?",
+      "options": [
+        "Volume",
+        "Velocity",
+        "Variety",
+        "Veracity"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Variety refers to the diversity of data formats and structures."
+    },
+    {
+      "id": "q-imp-1795118839795-25-81vu",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "Which of the following is an example of semi-structured data?",
+      "options": [
+        "A printed photograph",
+        "An unformatted audio recording",
+        "A JSON document containing key-value pairs",
+        "A handwritten letter"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** JSON contains organizational tags and key-value structures without requiring a rigid relational schema."
+    },
+    {
+      "id": "q-imp-1795118839795-26-tu1v",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary purpose of a research data management plan?",
+      "options": [
+        "To define only the hardware configuration",
+        "To describe how research data will be collected, organized, stored, shared, preserved, and managed",
+        "To eliminate the need for data documentation",
+        "To guarantee that all research data remains private forever"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A data management plan defines procedures for handling data throughout a research project."
+    },
+    {
+      "id": "q-imp-1795118839795-27-ycfs",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "Which principle of research data management emphasizes that data should be findable, accessible, interoperable, and reusable?",
+      "options": [
+        "ACID",
+        "CAP",
+        "FAIR",
+        "CRUD"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** FAIR principles improve data discovery, access, integration, and reuse."
+    },
+    {
+      "id": "q-imp-1795118839795-28-datz",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which FAIR principle requires datasets to use standardized vocabularies and formats that support integration with other datasets?",
+      "options": [
+        "Findable",
+        "Accessible",
+        "Interoperable",
+        "Reusable"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Interoperability enables datasets to be combined and processed across different systems."
+    },
+    {
+      "id": "q-imp-1795118839795-29-c3pu",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "What is the purpose of a persistent identifier such as a DOI for a research dataset?",
+      "options": [
+        "To compress the dataset",
+        "To provide a stable identifier that helps locate and cite the dataset",
+        "To automatically validate every data record",
+        "To encrypt the dataset"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Persistent identifiers provide stable references for identifying and citing digital resources."
+    },
+    {
+      "id": "q-imp-1795118839795-30-qrw3",
+      "topicId": "top-1795118849110-0-yck",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which activity is most closely associated with digital preservation?",
+      "options": [
+        "Increasing the number of duplicate records",
+        "Removing metadata from archived files",
+        "Maintaining data accessibility, integrity, and usability over time",
+        "Converting all datasets into temporary files"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Digital preservation protects digital information against technological obsolescence and data loss."
+    },
+    {
+      "id": "q-imp-1795118839795-31-2x3h",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "**Question IDs:** Q11–14, Q19–35, Q106–140, Q211–235, Q366–380, Q401–410\n\n### Q11. [Beginner] Who originally developed the Hadoop project based on ideas from Google's distributed computing papers?",
+      "options": [
+        "Microsoft",
+        "Doug Cutting and Mike Cafarella",
+        "James Gosling and Patrick Naughton",
+        "Dennis Ritchie and Ken Thompson"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Doug Cutting and Mike Cafarella developed Hadoop, inspired by Google's research papers."
+    },
+    {
+      "id": "q-imp-1795118839795-32-ujlt",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which of the following represents the core components of Apache Hadoop 2.x?",
+      "options": [
+        "HDFS, Hive, Kafka, and HBase",
+        "HDFS, YARN, and MapReduce",
+        "Spark, Flink, Storm, and Kafka",
+        "MySQL, Oracle, PostgreSQL, and MongoDB"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Hadoop 2.x primarily consists of HDFS, YARN, and MapReduce."
+    },
+    {
+      "id": "q-imp-1795118839795-33-cmgu",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "What is the primary responsibility of YARN in Hadoop?",
+      "options": [
+        "Managing relational database schemas",
+        "Compressing HDFS files",
+        "Managing cluster resources and scheduling applications",
+        "Creating Hive tables"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** YARN handles resource management and application scheduling in Hadoop clusters."
+    },
+    {
+      "id": "q-imp-1795118839795-34-si26",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Hadoop component provides distributed storage?",
+      "options": [
+        "YARN",
+        "MapReduce",
+        "HDFS",
+        "HiveQL"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HDFS stores large files across multiple machines in a distributed cluster."
+    },
+    {
+      "id": "q-imp-1795118839795-35-y2sm",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which HDFS daemon manages filesystem metadata and namespace information?",
+      "options": [
+        "DataNode",
+        "Secondary NameNode",
+        "NameNode",
+        "NodeManager"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The NameNode maintains filesystem metadata, namespace information, and block mappings."
+    },
+    {
+      "id": "q-imp-1795118839795-36-wm0x",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "What is the main responsibility of an HDFS DataNode?",
+      "options": [
+        "Maintaining the global filesystem namespace",
+        "Storing actual data blocks and serving read/write requests",
+        "Scheduling MapReduce jobs",
+        "Maintaining Hive metastore information"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** DataNodes store HDFS blocks and perform block-related operations."
+    },
+    {
+      "id": "q-imp-1795118839795-37-h2ne",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is the primary purpose of the Secondary NameNode?",
+      "options": [
+        "Acting as a permanent replacement for a failed NameNode",
+        "Storing all HDFS data blocks",
+        "Periodically merging filesystem namespace image and edit logs to create checkpoints",
+        "Managing YARN application containers"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The Secondary NameNode checkpoints metadata by merging FsImage and edits."
+    },
+    {
+      "id": "q-imp-1795118839795-38-h7uw",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which statement about the Secondary NameNode is correct?",
+      "options": [
+        "It automatically becomes the active NameNode whenever the primary fails",
+        "It is not a hot standby NameNode",
+        "It stores all replicated HDFS blocks",
+        "It replaces every DataNode in a cluster"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The Secondary NameNode performs checkpointing rather than automatic failover."
+    },
+    {
+      "id": "q-imp-1795118839795-39-kb7v",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is the default HDFS block size commonly associated with modern Hadoop configurations?",
+      "options": [
+        "4 MB",
+        "16 MB",
+        "128 MB",
+        "1 GB"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Modern Hadoop configurations commonly use a 128 MB default block size, although it is configurable."
+    },
+    {
+      "id": "q-imp-1795118839795-40-a4yh",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "If an HDFS file has a size of 300 MB and the block size is 128 MB, how many blocks are required?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The file occupies two full 128 MB blocks and one final 44 MB block."
+    },
+    {
+      "id": "q-imp-1795118839795-41-yf28",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Beginner] What does the HDFS replication factor specify?",
+      "options": [
+        "Number of NameNodes in a cluster",
+        "Number of files stored in a directory",
+        "Number of copies maintained for each data block",
+        "Number of MapReduce reducers"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The replication factor determines how many replicas of each HDFS block are maintained."
+    },
+    {
+      "id": "q-imp-1795118839795-42-kjcm",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "If the replication factor is 3, how many replicas of an HDFS block should normally exist?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "6"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A replication factor of 3 specifies three copies of each block."
+    },
+    {
+      "id": "q-imp-1795118839795-43-8p4b",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "What is rack awareness in HDFS?",
+      "options": [
+        "A technique for compressing HDFS files",
+        "A strategy for placing block replicas across different network racks",
+        "A method for increasing the block size",
+        "A technique for converting files into database tables"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Rack awareness improves fault tolerance and considers network topology during replica placement."
+    },
+    {
+      "id": "q-imp-1795118839795-44-h8gp",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why does HDFS commonly place replicas across multiple racks?",
+      "options": [
+        "To eliminate the need for DataNodes",
+        "To ensure every replica is stored on the same machine",
+        "To reduce the risk of data loss caused by an entire rack failure",
+        "To reduce the number of HDFS blocks"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cross-rack replica placement protects data against rack-level failures."
+    },
+    {
+      "id": "q-imp-1795118839795-45-t2m6",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "What happens during HDFS data pipelining when a client writes a block with a replication factor of 3?",
+      "options": [
+        "The client independently writes three complete files",
+        "Data is sent through a pipeline of DataNodes, which forward it to subsequent replicas",
+        "The NameNode directly stores all three copies",
+        "The Secondary NameNode performs the write operation"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** DataNodes forward packets through a replication pipeline to create block replicas."
+    },
+    {
+      "id": "q-imp-1795118839795-46-m3rm",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which command lists files and directories in an HDFS directory?",
+      "options": [
+        "`hadoop fs -put`",
+        "`hdfs dfs -ls /path`",
+        "`hdfs dfs -rm`",
+        "`hadoop fs -get`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The `-ls` command displays files and directories in HDFS."
+    },
+    {
+      "id": "q-imp-1795118839795-47-e71v",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which command uploads a local file into HDFS?",
+      "options": [
+        "`hdfs dfs -get`",
+        "`hdfs dfs -cat`",
+        "`hdfs dfs -put`",
+        "`hdfs dfs -rm`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The `-put` command copies local files into HDFS."
+    },
+    {
+      "id": "q-imp-1795118839795-48-o6y2",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which HDFS command downloads a file from HDFS to the local filesystem?",
+      "options": [
+        "`hdfs dfs -put`",
+        "`hdfs dfs -get`",
+        "`hdfs dfs -mkdir`",
+        "`hdfs dfs -chmod`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The `-get` command copies files from HDFS to the local filesystem."
+    },
+    {
+      "id": "q-imp-1795118839795-49-ierj",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which command creates a directory in HDFS?",
+      "options": [
+        "`hdfs dfs -touch`",
+        "`hdfs dfs -mkdir`",
+        "`hdfs dfs -create`",
+        "`hdfs dfs -dir`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The `-mkdir` command creates directories in HDFS."
+    },
+    {
+      "id": "q-imp-1795118839795-50-48k7",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which Hadoop operating mode runs jobs locally in a single JVM using the local filesystem, without starting HDFS or YARN daemons?",
+      "options": [
+        "Pseudo-distributed mode",
+        "Fully distributed mode",
+        "Standalone mode",
+        "High-availability mode"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Standalone mode runs Hadoop locally and uses the local filesystem by default."
+    },
+    {
+      "id": "q-imp-1795118839795-51-oam4",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which components are commonly involved in automatic failover for an HDFS NameNode High Availability configuration?",
+      "options": [
+        "Hive Metastore and HiveServer2",
+        "ResourceManager and NodeManager",
+        "ZooKeeper, ZKFC, and JournalNodes",
+        "Kafka Producer and Kafka Consumer"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ZooKeeper and ZKFC coordinate failover, while JournalNodes share edits between NameNodes."
+    },
+    {
+      "id": "q-imp-1795118839795-52-7wi1",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which organization originally developed the Google File System (GFS) concept that influenced HDFS?",
+      "options": [
+        "Apache Software Foundation",
+        "Google",
+        "Microsoft",
+        "Oracle"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** HDFS was inspired by Google's distributed storage research, particularly the Google File System."
+    },
+    {
+      "id": "q-imp-1795118839795-53-1vai",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which of the following is a major benefit of Hadoop's scale-out architecture?",
+      "options": [
+        "It requires replacing all existing nodes when storage increases",
+        "It supports only high-end specialized hardware",
+        "Additional commodity machines can be added to increase storage and processing capacity",
+        "It restricts processing to a single machine"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Hadoop scales horizontally by adding more machines to the cluster."
+    },
+    {
+      "id": "q-imp-1795118839795-54-hvg2",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which Hadoop mode runs the NameNode, DataNode, ResourceManager, and NodeManager services as separate processes on one machine?",
+      "options": [
+        "Standalone mode",
+        "Pseudo-distributed mode",
+        "Fully distributed mode",
+        "Client-only mode"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Pseudo-distributed mode simulates a distributed Hadoop environment on a single machine."
+    },
+    {
+      "id": "q-imp-1795118839795-55-5r45",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which configuration file commonly contains HDFS-specific configuration properties?",
+      "options": [
+        "mapred-site.xml",
+        "hdfs-site.xml",
+        "yarn-site.xml",
+        "core-site.xml"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `hdfs-site.xml` contains HDFS configuration properties such as replication and block settings."
+    },
+    {
+      "id": "q-imp-1795118839795-56-ypwm",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which Hadoop configuration file specifies core Hadoop properties such as the default filesystem URI?",
+      "options": [
+        "core-site.xml",
+        "hdfs-site.xml",
+        "mapred-site.xml",
+        "yarn-site.xml"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** `core-site.xml` defines common Hadoop settings, including `fs.defaultFS`."
+    },
+    {
+      "id": "q-imp-1795118839795-57-x8in",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which configuration file is primarily used to configure YARN properties?",
+      "options": [
+        "hdfs-site.xml",
+        "mapred-site.xml",
+        "yarn-site.xml",
+        "core-site.xml"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `yarn-site.xml` contains configuration settings for YARN services."
+    },
+    {
+      "id": "q-imp-1795118839795-58-1wxk",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which Hadoop configuration file is primarily associated with MapReduce job execution settings?",
+      "options": [
+        "core-site.xml",
+        "hdfs-site.xml",
+        "mapred-site.xml",
+        "yarn-site.xml"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `mapred-site.xml` defines MapReduce execution and framework configuration properties."
+    },
+    {
+      "id": "q-imp-1795118839795-59-gs9a",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which command displays the Hadoop version installed on a system?",
+      "options": [
+        "`hadoop show`",
+        "`hadoop version`",
+        "`hadoop install`",
+        "`hadoop status`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `hadoop version` displays the installed Hadoop release information."
+    },
+    {
+      "id": "q-imp-1795118839795-60-jafb",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which command formats the HDFS NameNode's namespace storage during initial cluster setup?",
+      "options": [
+        "`hdfs namenode -start`",
+        "`hdfs namenode -delete`",
+        "`hdfs namenode -format`",
+        "`hdfs namenode -check`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** NameNode formatting initializes its filesystem namespace metadata and storage structures."
+    },
+    {
+      "id": "q-imp-1795118839795-61-5xpk",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary risk of formatting an already initialized NameNode?",
+      "options": [
+        "It increases the replication factor",
+        "It automatically starts all DataNodes",
+        "It can destroy the existing filesystem namespace metadata and make existing HDFS data inaccessible",
+        "It converts HDFS into a local filesystem"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Formatting replaces NameNode namespace metadata, potentially disconnecting existing block files from their filesystem references."
+    },
+    {
+      "id": "q-imp-1795118839795-62-3mwm",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which command starts the HDFS daemons in a typical Hadoop installation?",
+      "options": [
+        "`start-yarn.sh`",
+        "`start-dfs.sh`",
+        "`start-hive.sh`",
+        "`start-spark.sh`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `start-dfs.sh` starts the NameNode, DataNodes, and other configured HDFS daemons."
+    },
+    {
+      "id": "q-imp-1795118839795-63-hezu",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which command starts the YARN services in a typical Hadoop installation?",
+      "options": [
+        "`start-dfs.sh`",
+        "`start-mapreduce.sh`",
+        "`start-yarn.sh`",
+        "`start-hbase.sh`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `start-yarn.sh` starts the ResourceManager and NodeManager services."
+    },
+    {
+      "id": "q-imp-1795118839795-64-bjjm",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which daemon acts as the central authority for cluster resource management in YARN?",
+      "options": [
+        "DataNode",
+        "NameNode",
+        "ResourceManager",
+        "Secondary NameNode"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The ResourceManager manages cluster resources and application scheduling."
+    },
+    {
+      "id": "q-imp-1795118839795-65-tc73",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "What is the responsibility of a YARN NodeManager?",
+      "options": [
+        "Maintaining the HDFS filesystem namespace",
+        "Managing containers and monitoring resource usage on an individual worker node",
+        "Maintaining Hive metadata",
+        "Performing HDFS checkpointing"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** NodeManagers manage containers and report node health and resource availability to the ResourceManager."
+    },
+    {
+      "id": "q-imp-1795118839795-66-ozlk",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of the ApplicationMaster in YARN?",
+      "options": [
+        "Managing all HDFS block replicas",
+        "Replacing the ResourceManager",
+        "Negotiating resources with the ResourceManager and coordinating an individual application's execution",
+        "Managing all Hive database schemas"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Each application has an ApplicationMaster responsible for coordinating its execution and resource requirements."
+    },
+    {
+      "id": "q-imp-1795118839795-67-eolj",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "What happens when an HDFS DataNode stops sending heartbeats to the NameNode?",
+      "options": [
+        "The NameNode immediately shuts down",
+        "All files are permanently deleted",
+        "The NameNode eventually marks the DataNode as dead after the configured timeout",
+        "The Secondary NameNode automatically becomes the DataNode"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Missing heartbeats indicate that a DataNode may be unavailable, triggering failure handling."
+    },
+    {
+      "id": "q-imp-1795118839795-68-d5m0",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "What is the purpose of HDFS block rebalancing?",
+      "options": [
+        "Compressing every file in HDFS",
+        "Increasing the number of NameNodes",
+        "Redistributing blocks to achieve more balanced disk utilization across DataNodes",
+        "Deleting all under-replicated blocks"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The HDFS balancer redistributes data to reduce storage imbalance across nodes."
+    },
+    {
+      "id": "q-imp-1795118839795-69-q5ws",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which HDFS utility is commonly used to balance data distribution among DataNodes?",
+      "options": [
+        "`hdfs dfsadmin -delete`",
+        "`hdfs balancer`",
+        "`hdfs namenode -format`",
+        "`hdfs fsck -replicate`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The HDFS Balancer moves blocks between DataNodes to improve storage utilization balance."
+    },
+    {
+      "id": "q-imp-1795118839795-70-9t2v",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What does the `hdfs fsck` command primarily help administrators identify?",
+      "options": [
+        "Hive query execution errors",
+        "Spark memory allocation issues",
+        "HDFS filesystem inconsistencies, missing blocks, and under-replicated blocks",
+        "Kafka consumer group membership"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `hdfs fsck` checks filesystem integrity and reports block-level problems."
+    },
+    {
+      "id": "q-imp-1795118839795-71-a52s",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which command changes the replication factor of an existing HDFS file?",
+      "options": [
+        "`hdfs dfs -chmod`",
+        "`hdfs dfs -chown`",
+        "`hdfs dfs -setrep`",
+        "`hdfs dfs -mv`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The `-setrep` command changes the requested replication factor for file blocks."
+    },
+    {
+      "id": "q-imp-1795118839795-72-10sn",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which HDFS command can be used to display the contents of a file without downloading it locally?",
+      "options": [
+        "`hdfs dfs -put`",
+        "`hdfs dfs -get`",
+        "`hdfs dfs -cat`",
+        "`hdfs dfs -mkdir`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `-cat` outputs the contents of an HDFS file to the terminal."
+    },
+    {
+      "id": "q-imp-1795118839795-73-wq6u",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which command displays the disk space usage of files and directories in HDFS?",
+      "options": [
+        "`hdfs dfs -ls`",
+        "`hdfs dfs -du`",
+        "`hdfs dfs -touchz`",
+        "`hdfs dfs -moveFromLocal`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `-du` displays the space consumed by files and directories."
+    },
+    {
+      "id": "q-imp-1795118839795-74-rla6",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "What is the purpose of the HDFS Trash feature?",
+      "options": [
+        "Permanently deleting files immediately",
+        "Increasing the number of replicas",
+        "Retaining deleted files temporarily to allow recovery before permanent deletion",
+        "Automatically converting deleted files into archives"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HDFS Trash provides a temporary recovery mechanism for deleted files when enabled."
+    },
+    {
+      "id": "q-imp-1795118839795-75-40r5",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which permission model is commonly used by HDFS?",
+      "options": [
+        "Only Windows ACLs",
+        "POSIX-style owner, group, and other permissions",
+        "Only database roles",
+        "Only application-level passwords"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** HDFS supports owner, group, and other permissions with read, write, and execute bits."
+    },
+    {
+      "id": "q-imp-1795118839795-76-fuwu",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of Kerberos in a secured Hadoop cluster?",
+      "options": [
+        "Compressing HDFS blocks",
+        "Increasing the replication factor",
+        "Providing strong authentication between users and Hadoop services",
+        "Replacing the YARN Scheduler"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Kerberos provides secure authentication through tickets and service principals."
+    },
+    {
+      "id": "q-imp-1795118839795-77-oetd",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which web interface commonly displays HDFS filesystem and DataNode information in Hadoop?",
+      "options": [
+        "HiveQL Console",
+        "NameNode Web UI",
+        "Kafka Producer UI",
+        "Spark SQL Editor"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The NameNode Web UI exposes filesystem and cluster status information."
+    },
+    {
+      "id": "q-imp-1795118839795-78-gbaw",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary advantage of using Hadoop High Availability for the NameNode?",
+      "options": [
+        "It removes the need for DataNodes",
+        "It eliminates all network communication",
+        "It reduces the NameNode single point of failure by maintaining active and standby NameNodes",
+        "It automatically converts HDFS into HBase"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** NameNode HA allows a standby NameNode to take over when the active NameNode fails."
+    },
+    {
+      "id": "q-imp-1795118839795-79-a7ap",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which interface allows Java applications to interact programmatically with HDFS?",
+      "options": [
+        "JDBC API",
+        "Servlet API",
+        "Hadoop FileSystem API",
+        "Kafka Connect API"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Hadoop's FileSystem API provides Java methods for creating, reading, writing, and managing filesystem objects."
+    },
+    {
+      "id": "q-imp-1795118839795-80-zya6",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which Java method is commonly used to obtain a Hadoop FileSystem instance?",
+      "options": [
+        "`FileSystem.createClient()`",
+        "`FileSystem.get(configuration)`",
+        "`HDFS.connect()`",
+        "`NameNode.getConnection()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `FileSystem.get(Configuration)` obtains a filesystem instance using the supplied configuration."
+    },
+    {
+      "id": "q-imp-1795118839795-81-lmcq",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which Java class is commonly used to read data from an HDFS file?",
+      "options": [
+        "`FileOutputStream`",
+        "`FSDataInputStream`",
+        "`BufferedWriter`",
+        "`DataNodeReader`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** FSDataInputStream provides a stream interface for reading data from Hadoop filesystems."
+    },
+    {
+      "id": "q-imp-1795118839795-82-3zjn",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which Java class is commonly returned when creating a new HDFS file for writing?",
+      "options": [
+        "`FSDataInputStream`",
+        "`FileReader`",
+        "`FSDataOutputStream`",
+        "`NameNodeOutput`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** FSDataOutputStream provides an output stream for writing data into HDFS files."
+    },
+    {
+      "id": "q-imp-1795118839795-83-mell",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of the `hflush()` method in HDFS output streams?",
+      "options": [
+        "It permanently deletes the current block",
+        "It changes the replication factor",
+        "It pushes buffered data to DataNodes and makes it visible to new readers, subject to HDFS pipeline semantics",
+        "It formats the NameNode"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `hflush()` flushes buffered data to the DataNode pipeline and improves reader visibility."
+    },
+    {
+      "id": "q-imp-1795118839795-84-u58e",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which statement about the HDFS `hsync()` method is correct?",
+      "options": [
+        "It deletes the file after writing",
+        "It creates a new NameNode",
+        "It requests synchronization of the written data to DataNode storage according to the configured synchronization semantics",
+        "It moves blocks to another rack automatically"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `hsync()` provides stronger synchronization semantics than an ordinary buffered write."
+    },
+    {
+      "id": "q-imp-1795118839795-85-run2",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "What is a common limitation of HDFS for applications that require many small files?",
+      "options": [
+        "HDFS cannot store text files",
+        "HDFS does not support replication",
+        "A large number of small files increases NameNode metadata and memory overhead",
+        "HDFS cannot support sequential reads"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Each file and block requires metadata managed by the NameNode."
+    },
+    {
+      "id": "q-imp-1795118839795-86-qy18",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why is data locality important in Hadoop processing?",
+      "options": [
+        "It forces all tasks to execute on the NameNode",
+        "It attempts to execute computation near the data to reduce network transfers",
+        "It prevents DataNodes from storing replicated blocks",
+        "It eliminates the need for YARN"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Data locality improves performance by minimizing data movement across the network."
+    },
+    {
+      "id": "q-imp-1795118839795-87-96yr",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which Hadoop component is responsible for maintaining the filesystem namespace and file-to-block mapping?",
+      "options": [
+        "DataNode",
+        "NodeManager",
+        "NameNode",
+        "ResourceManager"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The NameNode maintains filesystem metadata and the mapping between files and their blocks."
+    },
+    {
+      "id": "q-imp-1795118839795-88-fygl",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of the FsImage file in HDFS?",
+      "options": [
+        "Storing the actual contents of all HDFS files",
+        "Storing a persistent snapshot of the filesystem namespace metadata",
+        "Maintaining Kafka consumer offsets",
+        "Storing MapReduce intermediate output"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** FsImage contains a checkpointed representation of the HDFS namespace."
+    },
+    {
+      "id": "q-imp-1795118839795-89-s56v",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What information is primarily stored in the NameNode EditLog?",
+      "options": [
+        "Actual file contents",
+        "DataNode disk utilization",
+        "Recent filesystem namespace modifications",
+        "Spark executor logs"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** EditLog records changes to the filesystem namespace after the latest checkpoint."
+    },
+    {
+      "id": "q-imp-1795118839796-90-lq1a",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "What happens when the NameNode receives a block report from a DataNode?",
+      "options": [
+        "It receives the complete contents of every block",
+        "It receives information about the blocks stored on that DataNode",
+        "It receives all Hive query results",
+        "It receives Kafka producer configurations"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Block reports help the NameNode maintain information about block locations."
+    },
+    {
+      "id": "q-imp-1795118839796-91-jzp7",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why does HDFS use block replication instead of storing only one copy of each block?",
+      "options": [
+        "To increase the number of files",
+        "To reduce the total number of DataNodes",
+        "To provide fault tolerance and availability when individual storage nodes fail",
+        "To eliminate the NameNode"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Replication ensures that data remains available despite individual node failures."
+    },
+    {
+      "id": "q-imp-1795118839796-92-jeqk",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which HDFS feature allows clients to read different blocks of a large file from different DataNodes?",
+      "options": [
+        "Database indexing",
+        "Table bucketing",
+        "Distributed block storage",
+        "Query compilation"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HDFS distributes file blocks across DataNodes, enabling parallel access."
+    },
+    {
+      "id": "q-imp-1795118839796-93-s9ma",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] A DataNode contains a block whose replication factor is configured as 3, but only two valid replicas remain. What will the NameNode identify?",
+      "options": [
+        "Over-replicated block",
+        "Under-replicated block",
+        "Corrupted namespace",
+        "Complete filesystem failure"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A block with fewer replicas than its configured replication factor is under-replicated."
+    },
+    {
+      "id": "q-imp-1795118839796-94-uq1r",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which command displays the status of HDFS DataNodes?",
+      "options": [
+        "`hdfs dfs -cat`",
+        "`hdfs dfsadmin -report`",
+        "`hdfs dfs -put`",
+        "`hdfs dfs -mkdir`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `hdfs dfsadmin -report` displays DataNode and filesystem capacity information."
+    },
+    {
+      "id": "q-imp-1795118839796-95-qea5",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which command checks the health of an HDFS filesystem?",
+      "options": [
+        "`hadoop version`",
+        "`hdfs dfs -touchz`",
+        "`hdfs fsck /`",
+        "`hdfs dfs -get`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `hdfs fsck /` checks the filesystem and reports block-level health information."
+    },
+    {
+      "id": "q-imp-1795118839796-96-tj1n",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which command removes a file from HDFS?",
+      "options": [
+        "`hdfs dfs -get`",
+        "`hdfs dfs -put`",
+        "`hdfs dfs -rm`",
+        "`hdfs dfs -cat`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The `-rm` command removes files from HDFS."
+    },
+    {
+      "id": "q-imp-1795118839796-97-y8xg",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which command removes a directory and its contents recursively from HDFS?",
+      "options": [
+        "`hdfs dfs -rmdir`",
+        "`hdfs dfs -rm -r`",
+        "`hdfs dfs -deleteall`",
+        "`hdfs dfs -remove`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The recursive `-rm -r` option removes directories and their contents."
+    },
+    {
+      "id": "q-imp-1795118839796-98-hlep",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which command changes the ownership of an HDFS file?",
+      "options": [
+        "`hdfs dfs -chmod`",
+        "`hdfs dfs -chown`",
+        "`hdfs dfs -setrep`",
+        "`hdfs dfs -du`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `-chown` changes the owner and optionally the group of an HDFS file."
+    },
+    {
+      "id": "q-imp-1795118839796-99-idrx",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which command changes the permissions of an HDFS file?",
+      "options": [
+        "`hdfs dfs -chown`",
+        "`hdfs dfs -setrep`",
+        "`hdfs dfs -chmod`",
+        "`hdfs dfs -count`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `-chmod` modifies file and directory permissions in HDFS."
+    },
+    {
+      "id": "q-imp-1795118839796-100-rtmj",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary purpose of the HDFS Safe Mode?",
+      "options": [
+        "To allow unrestricted writes during startup",
+        "To restrict namespace modifications while the NameNode performs initial block availability checks",
+        "To permanently disable DataNodes",
+        "To execute MapReduce jobs"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Safe Mode protects filesystem consistency while the NameNode checks block availability."
+    },
+    {
+      "id": "q-imp-1795118839796-101-fg9h",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which command manually leaves HDFS Safe Mode?",
+      "options": [
+        "`hdfs dfsadmin -enterSafeMode`",
+        "`hdfs dfsadmin -safemode leave`",
+        "`hdfs dfs -safemode off`",
+        "`hadoop safemode -stop`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The `-safemode leave` command requests that the NameNode exit Safe Mode."
+    },
+    {
+      "id": "q-imp-1795118839796-102-tyzl",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of JournalNodes in an HDFS High Availability configuration using Quorum Journal Manager?",
+      "options": [
+        "Storing user file contents",
+        "Managing YARN containers",
+        "Maintaining shared edits that active and standby NameNodes can access",
+        "Replacing all DataNodes"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** JournalNodes provide shared edit-log storage for NameNode synchronization."
+    },
+    {
+      "id": "q-imp-1795118839796-103-e30v",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "What does fencing mean in HDFS High Availability?",
+      "options": [
+        "Creating additional HDFS directories",
+        "Increasing the replication factor",
+        "Preventing a previously active NameNode from continuing to modify shared state after failover",
+        "Compressing the EditLog"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Fencing prevents a failed or isolated active NameNode from creating inconsistent namespace updates."
+    },
+    {
+      "id": "q-imp-1795118839796-104-xrg6",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which HDFS HA component monitors NameNode health and participates in automatic failover?",
+      "options": [
+        "HiveServer2",
+        "DataNode",
+        "ZooKeeper Failover Controller (ZKFC)",
+        "MapReduce ApplicationMaster"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ZKFC monitors NameNode health and coordinates failover through ZooKeeper."
+    },
+    {
+      "id": "q-imp-1795118839796-105-pb90",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which Hadoop command copies a local file into HDFS and removes the original local file after a successful transfer?",
+      "options": [
+        "`hdfs dfs -put`",
+        "`hdfs dfs -get`",
+        "`hdfs dfs -moveFromLocal`",
+        "`hdfs dfs -copyToLocal`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `-moveFromLocal` transfers a local file into HDFS and removes the local source."
+    },
+    {
+      "id": "q-imp-1795118839796-106-0wdz",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the main purpose of the HDFS WebHDFS interface?",
+      "options": [
+        "Compiling Java programs",
+        "Scheduling MapReduce tasks",
+        "Providing HTTP-based access to HDFS operations",
+        "Managing Kafka consumer groups"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** WebHDFS exposes filesystem operations through an HTTP REST interface."
+    },
+    {
+      "id": "q-imp-1795118839796-107-g66j",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which Hadoop tool is commonly used to benchmark HDFS write performance?",
+      "options": [
+        "TestDFSRead",
+        "TestDFSIO",
+        "HadoopSQL",
+        "DFSAnalyzer"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** TestDFSIO is a benchmark tool for evaluating HDFS read and write performance."
+    },
+    {
+      "id": "q-imp-1795118839796-108-qq4y",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of the `-appendToFile` HDFS shell command?",
+      "options": [
+        "Replacing an entire file with another file",
+        "Appending local file contents to an existing HDFS file",
+        "Deleting the original HDFS file",
+        "Changing the file's replication factor"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `-appendToFile` adds local data to the end of an existing HDFS file."
+    },
+    {
+      "id": "q-imp-1795118839796-109-qjmz",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which Java interface is commonly used to retrieve file status information from HDFS?",
+      "options": [
+        "`DataOutput`",
+        "`Job`",
+        "`FileStatus`",
+        "`Mapper`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** FileStatus provides information such as file length, permissions, owner, and modification time."
+    },
+    {
+      "id": "q-imp-1795118839796-110-o6ev",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of the `listStatus()` method in Hadoop's FileSystem API?",
+      "options": [
+        "Formatting the filesystem",
+        "Retrieving status information for files and directories at a specified path",
+        "Changing the replication factor",
+        "Starting the NameNode"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `listStatus()` returns FileStatus objects for entries at the requested path."
+    },
+    {
+      "id": "q-imp-1795118839796-111-kb2u",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which command displays the number of directories, files, and bytes under an HDFS path?",
+      "options": [
+        "`hdfs dfs -cat`",
+        "`hdfs dfs -du`",
+        "`hdfs dfs -count`",
+        "`hdfs dfs -touchz`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The `-count` command reports directory, file, and content-size statistics."
+    },
+    {
+      "id": "q-imp-1795118839796-112-qj5r",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which Hadoop ecosystem component is historically used for data ingestion from log streams into HDFS?",
+      "options": [
+        "Hive",
+        "HBase",
+        "Apache Flume",
+        "ZooKeeper"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Apache Flume was designed for collecting and moving large volumes of log data."
+    },
+    {
+      "id": "q-imp-1795118839796-113-hr78",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "What is Apache Sqoop primarily used for?",
+      "options": [
+        "Managing Kafka brokers",
+        "Transferring bulk data between relational databases and Hadoop storage",
+        "Executing Spark machine learning models",
+        "Scheduling Airflow DAGs"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Sqoop historically supported bulk data transfers between RDBMS systems and Hadoop."
+    },
+    {
+      "id": "q-imp-1795118839796-114-gi83",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary purpose of Apache ZooKeeper in traditional Hadoop ecosystem deployments?",
+      "options": [
+        "Storing relational database tables",
+        "Providing coordination services such as configuration management, synchronization, and naming",
+        "Executing MapReduce reducers",
+        "Compressing HDFS blocks"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** ZooKeeper provides distributed coordination for supported cluster services."
+    },
+    {
+      "id": "q-imp-1795118839796-115-o84s",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which component is commonly used to manage and coordinate distributed applications such as HBase?",
+      "options": [
+        "Hive",
+        "Pig",
+        "ZooKeeper",
+        "Parquet"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ZooKeeper supports coordination and service discovery in distributed systems."
+    },
+    {
+      "id": "q-imp-1795118839796-116-xaf4",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the main advantage of integrating Spark with HDFS?",
+      "options": [
+        "Spark must execute every task on the NameNode",
+        "Spark replaces the filesystem metadata layer",
+        "Spark can process distributed datasets stored in HDFS using data locality and scalable storage",
+        "HDFS automatically performs all Spark transformations"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HDFS supplies distributed storage while Spark performs parallel computation."
+    },
+    {
+      "id": "q-imp-1795118839796-117-s6a7",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which Hadoop daemon maintains the historical information about completed MapReduce jobs?",
+      "options": [
+        "NameNode",
+        "DataNode",
+        "JobHistoryServer",
+        "HiveServer2"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** JobHistoryServer provides information about completed MapReduce applications."
+    },
+    {
+      "id": "q-imp-1795118839796-118-rwwv",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of Hadoop's ResourceManager Scheduler?",
+      "options": [
+        "Managing HDFS file permissions",
+        "Storing HBase cell values",
+        "Allocating available cluster resources to applications according to scheduling policies",
+        "Executing every MapReduce mapper"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The YARN Scheduler allocates resources based on configured scheduling policies."
+    },
+    {
+      "id": "q-imp-1795118839796-119-yvit",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which YARN scheduling policy allocates resources using queues and hierarchical resource management?",
+      "options": [
+        "FIFO filesystem",
+        "HDFS replication policy",
+        "Capacity Scheduler",
+        "Kafka partition scheduler"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Capacity Scheduler manages cluster resources through configured queues and capacities."
+    },
+    {
+      "id": "q-imp-1795118839796-120-matp",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of the Fair Scheduler in YARN?",
+      "options": [
+        "Guaranteeing identical execution times for all tasks",
+        "Attempting to distribute resources fairly among running applications over time",
+        "Replicating HDFS blocks across racks",
+        "Converting MapReduce into HiveQL"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Fair Scheduler aims to provide fair resource allocation across applications."
+    },
+    {
+      "id": "q-imp-1795118839796-121-5lz4",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which Hadoop command displays running YARN applications?",
+      "options": [
+        "`hdfs dfs -ls`",
+        "`yarn application -list`",
+        "`hadoop fs -get`",
+        "`hdfs namenode -format`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The YARN application command lists applications managed by the cluster."
+    },
+    {
+      "id": "q-imp-1795118839796-122-lf5x",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary purpose of YARN containers?",
+      "options": [
+        "Storing permanent HDFS files",
+        "Managing Hive database schemas",
+        "Providing allocated resources such as memory and CPU for application execution",
+        "Maintaining Kafka topic retention policies"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Containers represent resource allocations on cluster nodes for application tasks."
+    },
+    {
+      "id": "q-imp-1795118839796-123-8pwz",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which Hadoop component monitors application execution and coordinates containers for a particular application?",
+      "options": [
+        "NameNode",
+        "Secondary NameNode",
+        "ApplicationMaster",
+        "Hive Metastore"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The ApplicationMaster coordinates the lifecycle and resource needs of its application."
+    },
+    {
+      "id": "q-imp-1795118839796-124-aehk",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of Hadoop's Node Labels feature in YARN?",
+      "options": [
+        "Labeling HDFS file extensions",
+        "Assigning row keys to HBase tables",
+        "Categorizing cluster nodes and controlling application placement on selected node groups",
+        "Managing Hive column names"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Node Labels allow resource placement based on node classifications."
+    },
+    {
+      "id": "q-imp-1795118839796-125-k2k1",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which utility helps administrators examine Hadoop configuration values?",
+      "options": [
+        "`hdfs dfs -cat`",
+        "`hadoop getconf`",
+        "`hdfs dfs -put`",
+        "`yarn application -kill`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** hadoop getconf displays Hadoop configuration information."
+    },
+    {
+      "id": "q-imp-1795118839796-126-1ovf",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why should Hadoop administrators monitor disk utilization on DataNodes?",
+      "options": [
+        "To automatically increase the Hive database count",
+        "To prevent storage exhaustion and identify nodes that may require balancing or maintenance",
+        "To determine the number of Java classes",
+        "To control Kafka message keys"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Disk monitoring helps maintain cluster health and avoid storage-capacity failures."
+    },
+    {
+      "id": "q-imp-1795118839796-127-kegv",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of HDFS Federation?",
+      "options": [
+        "To eliminate data replication",
+        "To allow multiple independent NameNodes to manage separate namespaces",
+        "To replace DataNodes with ResourceManagers",
+        "To provide SQL query processing"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** HDFS Federation enables multiple NameNodes to manage separate namespaces and share DataNodes."
+    },
+    {
+      "id": "q-imp-1795118839796-128-g3ju",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which HDFS component maintains the filesystem namespace and metadata?",
+      "options": [
+        "NameNode",
+        "DataNode",
+        "Secondary NameNode",
+        "ResourceManager"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** The NameNode maintains metadata such as directories, permissions, and block locations."
+    },
+    {
+      "id": "q-imp-1795118839796-129-tx9b",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What happens when an HDFS client writes a file and one DataNode in the replication pipeline fails?",
+      "options": [
+        "The entire cluster shuts down",
+        "The file is automatically deleted",
+        "The pipeline is reconstructed using available DataNodes",
+        "The NameNode becomes a DataNode"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HDFS reconstructs the write pipeline using surviving DataNodes."
+    },
+    {
+      "id": "q-imp-1795118839796-130-odvn",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which command displays the health status of an HDFS filesystem?",
+      "options": [
+        "hdfs dfs -ls",
+        "hdfs dfsadmin -report",
+        "hdfs namenode -format",
+        "hadoop version"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `hdfs dfsadmin -report` displays DataNode status and cluster storage information."
+    },
+    {
+      "id": "q-imp-1795118839796-131-oqrl",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of the HDFS fsimage file?",
+      "options": [
+        "To store actual file contents",
+        "To store a persistent snapshot of filesystem metadata",
+        "To store MapReduce output",
+        "To store YARN container logs"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** FsImage contains a persistent snapshot of the NameNode namespace."
+    },
+    {
+      "id": "q-imp-1795118839796-132-j9wb",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which file records changes made to HDFS metadata after the latest fsimage?",
+      "options": [
+        "blockreport",
+        "core-site.xml",
+        "EditLog",
+        "hdfs-site.xml"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** EditLog records filesystem namespace modifications."
+    },
+    {
+      "id": "q-imp-1795118839796-133-3xth",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the main advantage of NameNode High Availability?",
+      "options": [
+        "Increased block size",
+        "Elimination of replication",
+        "Reduced downtime through automatic or manual failover",
+        "Faster SQL execution"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HA provides an Active and Standby NameNode to maintain service availability."
+    },
+    {
+      "id": "q-imp-1795118839796-134-q0w9",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which mechanism helps prevent two NameNodes from simultaneously becoming Active?",
+      "options": [
+        "Combiner",
+        "Partitioning",
+        "Fencing",
+        "Bucketing"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Fencing prevents an old Active NameNode from continuing to serve requests after failover."
+    },
+    {
+      "id": "q-imp-1795118839796-135-421o",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "Which command copies a local file into HDFS?",
+      "options": [
+        "hdfs dfs -get",
+        "hdfs dfs -put",
+        "hdfs dfs -cat",
+        "hdfs dfs -du"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `-put` uploads local files into HDFS."
+    },
+    {
+      "id": "q-imp-1795118839796-136-z4ja",
+      "topicId": "top-1795118849110-29-hn0",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why does HDFS use rack awareness?",
+      "options": [
+        "To increase SQL indexing speed",
+        "To reduce file permissions",
+        "To improve fault tolerance and network bandwidth utilization",
+        "To eliminate NameNodes"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Rack awareness distributes replicas across racks to tolerate rack failures."
+    },
+    {
+      "id": "q-imp-1795118839796-137-wepp",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "**Question IDs:** Q36–45, Q141–155, Q236–255, Q411–420\n\n### Q36. [Beginner] What is the primary purpose of the MapReduce programming model?",
+      "options": [
+        "To manage relational database transactions",
+        "To process large datasets in parallel across a distributed cluster",
+        "To create graphical user interfaces",
+        "To manage network routing tables"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** MapReduce distributes data processing across multiple cluster nodes."
+    },
+    {
+      "id": "q-imp-1795118839796-138-aujt",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is the primary responsibility of the Mapper?",
+      "options": [
+        "Combining all final output records into one file",
+        "Processing input key-value pairs and producing intermediate key-value pairs",
+        "Maintaining HDFS namespace metadata",
+        "Scheduling cluster resources"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A Mapper processes input records and emits intermediate key-value pairs."
+    },
+    {
+      "id": "q-imp-1795118839796-139-9kk8",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is the primary responsibility of the Reducer?",
+      "options": [
+        "Reading user input from the keyboard",
+        "Creating HDFS block replicas",
+        "Processing grouped intermediate values associated with keys to generate final output",
+        "Maintaining Hadoop configuration files"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Reducers aggregate or process values grouped by their intermediate keys."
+    },
+    {
+      "id": "q-imp-1795118839796-140-ffik",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What is the purpose of the Shuffle and Sort phase in MapReduce?",
+      "options": [
+        "Encrypting intermediate data",
+        "Compressing input files permanently",
+        "Transferring intermediate records to reducers and grouping them by key",
+        "Removing all duplicate files from HDFS"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Shuffle transfers mapper output, while sorting groups records by key for reduction."
+    },
+    {
+      "id": "q-imp-1795118839796-141-mip5",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "In a MapReduce word-count program, what intermediate key-value pair is emitted for the word `data`?",
+      "options": [
+        "`(\"data\", 0)`",
+        "`(\"data\", 1)`",
+        "`(1, \"data\")`",
+        "`(\"data\", \"data\")`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The Mapper emits the word as the key and a count of one as the value."
+    },
+    {
+      "id": "q-imp-1795118839796-142-lxvh",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary advantage of using a Combiner in a MapReduce job?",
+      "options": [
+        "It replaces the NameNode",
+        "It guarantees that every key has exactly one mapper",
+        "It performs local aggregation of mapper output to reduce network transfer",
+        "It prevents reducers from running"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A Combiner can reduce intermediate data transferred during the shuffle phase."
+    },
+    {
+      "id": "q-imp-1795118839796-143-kt6s",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Beginner] What type of database is Apache HBase?",
+      "options": [
+        "Traditional relational database",
+        "Graph database",
+        "Distributed, column-family-oriented NoSQL database",
+        "In-memory spreadsheet database"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HBase is a distributed NoSQL database designed for sparse, large-scale datasets."
+    },
+    {
+      "id": "q-imp-1795118839796-144-di8f",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "Which HBase component is responsible for managing regions and coordinating region assignments in a traditional HBase architecture?",
+      "options": [
+        "DataNode",
+        "HiveServer2",
+        "HMaster",
+        "ResourceManager"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HMaster coordinates administrative operations and region assignments."
+    },
+    {
+      "id": "q-imp-1795118839796-145-2dj8",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What is an HBase Region?",
+      "options": [
+        "A complete Hadoop cluster",
+        "A horizontal partition of an HBase table containing a range of row keys",
+        "A replica of the HDFS NameNode",
+        "A HiveQL database"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** HBase divides tables into regions based on row-key ranges."
+    },
+    {
+      "id": "q-imp-1795118839796-146-r0s2",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "Which command creates a table named `students` with a column family named `info` in the HBase shell?",
+      "options": [
+        "`CREATE TABLE students (info)`",
+        "`create 'students', 'info'`",
+        "`hbase create students info`",
+        "`CREATE FAMILY students info`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The HBase shell `create` command defines a table and its column families."
+    },
+    {
+      "id": "q-imp-1795118839796-147-osrq",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What is an InputSplit in Hadoop MapReduce?",
+      "options": [
+        "A physical copy of the NameNode",
+        "A logical representation of a portion of input data processed by a Mapper",
+        "A replicated output file",
+        "A YARN resource container"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** InputSplits define logical units of input work for MapReduce tasks."
+    },
+    {
+      "id": "q-imp-1795118839796-148-5cq6",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "Which component converts input records from an InputSplit into key-value pairs for the Mapper?",
+      "options": [
+        "OutputFormat",
+        "Partitioner",
+        "RecordReader",
+        "Reducer"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** RecordReader parses input data and provides records to the Mapper."
+    },
+    {
+      "id": "q-imp-1795118839796-149-lyv3",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What is the role of a Partitioner in Hadoop MapReduce?",
+      "options": [
+        "Compressing mapper output",
+        "Reading raw input files",
+        "Determining which reducer receives each intermediate key",
+        "Formatting the final output file"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A Partitioner distributes intermediate keys among reducers."
+    },
+    {
+      "id": "q-imp-1795118839796-150-63cz",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Advanced] What happens if a MapReduce job uses four reducers?",
+      "options": [
+        "Each mapper must execute exactly four times",
+        "The framework creates four reduce tasks, assuming normal successful execution",
+        "Every reducer receives an identical complete copy of all input files",
+        "The job creates four NameNodes"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The configured reducer count determines the number of reduce tasks."
+    },
+    {
+      "id": "q-imp-1795118839796-151-h065",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "Which MapReduce interface is used to define how final output records are written?",
+      "options": [
+        "InputFormat",
+        "Partitioner",
+        "RecordReader",
+        "OutputFormat"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** OutputFormat controls the output file creation and record-writing process."
+    },
+    {
+      "id": "q-imp-1795118839796-152-fg8o",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why should a MapReduce Combiner generally use an associative and commutative aggregation operation?",
+      "options": [
+        "Because it always executes exactly once",
+        "Because it receives the original input files",
+        "Because Hadoop may execute it zero, one, or multiple times on intermediate data",
+        "Because it replaces all reducers"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Combiner correctness must not depend on a guaranteed number of executions or a particular grouping order."
+    },
+    {
+      "id": "q-imp-1795118839796-153-xx4p",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What is speculative execution in Hadoop MapReduce?",
+      "options": [
+        "Executing every task only on the NameNode",
+        "Launching duplicate attempts of slow tasks on other nodes to reduce job completion time",
+        "Running all reducers before mappers",
+        "Replacing HDFS replication with local storage"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Speculative execution runs backup attempts of slow tasks and accepts a successful result."
+    },
+    {
+      "id": "q-imp-1795118839796-154-mwtt",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which type of data model does HBase use?",
+      "options": [
+        "Fixed relational tables with mandatory joins",
+        "Document-only storage",
+        "Sparse, distributed, multidimensional sorted maps indexed by row keys",
+        "Graph-only storage"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HBase stores data using row keys, column families, qualifiers, timestamps, and cell values."
+    },
+    {
+      "id": "q-imp-1795118839796-155-7mpa",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What is the role of a RegionServer in HBase?",
+      "options": [
+        "Maintaining YARN resource scheduling",
+        "Formatting HDFS namespace metadata",
+        "Hosting regions and handling client read/write requests",
+        "Managing Hive query compilation"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** RegionServers serve data from their assigned table regions."
+    },
+    {
+      "id": "q-imp-1795118839796-156-cdyi",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "Which HBase component coordinates administrative operations across the cluster?",
+      "options": [
+        "NameNode",
+        "ResourceManager",
+        "HMaster",
+        "JobHistoryServer"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HMaster handles region assignment, load balancing, and administrative operations."
+    },
+    {
+      "id": "q-imp-1795118839796-157-jcgv",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What is the purpose of the HBase Write-Ahead Log (WAL)?",
+      "options": [
+        "Performing SQL joins",
+        "Storing Hive table metadata",
+        "Recording mutations before they are applied to persistent storage for recovery",
+        "Managing YARN containers"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** WAL allows HBase to recover acknowledged or pending edits after failures."
+    },
+    {
+      "id": "q-imp-1795118839796-158-pr1d",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Advanced] What happens when an HBase MemStore becomes full or reaches its configured flush threshold?",
+      "options": [
+        "The entire HBase table is deleted",
+        "The RegionServer shuts down permanently",
+        "The MemStore contents are flushed to disk as HFiles",
+        "The NameNode creates another namespace"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HBase flushes MemStore data into immutable HFiles stored in HDFS."
+    },
+    {
+      "id": "q-imp-1795118839796-159-oo4e",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "Which HBase shell command inserts or updates a cell value?",
+      "options": [
+        "`INSERT ROW`",
+        "`UPDATE CELL`",
+        "`put`",
+        "`write`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The `put` command writes a value to a specified row, column family, and qualifier."
+    },
+    {
+      "id": "q-imp-1795118839796-160-p3z3",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which HBase shell command displays records stored in a table?",
+      "options": [
+        "`SELECT *`",
+        "`scan`",
+        "`SHOW ROWS`",
+        "`FETCH TABLE`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The `scan` command retrieves rows from an HBase table."
+    },
+    {
+      "id": "q-imp-1795118839796-161-x9be",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "Which HBase shell command retrieves a particular row by its row key?",
+      "options": [
+        "`scan`",
+        "`select`",
+        "`get`",
+        "`fetchall`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The `get` command retrieves the specified row using its row key."
+    },
+    {
+      "id": "q-imp-1795118839796-162-pjxu",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which programming language is commonly used to implement Hadoop MapReduce applications?",
+      "options": [
+        "HTML",
+        "CSS",
+        "Java",
+        "SQL only"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Hadoop MapReduce provides a Java API for implementing distributed processing jobs."
+    },
+    {
+      "id": "q-imp-1795118839796-163-6jv8",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "Which Hadoop class is commonly used to define a MapReduce Mapper?",
+      "options": [
+        "`org.apache.hadoop.fs.FileSystem`",
+        "`org.apache.hadoop.mapreduce.Mapper`",
+        "`org.apache.hadoop.hdfs.NameNode`",
+        "`org.apache.hadoop.yarn.Client`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The Mapper class provides the framework for implementing map tasks."
+    },
+    {
+      "id": "q-imp-1795118839796-164-z1py",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "Which method is commonly overridden to implement Mapper processing logic?",
+      "options": [
+        "`start()`",
+        "`execute()`",
+        "`map()`",
+        "`processFile()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The `map()` method processes individual input key-value records."
+    },
+    {
+      "id": "q-imp-1795118839796-165-fh2j",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "Which method is commonly overridden to implement Reducer processing logic?",
+      "options": [
+        "`reduceData()`",
+        "`reduce()`",
+        "`aggregate()`",
+        "`finish()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The `reduce()` method processes each key and its associated collection of values."
+    },
+    {
+      "id": "q-imp-1795118839796-166-p173",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Advanced] In a standard Hadoop MapReduce job, what happens when the number of reducers is set to zero?",
+      "options": [
+        "The job cannot execute",
+        "Every mapper is automatically converted into a reducer",
+        "The job performs map-only processing without a reduce phase",
+        "The job creates one reducer for every input record"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Setting zero reducers produces map-only output directly from mapper tasks."
+    },
+    {
+      "id": "q-imp-1795118839796-167-5lex",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What is the purpose of a Counter in Hadoop MapReduce?",
+      "options": [
+        "Storing complete input files",
+        "Replacing the Partitioner",
+        "Tracking application statistics and events during job execution",
+        "Managing DataNode replication"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Counters collect statistics such as processed records and malformed input records."
+    },
+    {
+      "id": "q-imp-1795118839796-168-dh90",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which statement correctly describes the MapReduce task lifecycle?",
+      "options": [
+        "Reducers execute before input records are read",
+        "Input records are processed by mappers, intermediate data is shuffled and sorted, and reducers generate final output",
+        "NameNodes execute every mapper directly",
+        "All intermediate records are stored permanently in the Hive Metastore"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** MapReduce follows the map, shuffle/sort, and reduce processing sequence."
+    },
+    {
+      "id": "q-imp-1795118839796-169-5xm5",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "Which Hadoop interface allows a developer to configure and submit a MapReduce job?",
+      "options": [
+        "`FileStatus`",
+        "`DataInputStream`",
+        "`Job`",
+        "`FSDataInputStream`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The Job class configures and submits MapReduce applications."
+    },
+    {
+      "id": "q-imp-1795118839796-170-c0bi",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which input format is commonly used to process text files line by line in Hadoop MapReduce?",
+      "options": [
+        "SequenceFileInputFormat",
+        "KeyValueTextInputFormat",
+        "TextInputFormat",
+        "DBInputFormat"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** TextInputFormat creates records using byte offsets as keys and lines as values."
+    },
+    {
+      "id": "q-imp-1795118839796-171-juae",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What is the default output file naming convention for multiple Hadoop reducers?",
+      "options": [
+        "`mapper-00000`",
+        "`result-00000`",
+        "`part-r-00000`",
+        "`reducer-final-00000`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** TextOutputFormat commonly generates reducer output files named `part-r-xxxxx`."
+    },
+    {
+      "id": "q-imp-1795118839796-172-bqqh",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which database characteristic is particularly important in HBase?",
+      "options": [
+        "Mandatory fixed schema for every column",
+        "Exclusive support for SQL joins",
+        "Ability to store sparse data across distributed column families",
+        "Mandatory normalization into third normal form"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HBase efficiently supports sparse, distributed datasets with flexible column qualifiers."
+    },
+    {
+      "id": "q-imp-1795118839796-173-36w1",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What uniquely identifies a row in an HBase table?",
+      "options": [
+        "Column family",
+        "Timestamp",
+        "Row key",
+        "RegionServer ID"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Every HBase row is identified by its unique row key within the table."
+    },
+    {
+      "id": "q-imp-1795118839796-174-12cu",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of a timestamp in an HBase cell?",
+      "options": [
+        "Identifying the NameNode",
+        "Defining the table's replication factor",
+        "Distinguishing versions of a cell value",
+        "Specifying the RegionServer IP address"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HBase timestamps allow multiple versions of a cell to be stored."
+    },
+    {
+      "id": "q-imp-1795118839796-175-mayt",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "Which HBase shell command deletes a particular cell value?",
+      "options": [
+        "`remove`",
+        "`drop`",
+        "`delete`",
+        "`truncatecell`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The `delete` command removes a specified cell or version."
+    },
+    {
+      "id": "q-imp-1795118839796-176-sj2k",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "Which HBase shell command deletes an entire table?",
+      "options": [
+        "`delete_table`",
+        "`disable` followed by `drop`",
+        "`remove_table`",
+        "`truncate_database`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** HBase tables must normally be disabled before they can be dropped."
+    },
+    {
+      "id": "q-imp-1795118839796-177-ksd4",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why does HBase use an LSM-tree-inspired storage architecture?",
+      "options": [
+        "To support only relational joins",
+        "To optimize write operations by buffering mutations and writing sorted files to disk",
+        "To eliminate the need for HDFS",
+        "To execute SQL queries through Hive automatically"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** HBase uses MemStore buffering and immutable sorted HFiles to support efficient writes."
+    },
+    {
+      "id": "q-imp-1795118839796-178-4spm",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What is the purpose of HBase Compaction?",
+      "options": [
+        "Creating new databases",
+        "Increasing the number of RegionServers",
+        "Merging HFiles and cleaning up obsolete or deleted cell versions according to retention rules",
+        "Changing all row keys"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Compaction merges storage files and helps manage obsolete versions and tombstones."
+    },
+    {
+      "id": "q-imp-1795118839796-179-1f9x",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which HBase component stores recently written data in memory before it is flushed to HFiles?",
+      "options": [
+        "BlockCache",
+        "MemStore",
+        "NameNode",
+        "WAL Reader"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** MemStore buffers recent writes in memory before flushing them to HFiles."
+    },
+    {
+      "id": "q-imp-1795118839796-180-6bbc",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of HBase BlockCache?",
+      "options": [
+        "Storing all writes permanently",
+        "Managing YARN resources",
+        "Caching frequently accessed blocks to improve read performance",
+        "Managing HDFS namespace metadata"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** BlockCache reduces disk reads by retaining frequently accessed data blocks in memory."
+    },
+    {
+      "id": "q-imp-1795118839796-181-orej",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which characteristic makes HBase more suitable than a traditional RDBMS for certain Big Data workloads?",
+      "options": [
+        "Strong support for complex relational joins",
+        "Mandatory SQL schema enforcement",
+        "Horizontal scalability and efficient random access to very large sparse datasets",
+        "Exclusive support for small transactional tables"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HBase is designed for scalable, distributed access to massive sparse datasets."
+    },
+    {
+      "id": "q-imp-1795118839796-182-83n0",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What is the primary responsibility of the Mapper in MapReduce?",
+      "options": [
+        "Combining all final results",
+        "Transforming input records into intermediate key-value pairs",
+        "Managing HDFS metadata",
+        "Allocating database indexes"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The Mapper processes input records and emits intermediate key-value pairs."
+    },
+    {
+      "id": "q-imp-1795118839796-183-pdur",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What is the purpose of a Combiner in MapReduce?",
+      "options": [
+        "To replace the Reducer permanently",
+        "To perform local aggregation of Mapper output",
+        "To store input data in HDFS",
+        "To schedule YARN applications"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A Combiner reduces intermediate data transferred during the shuffle phase."
+    },
+    {
+      "id": "q-imp-1795118839796-184-2i44",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why must a Combiner generally be designed carefully?",
+      "options": [
+        "It always executes exactly once",
+        "It runs only on the NameNode",
+        "Hadoop does not guarantee that it will execute",
+        "It replaces the partitioner"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A Combiner may execute zero, one, or multiple times, so correctness must not depend on its execution."
+    },
+    {
+      "id": "q-imp-1795118839796-185-x8gm",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What is the purpose of a Partitioner in MapReduce?",
+      "options": [
+        "To compress input files",
+        "To sort HDFS directories",
+        "To determine which Reducer receives each intermediate key",
+        "To replicate DataNodes"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The Partitioner distributes intermediate keys among Reducers."
+    },
+    {
+      "id": "q-imp-1795118839796-186-9ju0",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Advanced] What happens if the number of Reducers is set to zero?",
+      "options": [
+        "The Mapper cannot execute",
+        "The job always fails",
+        "The job produces Mapper output without a Reduce phase",
+        "HDFS replication becomes zero"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Map-only jobs skip the shuffle and Reduce phases."
+    },
+    {
+      "id": "q-imp-1795118839796-187-lkso",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "Which HBase component manages regions and coordinates region assignments?",
+      "options": [
+        "NameNode",
+        "DataNode",
+        "HMaster",
+        "HiveServer2"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HMaster manages region assignment, balancing, and administrative operations."
+    },
+    {
+      "id": "q-imp-1795118839796-188-55bo",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why should HBase row keys be designed carefully to avoid monotonically increasing keys in high-write workloads?",
+      "options": [
+        "To force all writes to one region",
+        "To reduce the number of column families",
+        "To reduce hotspotting by distributing writes across regions",
+        "To disable region splitting"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Sequential keys can concentrate writes on a small number of regions; suitable key design spreads write load."
+    },
+    {
+      "id": "q-imp-1795118839796-189-azux",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "What is the purpose of the HBase BlockCache?",
+      "options": [
+        "To store HDFS namespace edits",
+        "To cache frequently read data blocks in RegionServer memory",
+        "To replace the Write-Ahead Log",
+        "To assign regions to RegionServers"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** BlockCache keeps frequently accessed data blocks in memory to accelerate reads."
+    },
+    {
+      "id": "q-imp-1795118839796-190-f4nt",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "Which HBase structure stores recently written data in memory?",
+      "options": [
+        "HFile",
+        "MemStore",
+        "ZooKeeper",
+        "BlockReport"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** MemStore buffers updates in memory before they are flushed to HFiles."
+    },
+    {
+      "id": "q-imp-1795118839796-191-hbx5",
+      "topicId": "top-1795118849110-135-v6m",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which HBase operation combines multiple HFiles into fewer larger files?",
+      "options": [
+        "Region split",
+        "Flush",
+        "Compaction",
+        "Replication"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Compaction merges HFiles to improve storage organization and read performance."
+    },
+    {
+      "id": "q-imp-1795118839796-192-v7nj",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "**Question IDs:** Q46–63, Q156–180, Q256–275, Q381–390, Q421–435\n\n### Q46. [Beginner] What is Apache Hive primarily used for?",
+      "options": [
+        "Managing operating system processes",
+        "Querying and analyzing large datasets using a SQL-like language",
+        "Replacing the HDFS NameNode",
+        "Creating network firewalls"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Hive provides a SQL-like interface for data warehousing and large-scale analytics."
+    },
+    {
+      "id": "q-imp-1795118839796-193-fs1h",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which language is used to query data in Apache Hive?",
+      "options": [
+        "PL/SQL",
+        "MongoQL",
+        "HiveQL",
+        "HTML"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HiveQL is the SQL-like query language supported by Apache Hive."
+    },
+    {
+      "id": "q-imp-1795118839796-194-qobv",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive component stores table definitions, schemas, partitions, and other metadata?",
+      "options": [
+        "DataNode",
+        "NodeManager",
+        "Hive Metastore",
+        "Kafka Broker"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The Hive Metastore maintains metadata about databases, tables, columns, partitions, and storage locations."
+    },
+    {
+      "id": "q-imp-1795118839796-195-rpbu",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which of the following is a valid Hive primitive datatype?",
+      "options": [
+        "ARRAY",
+        "MAP",
+        "INT",
+        "STRUCT"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** INT is a primitive Hive datatype, whereas ARRAY, MAP, and STRUCT are complex types."
+    },
+    {
+      "id": "q-imp-1795118839796-196-wzt8",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive datatype is used to store a collection of elements of the same type?",
+      "options": [
+        "MAP",
+        "ARRAY",
+        "STRUCT",
+        "UNIONTYPE"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** ARRAY stores an ordered collection of elements of a specified type."
+    },
+    {
+      "id": "q-imp-1795118839796-197-zd6f",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive datatype stores key-value pairs?",
+      "options": [
+        "ARRAY",
+        "STRUCT",
+        "MAP",
+        "BOOLEAN"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MAP stores key-value pairs with a defined key type and value type."
+    },
+    {
+      "id": "q-imp-1795118839796-198-lw5b",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which statement creates a database in Hive?",
+      "options": [
+        "`MAKE DATABASE college;`",
+        "`CREATE DATABASE college;`",
+        "`NEW DATABASE college;`",
+        "`ADD DATABASE college;`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `CREATE DATABASE` creates a new Hive database."
+    },
+    {
+      "id": "q-imp-1795118839796-199-k8zj",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "What happens to the underlying table data when a managed Hive table is dropped?",
+      "options": [
+        "The data is always retained in its original location",
+        "Hive normally deletes the table's data along with its metadata",
+        "The data is automatically copied to Kafka",
+        "The data is converted into an external table"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Dropping a managed table normally removes both its metadata and associated data."
+    },
+    {
+      "id": "q-imp-1795118839796-200-4fld",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "What is the main difference between a managed table and an external table in Hive?",
+      "options": [
+        "Managed tables cannot contain data",
+        "External tables cannot be queried",
+        "Hive manages the data lifecycle of managed tables, while external table data is generally managed independently",
+        "External tables always store data in memory"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Managed tables are controlled by Hive, while external table data is generally retained when its metadata is dropped."
+    },
+    {
+      "id": "q-imp-1795118839796-201-fpce",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Hive command displays the tables in the current database?",
+      "options": [
+        "`SHOW DATABASES;`",
+        "`SHOW TABLES;`",
+        "`LIST COLUMNS;`",
+        "`DISPLAY TABLES;`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `SHOW TABLES` lists tables in the current Hive database."
+    },
+    {
+      "id": "q-imp-1795118839796-202-5kwf",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "What is partitioning in Hive?",
+      "options": [
+        "Dividing a table into multiple databases",
+        "Organizing table data into separate storage directories based on partition column values",
+        "Combining multiple Hive clusters into one",
+        "Converting every row into a separate file"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Partitioning physically organizes data by partition-column values to improve query pruning."
+    },
+    {
+      "id": "q-imp-1795118839796-203-8f3z",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "A Hive table is partitioned by `year`. Which directory structure is typically created for the year 2026?",
+      "options": [
+        "`/year/2026/table/`",
+        "`year=2026/`",
+        "`/partition/2026.csv`",
+        "`/table/2026/year/`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Hive commonly uses key-value directory names such as `year=2026`."
+    },
+    {
+      "id": "q-imp-1795118839796-204-4tny",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is bucketing in Hive?",
+      "options": [
+        "Dividing a table into databases",
+        "Splitting a table based only on file extensions",
+        "Distributing rows into a fixed number of files or buckets based on a hash of specified columns",
+        "Replicating every row across all DataNodes"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Bucketing uses hashing to distribute records into a specified number of buckets."
+    },
+    {
+      "id": "q-imp-1795118839796-205-ukq7",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive storage format is a columnar format commonly used for efficient analytical queries?",
+      "options": [
+        "TEXTFILE",
+        "CSV",
+        "ORC",
+        "XML"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ORC stores data in a columnar layout that supports compression and efficient analytical access."
+    },
+    {
+      "id": "q-imp-1795118839796-206-ua5o",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive command is commonly used to load a local file into a table?",
+      "options": [
+        "`IMPORT LOCAL FILE`",
+        "`LOAD DATA LOCAL INPATH`",
+        "`INSERT LOCAL FILE`",
+        "`COPY LOCAL TO TABLE`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `LOAD DATA LOCAL INPATH` loads a local file into a Hive table."
+    },
+    {
+      "id": "q-imp-1795118839796-207-nlet",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which clause filters individual rows before grouping in a Hive query?",
+      "options": [
+        "HAVING",
+        "WHERE",
+        "ORDER BY",
+        "GROUP BY"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** WHERE filters rows before aggregation and grouping."
+    },
+    {
+      "id": "q-imp-1795118839796-208-tyzo",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which clause filters grouped results after aggregation?",
+      "options": [
+        "WHERE",
+        "LIMIT",
+        "HAVING",
+        "DISTRIBUTE BY"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HAVING applies conditions to groups produced by GROUP BY."
+    },
+    {
+      "id": "q-imp-1795118839796-209-vsla",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive command is used to add a new column to an existing table?",
+      "options": [
+        "`UPDATE TABLE ADD COLUMN`",
+        "`INSERT COLUMN`",
+        "`ALTER TABLE table_name ADD COLUMNS (column_name datatype)`",
+        "`MODIFY TABLE CREATE COLUMN`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ALTER TABLE ADD COLUMNS modifies the table schema by adding columns."
+    },
+    {
+      "id": "q-imp-1795118839796-210-btah",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "What is the primary responsibility of the Hive Driver?",
+      "options": [
+        "Managing DataNode block storage",
+        "Creating Kafka partitions",
+        "Managing the query lifecycle, coordinating compilation, optimization, and execution",
+        "Managing Spark executor memory directly"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The Hive Driver coordinates query processing from submission to result retrieval."
+    },
+    {
+      "id": "q-imp-1795118839796-211-4iuc",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive component parses a HiveQL query and generates an execution plan?",
+      "options": [
+        "DataNode",
+        "Kafka Broker",
+        "Hive Compiler",
+        "HDFS Balancer"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The Hive Compiler parses queries, performs semantic analysis, and generates execution plans."
+    },
+    {
+      "id": "q-imp-1795118839796-212-kdhm",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of the Hive Query Optimizer?",
+      "options": [
+        "Encrypting every column in a table",
+        "Formatting the NameNode namespace",
+        "Improving query execution plans by applying optimizations such as predicate and partition pruning",
+        "Replacing all Hive tables with HBase tables"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The optimizer improves query plans to reduce processing time and resource consumption."
+    },
+    {
+      "id": "q-imp-1795118839796-213-uf9j",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive join returns only records that have matching values in both tables?",
+      "options": [
+        "LEFT OUTER JOIN",
+        "RIGHT OUTER JOIN",
+        "INNER JOIN",
+        "FULL OUTER JOIN"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** INNER JOIN returns rows satisfying the join condition in both tables."
+    },
+    {
+      "id": "q-imp-1795118839796-214-ynan",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive join returns all rows from the left table and matching rows from the right table?",
+      "options": [
+        "INNER JOIN",
+        "LEFT OUTER JOIN",
+        "RIGHT OUTER JOIN",
+        "CROSS JOIN"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** LEFT OUTER JOIN preserves all left-side rows and fills unmatched right-side columns with NULL."
+    },
+    {
+      "id": "q-imp-1795118839796-215-j66v",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive join returns all matching and non-matching records from both tables?",
+      "options": [
+        "INNER JOIN",
+        "LEFT SEMI JOIN",
+        "FULL OUTER JOIN",
+        "RIGHT SEMI JOIN"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** FULL OUTER JOIN preserves unmatched rows from both input tables."
+    },
+    {
+      "id": "q-imp-1795118839796-216-lnpq",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary advantage of a map-side join in Hive?",
+      "options": [
+        "It always requires more reducers",
+        "It prevents table partitioning",
+        "It can join a small table with a large table using mapper-side processing without a full reduce-side shuffle",
+        "It requires the NameNode to execute SQL queries"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A map-side join avoids the expensive shuffle associated with conventional reduce-side joins when applicable."
+    },
+    {
+      "id": "q-imp-1795118839796-217-rubt",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which condition generally favors a map-side join in Hive?",
+      "options": [
+        "Both tables are extremely large and cannot be distributed efficiently",
+        "One table is sufficiently small to be replicated or loaded into memory on mapper nodes",
+        "Neither table has a join key",
+        "Both tables contain only unstructured videos"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Map-side joins are effective when the smaller input can be made available to each mapper."
+    },
+    {
+      "id": "q-imp-1795118839796-218-prs8",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive clause sorts the final query result in ascending or descending order globally?",
+      "options": [
+        "DISTRIBUTE BY",
+        "CLUSTER BY",
+        "ORDER BY",
+        "PARTITION BY"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ORDER BY globally sorts query results according to the specified columns."
+    },
+    {
+      "id": "q-imp-1795118839796-219-pq90",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "What is the difference between SORT BY and ORDER BY in Hive?",
+      "options": [
+        "Both always perform identical global sorting",
+        "SORT BY creates table partitions",
+        "SORT BY sorts records within each reducer, whereas ORDER BY provides global ordering",
+        "ORDER BY operates only on external tables"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** SORT BY performs reducer-local sorting, while ORDER BY guarantees global ordering."
+    },
+    {
+      "id": "q-imp-1795118839796-220-zwyb",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive clause controls which reducer receives particular rows without guaranteeing sorted output?",
+      "options": [
+        "ORDER BY",
+        "SORT BY",
+        "DISTRIBUTE BY",
+        "HAVING"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** DISTRIBUTE BY partitions records among reducers according to the specified expressions."
+    },
+    {
+      "id": "q-imp-1795118839796-221-p7o7",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What does the Hive `CLUSTER BY` clause effectively combine?",
+      "options": [
+        "GROUP BY and HAVING",
+        "WHERE and ORDER BY",
+        "DISTRIBUTE BY and SORT BY on the same expressions",
+        "UNION and DISTINCT"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** CLUSTER BY distributes and sorts data using the same columns."
+    },
+    {
+      "id": "q-imp-1795118839796-222-28de",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive function returns the number of rows in a group?",
+      "options": [
+        "SUM()",
+        "AVG()",
+        "COUNT()",
+        "MAX()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** COUNT() returns the number of non-NULL values or rows, depending on its argument."
+    },
+    {
+      "id": "q-imp-1795118839796-223-fkjr",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive function returns the average of numeric values?",
+      "options": [
+        "MAX()",
+        "MIN()",
+        "AVG()",
+        "LENGTH()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** AVG() calculates the arithmetic mean of the supplied numeric expression."
+    },
+    {
+      "id": "q-imp-1795118839796-224-9j8t",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "What is the purpose of the `COALESCE()` function in Hive?",
+      "options": [
+        "Sorting rows alphabetically",
+        "Removing duplicate table records",
+        "Returning the first non-NULL value from a list of expressions",
+        "Calculating the number of partitions"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** COALESCE() returns the first non-NULL argument in the supplied expression list."
+    },
+    {
+      "id": "q-imp-1795118839796-225-ivza",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive operator checks whether a value exists within a specified list of values?",
+      "options": [
+        "LIKE",
+        "BETWEEN",
+        "IN",
+        "IS NULL"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The IN operator checks whether an expression matches any value in a list."
+    },
+    {
+      "id": "q-imp-1795118839796-226-2vr1",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive operator is commonly used for pattern matching with wildcard characters?",
+      "options": [
+        "BETWEEN",
+        "LIKE",
+        "EXISTS",
+        "DIV"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** LIKE supports pattern matching using wildcards such as `%` and `_`."
+    },
+    {
+      "id": "q-imp-1795118839796-227-so9j",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is a correlated subquery?",
+      "options": [
+        "A query that always executes without a parent query",
+        "A query that contains no WHERE clause",
+        "A subquery that references columns from its outer query",
+        "A query that can access only external tables"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A correlated subquery depends on values from the outer query."
+    },
+    {
+      "id": "q-imp-1795118839797-228-5mxj",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "What is a Hive View?",
+      "options": [
+        "A physical replica of an HDFS block",
+        "A virtual table defined by a query",
+        "A Kafka partition",
+        "A Spark executor"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A view stores a query definition and presents its result as a virtual table."
+    },
+    {
+      "id": "q-imp-1795118839797-229-sq0y",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is a User-Defined Function (UDF) in Hive?",
+      "options": [
+        "A built-in HDFS storage format",
+        "A method for formatting the NameNode",
+        "A custom function implemented to extend Hive's query-processing capabilities",
+        "A YARN container allocation policy"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** UDFs allow users to introduce custom processing logic into HiveQL queries."
+    },
+    {
+      "id": "q-imp-1795118839797-230-3v50",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive function is commonly used to convert a string into uppercase?",
+      "options": [
+        "LOWER()",
+        "UPPER()",
+        "INITCAP()",
+        "REVERSE()"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** UPPER() converts alphabetic characters in a string to uppercase."
+    },
+    {
+      "id": "q-imp-1795118839797-231-cvac",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which Hive clause is commonly used to insert query results into a specified table or partition?",
+      "options": [
+        "CREATE VIEW",
+        "SHOW TABLES",
+        "INSERT INTO",
+        "DESCRIBE FORMATTED"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** INSERT INTO appends query results to an existing target table or partition."
+    },
+    {
+      "id": "q-imp-1795118839797-232-ekoa",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "What is the difference between `INSERT INTO` and `INSERT OVERWRITE` in Hive?",
+      "options": [
+        "Both always append data",
+        "INSERT INTO appends data, while INSERT OVERWRITE replaces existing data in the target table or partition",
+        "INSERT OVERWRITE can only insert NULL values",
+        "INSERT INTO permanently deletes the table"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** INSERT INTO adds records, whereas INSERT OVERWRITE replaces the target data."
+    },
+    {
+      "id": "q-imp-1795118839797-233-70a4",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of Hive's `TRANSFORM` clause?",
+      "options": [
+        "To transform the NameNode into a DataNode",
+        "To convert a managed table into an external database",
+        "To pass query data through custom scripts or executables as part of a query",
+        "To change the Hadoop cluster's IP address"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** TRANSFORM enables custom processing through external scripts in Hive queries."
+    },
+    {
+      "id": "q-imp-1795118839797-234-iyzw",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive command displays a table's columns and their datatypes?",
+      "options": [
+        "`SHOW PARTITIONS`",
+        "`DESCRIBE table_name`",
+        "`LIST COLUMNS`",
+        "`SELECT SCHEMA`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** DESCRIBE displays the schema of a Hive table."
+    },
+    {
+      "id": "q-imp-1795118839797-235-2zgd",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive component provides a Thrift-based service for remote client applications?",
+      "options": [
+        "NameNode",
+        "ResourceManager",
+        "HiveServer2",
+        "DataNode"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** HiveServer2 supports remote client access using protocols such as Thrift and JDBC."
+    },
+    {
+      "id": "q-imp-1795118839797-236-cp3q",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which JDBC driver can be used by Java applications to connect to HiveServer2?",
+      "options": [
+        "`org.apache.hadoop.hdfs.HDFSDriver`",
+        "`org.apache.hive.jdbc.HiveDriver`",
+        "`org.apache.kafka.jdbc.KafkaDriver`",
+        "`org.apache.spark.sql.SparkDriver`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Hive JDBC applications commonly use the Hive JDBC driver."
+    },
+    {
+      "id": "q-imp-1795118839797-237-m98z",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of the Hive Metastore's DataNucleus component in traditional Hive installations?",
+      "options": [
+        "Managing Kafka partitions",
+        "Executing Spark transformations",
+        "Providing object-relational mapping between Hive metadata objects and the backing relational database",
+        "Managing HDFS block replication"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** DataNucleus historically provides persistence and ORM support for Hive Metastore metadata."
+    },
+    {
+      "id": "q-imp-1795118839797-238-kb01",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive command displays all partitions of a partitioned table?",
+      "options": [
+        "`SHOW TABLES`",
+        "`DESCRIBE DATABASE`",
+        "`SHOW PARTITIONS table_name`",
+        "`LIST BUCKETS`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** SHOW PARTITIONS lists the partitions registered for a table."
+    },
+    {
+      "id": "q-imp-1795118839797-239-22cs",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is partition pruning in Hive?",
+      "options": [
+        "Deleting unused partitions",
+        "Reading only relevant partitions based on query filter conditions",
+        "Combining all partitions into one file",
+        "Increasing the number of reducers"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Partition pruning reduces the amount of data scanned by skipping irrelevant partitions."
+    },
+    {
+      "id": "q-imp-1795118839797-240-ailk",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive command adds a new partition to an existing partitioned table?",
+      "options": [
+        "`INSERT PARTITION`",
+        "`ALTER TABLE table_name ADD PARTITION`",
+        "`CREATE PARTITION TABLE`",
+        "`UPDATE TABLE PARTITION`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** ALTER TABLE ADD PARTITION registers a new partition and its location."
+    },
+    {
+      "id": "q-imp-1795118839797-241-inaa",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is dynamic partitioning in Hive?",
+      "options": [
+        "Creating partitions manually before every query",
+        "Disabling all partition columns",
+        "Automatically determining partition values from incoming records during insertion",
+        "Creating partitions based on HDFS block size"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Dynamic partitioning derives partition directories from values in the inserted data."
+    },
+    {
+      "id": "q-imp-1795118839797-242-suyi",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive file format is a row-oriented storage format commonly used for storing serialized records?",
+      "options": [
+        "ORC",
+        "Parquet",
+        "Avro",
+        "RCFile only"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Avro is a row-oriented data serialization format that supports schema evolution."
+    },
+    {
+      "id": "q-imp-1795118839797-243-r0hg",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which storage format is widely used for columnar storage and efficient analytical processing?",
+      "options": [
+        "XML",
+        "Plain text",
+        "Parquet",
+        "HTML"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Parquet stores data in a columnar format optimized for analytical workloads."
+    },
+    {
+      "id": "q-imp-1795118839797-244-pkd5",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the major advantage of columnar storage formats such as ORC and Parquet?",
+      "options": [
+        "They require every query to read every column",
+        "They allow queries to read only required columns and benefit from compression",
+        "They cannot store complex datatypes",
+        "They eliminate the need for metadata"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Columnar formats improve analytical performance through column pruning and compression."
+    },
+    {
+      "id": "q-imp-1795118839797-245-tenm",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive command changes the name of an existing table?",
+      "options": [
+        "`UPDATE TABLE`",
+        "`ALTER TABLE old_name RENAME TO new_name`",
+        "`MODIFY TABLE NAME`",
+        "`CHANGE TABLE`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** ALTER TABLE RENAME TO changes the table name."
+    },
+    {
+      "id": "q-imp-1795118839797-246-3akt",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive command removes all rows from a native (managed) table or a specified partition while retaining the table definition?",
+      "options": [
+        "`DROP TABLE`",
+        "`TRUNCATE TABLE`",
+        "`DELETE DATABASE`",
+        "`REMOVE SCHEMA`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `TRUNCATE TABLE` removes data from a native/managed table or selected partition but keeps the table metadata."
+    },
+    {
+      "id": "q-imp-1795118839797-247-9j62",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which statement about Hive indexes is correct?",
+      "options": [
+        "Hive indexes are mandatory for every table",
+        "Hive indexes guarantee faster execution for every query",
+        "Traditional Hive indexes were deprecated and removed in modern Hive versions",
+        "Hive indexes replace the Metastore"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Traditional Hive indexing was deprecated and removed, so modern optimization relies on other mechanisms."
+    },
+    {
+      "id": "q-imp-1795118839797-248-4x3c",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive function returns the current date?",
+      "options": [
+        "`NOWDATE()`",
+        "`CURRENT_DATE`",
+        "`GETDATEONLY()`",
+        "`TODAY()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** CURRENT_DATE returns the current date in Hive."
+    },
+    {
+      "id": "q-imp-1795118839797-249-yfq8",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive function extracts a substring from a string?",
+      "options": [
+        "`REPLACEALL()`",
+        "`SPLITTABLE()`",
+        "`SUBSTR()`",
+        "`CONVERT()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** SUBSTR() extracts a specified portion of a string."
+    },
+    {
+      "id": "q-imp-1795118839797-250-txno",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of `LATERAL VIEW` in Hive?",
+      "options": [
+        "Creating a new database",
+        "Performing global sorting",
+        "Applying a table-generating function and making its output available as rows in a query",
+        "Changing HDFS replication"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** LATERAL VIEW expands complex data using functions such as EXPLODE."
+    },
+    {
+      "id": "q-imp-1795118839797-251-mscr",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive function converts an array into multiple rows?",
+      "options": [
+        "`CONCAT()`",
+        "`COUNT()`",
+        "`EXPLODE()`",
+        "`COALESCE()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** EXPLODE converts array elements into separate output rows."
+    },
+    {
+      "id": "q-imp-1795118839797-252-qu1n",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of `UNION ALL` in Hive?",
+      "options": [
+        "Returning only duplicate records",
+        "Performing an inner join",
+        "Combining the results of multiple compatible queries without removing duplicates",
+        "Creating a new database"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** UNION ALL combines query results while retaining duplicate rows."
+    },
+    {
+      "id": "q-imp-1795118839797-253-0wgn",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which SQL clause is required when aggregating records by a department column?",
+      "options": [
+        "ORDER BY",
+        "HAVING",
+        "GROUP BY",
+        "LIMIT"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** GROUP BY organizes records into groups for aggregate calculations."
+    },
+    {
+      "id": "q-imp-1795118839797-254-jpyx",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary difference between `COUNT(*)` and `COUNT(column_name)`?",
+      "options": [
+        "Both always return the same result",
+        "COUNT(*) counts rows, whereas COUNT(column_name) counts non-NULL values in that column",
+        "COUNT(*) counts only NULL values",
+        "COUNT(column_name) counts distinct values automatically"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** COUNT(*) includes all rows, while COUNT(column_name) excludes NULL values."
+    },
+    {
+      "id": "q-imp-1795118839797-255-nh4z",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive statement creates an external table?",
+      "options": [
+        "`CREATE MANAGED TABLE`",
+        "`CREATE EXTERNAL TABLE`",
+        "`CREATE OUTSIDE DATABASE`",
+        "`CREATE REMOTE TABLE`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** CREATE EXTERNAL TABLE defines a table whose underlying data is generally managed independently."
+    },
+    {
+      "id": "q-imp-1795118839797-256-0sq5",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which Hive property specifies the storage location of an external table?",
+      "options": [
+        "`TABLE_PATH`",
+        "`DATA_DIRECTORY`",
+        "`LOCATION`",
+        "`FILE_SYSTEM`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** LOCATION specifies the directory containing the external table's data."
+    },
+    {
+      "id": "q-imp-1795118839797-257-wk6b",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive command displays detailed information about a table, including storage and location information?",
+      "options": [
+        "`SHOW TABLE`",
+        "`SELECT TABLE`",
+        "`DESCRIBE FORMATTED table_name`",
+        "`LIST TABLE DETAILS`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** DESCRIBE FORMATTED displays detailed metadata about a Hive table."
+    },
+    {
+      "id": "q-imp-1795118839797-258-1o9n",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is predicate pushdown in Hive?",
+      "options": [
+        "Moving output files to another directory",
+        "Applying filter conditions as close to the data source as possible to reduce data reading",
+        "Moving all records to the driver",
+        "Increasing the number of Hive databases"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Predicate pushdown reduces unnecessary data scanning by applying filters early."
+    },
+    {
+      "id": "q-imp-1795118839797-259-qjgo",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of the `LIMIT` clause in Hive?",
+      "options": [
+        "Limiting the number of columns",
+        "Limiting the number of partitions permanently",
+        "Restricting the number of rows returned by a query",
+        "Limiting the number of DataNodes"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** LIMIT restricts the number of rows in the query result."
+    },
+    {
+      "id": "q-imp-1795118839797-260-wgs7",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is a map-side aggregation in Hive?",
+      "options": [
+        "Aggregation performed exclusively by the NameNode",
+        "Partial aggregation performed by mapper tasks before data reaches reducers",
+        "Aggregation performed only after results are displayed",
+        "Aggregation that requires no input data"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Map-side aggregation reduces intermediate data transferred during shuffle."
+    },
+    {
+      "id": "q-imp-1795118839797-261-et3o",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive function returns the highest value in a group?",
+      "options": [
+        "MIN()",
+        "AVG()",
+        "MAX()",
+        "COUNT()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MAX() returns the greatest value in the specified group."
+    },
+    {
+      "id": "q-imp-1795118839797-262-sz3f",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive function returns the smallest value in a group?",
+      "options": [
+        "MIN()",
+        "MAX()",
+        "SUM()",
+        "ROUND()"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** MIN() returns the lowest value in the specified group."
+    },
+    {
+      "id": "q-imp-1795118839797-263-lthr",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which Hive join type returns rows from the left table for which a matching row exists in the right table, without returning right-side columns?",
+      "options": [
+        "FULL OUTER JOIN",
+        "CROSS JOIN",
+        "LEFT SEMI JOIN",
+        "RIGHT OUTER JOIN"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** LEFT SEMI JOIN returns matching left-side rows based on the join condition."
+    },
+    {
+      "id": "q-imp-1795118839797-264-yhma",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive command is used to create a table from the result of a query?",
+      "options": [
+        "`ALTER TABLE`",
+        "`LOAD DATA`",
+        "`CREATE TABLE AS SELECT`",
+        "`SHOW TABLES`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** CTAS creates a new table populated by the result of a SELECT query."
+    },
+    {
+      "id": "q-imp-1795118839797-265-alnj",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "What is the primary responsibility of the Hive Metastore?",
+      "options": [
+        "Store all query results",
+        "Maintain table schemas, partitions, and metadata",
+        "Execute Kafka consumers",
+        "Manage HDFS replication"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The Metastore stores metadata describing Hive databases, tables, columns, and partitions."
+    },
+    {
+      "id": "q-imp-1795118839797-266-kemm",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive table type removes its underlying data when the table is dropped?",
+      "options": [
+        "Managed table",
+        "External table",
+        "Temporary external table",
+        "Virtual table"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** Dropping a managed table normally removes both its metadata and associated data."
+    },
+    {
+      "id": "q-imp-1795118839797-267-tjp0",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive table type is generally preferred when Hive should not own the underlying dataset?",
+      "options": [
+        "Managed table",
+        "External table",
+        "Temporary table",
+        "Materialized table"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** External tables allow Hive to manage metadata without owning the underlying data lifecycle."
+    },
+    {
+      "id": "q-imp-1795118839797-268-8dou",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary benefit of partition pruning in Hive?",
+      "options": [
+        "Increasing the number of reducers",
+        "Eliminating the Metastore",
+        "Reading only relevant partitions during query execution",
+        "Converting all tables into managed tables"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Partition pruning skips irrelevant partitions and reduces scanned data."
+    },
+    {
+      "id": "q-imp-1795118839797-269-np3d",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive command displays the structure of a table?",
+      "options": [
+        "SHOW DATABASES",
+        "DESCRIBE table_name",
+        "DROP TABLE",
+        "USE database_name"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `DESCRIBE` displays table columns and their datatypes."
+    },
+    {
+      "id": "q-imp-1795118839797-270-nko2",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "What does Hive `INSERT OVERWRITE TABLE` do?",
+      "options": [
+        "It appends rows without replacing existing target data",
+        "It replaces the data in the target table or specified target partition with the query results",
+        "It deletes the table definition and metadata",
+        "It creates a new database"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `INSERT OVERWRITE` replaces the existing data in its target table or partition with the query output."
+    },
+    {
+      "id": "q-imp-1795118839797-271-egn8",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive aggregate function returns an array of distinct values from a group?",
+      "options": [
+        "`collect_list()`",
+        "`collect_set()`",
+        "`COUNT()`",
+        "`CONCAT()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `collect_set()` collects distinct values into an array, whereas `collect_list()` retains duplicates."
+    },
+    {
+      "id": "q-imp-1795118839797-272-kzck",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of a Map-side Join in Hive?",
+      "options": [
+        "To execute joins exclusively on the NameNode",
+        "To perform joins in the Mapper when one dataset can be efficiently distributed to the others",
+        "To eliminate table metadata",
+        "To replace GROUP BY"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Map-side joins avoid the expensive shuffle phase for suitable datasets."
+    },
+    {
+      "id": "q-imp-1795118839797-273-9o6s",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive feature allows users to define custom processing logic using Java?",
+      "options": [
+        "Partitioning",
+        "Bucketing",
+        "User-Defined Functions",
+        "Schema Evolution"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** UDFs extend HiveQL with custom user-defined functionality."
+    },
+    {
+      "id": "q-imp-1795118839797-274-tjsi",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of a Hive lateral view?",
+      "options": [
+        "To create a new database",
+        "To compress table files",
+        "To combine rows with output generated by a table-generating function",
+        "To replicate partitions"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** LATERAL VIEW applies table-generating functions such as EXPLODE and joins their output with input rows."
+    },
+    {
+      "id": "q-imp-1795118839797-275-9q6z",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive storage format supports columnar storage and efficient analytical queries?",
+      "options": [
+        "TextFile",
+        "SequenceFile",
+        "ORC",
+        "CSV"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ORC uses columnar storage, compression, and indexes to optimize analytical workloads."
+    },
+    {
+      "id": "q-imp-1795118839797-276-q0ms",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of bucketing in Hive?",
+      "options": [
+        "To divide tables according to date only",
+        "To distribute rows into a fixed number of files based on a hash of a column",
+        "To remove duplicate databases",
+        "To replicate the Metastore"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Bucketing hashes selected column values to distribute records into a fixed number of buckets."
+    },
+    {
+      "id": "q-imp-1795118839797-277-urb1",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which command adds a new partition to an existing Hive table?",
+      "options": [
+        "CREATE DATABASE",
+        "ALTER TABLE ADD PARTITION",
+        "DROP DATABASE",
+        "DESCRIBE FORMATTED"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** ALTER TABLE ADD PARTITION registers a new partition in the table metadata."
+    },
+    {
+      "id": "q-imp-1795118839797-278-dkh1",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of Hive ACID transactions on supported transactional managed tables?",
+      "options": [
+        "To eliminate HDFS",
+        "To enable only read operations",
+        "To support transactional data modifications such as INSERT, UPDATE, and DELETE",
+        "To replace all SQL joins"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Hive ACID supports transactional changes to data for tables configured with the required transactional properties."
+    },
+    {
+      "id": "q-imp-1795118839797-279-sxhz",
+      "topicId": "top-1795118849110-190-yef",
+      "difficulty": "moderate",
+      "question": "Which Hive command is used to append records from one query into an existing table?",
+      "options": [
+        "CREATE TABLE",
+        "DROP TABLE",
+        "INSERT INTO TABLE",
+        "DESCRIBE TABLE"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** INSERT INTO TABLE appends query results to an existing Hive table."
+    },
+    {
+      "id": "q-imp-1795118839797-280-7kop",
+      "topicId": "top-1795118849110-278-lii",
+      "difficulty": "moderate",
+      "question": "**Question IDs:** Q64–66, Q181–183, Q276–280, Q436–438\n\n### Q64. [Beginner] What is the primary purpose of a traditional data warehouse?",
+      "options": [
+        "Storing only raw multimedia files",
+        "Integrating structured data for reporting, analysis, and business intelligence",
+        "Replacing all transactional applications",
+        "Processing only real-time network packets"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Data warehouses integrate structured and historical data for analytical workloads."
+    },
+    {
+      "id": "q-imp-1795118839797-281-5bet",
+      "topicId": "top-1795118849110-278-lii",
+      "difficulty": "moderate",
+      "question": "Which statement best describes a data lake?",
+      "options": [
+        "It stores only highly structured relational tables",
+        "It can store large volumes of raw structured, semi-structured, and unstructured data",
+        "It is exclusively used for transaction processing",
+        "It cannot store historical data"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Data lakes support flexible storage of data in multiple formats and levels of processing."
+    },
+    {
+      "id": "q-imp-1795118839797-282-5opg",
+      "topicId": "top-1795118849110-278-lii",
+      "difficulty": "moderate",
+      "question": "What is the main difference between ETL and ELT?",
+      "options": [
+        "ETL does not involve data extraction",
+        "ELT transforms data before extraction",
+        "ETL transforms data before loading, while ELT loads data before transforming it",
+        "Both processes always require identical execution order"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ETL follows Extract, Transform, Load; ELT follows Extract, Load, Transform."
+    },
+    {
+      "id": "q-imp-1795118839797-283-axqg",
+      "topicId": "top-1795118849110-278-lii",
+      "difficulty": "moderate",
+      "question": "Which architecture is most closely associated with storing raw data first and applying schema during analysis?",
+      "options": [
+        "Schema-on-write exclusively",
+        "Schema-on-read",
+        "Database normalization",
+        "Transaction logging"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Schema-on-read interprets the structure of stored data when it is accessed or analyzed."
+    },
+    {
+      "id": "q-imp-1795118839797-284-mco4",
+      "topicId": "top-1795118849110-278-lii",
+      "difficulty": "moderate",
+      "question": "Which architecture typically applies a predefined schema before data is loaded into analytical storage?",
+      "options": [
+        "Schema-on-write",
+        "Schema-on-read",
+        "Unstructured streaming",
+        "Event sourcing"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** Schema-on-write validates and transforms data before storage according to a predefined structure."
+    },
+    {
+      "id": "q-imp-1795118839797-285-mpd3",
+      "topicId": "top-1795118849110-278-lii",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is a major challenge associated with an ungoverned data lake?",
+      "options": [
+        "It cannot store large files",
+        "It cannot store unstructured data",
+        "It can become a data swamp due to poor metadata, data quality, and governance",
+        "It always requires relational normalization"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Poor cataloging and governance make data difficult to discover, trust, and use."
+    },
+    {
+      "id": "q-imp-1795118839797-286-3hn7",
+      "topicId": "top-1795118849110-278-lii",
+      "difficulty": "moderate",
+      "question": "Which type of data warehouse schema uses a central fact table connected to multiple dimension tables?",
+      "options": [
+        "Network schema",
+        "Hierarchical schema",
+        "Star schema",
+        "Document schema"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A star schema organizes analytical data around a central fact table and related dimensions."
+    },
+    {
+      "id": "q-imp-1795118839797-287-1b1p",
+      "topicId": "top-1795118849110-278-lii",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary characteristic of a Snowflake schema?",
+      "options": [
+        "It stores all dimensions in a single table",
+        "Dimension tables are normalized into multiple related tables",
+        "It does not use fact tables",
+        "It supports only unstructured data"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Snowflake schemas normalize dimension tables into additional related tables."
+    },
+    {
+      "id": "q-imp-1795118839797-288-p8j5",
+      "topicId": "top-1795118849110-278-lii",
+      "difficulty": "moderate",
+      "question": "What does a fact table typically contain in a data warehouse?",
+      "options": [
+        "Only descriptive text",
+        "Business measurements and foreign keys referencing dimension tables",
+        "Only user passwords",
+        "HDFS block metadata"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Fact tables store measurable business events and references to dimensions."
+    },
+    {
+      "id": "q-imp-1795118839797-289-0doq",
+      "topicId": "top-1795118849110-278-lii",
+      "difficulty": "moderate",
+      "question": "What is the purpose of a dimension table?",
+      "options": [
+        "Storing only numeric transaction totals",
+        "Providing descriptive attributes used to analyze facts",
+        "Managing HDFS block replicas",
+        "Scheduling Airflow tasks"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Dimension tables provide descriptive context for analytical measurements."
+    },
+    {
+      "id": "q-imp-1795118839797-290-oad8",
+      "topicId": "top-1795118849110-278-lii",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which data warehouse fact-table type captures measurements for a business process at regular, predefined intervals?",
+      "options": [
+        "Transaction fact table",
+        "Periodic snapshot fact table",
+        "Dimension table",
+        "Lookup table"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A periodic snapshot fact table records the state or measurements of a process at recurring time intervals."
+    },
+    {
+      "id": "q-imp-1795118839797-291-oo4a",
+      "topicId": "top-1795118849110-278-lii",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of a Data Warehouse?",
+      "options": [
+        "To store only temporary application logs",
+        "To integrate historical data for reporting and analytical processing",
+        "To replace all operational databases",
+        "To manage network routing"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Data warehouses consolidate historical data for analytical queries and decision-making."
+    },
+    {
+      "id": "q-imp-1795118839797-292-smrt",
+      "topicId": "top-1795118849110-278-lii",
+      "difficulty": "moderate",
+      "question": "Which statement correctly describes a Data Lake?",
+      "options": [
+        "It stores only structured relational tables",
+        "It can store structured, semi-structured, and unstructured data",
+        "It requires every record to have a fixed schema before ingestion",
+        "It cannot store multimedia files"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Data Lakes support diverse data types and formats, often using schema-on-read."
+    },
+    {
+      "id": "q-imp-1795118839797-293-juh4",
+      "topicId": "top-1795118849110-278-lii",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the key distinction between ETL and ELT?",
+      "options": [
+        "ETL does not extract data",
+        "ELT cannot transform data",
+        "ETL transforms before loading, whereas ELT loads before transforming",
+        "Both require identical processing sequences"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ELT performs transformations after loading data into the target platform."
+    },
+    {
+      "id": "q-imp-1795118839797-294-sh70",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "**Question IDs:** Q67–73, Q184–190, Q281–290, Q439–450\n\n### Q67. [Beginner] What does DAG stand for in Apache Airflow?",
+      "options": [
+        "Data Access Gateway",
+        "Directed Acyclic Graph",
+        "Distributed Application Group",
+        "Dynamic Allocation Generator"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** An Airflow DAG represents a workflow as a directed graph without cycles."
+    },
+    {
+      "id": "q-imp-1795118839797-295-3mu5",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "Which Apache Airflow component is responsible for determining when scheduled DAG runs should be created?",
+      "options": [
+        "Worker",
+        "Hook",
+        "Scheduler",
+        "Sensor"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The Scheduler monitors DAG schedules and creates workflow runs when they are due."
+    },
+    {
+      "id": "q-imp-1795118839797-296-e2br",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is an Operator in Apache Airflow?",
+      "options": [
+        "A database table",
+        "A template that defines a unit of work performed by a task",
+        "A storage block in HDFS",
+        "A Kafka message partition"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Operators define the work that Airflow tasks execute."
+    },
+    {
+      "id": "q-imp-1795118839797-297-0czm",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "Which Airflow operator is used to execute a shell command or Bash script?",
+      "options": [
+        "PythonOperator",
+        "BashOperator",
+        "SensorOperator",
+        "DatabaseOperator"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** BashOperator executes Bash commands as an Airflow task."
+    },
+    {
+      "id": "q-imp-1795118839797-298-5ftu",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of an Airflow Sensor?",
+      "options": [
+        "Creating Hive tables",
+        "Performing Spark transformations",
+        "Waiting for a condition or external event before allowing a task to proceed",
+        "Replicating HDFS blocks"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Sensors wait until a specified condition is satisfied or a timeout occurs."
+    },
+    {
+      "id": "q-imp-1795118839797-299-lkme",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "What is the purpose of Hooks in Apache Airflow?",
+      "options": [
+        "Defining the order of DAG tasks",
+        "Providing interfaces to connect and interact with external systems",
+        "Creating HDFS replication policies",
+        "Replacing the Airflow Scheduler"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Hooks provide reusable connection and interaction mechanisms for external systems."
+    },
+    {
+      "id": "q-imp-1795118839797-300-fv1i",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "What is the purpose of a Connection in Apache Airflow?",
+      "options": [
+        "Defining the visual layout of a DAG",
+        "Storing Spark transformation results",
+        "Storing connection details such as host, login, password, port, and extra configuration",
+        "Defining the number of Hadoop DataNodes"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Airflow Connections centralize configuration and credentials for external services."
+    },
+    {
+      "id": "q-imp-1795118839797-301-e6o5",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "What is the primary difference between Informatica and Apache Airflow in data pipeline management?",
+      "options": [
+        "Both are exclusively distributed filesystems",
+        "Informatica provides enterprise data integration capabilities, while Airflow primarily orchestrates workflows through DAGs",
+        "Airflow is a relational database and Informatica is an operating system",
+        "Informatica is a replacement for HDFS"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Informatica focuses on data integration, while Airflow coordinates task execution and dependencies."
+    },
+    {
+      "id": "q-imp-1795118839797-302-nzuy",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "What does task dependency represent in an Apache Airflow DAG?",
+      "options": [
+        "The physical location of an HDFS block",
+        "The required execution order between workflow tasks",
+        "The number of Kafka brokers",
+        "The number of DataFrame columns"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Task dependencies determine which tasks must complete before others can execute."
+    },
+    {
+      "id": "q-imp-1795118839797-303-7xsh",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of an Airflow DAG's `catchup` parameter?",
+      "options": [
+        "To restart all failed Hadoop DataNodes",
+        "To control whether scheduled DAG runs for past intervals are created when a DAG is activated",
+        "To delete old DAG definitions",
+        "To change the password of an Airflow user"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Catchup controls the creation of historical scheduled runs that were missed."
+    },
+    {
+      "id": "q-imp-1795118839797-304-5q87",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "Which Airflow concept specifies the earliest date from which a DAG's scheduling intervals can be considered?",
+      "options": [
+        "Execution timeout",
+        "Retry delay",
+        "Start date",
+        "Sensor mode"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The DAG start date establishes the beginning of its scheduling timeline."
+    },
+    {
+      "id": "q-imp-1795118839797-305-oxl8",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the advantage of using Airflow's retry mechanism?",
+      "options": [
+        "It guarantees that all tasks execute in parallel",
+        "It eliminates the need for task dependencies",
+        "It allows failed tasks to be attempted again according to configured retry settings",
+        "It automatically converts Python tasks into Spark jobs"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Retry settings improve workflow resilience against temporary task failures."
+    },
+    {
+      "id": "q-imp-1795118839797-306-p02b",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "Which Airflow operator is commonly used to execute Python callable functions?",
+      "options": [
+        "BashOperator",
+        "PythonOperator",
+        "FileSensor",
+        "TriggerRuleOperator"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** PythonOperator executes a Python callable as an Airflow task."
+    },
+    {
+      "id": "q-imp-1795118839797-307-kw9s",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which Airflow feature allows one DAG to trigger another DAG?",
+      "options": [
+        "BashSensor",
+        "PythonHook",
+        "TriggerDagRunOperator",
+        "FileTransferOperator"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** TriggerDagRunOperator initiates another DAG run from the current workflow."
+    },
+    {
+      "id": "q-imp-1795118839797-308-zqbg",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "Which Airflow feature allows tasks to exchange small amounts of metadata or results?",
+      "options": [
+        "XCom",
+        "WAL",
+        "FsImage",
+        "MemStore"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** XCom enables communication between Airflow tasks through small serialized values."
+    },
+    {
+      "id": "q-imp-1795118839797-309-mlsh",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why should large datasets generally not be passed directly through Airflow XCom?",
+      "options": [
+        "XCom cannot store strings",
+        "XCom automatically deletes all files",
+        "XCom is designed for small messages, while large payloads create metadata storage and performance problems",
+        "XCom only works with Kafka"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Large datasets should be stored externally and referenced through paths or identifiers."
+    },
+    {
+      "id": "q-imp-1795118839797-310-8gqi",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "What is the purpose of an Airflow Task Instance?",
+      "options": [
+        "Defining a new DAG",
+        "Representing a specific execution of a task within a particular DAG run",
+        "Creating a new Airflow connection",
+        "Managing HDFS namespace metadata"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A task instance represents one task's execution for a particular DAG run."
+    },
+    {
+      "id": "q-imp-1795118839797-311-74qv",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which Airflow scheduling concept determines the interval between consecutive scheduled DAG runs?",
+      "options": [
+        "Retry count",
+        "Pool size",
+        "Timetable or schedule configuration",
+        "XCom key"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Airflow's scheduling configuration determines the intervals at which DAG runs are created."
+    },
+    {
+      "id": "q-imp-1795118839797-312-lay4",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "What is the purpose of Airflow Pools?",
+      "options": [
+        "Storing DAG source code",
+        "Managing HDFS block placement",
+        "Limiting parallel execution of tasks that share constrained resources",
+        "Replacing the Scheduler"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Pools control concurrent task execution to protect limited external resources."
+    },
+    {
+      "id": "q-imp-1795118839797-313-bkim",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of the Airflow `depends_on_past` parameter?",
+      "options": [
+        "Requiring all DAGs to execute simultaneously",
+        "Disabling task retries",
+        "Requiring the previous scheduled instance of the same task to have succeeded or been skipped before the current instance runs",
+        "Automatically deleting previous task logs"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `depends_on_past=True` creates a dependency on the prior scheduled instance of that task; the first instance has no previous instance to wait for."
+    },
+    {
+      "id": "q-imp-1795118839797-314-y51w",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "Which Airflow component provides the web-based user interface for monitoring DAGs and task executions?",
+      "options": [
+        "Scheduler",
+        "Worker",
+        "Webserver",
+        "Triggerer"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The Airflow Webserver provides the interface for inspecting and managing workflows."
+    },
+    {
+      "id": "q-imp-1795118839797-315-8i6p",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of the Airflow Triggerer component?",
+      "options": [
+        "Managing HDFS replicas",
+        "Compiling Hive queries",
+        "Running asynchronous triggers for deferrable tasks",
+        "Executing all Bash commands directly"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The Triggerer manages asynchronous waiting operations for deferrable tasks."
+    },
+    {
+      "id": "q-imp-1795118839797-316-wof4",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "Which type of Airflow task is designed to wait for a file to appear?",
+      "options": [
+        "BashOperator",
+        "PythonOperator",
+        "FileSensor",
+        "TriggerDagRunOperator"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** FileSensor waits for a specified file or filesystem condition."
+    },
+    {
+      "id": "q-imp-1795118839797-317-hnxf",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why are idempotent tasks important in automated data pipelines?",
+      "options": [
+        "They guarantee that a task never fails",
+        "Repeated execution produces the same intended result without unintended duplicate side effects",
+        "They eliminate the need for logging",
+        "They prevent all parallel processing"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Idempotency makes retries and repeated pipeline executions safer."
+    },
+    {
+      "id": "q-imp-1795118839797-318-uzay",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "What is the default trigger rule for an Airflow task?",
+      "options": [
+        "`all_done`",
+        "`one_success`",
+        "`all_success`",
+        "`none_failed`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The default `all_success` trigger rule runs a task when all of its upstream tasks have succeeded."
+    },
+    {
+      "id": "q-imp-1795118839797-319-0t1k",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "Which Airflow component is responsible for monitoring DAGs and scheduling task instances?",
+      "options": [
+        "Worker only",
+        "Scheduler",
+        "Hook",
+        "Connection"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The Scheduler determines when tasks are ready to execute and schedules them."
+    },
+    {
+      "id": "q-imp-1795118839797-320-vs4c",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "Which Airflow operator executes a shell command?",
+      "options": [
+        "PythonOperator",
+        "BranchPythonOperator",
+        "BashOperator",
+        "DummyOperator"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** BashOperator executes shell commands in a task."
+    },
+    {
+      "id": "q-imp-1795118839797-321-2f4o",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "Which Airflow operator executes a Python callable?",
+      "options": [
+        "BashOperator",
+        "PythonOperator",
+        "EmailOperator",
+        "TriggerDagRunOperator"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** PythonOperator executes a Python function as an Airflow task."
+    },
+    {
+      "id": "q-imp-1795118839797-322-7sx1",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which Airflow sensor mode periodically releases its worker slot between checks while waiting for a condition?",
+      "options": [
+        "`poke` mode",
+        "`reschedule` mode",
+        "`all_success` mode",
+        "`catchup` mode"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** In `reschedule` mode, a sensor gives up its worker slot between checks and is scheduled to run again later."
+    },
+    {
+      "id": "q-imp-1795118839797-323-qxvq",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "What is the role of an Airflow Hook?",
+      "options": [
+        "To define task dependencies",
+        "To provide an interface for communicating with external systems",
+        "To schedule DAG execution",
+        "To generate task IDs"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Hooks abstract connections and interactions with external services."
+    },
+    {
+      "id": "q-imp-1795118839797-324-nmb9",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "[Advanced] What does the Airflow `wait_for_downstream=True` parameter require?",
+      "options": [
+        "The task waits for every task in every active DAG to finish",
+        "The task waits for the immediately downstream tasks of its previous scheduled instance to succeed or be skipped before it runs again",
+        "The task ignores dependencies from previous DAG runs",
+        "The task executes only once"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `wait_for_downstream=True` makes a task wait for its previous run's directly downstream tasks and also implies `depends_on_past=True`."
+    },
+    {
+      "id": "q-imp-1795118839797-325-a02a",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "What is the purpose of XCom in Airflow?",
+      "options": [
+        "To store large datasets permanently",
+        "To exchange small pieces of data between tasks",
+        "To replace DAG scheduling",
+        "To configure HDFS replication"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** XCom enables communication of small serializable values between tasks."
+    },
+    {
+      "id": "q-imp-1795118839797-326-yrc0",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why should large datasets generally not be passed through XCom?",
+      "options": [
+        "XCom cannot store strings",
+        "XCom works only with integers",
+        "XCom is intended for small metadata and values, not bulk data transfer",
+        "XCom disables task retries"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Large datasets are better stored externally, with XCom passing their locations or references."
+    },
+    {
+      "id": "q-imp-1795118839797-327-nkdx",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "What is the purpose of an Airflow Connection?",
+      "options": [
+        "To define DAG execution order",
+        "To store task output files",
+        "To store connection details for external services",
+        "To execute Python scripts"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Connections store configuration such as hostnames, credentials, and connection parameters."
+    },
+    {
+      "id": "q-imp-1795118839797-328-ika4",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of Airflow's catchup parameter?",
+      "options": [
+        "To automatically restart the scheduler",
+        "To control whether historical scheduled DAG runs are created",
+        "To delete completed DAG runs",
+        "To disable task dependencies"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Catchup controls the creation of DAG runs for past unexecuted schedule intervals."
+    },
+    {
+      "id": "q-imp-1795118839797-329-n96v",
+      "topicId": "top-1795118849110-292-svk",
+      "difficulty": "moderate",
+      "question": "Which Airflow feature allows a task to be retried after failure?",
+      "options": [
+        "max_active_runs",
+        "schedule_interval",
+        "retries",
+        "catchup"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The retries parameter specifies how many retry attempts a task can receive."
+    },
+    {
+      "id": "q-imp-1795118839797-330-mbms",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "**Question IDs:** Q74–91, Q191–197, Q291–310, Q391–400, Q451–470\n\n### Q74. [Beginner] What is Apache Spark primarily designed for?",
+      "options": [
+        "Managing relational database schemas",
+        "Distributed data processing and analytics",
+        "Replacing operating systems",
+        "Managing only HDFS metadata"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Spark is a distributed processing engine for large-scale data workloads."
+    },
+    {
+      "id": "q-imp-1795118839797-331-dlwi",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Spark component provides the main entry point for working with Spark functionality in modern applications?",
+      "options": [
+        "SparkWorker",
+        "SparkNode",
+        "SparkSession",
+        "SparkDatabase"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** SparkSession is the unified entry point for DataFrame and SQL functionality."
+    },
+    {
+      "id": "q-imp-1795118839797-332-rfc8",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "What does RDD stand for in Apache Spark?",
+      "options": [
+        "Random Distributed Database",
+        "Resilient Distributed Dataset",
+        "Remote Data Directory",
+        "Replicated Database Document"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** RDD is Spark's fault-tolerant distributed collection of elements."
+    },
+    {
+      "id": "q-imp-1795118839798-333-is3c",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which feature makes Spark RDDs resilient to failures?",
+      "options": [
+        "Mandatory full replication of every record",
+        "Disabling parallel processing",
+        "Lineage information that allows lost partitions to be recomputed",
+        "Storing all records permanently in a single database"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** RDD lineage allows Spark to recompute lost partitions from their dependencies."
+    },
+    {
+      "id": "q-imp-1795118839798-334-zinl",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which of the following is a Spark transformation?",
+      "options": [
+        "`count()`",
+        "`collect()`",
+        "`map()`",
+        "`take()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `map()` creates a new RDD by applying a function to each element."
+    },
+    {
+      "id": "q-imp-1795118839798-335-975n",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which of the following is a Spark action?",
+      "options": [
+        "`filter()`",
+        "`flatMap()`",
+        "`map()`",
+        "`count()`"
+      ],
+      "answerIndex": 3,
+      "answerUnverified": false,
+      "explanation": "** `count()` triggers execution and returns the number of elements."
+    },
+    {
+      "id": "q-imp-1795118839798-336-axrw",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "What is lazy evaluation in Apache Spark?",
+      "options": [
+        "Spark executes every transformation immediately",
+        "Spark delays execution of transformations until an action requires a result",
+        "Spark permanently stores all intermediate results on disk",
+        "Spark prevents actions from being executed"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Spark builds a logical execution plan and executes it when an action is invoked."
+    },
+    {
+      "id": "q-imp-1795118839798-337-gr9u",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark operation generally causes a shuffle?",
+      "options": [
+        "`map()`",
+        "`filter()`",
+        "`groupByKey()`",
+        "`mapPartitions()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `groupByKey()` redistributes records across partitions based on their keys."
+    },
+    {
+      "id": "q-imp-1795118839798-338-e0fz",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "What is a Spark DataFrame?",
+      "options": [
+        "A collection that can contain only Java primitive values",
+        "A distributed collection of data organized into named columns",
+        "A local text file used only for logging",
+        "A replacement for the Spark Scheduler"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A DataFrame is distributed tabular data with a schema."
+    },
+    {
+      "id": "q-imp-1795118839798-339-gr5m",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which statement about Spark Datasets is correct?",
+      "options": [
+        "They are available only in PySpark",
+        "They do not support schemas",
+        "They provide a strongly typed distributed collection API in supported languages such as Scala and Java",
+        "They cannot be used with Spark SQL"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Datasets provide typed, structured distributed data APIs, particularly in Scala and Java."
+    },
+    {
+      "id": "q-imp-1795118839798-340-cbva",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which operation is used to remove duplicate rows from a Spark DataFrame?",
+      "options": [
+        "`filter()`",
+        "`dropDuplicates()`",
+        "`groupByKey()`",
+        "`coalesce()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `dropDuplicates()` removes duplicate records from a DataFrame."
+    },
+    {
+      "id": "q-imp-1795118839798-341-gufw",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Spark operation is used to cache an RDD in memory for reuse?",
+      "options": [
+        "`delete()`",
+        "`remove()`",
+        "`cache()`",
+        "`destroy()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `cache()` requests that an RDD's computed partitions be retained for reuse."
+    },
+    {
+      "id": "q-imp-1795118839798-342-8lr7",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "What is the purpose of a broadcast variable in Spark?",
+      "options": [
+        "To distribute large datasets from workers to the driver",
+        "To efficiently distribute a read-only value to worker nodes",
+        "To replace all RDD transformations",
+        "To force every task to execute on the driver"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Broadcast variables efficiently share read-only data with executors."
+    },
+    {
+      "id": "q-imp-1795118839798-343-23w5",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "What is an accumulator in Apache Spark?",
+      "options": [
+        "A mechanism for storing DataFrame schemas",
+        "A shared variable used to aggregate values such as counters across tasks",
+        "A tool for creating Hive partitions",
+        "A method for permanently storing RDDs in HDFS"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Accumulators support aggregation of values from distributed tasks, commonly for counters."
+    },
+    {
+      "id": "q-imp-1795118839798-344-hwwl",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which command initializes a SparkSession in PySpark?",
+      "options": [
+        "`SparkContext.create()`",
+        "`SparkSession.builder.appName(\"Demo\").getOrCreate()`",
+        "`SparkSession.startSession()`",
+        "`SparkContext.getSession()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The builder API creates or retrieves an existing SparkSession."
+    },
+    {
+      "id": "q-imp-1795118839798-345-9yd8",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which PySpark function is commonly used to replace null values in a DataFrame?",
+      "options": [
+        "`dropDuplicates()`",
+        "`orderBy()`",
+        "`fillna()`",
+        "`repartition()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `fillna()` replaces null or missing values with specified values."
+    },
+    {
+      "id": "q-imp-1795118839798-346-kd6l",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which PySpark Column method is used in a DataFrame expression to change a column's datatype?",
+      "options": [
+        "`rename()`",
+        "`cast()`",
+        "`cache()`",
+        "`collect()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `Column.cast()` returns a Column expression converted to the requested Spark SQL datatype."
+    },
+    {
+      "id": "q-imp-1795118839798-347-ba2u",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which Spark SQL window function assigns a sequential rank to rows within a window partition, leaving gaps after ties?",
+      "options": [
+        "`dense_rank()`",
+        "`rank()`",
+        "`row_number()`",
+        "`ntile()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `rank()` assigns equal ranks to ties and leaves gaps in subsequent ranking values."
+    },
+    {
+      "id": "q-imp-1795118839798-348-ok4u",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark cluster manager can manage resources for applications running on a Hadoop cluster?",
+      "options": [
+        "Hive Metastore",
+        "Kafka Controller",
+        "YARN",
+        "HDFS Secondary NameNode"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Spark can use YARN to request and manage cluster resources."
+    },
+    {
+      "id": "q-imp-1795118839798-349-mkub",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark deployment mode runs the driver process inside the cluster rather than on the client machine?",
+      "options": [
+        "Local mode",
+        "Cluster mode",
+        "Standalone client-only mode",
+        "Interactive shell mode"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** In cluster deployment mode, the cluster manager launches the driver within the cluster."
+    },
+    {
+      "id": "q-imp-1795118839798-350-q93l",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "What is the role of the Spark Driver?",
+      "options": [
+        "Storing all input records permanently",
+        "Coordinating the Spark application and scheduling tasks across executors",
+        "Managing HDFS block replication directly",
+        "Replacing the cluster manager"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The driver coordinates application execution and communicates with executors."
+    },
+    {
+      "id": "q-imp-1795118839798-351-wz9h",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "What is the primary responsibility of a Spark Executor?",
+      "options": [
+        "Maintaining the global Spark application configuration only",
+        "Scheduling all applications in the cluster",
+        "Executing tasks and storing application data such as cached partitions",
+        "Formatting HDFS metadata"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Executors perform distributed computations and can store cached data."
+    },
+    {
+      "id": "q-imp-1795118839798-352-sdrq",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the difference between `repartition()` and `coalesce()` in Spark DataFrames?",
+      "options": [
+        "Both always reduce the number of partitions without a shuffle",
+        "`repartition()` generally performs a shuffle, whereas `coalesce()` can reduce partitions without a full shuffle",
+        "`coalesce()` always increases the number of partitions",
+        "`repartition()` can only operate on RDDs"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Repartitioning redistributes data, while coalescing can reduce partitions more efficiently."
+    },
+    {
+      "id": "q-imp-1795118839798-353-f10o",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary advantage of using a broadcast join in Spark SQL?",
+      "options": [
+        "It requires both tables to be extremely large",
+        "It always stores all records in HDFS",
+        "It distributes a small table to executors to avoid shuffling the large table for the join",
+        "It eliminates the need for join keys"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Broadcast joins can avoid expensive shuffles when one join side is sufficiently small."
+    },
+    {
+      "id": "q-imp-1795118839798-354-egcn",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark SQL function is commonly used to calculate a moving average over a window?",
+      "options": [
+        "`explode()`",
+        "`collect_list()`",
+        "`avg() OVER (...)`",
+        "`dropDuplicates()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** An aggregate function combined with a window specification calculates moving averages."
+    },
+    {
+      "id": "q-imp-1795118839798-355-2ocp",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark operation converts an RDD containing key-value pairs into grouped values by key?",
+      "options": [
+        "`map()`",
+        "`filter()`",
+        "`groupByKey()`",
+        "`union()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** groupByKey() groups all values associated with each key."
+    },
+    {
+      "id": "q-imp-1795118839798-356-qqjo",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why is `reduceByKey()` generally preferred over `groupByKey()` when performing aggregation?",
+      "options": [
+        "It always eliminates every shuffle",
+        "It stores all values permanently on the driver",
+        "It performs local aggregation before shuffling data across the network",
+        "It works only with DataFrames"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** reduceByKey() combines values locally to reduce shuffle data volume."
+    },
+    {
+      "id": "q-imp-1795118839798-357-4g1f",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark transformation combines two RDDs into one RDD containing elements from both?",
+      "options": [
+        "`subtract()`",
+        "`union()`",
+        "`filter()`",
+        "`distinct()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** union() returns a new RDD containing the elements of both input RDDs."
+    },
+    {
+      "id": "q-imp-1795118839798-358-6ngb",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of `mapPartitions()` in Spark?",
+      "options": [
+        "Applying a function to only the first element",
+        "Performing global sorting",
+        "Applying a function to an entire partition at once",
+        "Removing all partitions"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** mapPartitions() processes partition iterators and can reduce per-record processing overhead."
+    },
+    {
+      "id": "q-imp-1795118839798-359-4fz0",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark action retrieves a limited number of elements from an RDD?",
+      "options": [
+        "`filter()`",
+        "`map()`",
+        "`take()`",
+        "`flatMap()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** take(n) returns up to n elements from an RDD to the driver."
+    },
+    {
+      "id": "q-imp-1795118839798-360-bexd",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the main risk of using `collect()` on a very large Spark RDD?",
+      "options": [
+        "It automatically deletes the RDD",
+        "It transfers all elements to driver memory and may cause an out-of-memory error",
+        "It disables lazy evaluation permanently",
+        "It converts the RDD into an HDFS directory"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** collect() brings the complete result to the driver, which may exceed available memory."
+    },
+    {
+      "id": "q-imp-1795118839798-361-58l6",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark persistence level stores RDD partitions in memory and can recompute lost partitions?",
+      "options": [
+        "DISK_ONLY",
+        "MEMORY_ONLY",
+        "NONE",
+        "OFF_HEAP_ONLY"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** MEMORY_ONLY stores partitions in memory and recomputes partitions that are evicted or lost."
+    },
+    {
+      "id": "q-imp-1795118839798-362-rsx1",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the difference between Spark `cache()` and `persist()`?",
+      "options": [
+        "cache() always stores data only on disk",
+        "cache() uses a default storage level, whereas persist() allows an explicit storage level to be specified",
+        "persist() cannot be used with DataFrames",
+        "Both methods immediately execute all transformations"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** persist() provides explicit control over storage levels, while cache() uses the default level."
+    },
+    {
+      "id": "q-imp-1795118839798-363-bugf",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark configuration property specifies the number of executor instances in a static allocation setup?",
+      "options": [
+        "`spark.driver.memory`",
+        "`spark.executor.instances`",
+        "`spark.sql.shuffle.partitions`",
+        "`spark.default.parallelism`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** spark.executor.instances specifies the requested number of executor processes."
+    },
+    {
+      "id": "q-imp-1795118839798-364-qk0w",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of Spark Dynamic Resource Allocation?",
+      "options": [
+        "Permanently fixing executor count to one",
+        "Automatically changing the HDFS replication factor",
+        "Increasing or decreasing the number of executors according to application workload",
+        "Converting every DataFrame into an RDD"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Dynamic allocation adjusts executor resources based on application demand."
+    },
+    {
+      "id": "q-imp-1795118839798-365-f9mn",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Spark SQL method is used to register a DataFrame as a temporary view?",
+      "options": [
+        "`createDatabase()`",
+        "`createOrReplaceTempView()`",
+        "`registerHDFS()`",
+        "`createTableOnly()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** createOrReplaceTempView() registers a DataFrame as a temporary SQL view."
+    },
+    {
+      "id": "q-imp-1795118839798-366-yqu7",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which PySpark method is used to select particular columns from a DataFrame?",
+      "options": [
+        "`filterRows()`",
+        "`select()`",
+        "`groupByKey()`",
+        "`collectAll()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** select() projects specified columns or expressions from a DataFrame."
+    },
+    {
+      "id": "q-imp-1795118839798-367-a2du",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which PySpark operation filters rows based on a condition?",
+      "options": [
+        "`withColumn()`",
+        "`dropDuplicates()`",
+        "`filter()`",
+        "`cache()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** filter() retains rows that satisfy the specified condition."
+    },
+    {
+      "id": "q-imp-1795118839798-368-horz",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which PySpark method creates a new column or replaces an existing column?",
+      "options": [
+        "`drop()`",
+        "`withColumn()`",
+        "`collect()`",
+        "`repartition()`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** withColumn() adds a new column or replaces an existing column with the same name."
+    },
+    {
+      "id": "q-imp-1795118839798-369-l2ll",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which function is used to replace NULL values conditionally in Spark SQL?",
+      "options": [
+        "`COUNT()`",
+        "`EXPLODE()`",
+        "`COALESCE()`",
+        "`RANK()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** COALESCE() returns the first non-NULL expression."
+    },
+    {
+      "id": "q-imp-1795118839798-370-1u02",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which PySpark function can convert a string column into an integer column?",
+      "options": [
+        "`explode()`",
+        "`collect()`",
+        "`cast(\"int\")`",
+        "`cache()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** cast(\"int\") converts a column expression to an integer datatype when values are valid."
+    },
+    {
+      "id": "q-imp-1795118839798-371-sizm",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is Exploratory Data Analysis (EDA)?",
+      "options": [
+        "A process used only for training neural networks",
+        "An approach to understand datasets through summaries, statistics, visualizations, and pattern identification",
+        "A method for formatting HDFS blocks",
+        "A process for creating Kafka brokers"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** EDA helps identify distributions, anomalies, relationships, and data quality issues."
+    },
+    {
+      "id": "q-imp-1795118839798-372-32is",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which statistical measure represents the middle value of an ordered dataset?",
+      "options": [
+        "Mean",
+        "Median",
+        "Variance",
+        "Standard deviation"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The median is the middle observation after sorting the dataset."
+    },
+    {
+      "id": "q-imp-1795118839798-373-wrpe",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which measure describes the spread of numerical observations around their mean?",
+      "options": [
+        "Mode",
+        "Median",
+        "Standard deviation",
+        "Count"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Standard deviation measures the typical dispersion of values around the mean."
+    },
+    {
+      "id": "q-imp-1795118839798-374-84s3",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which Spark SQL window function assigns a unique sequential number to every row within a partition?",
+      "options": [
+        "`rank()`",
+        "`dense_rank()`",
+        "`row_number()`",
+        "`percent_rank()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** row_number() assigns sequential row numbers within each window partition."
+    },
+    {
+      "id": "q-imp-1795118839798-375-kyb9",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "What is the purpose of the Catalyst Optimizer in Spark SQL?",
+      "options": [
+        "Managing Kafka replication",
+        "Creating HDFS directories",
+        "Optimizing logical query plans before execution",
+        "Managing Airflow task dependencies"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Catalyst applies logical and physical query optimizations in Spark SQL."
+    },
+    {
+      "id": "q-imp-1795118839798-376-kexn",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is Whole-Stage Code Generation in Spark SQL?",
+      "options": [
+        "A method for generating Hadoop XML configuration files",
+        "An optimization that generates Java bytecode for pipelines of SQL operators",
+        "A technique for creating Kafka topics",
+        "A method for replicating HDFS blocks"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Whole-stage code generation reduces execution overhead by compiling operator pipelines."
+    },
+    {
+      "id": "q-imp-1795118839798-377-aoyb",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark configuration property controls the default number of partitions used for shuffle operations in Spark SQL?",
+      "options": [
+        "`spark.driver.memory`",
+        "`spark.executor.cores`",
+        "`spark.sql.shuffle.partitions`",
+        "`spark.hadoop.replication`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** spark.sql.shuffle.partitions controls the default shuffle partition count in Spark SQL."
+    },
+    {
+      "id": "q-imp-1795118839798-378-k7ka",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is data skew in Spark?",
+      "options": [
+        "Equal distribution of records across partitions",
+        "Uneven distribution of records across partitions, causing some tasks to process significantly more data",
+        "Absence of all shuffle operations",
+        "Automatic deletion of cached RDDs"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Data skew creates uneven workloads and can cause long-running Spark tasks."
+    },
+    {
+      "id": "q-imp-1795118839798-379-26l1",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark operation can be used to increase the number of partitions and redistribute data?",
+      "options": [
+        "`collect()`",
+        "`filter()`",
+        "`repartition()`",
+        "`take()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** repartition() redistributes records and can increase or decrease partition count."
+    },
+    {
+      "id": "q-imp-1795118839798-380-b4by",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which technique can help mitigate data skew during a Spark join?",
+      "options": [
+        "Disabling all partitions",
+        "Collecting every dataset to the driver",
+        "Salting skewed keys or using suitable skew-join optimizations",
+        "Increasing the number of DataFrame columns"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Salting distributes heavily concentrated keys across multiple partitions."
+    },
+    {
+      "id": "q-imp-1795118839798-381-qcn0",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark action saves an RDD or DataFrame to persistent storage?",
+      "options": [
+        "`filter()`",
+        "`map()`",
+        "A write operation such as `saveAsTextFile()` or `write.parquet()`",
+        "`withColumn()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Spark write operations persist distributed results to storage systems."
+    },
+    {
+      "id": "q-imp-1795118839798-382-bndy",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of Adaptive Query Execution (AQE) in Spark SQL?",
+      "options": [
+        "Disabling query optimization",
+        "Converting Spark SQL into HiveQL permanently",
+        "Optimizing query execution plans at runtime using observed statistics",
+        "Preventing all shuffle operations"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** AQE adjusts execution plans using runtime information such as shuffle statistics."
+    },
+    {
+      "id": "q-imp-1795118839798-383-u1mx",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark SQL function is commonly used to calculate a cumulative sum?",
+      "options": [
+        "`explode()`",
+        "`dropDuplicates()`",
+        "`sum() OVER (ORDER BY column_name)`",
+        "`collect_list()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A windowed SUM computes cumulative totals over an ordered set of rows."
+    },
+    {
+      "id": "q-imp-1795118839798-384-h21s",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the main benefit of using Spark's `toLocalIterator()` instead of `collect()` for a large dataset?",
+      "options": [
+        "It eliminates all network communication",
+        "It permanently stores data in HDFS",
+        "It lets the driver consume partition results incrementally rather than materializing the entire result at once",
+        "It executes every transformation twice"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `toLocalIterator()` retrieves partition results incrementally, but driver memory can still be required for the largest partition."
+    },
+    {
+      "id": "q-imp-1795118839798-385-0j3r",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "What is the fundamental difference between a Spark transformation and an action?",
+      "options": [
+        "Both immediately execute all operations",
+        "Transformations create new distributed datasets, while actions trigger computation and return results or write output",
+        "Actions always create new RDDs",
+        "Transformations can only operate on DataFrames"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Spark transformations are lazy, whereas actions trigger execution."
+    },
+    {
+      "id": "q-imp-1795118839798-386-mnwa",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark action returns up to the first n elements of an RDD to the driver?",
+      "options": [
+        "`map()`",
+        "`filter()`",
+        "`take(n)`",
+        "`flatMap()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `take(n)` is an action that returns up to n elements to the driver without collecting the entire RDD."
+    },
+    {
+      "id": "q-imp-1795118839798-387-5faq",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is lineage in Apache Spark?",
+      "options": [
+        "A list of database users",
+        "A record of transformations used to construct an RDD",
+        "A list of cluster IP addresses",
+        "A collection of Hive partitions"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** RDD lineage records dependencies that Spark can use for recomputation after failures."
+    },
+    {
+      "id": "q-imp-1795118839798-388-wu02",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "What is the primary benefit of lazy evaluation in Spark?",
+      "options": [
+        "Every operation executes immediately",
+        "It prevents distributed processing",
+        "It allows Spark to optimize execution before computation begins",
+        "It eliminates all shuffle operations"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Lazy evaluation enables Spark to construct and optimize execution plans."
+    },
+    {
+      "id": "q-imp-1795118839798-389-2r9g",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which operation can cause a shuffle in Spark?",
+      "options": [
+        "map()",
+        "filter()",
+        "groupByKey()",
+        "flatMap()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** groupByKey() redistributes values across partitions based on keys."
+    },
+    {
+      "id": "q-imp-1795118839798-390-n07b",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why is reduceByKey() generally preferred over groupByKey() for aggregation?",
+      "options": [
+        "It does not use keys",
+        "It always executes on the driver",
+        "It performs local aggregation before transferring data across the network",
+        "It eliminates all partitions"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** reduceByKey() reduces network transfer by combining values locally before shuffling."
+    },
+    {
+      "id": "q-imp-1795118839798-391-69eu",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] Why should `collect()` generally be avoided on a very large Spark dataset?",
+      "options": [
+        "It disables all transformations",
+        "It transfers all result records to the driver and can exhaust driver memory",
+        "It deletes cached partitions",
+        "It always writes the result to HDFS"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `collect()` materializes the complete result on the driver, which can cause an out-of-memory failure for large datasets."
+    },
+    {
+      "id": "q-imp-1795118839798-392-i2ss",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary purpose of an accumulator in Spark?",
+      "options": [
+        "To store complete DataFrames",
+        "To broadcast mutable objects to all executors",
+        "To aggregate values such as counters across distributed tasks",
+        "To replace the Spark driver"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Accumulators support distributed aggregation of values, commonly for monitoring and counters."
+    },
+    {
+      "id": "q-imp-1795118839798-393-7vos",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "In the Java/Scala Spark RDD API, which storage level stores RDD partitions as serialized objects in memory?",
+      "options": [
+        "MEMORY_ONLY",
+        "MEMORY_ONLY_SER",
+        "DISK_ONLY",
+        "NONE"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** `MEMORY_ONLY_SER` stores serialized RDD partitions in memory in the Java and Scala APIs."
+    },
+    {
+      "id": "q-imp-1795118839798-394-g1ht",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the difference between cache() and persist() in Spark?",
+      "options": [
+        "cache() deletes data, while persist() creates data",
+        "persist() works only with DataFrames",
+        "cache() uses the default storage level, while persist() allows specifying a storage level",
+        "Both disable fault tolerance"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** persist() provides explicit storage-level control, while cache() uses a default level."
+    },
+    {
+      "id": "q-imp-1795118839798-395-gwr4",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "What is the purpose of repartition() in Spark?",
+      "options": [
+        "To delete duplicate rows",
+        "To change the number of partitions through a shuffle",
+        "To convert RDDs into Hive tables",
+        "To remove null values"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** repartition() redistributes data and can increase or decrease the partition count."
+    },
+    {
+      "id": "q-imp-1795118839798-396-8cfs",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] When is coalesce() generally more efficient than repartition()?",
+      "options": [
+        "When increasing partitions significantly",
+        "When reducing partitions without requiring a full shuffle",
+        "When sorting all records globally",
+        "When joining unrelated datasets"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** coalesce() can reduce partitions with limited data movement by avoiding a full shuffle."
+    },
+    {
+      "id": "q-imp-1795118839798-397-wdrr",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark API provides a distributed collection of data with named columns?",
+      "options": [
+        "RDD only",
+        "DataFrame",
+        "Accumulator",
+        "Broadcast variable"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** A DataFrame represents distributed data organized into named columns."
+    },
+    {
+      "id": "q-imp-1795118839798-398-osk7",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary purpose of the Catalyst Optimizer?",
+      "options": [
+        "To manage Kafka brokers",
+        "To replicate HDFS blocks",
+        "To optimize logical query plans in Spark SQL",
+        "To schedule Airflow DAGs"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Catalyst applies optimization rules to Spark SQL logical plans."
+    },
+    {
+      "id": "q-imp-1795118839798-399-1zck",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "What is the purpose of Tungsten in Apache Spark?",
+      "options": [
+        "To provide a graphical dashboard",
+        "To improve execution efficiency through memory and CPU optimizations",
+        "To manage Kafka topics",
+        "To replace the Spark SQL engine"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Tungsten improves Spark performance through optimized memory management and code generation."
+    },
+    {
+      "id": "q-imp-1795118839798-400-ygr2",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary advantage of Adaptive Query Execution (AQE)?",
+      "options": [
+        "It prevents all transformations",
+        "It requires manually defining every partition",
+        "It can optimize query execution using runtime statistics",
+        "It replaces the Spark driver with executors"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** AQE adjusts query plans using runtime information such as actual data sizes."
+    },
+    {
+      "id": "q-imp-1795118839798-401-ej4y",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark SQL function assigns a sequential rank with gaps for tied values?",
+      "options": [
+        "row_number()",
+        "rank()",
+        "dense_rank()",
+        "ntile()"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** rank() assigns equal ranks to ties and leaves gaps in subsequent rankings."
+    },
+    {
+      "id": "q-imp-1795118839798-402-wrk5",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the difference between rank() and dense_rank()?",
+      "options": [
+        "rank() removes duplicates",
+        "dense_rank() always returns unique values",
+        "rank() leaves gaps after ties, while dense_rank() does not",
+        "Both functions produce identical results in all cases"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** dense_rank() assigns consecutive ranks without gaps after tied values."
+    },
+    {
+      "id": "q-imp-1795118839798-403-topz",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "Which Spark SQL function is used to calculate a moving average over a window?",
+      "options": [
+        "explode()",
+        "collect_list()",
+        "avg() with an OVER clause",
+        "coalesce()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** An aggregate function such as AVG can calculate moving averages using window frames."
+    },
+    {
+      "id": "q-imp-1795118839798-404-xoo0",
+      "topicId": "top-1795118849111-328-38j",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary purpose of a Spark checkpoint?",
+      "options": [
+        "To increase the number of executors",
+        "To truncate lineage by saving an RDD or DataFrame to reliable storage",
+        "To remove all cached data",
+        "To convert all partitions into one"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Checkpointing saves data reliably and can truncate long dependency lineages."
+    },
+    {
+      "id": "q-imp-1795118839798-405-910b",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "**Question IDs:** Q198, Q351–365, Q471–480\n\n### Q198. [Advanced] What is the purpose of Spark MLlib?",
+      "options": [
+        "Managing HDFS namespace metadata",
+        "Creating Kafka brokers",
+        "Providing scalable machine learning algorithms and utilities",
+        "Managing Airflow task scheduling"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MLlib supports distributed machine learning and related data processing operations."
+    },
+    {
+      "id": "q-imp-1795118839798-406-bucl",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "[Beginner] What is Apache Spark MLlib primarily used for?",
+      "options": [
+        "Managing HDFS metadata",
+        "Creating Kafka topics",
+        "Performing scalable machine learning and predictive analytics",
+        "Scheduling Airflow DAGs"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** MLlib provides distributed machine learning algorithms and utilities."
+    },
+    {
+      "id": "q-imp-1795118839798-407-074k",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "Which machine learning problem involves predicting a continuous numerical value?",
+      "options": [
+        "Classification",
+        "Clustering",
+        "Regression",
+        "Association rule mining"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Regression models predict continuous numerical outputs."
+    },
+    {
+      "id": "q-imp-1795118839798-408-7izq",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "Which machine learning technique is used to predict categories such as spam or not spam?",
+      "options": [
+        "Classification",
+        "Regression",
+        "Dimensionality reduction",
+        "Normalization"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** Classification assigns observations to predefined categories."
+    },
+    {
+      "id": "q-imp-1795118839798-409-fqzt",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "Which algorithm is commonly used for binary classification?",
+      "options": [
+        "K-Means",
+        "Logistic Regression",
+        "Principal Component Analysis",
+        "Linear Regression"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Logistic Regression predicts class probabilities and is commonly used for binary classification."
+    },
+    {
+      "id": "q-imp-1795118839798-410-voa1",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "Which Spark MLlib algorithm groups similar observations without requiring predefined labels?",
+      "options": [
+        "Linear Regression",
+        "Decision Tree Classification",
+        "K-Means",
+        "Logistic Regression"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** K-Means is an unsupervised clustering algorithm."
+    },
+    {
+      "id": "q-imp-1795118839798-411-t2vl",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of feature scaling in machine learning?",
+      "options": [
+        "Removing all categorical columns",
+        "Bringing numerical features to comparable scales to improve the behavior of certain algorithms",
+        "Increasing the number of training labels",
+        "Deleting the target variable"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Feature scaling prevents large-magnitude features from disproportionately influencing scale-sensitive algorithms."
+    },
+    {
+      "id": "q-imp-1795118839798-412-5e2z",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "Why is a dataset divided into training and testing subsets?",
+      "options": [
+        "To increase the number of duplicate records",
+        "To reduce the number of input columns permanently",
+        "To train a model and independently evaluate its performance on unseen data",
+        "To remove all missing values automatically"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Training fits the model, while testing evaluates its generalization performance."
+    },
+    {
+      "id": "q-imp-1795118839798-413-ayba",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is overfitting in machine learning?",
+      "options": [
+        "A model that performs poorly on both training and testing data",
+        "A model that learns training data too closely and performs poorly on unseen data",
+        "A model that contains no parameters",
+        "A model that always predicts the mean"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Overfitting occurs when a model captures training-specific noise and patterns that do not generalize."
+    },
+    {
+      "id": "q-imp-1795118839798-414-56wf",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "Which evaluation metric is commonly used for regression problems?",
+      "options": [
+        "Accuracy",
+        "Precision",
+        "Root Mean Squared Error",
+        "Recall"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** RMSE measures the square root of the average squared prediction error."
+    },
+    {
+      "id": "q-imp-1795118839798-415-lw5o",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which evaluation metric is particularly useful when measuring the proportion of predicted positive cases that are actually positive?",
+      "options": [
+        "Recall",
+        "Precision",
+        "Mean Squared Error",
+        "R-squared"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Precision is the ratio of true positives to all predicted positives."
+    },
+    {
+      "id": "q-imp-1795118839798-416-1n24",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "Which AWS service provides managed Hadoop and Spark clusters?",
+      "options": [
+        "Amazon Route 53",
+        "Amazon S3 Glacier only",
+        "Amazon EMR",
+        "Amazon CloudFront"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Amazon EMR provides managed big data frameworks including Hadoop and Spark."
+    },
+    {
+      "id": "q-imp-1795118839798-417-sb7y",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "What is Databricks primarily associated with?",
+      "options": [
+        "Relational database normalization",
+        "A managed data and AI platform built around Apache Spark and related technologies",
+        "Operating system development",
+        "DNS management"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Databricks provides a managed platform for data engineering, analytics, and machine learning."
+    },
+    {
+      "id": "q-imp-1795118839798-418-e0if",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is cluster autoscaling?",
+      "options": [
+        "Permanently fixing the cluster size",
+        "Deleting all inactive datasets",
+        "Automatically adjusting cluster resources according to workload demand",
+        "Automatically converting SQL queries into Java code"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Autoscaling adjusts computing resources to changing workload requirements."
+    },
+    {
+      "id": "q-imp-1795118839798-419-ygwo",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "Which cloud storage service is commonly used with Spark for storing large datasets?",
+      "options": [
+        "Amazon Route 53",
+        "Amazon S3",
+        "Amazon CloudFront",
+        "Amazon SES"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Amazon S3 provides scalable object storage commonly used by Spark applications."
+    },
+    {
+      "id": "q-imp-1795118839798-420-yopw",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is a major cost consideration when running Spark workloads in the cloud?",
+      "options": [
+        "Only the number of SQL queries",
+        "Only the number of DataFrame columns",
+        "Compute resource usage, storage, data transfer, and cluster runtime",
+        "Only the name of the Spark application"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Cloud Spark costs depend on compute, storage, networking, and service usage."
+    },
+    {
+      "id": "q-imp-1795118839798-421-je1i",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "Which PySpark function replaces NULL values in a DataFrame?",
+      "options": [
+        "dropDuplicates()",
+        "fillna()",
+        "repartition()",
+        "collect()"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** fillna() replaces NULL or missing values with specified values."
+    },
+    {
+      "id": "q-imp-1795118839798-422-s2y4",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "Which PySpark method removes rows containing NULL values?",
+      "options": [
+        "fillna()",
+        "withColumn()",
+        "dropna()",
+        "orderBy()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** dropna() removes rows containing missing values according to the specified conditions."
+    },
+    {
+      "id": "q-imp-1795118839798-423-davt",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which method converts a string column into an integer column in PySpark?",
+      "options": [
+        "explode()",
+        "groupBy()",
+        "cast()",
+        "cache()"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** cast() converts a column into the requested Spark SQL datatype."
+    },
+    {
+      "id": "q-imp-1795118839798-424-0f8b",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of Spark MLlib?",
+      "options": [
+        "Managing HDFS permissions",
+        "Providing scalable machine learning algorithms and utilities",
+        "Managing Kafka partitions",
+        "Replacing Airflow scheduling"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** MLlib provides distributed machine learning algorithms and supporting utilities."
+    },
+    {
+      "id": "q-imp-1795118839798-425-35vn",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which Spark MLlib algorithm is commonly used for binary classification?",
+      "options": [
+        "K-Means",
+        "Logistic Regression",
+        "PCA",
+        "Linear Regression"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Logistic Regression predicts class probabilities and is commonly used for binary classification."
+    },
+    {
+      "id": "q-imp-1795118839798-426-octd",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "Which MLlib algorithm is commonly used for clustering?",
+      "options": [
+        "Linear Regression",
+        "Logistic Regression",
+        "K-Means",
+        "Decision Tree Regression"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** K-Means groups observations into clusters based on similarity."
+    },
+    {
+      "id": "q-imp-1795118839798-427-e8g6",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of a feature vector in Spark MLlib?",
+      "options": [
+        "To store Kafka offsets",
+        "To represent HDFS file permissions",
+        "To combine input features into a representation used by machine learning algorithms",
+        "To define Airflow dependencies"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Feature vectors provide the numerical input representation required by ML algorithms."
+    },
+    {
+      "id": "q-imp-1795118839798-428-rlje",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is a key benefit of separating Spark compute resources from cloud object storage?",
+      "options": [
+        "Storage must be deleted whenever a compute cluster stops",
+        "Compute and storage can scale and be managed independently, while data can persist beyond a cluster's lifecycle",
+        "Spark no longer needs executors",
+        "All data must be copied to the driver"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Separating compute from object storage allows independent scaling and keeps datasets durable across transient compute clusters."
+    },
+    {
+      "id": "q-imp-1795118839798-429-1km3",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "What is Amazon EMR?",
+      "options": [
+        "A programming language",
+        "A relational database",
+        "A managed cloud service for big data frameworks such as Hadoop and Spark",
+        "A HiveQL datatype"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Amazon EMR simplifies deployment and management of big data processing frameworks."
+    },
+    {
+      "id": "q-imp-1795118839798-430-0fxm",
+      "topicId": "top-1795118849111-403-rdh",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the primary benefit of cluster autoscaling in cloud Spark environments?",
+      "options": [
+        "It permanently fixes cluster size",
+        "It disables distributed execution",
+        "It adjusts computing resources according to workload demand",
+        "It eliminates storage costs"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Autoscaling dynamically adds or removes resources based on workload requirements."
+    },
+    {
+      "id": "q-imp-1795118839798-431-7hwu",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "**Question IDs:** Kafka: Q92–97, Q199, Q311–325, Q335, Q481–495; Spark Structured Streaming: Q98, Q200, Q326–334\n\n### Kafka Concepts, Producers/Consumers & Kafka Connect\n\n### Q92. [Beginner] What is a Kafka topic?",
+      "options": [
+        "A database server",
+        "A named category or stream to which records are published",
+        "A Hadoop DataNode",
+        "A Spark transformation"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Kafka topics organize records into named streams."
+    },
+    {
+      "id": "q-imp-1795118839798-432-v8ri",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What is a Kafka partition?",
+      "options": [
+        "A complete Kafka cluster",
+        "A type of consumer group",
+        "An ordered, append-only sequence of records within a topic",
+        "A replacement for a Kafka broker"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Each Kafka partition is an ordered log of records identified by offsets."
+    },
+    {
+      "id": "q-imp-1795118839798-433-tq6i",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Kafka component publishes records to topics?",
+      "options": [
+        "Consumer",
+        "Producer",
+        "Broker Monitor",
+        "Connect Sink"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Kafka Producers send records to Kafka topics."
+    },
+    {
+      "id": "q-imp-1795118839798-434-r5e1",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Beginner] Which Kafka component reads records from topics?",
+      "options": [
+        "Producer",
+        "Partition Leader",
+        "Consumer",
+        "Controller"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Kafka Consumers subscribe to topics and read their records."
+    },
+    {
+      "id": "q-imp-1795118839798-435-iauu",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of a Kafka consumer group?",
+      "options": [
+        "To store Kafka topic metadata permanently",
+        "To create HDFS block replicas",
+        "To allow multiple consumers to share the processing of topic partitions",
+        "To convert Kafka messages into HiveQL queries automatically"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Consumer groups distribute partition consumption among group members."
+    },
+    {
+      "id": "q-imp-1795118839798-436-4hbg",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of Kafka Connect?",
+      "options": [
+        "To replace all Kafka brokers",
+        "To integrate Kafka with external systems using reusable source and sink connectors",
+        "To execute Spark SQL queries",
+        "To manage HDFS NameNode failover"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Kafka Connect supports scalable data movement between Kafka and external systems."
+    },
+    {
+      "id": "q-imp-1795118839798-437-j62d",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What is the significance of an offset in Kafka?",
+      "options": [
+        "It identifies the network address of a broker",
+        "It specifies the replication factor of a topic",
+        "It identifies the position of a record within a partition",
+        "It represents the number of consumer groups"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Kafka offsets identify record positions within individual topic partitions."
+    },
+    {
+      "id": "q-imp-1795118839798-438-hue5",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What is the primary responsibility of a Kafka Broker?",
+      "options": [
+        "Executing HiveQL queries",
+        "Managing HDFS namespace metadata",
+        "Receiving, storing, and serving Kafka topic partitions",
+        "Scheduling Airflow DAGs"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Brokers store topic partitions and handle producer and consumer requests."
+    },
+    {
+      "id": "q-imp-1795118839798-439-jsmz",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What does the replication factor of a Kafka topic specify?",
+      "options": [
+        "Number of consumer groups",
+        "Number of producers",
+        "Number of copies maintained for each partition across brokers",
+        "Number of records in a message"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Kafka replication factor determines the number of replicas maintained for each partition."
+    },
+    {
+      "id": "q-imp-1795118839798-440-453y",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What is the role of a Kafka partition leader?",
+      "options": [
+        "Managing all Hive databases",
+        "Handling client read and write requests for its partition",
+        "Scheduling Spark executors",
+        "Maintaining HDFS block reports"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The partition leader handles client operations for that partition."
+    },
+    {
+      "id": "q-imp-1795118839798-441-qudn",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is an In-Sync Replica (ISR) in Kafka?",
+      "options": [
+        "A replica that never receives updates",
+        "A replica that is sufficiently caught up with the partition leader according to Kafka's replication rules",
+        "A consumer that has committed every offset",
+        "A producer that sends duplicate records"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** ISR contains replicas considered sufficiently synchronized with the leader."
+    },
+    {
+      "id": "q-imp-1795118839798-442-a2x5",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "Which Kafka producer setting controls how many acknowledgments are required from brokers before a send request is considered successful?",
+      "options": [
+        "`batch.size`",
+        "`linger.ms`",
+        "`acks`",
+        "`compression.type`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The acks setting controls the acknowledgment requirement for producer requests."
+    },
+    {
+      "id": "q-imp-1795118839798-443-3cv0",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which Kafka producer setting requests acknowledgment from all currently required in-sync replicas?",
+      "options": [
+        "`acks=0`",
+        "`acks=1`",
+        "`acks=all`",
+        "`acks=none`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** acks=all waits for acknowledgment from the required in-sync replicas."
+    },
+    {
+      "id": "q-imp-1795118839798-444-s238",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What is the purpose of the Kafka consumer offset?",
+      "options": [
+        "Identifying the broker's IP address",
+        "Tracking the consumer's position in a partition",
+        "Determining the topic's replication factor",
+        "Defining the number of producers"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Offsets track which records a consumer has processed or committed."
+    },
+    {
+      "id": "q-imp-1795118839798-445-1xzk",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the main purpose of Kafka offset commits?",
+      "options": [
+        "Creating new topic partitions",
+        "Deleting consumed messages immediately",
+        "Persisting consumer progress so processing can resume from an appropriate position",
+        "Increasing the number of brokers"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Committed offsets allow consumers to resume consumption after restarts or failures."
+    },
+    {
+      "id": "q-imp-1795118839798-446-vuto",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "Which Kafka command-line tool is used to create topics?",
+      "options": [
+        "`kafka-consumer-groups.sh`",
+        "`kafka-console-consumer.sh`",
+        "`kafka-topics.sh`",
+        "`kafka-server-status.sh`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** kafka-topics.sh manages topic operations such as creation, description, and deletion."
+    },
+    {
+      "id": "q-imp-1795118839798-447-hia7",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "Which Kafka command-line tool is commonly used to publish messages from the terminal?",
+      "options": [
+        "`kafka-console-consumer.sh`",
+        "`kafka-console-producer.sh`",
+        "`kafka-topics.sh`",
+        "`kafka-broker-check.sh`"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** kafka-console-producer.sh sends messages to a specified Kafka topic."
+    },
+    {
+      "id": "q-imp-1795118839798-448-tw4w",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "Which Kafka command-line tool reads messages from a topic?",
+      "options": [
+        "`kafka-console-producer.sh`",
+        "`kafka-topics.sh`",
+        "`kafka-console-consumer.sh`",
+        "`kafka-config-editor.sh`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** kafka-console-consumer.sh reads messages from Kafka topics."
+    },
+    {
+      "id": "q-imp-1795118839798-449-huhl",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of Kafka's log retention policy?",
+      "options": [
+        "Guaranteeing that messages are never deleted",
+        "Automatically converting topics into Hive tables",
+        "Determining how long or how much topic data is retained before eligible records are removed",
+        "Limiting the number of consumer groups"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Retention policies control how long Kafka keeps records or how much log data it retains."
+    },
+    {
+      "id": "q-imp-1795118839798-450-l000",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What is the purpose of a Kafka Sink Connector?",
+      "options": [
+        "Importing data from an external database into Kafka",
+        "Exporting data from Kafka to an external destination system",
+        "Managing HDFS block replication",
+        "Scheduling MapReduce reducers"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Sink connectors transfer Kafka records to external systems such as databases and storage platforms."
+    },
+    {
+      "id": "q-imp-1795118839798-451-lwg3",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What is the purpose of a Kafka Source Connector?",
+      "options": [
+        "Importing data from external systems into Kafka",
+        "Exporting Kafka records to external databases",
+        "Deleting Kafka topics",
+        "Managing consumer offsets manually"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** Source connectors ingest data from external systems into Kafka topics."
+    },
+    {
+      "id": "q-imp-1795118839798-452-97bb",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which Kafka Connect mode distributes connector tasks across multiple worker processes?",
+      "options": [
+        "Local-only mode",
+        "Distributed mode",
+        "Standalone database mode",
+        "Embedded HDFS mode"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Distributed mode allows Kafka Connect workers to share connector tasks and coordinate execution."
+    },
+    {
+      "id": "q-imp-1795118839798-453-b13c",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "Which Kafka feature allows messages to be distributed across multiple consumers in the same consumer group?",
+      "options": [
+        "Topic deletion",
+        "Log compaction",
+        "Partition assignment",
+        "Message compression"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Kafka assigns partitions among group members to distribute consumption work."
+    },
+    {
+      "id": "q-imp-1795118839798-454-0kav",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What is the primary purpose of Apache Kafka?",
+      "options": [
+        "Managing relational database schemas",
+        "Distributed event streaming and messaging",
+        "Replacing Java virtual machines",
+        "Managing HDFS metadata"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Kafka is a distributed platform for publishing, storing, and processing event streams."
+    },
+    {
+      "id": "q-imp-1795118839798-455-us2l",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "With Kafka's default key-based partitioner, what typically happens to records that have the same non-null key?",
+      "options": [
+        "They are always sent to different topics",
+        "They are typically assigned to the same partition",
+        "They bypass partition storage",
+        "They are sent directly to every consumer"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The default partitioner hashes a record key so records with the same key are typically routed to the same partition."
+    },
+    {
+      "id": "q-imp-1795118839798-456-4xps",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What ordering guarantee does Kafka provide for records in a topic?",
+      "options": [
+        "A total order across all partitions in the topic",
+        "Ordering within each partition, but not a total order across different partitions",
+        "Ordering only across different topics",
+        "No ordering within a partition"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Each partition is an ordered log; Kafka does not provide a single total order across all partitions of a topic."
+    },
+    {
+      "id": "q-imp-1795118839798-457-worg",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of a Kafka Consumer Group?",
+      "options": [
+        "To combine all Kafka brokers into one",
+        "To eliminate topic partitions",
+        "To allow multiple consumers to share processing of topic partitions",
+        "To disable message replication"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Consumer groups distribute partition processing among group members."
+    },
+    {
+      "id": "q-imp-1795118839798-458-rxu9",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What does a Kafka offset represent?",
+      "options": [
+        "The IP address of a broker",
+        "The number of Kafka topics",
+        "The position of a record within a partition",
+        "The size of a producer buffer"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Offsets identify record positions in a partition's log."
+    },
+    {
+      "id": "q-imp-1795118839798-459-8gju",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What happens if a Kafka consumer group has more consumers than available partitions?",
+      "options": [
+        "Every consumer receives every partition",
+        "Kafka automatically creates additional topics",
+        "Some consumers remain idle because each partition is assigned to at most one consumer in the group",
+        "The broker stops accepting messages"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** A partition can be assigned to only one consumer within a consumer group at a time."
+    },
+    {
+      "id": "q-imp-1795118839798-460-62q4",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What is the role of a Kafka Producer?",
+      "options": [
+        "Reading messages from topics",
+        "Publishing records to Kafka topics",
+        "Managing Spark executors",
+        "Maintaining HDFS metadata"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Producers publish records to Kafka topics."
+    },
+    {
+      "id": "q-imp-1795118839798-461-7pni",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What is the role of a Kafka Consumer?",
+      "options": [
+        "Publishing records to topics",
+        "Creating HDFS blocks",
+        "Reading records from Kafka topics",
+        "Managing Hive partitions"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Consumers subscribe to topics and retrieve their records."
+    },
+    {
+      "id": "q-imp-1795118839798-462-l2xu",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of Kafka replication?",
+      "options": [
+        "To eliminate partitions",
+        "To reduce the number of brokers",
+        "To improve fault tolerance and availability of topic data",
+        "To convert messages into SQL tables"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Replication maintains copies of partition data across brokers."
+    },
+    {
+      "id": "q-imp-1795118839798-463-p86n",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What does ISR stand for in Kafka?",
+      "options": [
+        "Internal Storage Registry",
+        "Indexed Stream Records",
+        "In-Sync Replicas",
+        "Independent Server Routing"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** ISR identifies replicas that are sufficiently synchronized with the partition leader."
+    },
+    {
+      "id": "q-imp-1795118839798-464-d0xl",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of Kafka Connect?",
+      "options": [
+        "To execute Hive queries",
+        "To manage HDFS NameNodes",
+        "To integrate Kafka with external source and sink systems",
+        "To replace Kafka brokers"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Kafka Connect provides connectors for importing and exporting data between Kafka and external systems."
+    },
+    {
+      "id": "q-imp-1795118839798-465-0mj5",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What does a Kafka producer configuration of `acks=all` mean?",
+      "options": [
+        "The producer does not wait for broker acknowledgement",
+        "The leader acknowledges the record without considering replicas",
+        "The producer waits for acknowledgement from the current in-sync replicas before the write is treated as successful",
+        "Every consumer in every consumer group must acknowledge the record"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** `acks=all` waits for the current in-sync replicas to acknowledge the write, subject to settings such as `min.insync.replicas`."
+    },
+    {
+      "id": "q-imp-1795118839798-466-soyh",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of log compaction for a Kafka topic configured with cleanup policy `compact`?",
+      "options": [
+        "To retain only the oldest record for each key",
+        "To retain the latest value for each key while cleaning up superseded records, subject to tombstone handling",
+        "To combine all topic partitions into one",
+        "To disable consumer offsets"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Log compaction preserves the latest known value for each key and removes older superseded records over time; tombstones represent deletions."
+    },
+    {
+      "id": "q-imp-1795118839798-467-plgy",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the difference between at-most-once and at-least-once message delivery?",
+      "options": [
+        "Both guarantee exactly-once processing",
+        "At-most-once may lose messages, while at-least-once may produce duplicates",
+        "At-most-once always produces duplicates",
+        "At-least-once guarantees no message delivery"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** At-most-once prioritizes avoiding duplicates, whereas at-least-once prioritizes avoiding message loss."
+    },
+    {
+      "id": "q-imp-1795118839798-468-va18",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of idempotent producers in Kafka?",
+      "options": [
+        "To disable message acknowledgements",
+        "To increase the number of topics",
+        "To prevent duplicate writes caused by producer retries under supported conditions",
+        "To eliminate Kafka partitions"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Idempotent producers use sequence numbers to prevent duplicate records from retries."
+    },
+    {
+      "id": "q-imp-1795118839798-469-gsaz",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "Spark Structured Streaming\n\n### Q98. [Advanced] In Spark Structured Streaming, what is a watermark primarily used for?",
+      "options": [
+        "Encrypting streaming records",
+        "Increasing Kafka replication factor",
+        "Managing late-arriving data and determining when old event-time state can be discarded",
+        "Converting every streaming query into a batch-only job"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Watermarks help bound state and handle late data in event-time streaming operations."
+    },
+    {
+      "id": "q-imp-1795118839798-470-6ovm",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of checkpointing in Spark Structured Streaming?",
+      "options": [
+        "Increasing HDFS block size",
+        "Changing the Kafka topic name automatically",
+        "Persisting streaming query progress and state information to support recovery after failures",
+        "Replacing the Spark Driver with a Kafka Consumer"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Checkpointing enables recovery of streaming progress and state after application failures."
+    },
+    {
+      "id": "q-imp-1795118839798-471-4ejw",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What is Apache Spark Structured Streaming?",
+      "options": [
+        "A filesystem for storing streaming logs",
+        "A scalable stream-processing engine built on Spark SQL",
+        "A replacement for Kafka brokers",
+        "A relational database server"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Structured Streaming provides a declarative API for processing continuous data streams."
+    },
+    {
+      "id": "q-imp-1795118839798-472-bgqc",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "Which processing model is commonly used by Spark Structured Streaming?",
+      "options": [
+        "Purely manual record-by-record execution",
+        "Incremental processing of streaming data using a structured query model",
+        "Exclusive batch processing with no streaming support",
+        "Database transaction processing only"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Structured Streaming incrementally processes incoming data through a unified query engine."
+    },
+    {
+      "id": "q-imp-1795118839798-473-ayka",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of Event Time in Spark Structured Streaming?",
+      "options": [
+        "Measuring the time required to start the Spark application",
+        "Measuring the number of executor cores",
+        "Processing records according to timestamps contained in the actual events",
+        "Determining the Kafka broker's startup time"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Event time uses timestamps from records rather than the time they arrive at the processor."
+    },
+    {
+      "id": "q-imp-1795118839798-474-9krx",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "What is Processing Time in stream processing?",
+      "options": [
+        "The timestamp embedded in the source event",
+        "The time at which the streaming system processes a record",
+        "The time required to create a Kafka topic",
+        "The timestamp of the first HDFS block"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Processing time refers to when the system handles an incoming event."
+    },
+    {
+      "id": "q-imp-1795118839798-475-13fz",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of a sliding window in stream processing?",
+      "options": [
+        "Permanently storing all records in a single partition",
+        "Preventing records from being processed more than once",
+        "Performing computations over overlapping time intervals",
+        "Increasing the replication factor"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Sliding windows calculate results over overlapping time ranges."
+    },
+    {
+      "id": "q-imp-1795118839798-476-g9tf",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "Which output mode in Spark Structured Streaming emits only newly added rows since the previous trigger?",
+      "options": [
+        "Complete",
+        "Append",
+        "Update",
+        "Replace"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Append mode outputs rows that are newly added to the result table."
+    },
+    {
+      "id": "q-imp-1795118839798-477-qbnz",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What does Complete output mode do in Spark Structured Streaming?",
+      "options": [
+        "Emits only newly added rows",
+        "Emits only rows that have changed",
+        "Emits the entire updated result table after each trigger",
+        "Deletes the result table after each trigger"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Complete mode outputs the full result table for each trigger."
+    },
+    {
+      "id": "q-imp-1795118839798-478-859n",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "Which Spark Structured Streaming method starts the execution of a streaming query?",
+      "options": [
+        "`execute()`",
+        "`runStream()`",
+        "`start()`",
+        "`submitQuery()`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** The start() method initiates streaming query execution."
+    },
+    {
+      "id": "q-imp-1795118839798-479-qxsx",
+      "topicId": "top-1795118849111-429-84k",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of `awaitTermination()` in Spark Structured Streaming?",
+      "options": [
+        "Deleting the streaming checkpoint",
+        "Keeping the calling application waiting until the streaming query terminates",
+        "Increasing Kafka partitions",
+        "Restarting all executors automatically"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** awaitTermination() blocks the calling thread until the query terminates or the timeout expires."
+    },
+    {
+      "id": "q-imp-1795118839798-480-803b",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "**Question IDs:** Q99–100, Q336–350, Q496–500\n\n### Q99. [Moderate] In an end-to-end data pipeline using Airflow, HDFS, and Spark, which sequence represents a typical processing workflow?",
+      "options": [
+        "Spark processing → Data deletion → HDFS ingestion → Airflow scheduling",
+        "HDFS deletion → Kafka shutdown → Spark installation → Data extraction",
+        "Airflow orchestration → Data ingestion into HDFS or cloud storage → Spark processing → Output storage",
+        "Hive deletion → NameNode restart → Data ingestion → Workflow termination"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Airflow orchestrates ingestion, distributed processing, and output storage in a typical pipeline."
+    },
+    {
+      "id": "q-imp-1795118839798-481-nsfr",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "[Advanced] An Airflow DAG must execute a Python script to process files stored in HDFS. Which approach is most appropriate?",
+      "options": [
+        "Use a Sensor to execute the Python script directly",
+        "Use a Kafka Consumer as the Airflow Scheduler",
+        "Use a PythonOperator or suitable task operator to execute the processing logic after the ingestion task succeeds",
+        "Use the HDFS NameNode to schedule the Python script"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Airflow task operators execute processing logic while DAG dependencies enforce the required execution order."
+    },
+    {
+      "id": "q-imp-1795118839798-482-87yb",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "In a data pipeline, which component is primarily responsible for scheduling and orchestrating tasks?",
+      "options": [
+        "HDFS",
+        "Spark Executor",
+        "Apache Airflow",
+        "HBase RegionServer"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Airflow manages task dependencies, scheduling, and workflow execution."
+    },
+    {
+      "id": "q-imp-1795118839798-483-qy59",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "Which component is most suitable for storing large raw files before Spark processing in a Hadoop-based pipeline?",
+      "options": [
+        "Airflow XCom",
+        "HDFS",
+        "Kafka Consumer Group",
+        "Hive View"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** HDFS provides distributed, fault-tolerant storage for large datasets."
+    },
+    {
+      "id": "q-imp-1795118839798-484-joio",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "[Advanced] In an Airflow pipeline, how should a Spark processing task depend on an HDFS ingestion task?",
+      "options": [
+        "Both tasks must execute independently",
+        "Spark must execute before ingestion",
+        "The Spark task should be downstream of the successful ingestion task",
+        "The NameNode must execute both tasks"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** DAG dependencies ensure Spark processing starts only after ingestion succeeds."
+    },
+    {
+      "id": "q-imp-1795118839798-485-yfcy",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "Which Airflow operator can execute a command that submits a Spark application using `spark-submit`?",
+      "options": [
+        "BashOperator",
+        "FileSensor",
+        "BranchPythonOperator",
+        "DummyOperator"
+      ],
+      "answerIndex": 0,
+      "answerUnverified": false,
+      "explanation": "** BashOperator can execute the spark-submit command through a shell."
+    },
+    {
+      "id": "q-imp-1795118839798-486-7m74",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the advantage of using a dedicated SparkSubmitOperator when available?",
+      "options": [
+        "It eliminates the need for Spark",
+        "It provides an Airflow-native interface for configuring and submitting Spark applications",
+        "It replaces the HDFS NameNode",
+        "It automatically converts all Spark jobs into Hive queries"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** SparkSubmitOperator integrates Spark application submission into Airflow workflows."
+    },
+    {
+      "id": "q-imp-1795118839798-487-hrow",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "Which approach is most appropriate for avoiding duplicate data ingestion when an Airflow task is retried?",
+      "options": [
+        "Always append every record without validation",
+        "Disable all retries",
+        "Use idempotent ingestion logic, such as deterministic file paths or deduplication keys",
+        "Delete the entire HDFS filesystem before every run"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Idempotent ingestion prevents retries from creating unintended duplicate records."
+    },
+    {
+      "id": "q-imp-1795118839798-488-989i",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "[Advanced] A pipeline ingests daily sales files into HDFS and processes them with Spark. Which directory structure is most appropriate for organizing data by date?",
+      "options": [
+        "`/sales/random/`",
+        "`/sales/all/`",
+        "`/sales/year=2026/month=11/day=20/`",
+        "`/sales/temporary/unknown/`"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Date-based partition directories simplify data organization and downstream partition pruning."
+    },
+    {
+      "id": "q-imp-1795118839798-489-i9ft",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "Which format is generally appropriate for storing processed analytical data for Spark and Hive?",
+      "options": [
+        "Executable files",
+        "HTML pages",
+        "Parquet",
+        "Java class files"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Parquet provides efficient columnar storage for analytical workloads."
+    },
+    {
+      "id": "q-imp-1795118839798-490-9pqy",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "[Advanced] What is the purpose of maintaining separate raw, processed, and curated data zones in a data lake?",
+      "options": [
+        "To duplicate all records without tracking",
+        "To organize data according to ingestion, transformation, validation, and readiness for consumption",
+        "To prevent Spark from accessing data",
+        "To eliminate metadata management"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Data zones separate raw ingestion from transformed and quality-controlled datasets."
+    },
+    {
+      "id": "q-imp-1795118839798-491-s24x",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "Which activity should generally occur before publishing processed data to a production analytics table?",
+      "options": [
+        "Deleting all source records",
+        "Disabling the Airflow Scheduler",
+        "Performing data quality checks and validating the output schema",
+        "Removing all partition information"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Validation helps prevent incorrect or malformed data from reaching production consumers."
+    },
+    {
+      "id": "q-imp-1795118839798-492-qecd",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "[Advanced] A Spark job fails because one input partition contains malformed records. Which approach is most appropriate?",
+      "options": [
+        "Delete the entire dataset immediately",
+        "Implement validation and an error-handling strategy to isolate malformed records",
+        "Permanently disable Spark fault tolerance",
+        "Increase the Kafka replication factor"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Separating invalid records allows valid data to continue through the pipeline safely."
+    },
+    {
+      "id": "q-imp-1795118839798-493-b7c2",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "Which component is appropriate for ingesting real-time application events into a streaming pipeline?",
+      "options": [
+        "Hive Metastore",
+        "HDFS NameNode",
+        "Apache Kafka",
+        "Airflow Webserver"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Kafka provides scalable ingestion and transport for real-time event streams."
+    },
+    {
+      "id": "q-imp-1795118839798-494-546n",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "[Advanced] In a pipeline using Kafka, Spark Structured Streaming, and HDFS, what is the correct general data flow?",
+      "options": [
+        "HDFS → Airflow Webserver → Kafka Consumer → NameNode",
+        "Spark → Kafka → HDFS → DataNode",
+        "Kafka → Spark Structured Streaming → HDFS",
+        "Hive Metastore → Kafka Broker → ResourceManager"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Kafka supplies events to Spark, which processes and writes results to HDFS."
+    },
+    {
+      "id": "q-imp-1795118839798-495-8adi",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "What is the purpose of monitoring task logs in an Airflow pipeline?",
+      "options": [
+        "Increasing HDFS replication automatically",
+        "Identifying execution errors, diagnosing failures, and tracking task behavior",
+        "Replacing the DAG definition",
+        "Modifying Kafka partition leaders"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Task logs provide visibility into task execution and troubleshooting information."
+    },
+    {
+      "id": "q-imp-1795118839798-496-1gge",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "[Advanced] Which combination of metrics is useful for identifying performance bottlenecks in a Spark processing pipeline?",
+      "options": [
+        "Number of Airflow DAG names",
+        "Number of Hive databases only",
+        "Task duration, executor utilization, shuffle read/write, and memory usage",
+        "Number of HDFS directory names"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Together, task timing, executor utilization, shuffle metrics, and memory usage help reveal expensive stages and resource bottlenecks."
+    },
+    {
+      "id": "q-imp-1795118839798-497-0zw9",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "In an end-to-end data pipeline, what is the primary responsibility of the ingestion layer?",
+      "options": [
+        "Generating final business reports",
+        "Collecting data from source systems and bringing it into the processing environment",
+        "Deleting historical records",
+        "Creating machine learning predictions"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** The ingestion layer transfers source data into the pipeline for subsequent processing."
+    },
+    {
+      "id": "q-imp-1795118839798-498-v71u",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "[Advanced] In an Airflow pipeline using HDFS and Spark, which sequence represents a sensible batch-processing workflow?",
+      "options": [
+        "Spark processing → Data ingestion → HDFS storage → Airflow scheduling",
+        "Airflow scheduling → HDFS ingestion → Spark processing → Output storage",
+        "Output storage → Spark processing → Source ingestion → Airflow scheduling",
+        "HDFS deletion → Airflow scheduling → Output storage → Spark processing"
+      ],
+      "answerIndex": 1,
+      "answerUnverified": false,
+      "explanation": "** Data is scheduled and ingested before Spark transforms it and stores the results."
+    },
+    {
+      "id": "q-imp-1795118839798-499-etas",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "In a capstone project, why should pipeline tasks be designed to be idempotent?",
+      "options": [
+        "To prevent all task execution",
+        "To eliminate data validation",
+        "To ensure repeated execution does not create unintended duplicate or inconsistent results",
+        "To disable automatic retries"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Idempotency makes retries and reruns safer by ensuring consistent outcomes."
+    },
+    {
+      "id": "q-imp-1795118839798-500-ok98",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "[Advanced] In an Airflow-based Spark pipeline, what is the best approach when a Spark processing task fails after data ingestion?",
+      "options": [
+        "Delete the entire HDFS cluster",
+        "Disable all future DAG runs",
+        "Retry the processing task using reliable input data and appropriate idempotent output handling",
+        "Restart every Kafka broker"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Reliable inputs, retries, and idempotent writes allow failed processing stages to recover safely."
+    },
+    {
+      "id": "q-imp-1795118839798-501-4ijh",
+      "topicId": "top-1795118849111-478-bix",
+      "difficulty": "moderate",
+      "question": "[Advanced] In a real-time capstone pipeline using Kafka, Spark Structured Streaming, and cloud storage, which approach best supports fault recovery and reliable processing?",
+      "options": [
+        "Disable checkpointing and restart from the beginning every time",
+        "Store all messages only in Spark driver memory",
+        "Use checkpointing, durable Kafka retention, and appropriate sink delivery guarantees",
+        "Delete Kafka offsets after every batch without tracking progress"
+      ],
+      "answerIndex": 2,
+      "answerUnverified": false,
+      "explanation": "** Checkpointing preserves streaming progress, while Kafka retention and suitable sink guarantees support recovery and reliable processing."
     }
   ]
 };
